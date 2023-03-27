@@ -1,0 +1,33 @@
+RYZ_Westreach = {
+    color = rgb { 212 187 55 }
+    color_ui = rgb { 212 187 55 }
+}
+
+AND = {
+    color = rgb { 232 136 19 }
+    color_ui = rgb { 232 136 19 }
+}
+ARE = {
+	color = rgb { 17 38 171 }
+	color_ui = rgb { 17 38 171 }
+}
+SCL_neutrality = {
+	color = rgb { 192 192 192 }
+	color_ui = rgb { 192 192 192 }
+}
+SNM_neutrality = {
+	color = rgb { 27 75 16 }
+	color_ui = rgb { 27 75 16 }
+}
+SIM_neutrality = {
+	color = rgb { 89 203 232 }
+	color_ui = rgb { 89 203 232 }
+}
+OMA_neutrality = {
+	color = rgb { 203 96 21 }
+	color_ui = rgb { 203 96 21 }
+}
+YIA_neutrality = {
+	color = rgb { 204 255 255 }
+	color_ui = rgb { 204 255 255 }
+}
