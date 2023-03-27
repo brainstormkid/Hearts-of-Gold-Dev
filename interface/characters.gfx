@@ -1,0 +1,38 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_axyr"
+		texturefile = "gfx/interface/ideas/idea_axyr.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_crezy"
+		texturefile = "gfx/interface/ideas/idea_crezy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ice"
+		texturefile = "gfx/interface/ideas/idea_ice.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lucius"
+		texturefile = "gfx/interface/ideas/idea_lucius.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slout"
+		texturefile = "gfx/interface/ideas/idea_slout.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zardy"
+		texturefile = "gfx/interface/ideas/idea_zardy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bogomila"
+		texturefile = "gfx/interface/ideas/idea_bogomila.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aveleksei"
+		texturefile = "gfx/interface/ideas/idea_aveleksei.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_josbar"
+		texturefile = "gfx/interface/ideas/idea_josbar.dds"
+	}
+}

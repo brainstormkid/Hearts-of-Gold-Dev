@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+      name = "GFX_radio_station_cover_Hearts_of_Gold_Music_Pack_MMCT"
+      textureFile = "gfx/radio_station_cover_Hearts_of_Gold_Music_Pack_MMCT.dds"
+      noOfFrames = 2
+    }
+}
