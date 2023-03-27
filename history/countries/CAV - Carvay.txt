@@ -1,0 +1,137 @@
+﻿capital = 164
+
+oob = "CAV_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	transport = 1
+	gwtank = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_submarine = 1
+	support_weapons = 1
+}
+
+add_ideas = {
+	volunteer_only
+}
+
+set_convoys = 15
+
+build_railway = {
+	level = 3
+	start_province = 1022
+	target_province = 67
+}
+
+build_railway = {
+	level = 3
+	start_province = 1022
+	target_province = 1998
+}
+
+build_railway = {
+	level = 3
+	start_province = 1998
+	target_province = 2388
+}
+
+build_railway = {
+	level = 3
+	start_province = 1998
+	target_province = 3970
+}
+
+build_railway = {
+	level = 3
+	start_province = 1022
+	target_province = 56
+}
+
+build_railway = {
+	level = 3
+	start_province = 1022
+	target_province = 1256
+}
+
+build_railway = {
+	level = 3
+	start_province = 1256
+	target_province = 3928
+}
+
+build_railway = {
+	level = 3
+	start_province = 67
+	target_province = 1998
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		infantry_weapons = 1
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		concentrated_industry = 1
+		concentrated_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "8jaaroud"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/CAV/jaar.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
