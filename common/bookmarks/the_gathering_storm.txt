@@ -1,0 +1,52 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "RYZ"
+		default = yes
+		
+		"RYZ"={
+			history = "RYZ_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				disorganized_ryzan
+				senate_deadlock
+				department_inefficency
+			}
+		}
+
+		"SAV"={
+			history = "SAV_GATHERING_STORM_DESC"
+		}
+
+		"BAR"={
+			history = "BAR_GATHERING_STORM_DESC"
+		}
+
+		"NDR"={
+			history = "NDR_GATHERING_STORM_DESC"
+		}
+
+		"ARL"={
+			history = "ARL_GATHERING_STORM_DESC"
+		}
+
+		"VIO"={
+			history = "VIO_GATHERING_STORM_DESC"
+		}
+
+		"ULD"={
+			history = "ULD_GATHERING_STORM_DESC"
+		}
+
+		"HUI"={
+			history = "HUI_GATHERING_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
