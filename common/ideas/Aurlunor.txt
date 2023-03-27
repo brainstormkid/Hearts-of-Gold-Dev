@@ -1,0 +1,86 @@
+ideas = {
+
+	country = {
+		Golden_Growth = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				local_resources_factor = 0.15
+				trade_opinion_factor = 0.15
+				recruitable_population_factor = 0.10
+				local_non_core_manpower = 0.20
+			}
+		}
+		squatter_crisis = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				stability_factor = -0.10
+				monthly_population = -0.2
+			}
+		}
+		IEDs = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				local_resources_factor = -0.10
+				trade_opinion_factor = 0.15
+				recruitable_population_factor = -0.05
+				local_non_core_manpower = -0.15
+			}
+		}
+		Isolationism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				local_resources_factor = 0.2
+				trade_opinion_factor = -0.15
+			}
+		}
+	}
+}

@@ -1,0 +1,136 @@
+ideas = {
+
+	country = {
+		disorganized_ryzan = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+		senate_deadlock = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				research_speed_factor = -0.10
+			}
+		}
+		department_inefficency = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				production_speed_buildings_factor = -0.20
+			}
+		}
+		support_for_tsar = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = -0.10
+			}
+		}
+		united_ryzan = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				stability_weekly = 0.05
+			}
+		}
+		democratic_ryzan = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				political_power_factor = 0.05
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		ryzani_war_panic = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				stability_factor = -0.25
+				production_speed_buildings_factor = 0.10
+				political_power_factor = 0.05
+				research_speed_factor = 0.05
+			}
+		}
+	}
+}

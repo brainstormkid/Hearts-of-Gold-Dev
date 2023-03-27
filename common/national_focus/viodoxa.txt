@@ -1,0 +1,63 @@
+focus_tree = {
+	id = viodoxa_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VIO
+		}
+	}
+	#Southern Rathnir Defense Accords
+	focus = {
+		id = Southern_Rathnir_Defense_Accords
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 8
+		y = 0
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = viodoxa.1 }
+			}
+			custom_effect_tooltip = viodoxa2
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Southern Rathnir Defense Accords Disband
+	focus = {
+		id = Southern_Rathnir_Defense_Disband
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 8
+		y = 1
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = viodoxa.2 }
+			}
+			custom_effect_tooltip = viodoxa3
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Southern_Rathnir_Defense_Accords }
+	}
+	#Allium-Coalition War
+	#focus = {
+		id = Allium_War_Declaration
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 5
+		y = 0
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = allium.1 }
+			}
+			custom_effect_tooltip = viodoxa1
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}

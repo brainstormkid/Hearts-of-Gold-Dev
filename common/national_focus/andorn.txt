@@ -1,0 +1,687 @@
+focus_tree = {
+	id = andorn_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAV
+		}
+	}
+	#A New Beginning
+	focus = {
+		id = A_New_Beginning
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 5
+		y = 0
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = andorn.1 }
+			}
+			add_political_power = 100
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Fix the Population
+	focus = {
+		id = Fix_the_Population
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 5
+		y = 1
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = andorn.2 }
+			}
+			remove_ideas = population_crisis
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = A_New_Beginning }
+	}
+	#Building Andorn
+	focus = {
+		id = Building_Andorn
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 10
+		y = 2
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = andorn.3 }
+			}
+			remove_ideas = undeveloped_infrastructure
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = Fix_the_Population }
+	}
+	#Andorn First
+	focus = {
+		id = Andorn_First
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 0
+		y = 2
+		cost = 10
+		completion_reward = {
+			#
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = Closer_Syltor_Ties }
+		prerequisite = { focus = Fix_the_Population }
+	}
+	#Request Andorn Lands
+	focus = {
+		id = Request_Andorn_Lands
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 6
+		y = 3
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				BAR = {
+					country_event = { id = andorn.8 }
+				}
+				country_event = { id = andorn.11 }
+			}
+			custom_effect_tooltip = andorntip8
+			annex_country = {
+				target = WIV
+				transfer_troops = yes
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = Closer_Syltor_Ties }
+		available = { 
+			126 = { is_owned_by = BAR }
+			127 = { is_owned_by = BAR }
+			131 = { is_owned_by = WIV }
+			128 = { is_owned_by = WIV }
+			125 = { is_owned_by = WIV }
+		}
+	}
+	#Askonian Goblins
+	focus = {
+		id = Askonian_Goblins
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 2
+		y = 5
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = andorn.12 }
+			}
+			custom_effect_tooltip = andorntip9
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Closer_Syltor_Ties }
+		prerequisite = { focus = Request_Andorn_Lands }
+	}
+	#Reunify the Government
+	focus = {
+		id = Reunify_the_Government
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 4
+		y = 5
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = andorn.23 }
+			}
+			remove_ideas = disunified_government
+			retire_country_leader = yes 
+			create_country_leader = {
+				name = "Lucius Von Savras"
+				desc = "POLITICS_LUCIUS_DESC"
+				picture = "gfx/leaders/SAV/lucius.dds"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {
+				#
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Closer_Syltor_Ties }
+	}
+	#Closer Syltor Ties
+	focus = {
+		id = Closer_Syltor_Ties
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 4
+		y = 2
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = andorntip6
+			hidden_effect = {
+				country_event = { id = andorn.4 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = Andorn_First }
+		prerequisite = { focus = Fix_the_Population }
+	}
+	#Askonian Horde
+	focus = {
+		id = Askonian_Horde
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 3
+		y = 6
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				load_oob = "SAV_horde"
+				country_event = { id = andorn.17 }
+			}
+			custom_effect_tooltip = andorntip1
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		mutually_exclusive = { focus = Knights_of_Andorn }
+		prerequisite = { focus = Askonian_Goblins }
+	}
+	#Knights of Andorn
+	focus = {
+		id = Knights_of_Andorn
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 1
+		y = 6
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				load_oob = "SAV_knights"
+				country_event = { id = andorn.18 }
+			}
+			custom_effect_tooltip = andorntip2
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		mutually_exclusive = { focus = Askonian_Horde }
+		prerequisite = { focus = Askonian_Goblins }
+	}
+	#Integrate the Helian State
+	focus = {
+		id = Integrate_the_Helian_State
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 5
+		y = 4
+		cost = 10
+		completion_reward = {
+		hidden_effect = {
+			country_event = { id = andorn.19 }
+		}
+		puppet = HEL
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		mutually_exclusive = { focus = Pressure_the_Helian_State }
+		prerequisite = { focus = Request_Andorn_Lands }
+	}
+	#Pressure the Helian State
+	focus = {
+		id = Pressure_the_Helian_State
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 7
+		y = 4
+		cost = 10
+		completion_reward = {
+		hidden_effect = {
+			HEL = {
+				country_event = { id = andorn.20 }
+			}
+		}
+			create_wargoal = {
+			type = take_state
+			target = HEL
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		mutually_exclusive = { focus = Integrate_the_Helian_State }
+		prerequisite = { focus = Request_Andorn_Lands }
+	}
+	#Integrate Wivamovian Leaders
+	focus = {
+		id = Integrate_Wivamovian_Leaders
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 6
+		y = 5
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = andorn.24 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Pressure_the_Helian_State  focus = Integrate_the_Helian_State }
+	}
+	#Luperkanian Settlementation
+	focus = {
+		id = Luperkanian_Settlementation
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 6
+		y = 7
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				BAR = {
+					country_event = { id = andorn.14 }
+				}
+			}
+			custom_effect_tooltip = andorntip11
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = Integrate_Wivamovian_Leaders }
+		prerequisite = { focus = Regional_Integration }
+		prerequisite = { focus = Knights_of_Andorn  focus = Askonian_Horde }
+		prerequisite = { focus = Reunify_the_Government }
+	}
+	#Regional Integration
+	focus = {
+		id = Regional_Integration
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 10
+		y = 5
+		cost = 10
+		completion_reward = {
+			add_ideas = unified_state
+			hidden_effect = {
+				country_event = { id = andorn.25 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = Building_Andorn }
+	}
+	#Andorn Restoration
+	focus = {
+		id = Andorn_Restoration
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		available = {
+			allow_branch = { has_completed_focus = Luperkanian_Settlementation }
+		}
+		allow_branch = { has_completed_focus = Luperkanian_Settlementation }
+		x = 17
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_ideas = Glory_to_Andorn
+			hidden_effect = {
+				country_event = { id = andorn.26 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Nationalization of Neu Savras
+	focus = {
+		id = Nationalization_of_Neu_Savras
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 15
+		y = 1
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = andorntip14
+			hidden_effect = {
+				country_event = { id = andorn.27 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = Andorn_Restoration }
+	}
+	#Fort Teuton
+	focus = {
+		id = Fort_Teuton
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 19
+		y = 1
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = andorntip16
+			hidden_effect = {
+				country_event = { id = andorn.28 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = Andorn_Restoration }
+	}
+	#Syltor Brewing Company
+	focus = {
+		id = Syltor_Brewing_Company
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 19
+		y = 5
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = andorntip17
+			add_offsite_building = { type = arms_factory level = 3 }
+			add_offsite_building = { type = industrial_complex level = 8 }
+			hidden_effect = {
+				country_event = { id = andorn.29 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = Fort_Teuton }
+	}
+	#Research on Wivamovians
+	focus = {
+		id = Research_on_Wivamovians
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 18
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = cas_bomber
+			category = naval_bomber
+			category = tactical_bomber
+			category = light_fighter
+			category = cat_strategic_bomber
+			category = armor
+			category = infantry_tech
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = Fort_Teuton }
+	}
+	#Strengthening the Military
+	focus = {
+		id = Strengthening_the_Military
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 20
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = Fort_Teuton }
+	}
+	#Drugging Researchers
+	focus = {
+		id = Drugging_Researchers
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 18
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = Research_on_Wivamovians }
+	}
+	#Fortress Andorn
+	focus = {
+		id = Fortress_Andorn
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 15
+		y = 4
+		cost = 10
+		completion_reward = {
+			129 = {
+				set_demilitarized_zone = no
+			}
+			123 = {
+				add_building_construction = {
+				type = bunker
+				province = 1351
+				level = 5
+				}
+			}
+			123 = {
+				add_building_construction = {
+				type = bunker
+				province = 794
+				level = 5
+				}
+			}
+			129 = {
+				add_building_construction = {
+				type = bunker
+				province = 1823
+				level = 5
+				}
+			}
+			129 = {
+				add_building_construction = {
+				type = bunker
+				province = 2908
+				level = 5
+				}
+			}
+			129 = {
+				add_building_construction = {
+				type = bunker
+				province = 3577
+				level = 5
+				}
+			}
+			129 = {
+				add_building_construction = {
+				type = bunker
+				province = 2011
+				level = 5
+				}
+			}
+			129 = {
+				add_building_construction = {
+				type = bunker
+				province = 2896
+				level = 5
+				}
+			}
+			126 = {
+				add_building_construction = {
+				type = bunker
+				province = 2384
+				level = 5
+				}
+			}
+			126 = {
+				add_building_construction = {
+				type = bunker
+				province = 3528
+				level = 5
+				}
+			}
+			127 = {
+				add_building_construction = {
+				type = bunker
+				province = 303
+				level = 5
+				}
+			}
+			127 = {
+				add_building_construction = {
+				type = bunker
+				province = 2751
+				level = 5
+				}
+			}
+			127 = {
+				add_building_construction = {
+				type = bunker
+				province = 1530
+				level = 5
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = Nationalization_of_Neu_Savras }
+	}
+	#Mobilize Andorn
+	focus = {
+		id = Mobilize_Andorn
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 20
+		y = 4
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				load_oob = "SAV_Mobilize"
+				country_event = { id = andorn.30 }
+			}
+			custom_effect_tooltip = andorntip18
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = Strengthening_the_Military }
+	}
+	#Emergency Army Teachings
+	focus = {
+		id = Emergency_Army_Teachings
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 17
+		y = 6
+		cost = 10
+		completion_reward = {
+			#
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = Fortress_Andorn  focus = Drugging_Researchers  focus = Syltor_Brewing_Company focus = Mobilize_Andorn }
+	}
+	#The Final Stand
+	focus = {
+		id = The_Final_Stand
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 16
+		y = 7
+		cost = 10
+		completion_reward = {
+			#
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		mutually_exclusive = { focus = The_Flight_of_Andorn }
+		prerequisite = { focus = Emergency_Army_Teachings }
+	}
+	#The Flight of Andorn
+	focus = {
+		id = The_Flight_of_Andorn
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 18
+		y = 7
+		cost = 10
+		completion_reward = {
+			#
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		mutually_exclusive = { focus = The_Final_Stand }
+		prerequisite = { focus = Emergency_Army_Teachings }
+	}
+	#Air Specialization
+	focus = {
+		id = Air_Specialization
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 9
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = cas_bomber
+				category = naval_bomber
+				category = tactical_bomber
+				category = light_fighter
+				category = cat_strategic_bomber
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		mutually_exclusive = { focus = Infantry_Specialization  focus = Armor_Specialization }
+		prerequisite = { focus = Building_Andorn }
+	}
+	#Infantry Specialization
+	focus = {
+		id = Infantry_Specialization
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 10
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = infantry_tech
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		mutually_exclusive = { focus = Air_Specialization  focus = Armor_Specialization }
+		prerequisite = { focus = Building_Andorn }
+	}
+	#Armor Specialization
+	focus = {
+		id = Armor_Specialization
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 11
+		y = 4
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = armor
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		mutually_exclusive = { focus = Infantry_Specialization  focus = Air_Specialization }
+		prerequisite = { focus = Building_Andorn }
+	}
+}

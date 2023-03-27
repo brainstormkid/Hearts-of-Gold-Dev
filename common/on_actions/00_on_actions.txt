@@ -1,0 +1,46 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			NDR = {
+				declare_war_on = {
+					target = BAR
+					type = civil_war
+				}
+			}
+			RYZ = {
+		        country_event = { id = kato.1 days = 44 }
+			}
+			KUS = {
+		        country_event = { id = kato.2 days = 44 }
+			}
+		}
+	}
+	on_capitulation = {
+    	effect = {
+      		if = {
+        		limit = { tag = NDR FROM = { tag = BAR } }
+        		BAR = {
+        			annex_country = {
+            			target = NDR
+            		}
+          		}
+        	}
+      		if = {
+        		limit = { tag = VAL FROM = { tag = BAR } }
+        		BAR = {
+        			annex_country = {
+            			target = VAL
+            		}
+					white_peace = {
+						tag = KUS
+						message = "Vallia has collapsed, KATO has withdrawn its forces"
+					}
+					white_peace = {
+						tag = RYZ
+						message = "Vallia has collapsed, KATO has withdrawn its forces"
+					}
+          		}
+        	}
+      	}
+    }
+}
