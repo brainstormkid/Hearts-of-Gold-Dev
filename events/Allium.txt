@@ -1,0 +1,20 @@
+###########################
+# Allium War Events Events
+###########################
+
+add_namespace = allium
+
+# Allium War beginning
+country_event = {
+	id = allium.1	#Allium War start
+	title = "The War has begun"
+	desc = "Allium has become too powerful. The Southerners are attacking us. War is upon us!"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "May Stoney save our souls"
+		declare_war_on = { target = BAR    type = annex_everything target = BAR }
+	}
+}

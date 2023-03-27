@@ -1,0 +1,55 @@
+###########################
+# KATO Events Events
+###########################
+
+add_namespace = kato
+
+# Vallia War
+country_event = {
+	id = kato.1	#Vallia War start Ryzan
+	title = "Vallia prepares for War"
+	desc = "Vallia is preparing to war the Empire of Bardonia. They are requesting for KATO support on the matter at once!"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Are they high?"
+		RYZ = {
+			leave_faction = yes
+		}
+		VAL = {
+			country_event = { id = bardonia.16 }
+		}
+	}
+	option = {
+		name = "Down with the Bards!"
+		VAL = {
+			country_event = { id = bardonia.16 }
+		}
+		RYZ = {
+			declare_war_on = {
+		    target = BAR
+		    type = annex_everything
+			}
+		}
+	}
+}
+country_event = {
+	id = kato.2	#Vallia War start Kush
+	title = "Vallia prepares for War"
+	desc = "Vallia is preparing to war the Empire of Bardonia. They are requesting for KATO support on the matter at once!"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "We must support our KATO allies"
+	}
+	option = {
+		name = "That's Suicide!"
+		KUS = {
+			remove_from_faction = VAL
+		}
+	}
+}

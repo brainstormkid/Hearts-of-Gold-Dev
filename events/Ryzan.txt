@@ -1,0 +1,307 @@
+###########################
+# Ryzan Default Route Events
+###########################
+
+add_namespace = ryzan
+
+# Reform the Third Tsardom
+country_event = {
+	id = ryzan.1	#Reform the Third Tsardom
+	title = "The Tsardom has been reformed!"
+	desc = "The Ryzani Republic has been reorganized into the Third Tsardom of Ryzan represented by Tsar Canadian Tossovich and Tsarina Ibris Alyanis Tossova-McSpiegel"
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Astra inclinant, sed non obligant - Aveleksei Tossovich-McSpiegel"
+		set_cosmetic_tag = RYZ_Tsardom
+		country_event = { id = ryzan.3 }
+		add_ideas = support_for_tsar
+	}
+}
+# Ryzani Presidential Election
+country_event = {
+	id = ryzan.3	#Ryzani Presidential Election
+	title = "We must elect a new Leader"
+	desc = "While we are now reformed, we must continue the democratic principals to ensure our survival. Who will be our next President?"
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Aveleksei Tossovich-McSpiegel"
+		retire_country_leader = yes 
+		create_country_leader = {
+			name = "Aveleksei Tossovich-McSpiegel"
+			desc = "POLITICS_AVELEKSEI_DESC"
+			picture = "gfx/leaders/RYZ/aveleksei.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+			#
+			}
+		}
+	}
+}
+# Ryzan Constitution
+country_event = {
+	id = ryzan.2	#Ryzan Constitution
+	title = "Stability has returned"
+	desc = "Our new government has ratified a new Ryzani Constitution to lead us into a stable and united era of prosperity"
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Long live the Tsardom, glory to Ryzan! - Canadian Tossovich"
+		remove_ideas = disorganized_ryzan
+		add_ideas = united_ryzan
+	}
+}
+# Zefirov President of Ryzan
+country_event = {
+	id = ryzan.4	#Zefirov President of Ryzan
+	title = "New Presidential Election"
+	desc = "While Aveleski was a good president, he has decided not to rerun under the new Tsardom government and a new President must be chose"
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Nikolai Zefirov"
+		retire_country_leader = yes 
+		create_country_leader = {
+			name = "Nikolai Zefirov"
+			desc = "POLITICS_ZEFIROV_DESC"
+			#picture = "gfx/leaders/RYZ/aveleksei.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+			#
+			}
+		}
+	}
+}
+# Dissolves the Senate
+country_event = {
+	id = ryzan.5	#Dissolves the Senate
+	title = "Dissolution of the Senate"
+	desc = "The Senate has failed as the legislative body of Ryzan. The Duma, our new legislative body, will hopefully remedy the failures that the Senate has brought to Ryzan."
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Progress of our Democratic Values"
+		remove_ideas = senate_deadlock
+	}
+}
+# Reorganizing Ryzani Departments
+country_event = {
+	id = ryzan.6	#Reorganizing Ryzani Departments
+	title = "Reorganization of the Ryzani Departments"
+	desc = "The Departments have failed to keep our internal affairs strong and mighty. The reoganization of this system into the Ryzani Ministries will remove the issues and back our government in projects, building, and production."
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Economic Progress will make us Stronger"
+		remove_ideas = department_inefficency
+	}
+}
+# Tsardom Abolished
+country_event = {
+	id = ryzan.7	#Tsardom Abolished
+	title = "The Tsardom is Abolished"
+	desc = "We must recognize that the Tsar is no longer the representing force of Ryzan. We must return back to the bastion of democracy we stand for. We must become the Second Ryzani Republic"
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Democracy shall prevail"
+		remove_ideas = support_for_tsar
+		add_ideas = democratic_ryzan
+		set_cosmetic_tag = RYZ_democratic
+	}
+}
+# The Prophet
+country_event = {
+	id = ryzan.8	#The Prophet
+	title = "The Prophet Speaks of WAR"
+	desc = "A mysterious prophet has called upon the future destruction and conquest of Ryzan by Bardonia. His words are increasing the calls of war by the war mongering Bardonians and striking fear in our own Ryzani cities. We must respond to ensure our survival of this coming conflict."
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Prepare for War"
+		add_ideas = ryzani_war_panic
+	}
+	
+	option = {
+		name = "Ignore the Heretic"
+	}
+}
+# Defend Ryzan
+country_event = {
+	id = ryzan.9	#Defend Ryzan
+	title = "Ryzani Moblization begins"
+	desc = "The Prophet's words have made us reconsider our internal defenses. We must be prepared for total war."
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Glory to Ryzan"
+		add_political_power = 100
+	}
+}
+# Ryzani Task Forces
+country_event = {
+	id = ryzan.10	#Ryzani Task Forces
+	title = "Ryzan Task Force Formation"
+	desc = "Our military must be prepared for war. We must have our equipment perfected and our soldiers trained for the worse."
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Ryzan Shall Prevail"
+		add_research_slot = 1
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = infantry_weapons
+		}
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = artillery
+		}
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.5
+			uses = 2
+			category = land_doctrine
+		}
+	}
+}
+# Ryzani Navy
+country_event = {
+	id = ryzan.11	#Ryzani Navy
+	title = "Ryzan Task Force Formation"
+	desc = "Our military must be prepared for war. We must have our equipment perfected and our soldiers trained for the worse."
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "We must rule the waves!"
+		#
+	}
+}
+# Reinforce Carthya
+country_event = {
+	id = ryzan.12	#Reinforce Carthya
+	title = "Reinforce Carthya City"
+	desc = "Our military must be prepared for war. We must have our equipment perfected and our soldiers trained for the worse."
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Our capitol must be ready for the Dandelion Invasion"
+		119 = {
+			add_building_construction = {
+			type = bunker
+			province = 496
+			level = 8
+			}
+		}
+	}
+}
+# Reinforce Tossagrad
+country_event = {
+	id = ryzan.13	#Reinforce Tossagrad
+	title = "Reinforce Tossagrad"
+	desc = "Our military must be prepared for war. We must have our equipment perfected and our soldiers trained for the worse."
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Tossagrad must be ready for the Dandelion Invasion"
+		119 = {
+			add_building_construction = {
+			type = bunker
+			province = 2506
+			level = 8
+			}
+		}
+	}
+}
+# Reinforce Volkoregrad
+country_event = {
+	id = ryzan.14	#Reinforce Volkoregrad
+	title = "Reinforce Volkoregrad"
+	desc = "Our military must be prepared for war. We must have our equipment perfected and our soldiers trained for the worse."
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Volkoregrad must be ready for the Dandelion Invasion"
+		119 = {
+			add_building_construction = {
+			type = bunker
+			province = 1700
+			level = 8
+			}
+		}
+	}
+}
+# Hiring Ulfaeng
+country_event = {
+	id = ryzan.14	#Hiring Ulfaeng
+	title = "Hiring Ulfaeng"
+	desc = "Our military is too be supported by the mercenary group called Ulfaeng. Their experience will help drive back the Bardonian invaders and preserve our integrity."
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "A mercenary group is always strong with us."
+		#
+	}
+	
+	option = {
+		name = "We cannot have mercenaries running in our nation!"
+	}
+}
+# Nebsko Flee
+country_event = {
+	id = ryzan.16	#Nebsko Flee
+	title = "Internal Collapse of Ryzan"
+	desc = "Nebskoslavia and Duetzan have decided to finally show their traitorous colors and leave our united state as Bardonian invasion is here"
+	picture = GFX_RYZ_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "They will die along with the rest of the traitors in the blood-soaked dandelions"
+		NEB = {
+			transfer_state = 122
+			declare_war_on = { target = RYZ   type = annex_everything }
+		}
+		DEU = {
+			transfer_state = 118
+		}
+		hidden_effect = {
+			NEB = {
+				load_oob = "NEB_Independence"
+			}
+		}
+	}
+}

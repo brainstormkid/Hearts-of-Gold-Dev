@@ -1,0 +1,72 @@
+###########################
+# Viodoxa Events Events
+###########################
+
+add_namespace = viodoxa
+
+# Viodoxa Events
+country_event = {
+	id = viodoxa.1	#Southern Rathnir Defense Accords
+	title = "The South must be protected"
+	desc = "The growth of Bardonian influence affects us all. We must ally with other nations to protect ourselves."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Accords shall be ratified"
+		create_faction = "Southern Rathnir Defense Accords"
+		ULD = {
+			country_event = { id = viodoxa.1a }
+		}
+		AEZ = {
+			country_event = { id = viodoxa.1a }
+		}
+	}
+	option = {
+		name = "This is unwarrented panic of our rivals"
+		
+	}
+}
+country_event = {
+	id = viodoxa.1a	#Southern Rathnir Defense Accords Members
+	title = "Offer of Alliance"
+	desc = "Viodoxa has offered to ally with us under the SRDA"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Accords shall be ratified"
+		VIO ={
+			add_to_faction = ROOT
+			country_event = { id = viodoxa.1b }
+		}
+	}
+}
+country_event = {
+	id = viodoxa.1b	#Southern Rathnir Defense Accords Accepted
+	title = "SRDA Ratified"
+	desc = "Viodoxa, Ryzan, UBSR, Uldarash, and Aezenfjord have agreed to form the SRDA"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "We shall be protected"
+		}
+	}
+}
+country_event = {
+	id = viodoxa.2	#Southern Rathnir Defense Accords Disbanded
+	title = "SRDA Disbanded"
+	desc = "This alliance is no longer suited for countering the Bardonian Threat. We must disband"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "It shall be done"
+		dismantle_faction
+	}
+}

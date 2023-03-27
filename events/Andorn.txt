@@ -1,0 +1,588 @@
+###########################
+# Andorn Default Route Events
+###########################
+
+add_namespace = andorn
+
+# A New Beginning
+country_event = {
+	id = andorn.1	#A New Beginning
+	title = "A New Beginning..."
+	desc = "The attempt on Andorn has left us scarred and deformed, but WE have assured our neighbors that our reolve has never been stronger."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "It is time to restore ourselves into a new power..."
+	}
+}
+
+# Fix the Population
+country_event = {
+	id = andorn.2	#Fix the Population
+	title = "Population Crisis is Over!"
+	desc = "Our population crisis has ended, our citizens now support us in building a new Andorn rather than flee to the far regions of the world."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Excellent!"
+	}
+}
+
+# Building Andorn
+country_event = {
+	id = andorn.3	#Building Andorn
+	title = "Infrastructure Modernized"
+	desc = "We have successfully modernized our aging infrastructure at last!"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Perfect!"
+	}
+}
+
+# Closer Ties with Syltor
+country_event = {
+	id = andorn.4	#Bardonia offers Aid to Andorn
+	title = "What is to be our Capital?"
+	desc = "In this new age, we must decide where our capital must be...where should it be?"
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Orilin"
+		custom_effect_tooltip = andorntip3
+		set_capital = {
+			state = 130
+			remember_old_capital = no
+			}
+		hidden_effect = {
+			SAV = {
+				country_event = { id = andorn.5 } 
+			}
+		}
+	}
+	option = {
+		name = "Pillars of Sun"
+		custom_effect_tooltip = andorntip4
+		set_capital = {
+			state = 135
+			remember_old_capital = no
+			}
+		hidden_effect = {
+			SAV = {
+				country_event = { id = andorn.6 } 
+			}
+		}
+	}
+	option = {
+		name = "Savras"
+		custom_effect_tooltip = andorntip5
+		hidden_effect = {
+			SAV = {
+				country_event = { id = andorn.7 } 
+			}
+		}
+	}
+}
+
+# Orilin Capital
+country_event = {
+	id = andorn.5	#Orilin Capital
+	title = "Orilin is our new Capital"
+	desc = "The Andorn Capital has officially relocated to the city of Orilin"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Les Go"
+	}
+}
+
+# Pillars of Sun Capital
+country_event = {
+	id = andorn.6	#Pillars Capital
+	title = "Pillars of Sun is our new Capital"
+	desc = "The Andorn Capital has officially relocated to the city of Pillars of Sun"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "POG"
+	}
+}
+
+# Savras Capital
+country_event = {
+	id = andorn.7	#Savras Capital
+	title = "Savras is kept as our Capital"
+	desc = "The Capital will remain as Savras"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "As it should be"
+	}
+}
+
+# Request Andorn Lands
+country_event = {
+	id = andorn.8	#Request Andorn Lands
+	title = "Andorn requests Askonia"
+	desc = "Askonia is the rightful territory of Andorn. It honorably requests its reannexation into its lands."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Your wish is my command"
+		SAV = {
+			transfer_state = 126
+			transfer_state = 127
+		}
+		hidden_effect = {
+			SAV = {
+				country_event = { id = andorn.9 } 
+			}
+		}
+	}
+	option = {
+		name = "Absolutely Not"
+		custom_effect_tooltip = andorntip7
+		hidden_effect = {
+			SAV = {
+				country_event = { id = andorn.10 } 
+			}
+		}
+	}
+}
+
+# Askonia Annexation
+country_event = {
+	id = andorn.9	#Askonia Annexation
+	title = "The return of Askonia"
+	desc = "Bardonia has agreed to give us our native lands of Askonia"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "A step closer to reunification"
+	}
+}
+
+# Askonia Rejection
+country_event = {
+	id = andorn.10	#Askonia Rejection
+	title = "Askonia is rejected"
+	desc = "Bardonia has refused to give us Askonia"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "This won't be forgotten"
+	}
+}
+
+# Wivamovia Annexed
+country_event = {
+	id = andorn.11	#Wivamovia Annexed
+	title = "Annexation of Wivamovia"
+	desc = "Wivamovia has now submitted under Andorn rule"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Rise of Andorn has begun"
+	}
+}
+
+# Askonian Goblins
+country_event = {
+	id = andorn.12	#Askonian Goblins
+	title = "Goblins?"
+	desc = "Askonia is now settled by goblins, should we allow them into our government?"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Sure!"
+		custom_effect_tooltip = andorntip10
+			recruit_character = SAV_capna
+			recruit_character = SAV_bingo
+			recruit_character = SAV_coop
+			recruit_character = SAV_server724
+		hidden_effect = {
+			country_event = { id = andorn.13 }
+		}
+	}
+	option = {
+		name = "I don't trust Goblins"
+		custom_effect_tooltip = andorntip10
+		ASK = {
+			transfer_state = 126
+			transfer_state = 127
+		}
+		hidden_effect = {
+			country_event = { id = andorn.31 }
+		}
+	}
+}
+
+# New Government Officials
+country_event = {
+	id = andorn.13	#New Government Officials
+	title = "New Government Officials"
+	desc = "The Askonian Goblins have officially joined our government"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "A fine addition to my collection"
+	}
+}
+
+# Luperkanian Request
+country_event = {
+	id = andorn.14	#Luperkanian Request
+	title = "The Request for Luperkania"
+	desc = "The Andorn Government is asking for the control of Luperkania as its people have been developing and living on its lands."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Bardonian Land is Andorn Land"
+		hidden_effect = {
+			SAV = {
+				country_event = { id = andorn.15 }
+			}
+		}
+		SAV = {
+			transfer_state = 153
+		}
+	}
+	option = {
+		name = "Greedy Andornians need to stay where they live"
+		custom_effect_tooltip = andorntip12
+		hidden_effect = {
+			SAV = {
+				country_event = { id = andorn.16 }
+			}
+		}
+	}
+}
+
+# Luperkania is Granted
+country_event = {
+	id = andorn.15	#Luperkania is Granted
+	title = "Bardonia Cedes Luperkania"
+	desc = "Bardonia has honored our request and has ceded us Luperkania"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Our Empire Grows"
+	}
+}
+
+# Luperkania is Rejected
+country_event = {
+	id = andorn.16	#Luperkania is Rejected
+	title = "Bardonia Rejects Us"
+	desc = "Bardonia has decide to ignore our request for Luperkania"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Damn"
+	}
+}
+
+# Askonian Horde
+country_event = {
+	id = andorn.17	#Askonian Horde
+	title = "The Askonian Horde"
+	desc = "The Askonian Horde has been mobilized"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "MOG"
+	}
+}
+
+# Knights of Andorn
+country_event = {
+	id = andorn.18	#Knights of Andorn
+	title = "The Knights of Andorn"
+	desc = "The Knights of Andorn has been mobilized"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Ithim"
+	}
+}
+
+# Integration of Heli
+country_event = {
+	id = andorn.19	#Integration of Heli
+	title = "Integration of Heli"
+	desc = "The Kingdom of Heli has officially joined us as their puppet"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Not optimal, but good enough"
+	}
+}
+
+# Helian Ultimatium
+country_event = {
+	id = andorn.20	#Helian Ultimatium
+	title = "Andorn Ultimatium"
+	desc = "Andorn has issued an ultimatium to either for Heli to join them or face death"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "What choice do we have?"
+		custom_effect_tooltip = andorntip12
+		SAV = {
+			annex_country = {
+				target = HEL
+				transfer_troops = yes
+			}
+		}
+		hidden_effect = {
+			SAV = {
+				country_event = { id = andorn.21 }
+			}
+		}
+	}
+	option = {
+		name = "Piss Off"
+		custom_effect_tooltip = andorntip12
+		SAV = {
+			create_wargoal = {
+			type = take_state
+			target = HEL
+			}
+		}
+		hidden_effect = {
+			SAV = {
+				country_event = { id = andorn.22 }
+			}
+		}
+	}
+}
+
+# Andorn Gets Heli
+country_event = {
+	id = andorn.21	#Andorn Gets Heli
+	title = "The Kingdom of Heli has been annexed by Andorn"
+	desc = "The Kingdom of Heli have seen the predicament they are in and have agreed to fully join us"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Andorn reformation is on the horizon"
+	}
+}
+
+# Heli rejects
+country_event = {
+	id = andorn.22	#Heli Rejects Andorn
+	title = "Heli Rejects"
+	desc = "The Kingdom of Heli has rejected the offer to join Andorn and they will face the consquences from their actions."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "We gave them peace, but they have chosen war"
+	}
+}
+
+# Lucius Leader
+country_event = {
+	id = andorn.23	#Lucius Leader
+	title = "A New Leader"
+	desc = "Hern has resigned from leading our nation. Lucius Von Savras has taken his place and will bring us into a new era"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Nat Narurarturn Antorn!"
+	}
+}
+
+# Wivamovia Integration
+country_event = {
+	id = andorn.24	#Wivamovia Integration
+	title = "Wivamovian Leaders are now Andorn"
+	desc = "The Leaders of Wivamovia have finally rethought their ways and have joined Andorn solidfying our control of the region. Though there may be some hidden beliefs of rebellion"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Radicals will subside, Integration is the way"
+		every_possible_country = {
+			limit = { has_character = WIV_BenBuilds27 }
+			random_character = {
+				limit = { is_character = WIV_BenBuilds27 }
+				set_nationality = SAV
+			}
+		}
+		every_possible_country = {
+			limit = { has_character = WIV_rhook }
+			random_character = {
+				limit = { is_character = WIV_rhook }
+				set_nationality = SAV
+			}
+		}
+	}
+	option = {
+		name = "The radicals must be not allowed to persist"
+		custom_effect_tooltip = andorntip.13
+	}
+}
+
+# Regional Integration
+country_event = {
+	id = andorn.25	#Regional Integration
+	title = "The Region is united and modernized for a modern Empire"
+	desc = "The Leaders of Wivamovia have finally rethought their ways and have joined Andorn solidfying our control of the region"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The effects of Crisis are now subsiding."
+	}
+}
+
+# Andorn Restoration
+country_event = {
+	id = andorn.26	#Andorn Restoration
+	title = "The Kingdom of the Old is now gone, we are now the Kingdom of the NEW"
+	desc = "The Andorn Crisis has now concluded, we must advance into the unknown..."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Crisis is finally over"
+	}
+}
+
+# Neu Savras
+country_event = {
+	id = andorn.27	#Neu Savras
+	title = "Nationalize Neu Savras?"
+	desc = "With the end of the Andorn Crisis, should we solidfy our colony into a fully fledged Andorn state?"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Nationalize the colony"
+		annex_country = {
+			target = NSV
+			transfer_troops = yes
+		}
+	}
+	option = {
+		name = "Leave Neu Savras be"
+		custom_effect_tooltip = andorntip15
+	}
+}
+
+# Eldham Colonization
+country_event = {
+	id = andorn.28	#Eldham Colonization
+	title = "Establishment of Fort Teuton"
+	desc = "With the New World, we must exploit it for its resources"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Excellent"
+		add_offsite_building = { type = arms_factory level = 5 }
+		add_offsite_building = { type = dockyard level = 3 }
+	}
+}
+
+# Syltor Brewing Company
+country_event = {
+	id = andorn.29	#Syltor Brewing Company
+	title = "The Creation of the Syltor Brewing Company"
+	desc = "A New company is now created, it will help us expand our economy."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Brews is the new gold"
+	}
+}
+
+# Andorn Mobilization
+country_event = {
+	id = andorn.30	#Andorn Mobilization
+	title = "Andorn Mobilizes"
+	desc = "War is on the horizon, our soldiers are now being mobilized for the coming war"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "We are prepared for war"
+	}
+}
+
+# Askonian Independence
+country_event = {
+	id = andorn.31	#Askonian Independence
+	title = "Askonia Declares Independence"
+	desc = "The Goblins of Askonia declared independence due to their rejection in the Andorn Government"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "It's fine"
+	}
+	
+	option = {
+		name = "Alright, you ain't leaving"
+		create_wargoal = {
+			type = take_state
+			target = ASK
+			}
+	}
+}
