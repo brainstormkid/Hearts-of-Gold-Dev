@@ -1,0 +1,31 @@
+
+state={
+	id=65
+	name="Neos Knossos"
+	state_category = large_city
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		446 962 1037 1388 2336 3129 3916 3927 3948 
+	}
+	manpower=2400000
+	history={
+		owner = BAR
+		victory_points = {
+			1388 15
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = BAR
+		add_core_of = CAV
+	}
+	buildings_max_level_factor=1.000
+}

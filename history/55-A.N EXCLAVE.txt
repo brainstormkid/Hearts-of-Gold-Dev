@@ -1,0 +1,33 @@
+state={
+	id=55
+	state_category = town
+	name="Fernheim"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	history={
+		owner = FER
+		victory_points = {
+			3841 15
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+			3841 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = FER
+	}
+	provinces={
+		2407 3841 
+	}
+	manpower=1950000
+	buildings_max_level_factor=1.000
+}

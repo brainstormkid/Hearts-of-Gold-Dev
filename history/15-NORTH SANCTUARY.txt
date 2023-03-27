@@ -1,0 +1,51 @@
+state={
+	id=15
+	state_category = metropolis
+	name="North Sanctuary"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		409 641 658 941 1228 1295 1435 1536 1567 1812 1881 2294 3171 3232 4464 4466 4471 4493 
+	}
+	history={
+		owner = ULD
+		victory_points = { #sanctuary
+			641 30 
+		}
+		victory_points = { #chervonstad
+			658 25 
+		}
+		victory_points = { #Sharn
+			4471 10 
+		}
+		victory_points = { #Sjaandi
+			4493 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			641 = {
+				supply_node = 1
+			}
+			658 = {
+				supply_node = 1
+			}
+			4471 = {
+				supply_node = 1
+			}
+			4493 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = ULD
+		add_core_of = SAN
+	}
+	manpower=7500000
+	buildings_max_level_factor=1.000
+}
