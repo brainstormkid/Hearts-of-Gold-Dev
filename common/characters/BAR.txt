@@ -1,0 +1,146 @@
+characters={
+	BAR_ICE={ 
+		name = Ice
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ice
+			allowed = {
+				original_tag = BAR
+			}
+			traits = {
+				connected_citizen 
+			}
+		}		
+	}
+	BAR_AXYR={ 
+		name = Axyr
+		portraits={
+			army={
+				small="GFX_idea_axyr"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = axyr
+			allowed = {
+				original_tag = BAR
+			}
+			traits = {
+				adventurous_daredevil
+			}
+		}		
+	}
+	BAR_CREZY={ 
+		name = Crezyman
+		portraits={
+			army={
+				small="GFX_idea_crezy"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = crezy
+			allowed = {
+				original_tag = BAR
+			}
+			traits = {
+				great_architect
+			}
+		}		
+	}
+	BAR_communist={
+		name = Communist_Rando
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = communist
+			allowed = {
+				original_tag = BAR
+			}
+			traits = {
+				communist_revolutionary
+			}
+		}
+	}
+	BAR_democrat={
+		name = Democratic_Rando
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = democrat
+			allowed = {
+				original_tag = BAR
+			}
+			traits = {
+				democratic_reformer
+			}
+		}
+	}
+	BAR_fascist={
+		name = Fascist_Rando
+		portraits={
+			army=(
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = fascist
+			allowed = (
+				original_tag = BAR
+			}
+			traits = {
+				fascist_demagogue
+			}
+		}
+	}
+	BAR_dukesouleater={
+		name = DukeSoulEater
+		portraits={
+			army={
+				small="GFX_idea_crezy"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = duke
+			allowed = {
+				original_tag = BAR
+			}
+			traits = {
+				education_reformer
+			}
+		}		
+	}
+	BAR_ceibi={
+		name = Ceibi
+		portraits={
+			army={
+				small="GFX_idea_axyr"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ceibi
+			allowed = {
+				original_tag = BAR
+			}
+			traits = {
+				noble_beurocrat
+			}
+		}
+	}
+}

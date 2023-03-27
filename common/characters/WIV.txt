@@ -1,0 +1,108 @@
+characters={
+	WIV_BenBuilds27={ 
+		name = BenBuilds27
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		navy_leader = {
+			traits = { naval_lineage }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = benbuilds
+			allowed = {
+				original_tag = WIV
+			}
+			traits = {
+				adventurous_daredevil 
+			}
+		}		
+	}
+	WIV_rhook={ 
+		name = rhook_
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			traits = { cuts_corners }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = rhook
+			allowed = {
+				original_tag = WIV
+			}
+			traits = {
+				armaments_organizer 
+			}
+		}		
+	}
+	WIV_communist={
+		name = Communist_Rando
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = communist
+			allowed = {
+				original_tag = WIV
+			}
+			traits = {
+				communist_revolutionary
+			}
+		}
+	}
+	WIV_democrat={
+		name = Democratic_Rando
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = democrat
+			allowed = {
+				original_tag = WIV
+			}
+			traits = {
+				democratic_reformer
+			}
+		}
+	}
+	WIV_fascist={
+		name = Fascist_Rando
+		portraits={
+			army=(
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = fascist
+			allowed = (
+				original_tag = WIV
+			}
+			traits = {
+				fascist_demagogue
+			}
+		}
+	}
+}

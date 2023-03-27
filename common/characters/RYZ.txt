@@ -1,0 +1,672 @@
+characters={
+	RYZ_slout={ 
+		name = "Slout III Korol"
+		portraits={
+			army={
+				large="gfx/leaders/RYZ/slout.dds"
+				small="GFX_idea_slout"
+			}
+		}
+		corps_commander = {
+			#traits = { charismatic }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = slout
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = slout2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = slout3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_josbar={ 
+		name = "Josbar"
+		portraits={
+			army={
+				large="gfx/leaders/RYZ/josbar.dds"
+				small="GFX_idea_josbar"
+			}
+		}
+		corps_commander = {
+			#traits = { charismatic }
+			skill = 4
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = josbar
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = josbar2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = josbar3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_konstantin={ 
+		name = "Konstantin Novikov"
+		portraits={
+			army={
+				#large="gfx/leaders/RYZ/konstantin.dds"
+				#small="GFX_idea_slout"
+			}
+		}
+		field_marshal = {
+			#traits = { charismatic }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = konstantin
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = konstantin1
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_warfare_theorist 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = konstantin2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = konstantin3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_aasimar={ 
+		name = "Darrow Aasimar"
+		#portraits={
+			#army={
+				#large="gfx/leaders/RYZ/aasimar.dds"
+			#}
+		#}
+		corps_commander = {
+			#traits = { charismatic }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = aasimar
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = aasimar1
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_warfare_theorist 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = aasimar3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_sarcasmo={ 
+		name = "Sarcasmo"
+		#portraits={
+			#army={
+				#large="gfx/leaders/RYZ/sarcasmo.dds"
+			#}
+		#}
+		navy_leader = {
+			#traits = { cuts_corners }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = sarcasmo
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = sarcasmo1
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_warfare_theorist 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = sarcasmo2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = sarcasmo3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_zardy={ 
+		name = "Zardy the Pumpkin"
+		portraits={
+			army={
+				large="gfx/leaders/RYZ/zardy.dds"
+				small="GFX_idea_zardy"
+			}
+		}
+		corps_commander = {
+			#traits = { charismatic }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zardy
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = zardy2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = zardy3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_bogomila={ 
+		name = "Bogomila Korola"
+		portraits={
+			army={
+				large="gfx/leaders/RYZ/bogomila.dds"
+				small="GFX_idea_bogomila"
+			}
+		}
+		corps_commander = {
+			#traits = { charismatic }
+			skill = 1
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = bogomila
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = bogomila2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = bogomila3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_aveleksei={ 
+		name = "Aveleksei Tossovich-McSpiegel"
+		portraits={
+			army={
+				large="gfx/leaders/RYZ/aveleksei.dds"
+				small="GFX_idea_aveleksei"
+			}
+		}
+		corps_commander = {
+			#traits = { charismatic }
+			skill = 1
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = aveleksei
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = aveleksei2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = aveleksei3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_nikolai={ 
+		name = "Nikolai Zefirov"
+		#portraits={
+			#army={
+				#large="gfx/leaders/RYZ/nikolai.dds"
+				#small="GFX_idea_nikolai"
+			#}
+		#}
+		corps_commander = {
+			#traits = { charismatic }
+			skill = 1
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = nikolai
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = nikolai2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = nikolai3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_anstolis={ 
+		name = "Anstolis Lykeris"
+		#portraits={
+			#army={
+				#large="gfx/leaders/RYZ/nikolai.dds"
+				#small="GFX_idea_nikolai"
+			#}
+		#}
+		corps_commander = {
+			#traits = { charismatic }
+			skill = 1
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = anstolis
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = anstolis2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = anstolis3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_athos={ 
+		name = "Athos Sigrun"
+		#portraits={
+			#army={
+				#large="gfx/leaders/RYZ/athos.dds"
+				#small="GFX_idea_athos"
+			#}
+		#}
+		corps_commander = {
+			#traits = { charismatic }
+			skill = 1
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = athos
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = athos2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = athos3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_canadian={ 
+		name = "Canadian Toss"
+		#portraits={
+			#army={
+				#large="gfx/leaders/RYZ/athos.dds"
+				#small="GFX_idea_athos"
+			#}
+		#}
+		corps_commander = {
+			#traits = { charismatic }
+			skill = 1
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = canadian
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = canadian2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = canadian3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	RYZ_ibris={ 
+		name = "Ibris Tossova-McSpiegel"
+		#portraits={
+			#army={
+				#large="gfx/leaders/RYZ/ibris.dds"
+				#small="GFX_idea_ibris"
+			#}
+		#}
+		corps_commander = {
+			#traits = { charismatic }
+			skill = 1
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ibris
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = ibris2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = ibris3
+			ledger = air
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+}

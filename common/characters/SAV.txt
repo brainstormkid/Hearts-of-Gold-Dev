@@ -1,0 +1,685 @@
+characters={
+	SAV_lucius={ 
+		name = "Lucius Von Savras"
+		portraits={
+			army={
+				large="gfx/leaders/SAV/lucius.dds"
+				small="GFX_idea_lucius"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lucius
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = lucius2
+			ledger = air
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				air_warfare_theorist 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = lucius
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = lucius3
+			ledger = air
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				air_strategic_bombing_2
+			}
+			cost = 100
+		}
+	}
+	SAV_thunder={ 
+		name = thunderfantv
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { war_hero }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = thunderfantv
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = thunderfantv1
+			ledger = army
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				military_theorist 
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = thunderfantv2
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = thunderfantv3
+			ledger = army
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+		}
+	}
+	SAV_realz={ 
+		name = "Realz"
+		portraits={
+			army={
+				large="gfx/leaders/SAV/realz.dds"
+			}
+		}
+		corps_commander = {
+			#traits = { brilliant_strategist }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = realz
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				headstrong 
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = realz1
+			ledger = navy
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				naval_theorist 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = realz2
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				air_chief_night_operations_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = realz3
+			ledger = air
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				air_air_combat_training_2
+			}
+			cost = 100
+		}
+	}
+	SAV_svinn={ 
+		name = Svinn
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { harsh_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = svinn
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				war_industrialist 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = svinn1
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				air_chief_old_guard
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = svinn2
+			ledger = army
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				army_cavalry_2
+			}
+			cost = 100
+		}
+	}
+	SAV_skhorse={ 
+		name = SkHorse85
+		portraits={
+			army={
+				small="GFX_idea_ice"
+				large="gfx/leaders/SAV/salos.dds"
+			}
+		}
+		corps_commander = {
+			#traits = { career_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = skhorse
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				silent_workhorse 
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = skhorse1
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				navy_anti_submarine_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = skhorse2
+			ledger = navy
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				navy_chief_naval_aviation_2
+			}
+			cost = 100
+		}
+	}
+	SAV_duel123abc={ 
+		name = duel123abc
+		portraits={
+			army={
+				small="GFX_idea_ice"
+				large="gfx/leaders/SAV/duel.dds"
+			}
+		}
+		corps_commander = {
+			#traits = { inflexible_strategist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = duel
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				industrial_monopoly 
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = duel1
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				army_chief_reform_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = duel2
+			ledger = navy
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				navy_capital_ship_2
+			}
+			cost = 100
+		}
+	}
+	SAV_capna={
+		name = Capna
+		portraits={
+			army={
+				large="gfx/leaders/SAV/capna.dds"
+			}
+		}
+		corps_commander = {
+			#traits = { media_personality }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = capna
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				backroom_backstabber 
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = capna1
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				navy_chief_maneuver_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = capna2
+			ledger = air
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				air_tactical_bombing_2
+			}
+			cost = 100
+		}
+	}
+	SAV_bingo={ 
+		name = Bingo_Von_Annover
+		portraits={
+			army={
+				small="GFX_idea_ice"
+				large="gfx/leaders/SAV/bingo.dds"
+			}
+		}
+		navy_leader = {
+			#traits = { cuts_corners }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = bingo
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				permanent_revolutionary 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = bingo1
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				air_air_superiority_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = bingo2
+			ledger = army
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				army_armored_2
+			}
+			cost = 100
+		}
+	}
+	SAV_patchr={ 
+		name = Patchr
+		portraits={
+			army={
+				large="gfx/leaders/SAV/patch.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { old_guard }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = patch
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				great_architect 
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = patch1
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				air_chief_reform_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = patch2
+			ledger = army
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 100
+		}
+	}
+	SAV_lagg={ 
+		name = laggingineer
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		navy_leader = {
+			#traits = { naval_lineage }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lagg
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				fortification_engineer
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = lagg1
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				army_entrenchment_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = lagg2
+			ledger = air
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				air_bomber_interception_2
+			}
+			cost = 100
+		}
+	}
+	SAV_communist={
+		name = Communist_Rando
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = communist
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				communist_revolutionary
+			}
+		}
+	}
+	SAV_democrat={
+		name = Democratic_Rando
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = democrat
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				democratic_reformer
+			}
+		}
+	}
+	SAV_fascist={
+		name = Fascist_Rando
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = fascist
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				fascist_demagogue
+			}
+		}
+	}
+	SAV_server724={
+		name = "server724"
+		portraits={
+			army={
+				small="GFX_idea_ice"
+				large="gfx/leaders/SAV/server.dds"
+			}
+		}
+		corps_commander = {
+			#traits = { cuts_corners }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = server
+			ledger = army
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				cornered_fox
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = server1
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				army_chief_maneuver_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = server2
+			ledger = army
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				army_entrenchment_2
+			}
+			cost = 100
+		}
+	}
+	SAV_coop={ 
+		name = "Coopdog"
+		portraits={
+			army={
+				small="GFX_idea_ice"
+				large="gfx/leaders/SAV/coop.dds"
+			}
+		}
+		corps_commander = {
+			#traits = { cuts_corners }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = coop
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				empire_builder
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = coop1
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+			cost = 100
+		}
+		advisor={
+			slot = high_command
+			idea_token = coop2
+			ledger = navy
+			allowed = {
+				original_tag = SAV
+			}
+			traits = {
+				air_naval_strike_2
+			}
+			cost = 100
+		}
+	}
+}

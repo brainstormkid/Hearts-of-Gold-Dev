@@ -1,0 +1,226 @@
+characters={
+	ULD_canine={ 
+		name = "Canine"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/canine.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = canine
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				headstrong 
+			}
+		}
+	}
+	ULD_ganeff={ 
+		name = "Ganeff"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/ganeff.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		navy_leader = {
+			#traits = { politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = canine
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				headstrong 
+			}
+		}
+	}
+	ULD_robotgirlyman={ 
+		name = "Robotgirlyman"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/robot.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	ULD_qwaser={ 
+		name = "Qwaser"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/qwaser.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ULD_fourbac={ 
+		name = "Fourbac"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/fourbac.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 0
+			defense_skill = 1
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	ULD_Silas={ 
+		name = "Silas"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/silas.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		navy_leader = {
+			#traits = { politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	ULD_Scotchknight={ 
+		name = "ScotchKnight"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/scotch.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	ULD_Tequilaknight={ 
+		name = "TequilaKnight"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/tequila.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+		}
+	}
+	ULD_Sixes={ 
+		name = "Sixes"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/sixes.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	ULD_Rakia={ 
+		name = "Rakia"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/rakia.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	ULD_Keechoo={ 
+		name = "Keechoo"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/keechoo.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	ULD_senior={ 
+		name = "Senior Ravioli"
+		portraits={
+			army={
+				large="gfx/leaders/ULD/senior.dds"
+				small="GFX_idea_ice"
+			}
+		}
+		navy_leader = {
+			#traits = { politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+}

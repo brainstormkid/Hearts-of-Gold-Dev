@@ -1,0 +1,128 @@
+characters={
+	ARL_nori={ 
+		name = Nori
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = nori
+			allowed = {
+				original_tag = ARL
+			}
+			traits = {
+				connected_citizen 
+			}
+		}		
+	}
+	ARL_azan={ 
+		name = Azan_Shaer
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = azan
+			allowed = {
+				original_tag = ARL
+			}
+			traits = {
+				connected_citizen 
+			}
+		}		
+	}
+	ARL_oranje={ 
+		name = Oranje_Blackwater
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = oranje
+			allowed = {
+				original_tag = ARL
+			}
+			traits = {
+				connected_citizen 
+			}
+		}		
+	}
+	ARL_mao={ 
+		name = Mao_Meilli
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = mao
+			allowed = {
+				original_tag = ARL
+			}
+			traits = {
+				connected_citizen 
+			}
+		}		
+	}
+	ARL_jun={ 
+		name = Jun-se
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = jun
+			allowed = {
+				original_tag = ARL
+			}
+			traits = {
+				connected_citizen 
+			}
+		}		
+	}
+	ARL_aefliel={ 
+		name = Aefliel
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = aefliel
+			allowed = {
+				original_tag = ARL
+			}
+			traits = {
+				connected_citizen 
+			}
+		}		
+	}
+	ARL_aesop={ 
+		name = Aesop
+		portraits={
+			army={
+				small="GFX_idea_ice"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = aesop
+			allowed = {
+				original_tag = ARL
+			}
+			traits = {
+				connected_citizen 
+			}
+		}		
+	}
+}
