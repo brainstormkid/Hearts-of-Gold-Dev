@@ -1,0 +1,90 @@
+division_template = {
+	name = "Askonian Goblins"
+
+	division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	priority = 1
+}
+
+units = {
+	#HSE Army
+	division = {
+		name = "Gobos"
+		location = 1969
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Goblins"
+		location = 1969
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Askonian Goblins"
+		location = 1969
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Horde Goblins"
+		location = 1969
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Goblin Gang"
+		location = 841
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Goblin Mafia"
+		location = 841
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Goblin Horde"
+		location = 255
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Mog Bois"
+		location = 255
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Praise Mog"
+		location = 255
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Horde of Goblins"
+		location = 255
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Radical Goblins"
+		location = 255
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Insane Horde of Goblins"
+		location = 255
+		division_template = "HSE Knight"
+		start_experience_factor = 0.3
+	}
+}

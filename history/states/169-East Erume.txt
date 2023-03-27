@@ -1,0 +1,40 @@
+state={
+	id=169
+	name="East Erume"
+	state_category = rural
+    
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+
+	provinces={
+		223 681 1771 1795 2144 2183 2590 2806 3055 3314 3777 
+	}
+	manpower=600000
+	history={
+		owner = ARL
+		victory_points = {
+			681 5
+		}
+		victory_points = {
+			2144 5
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			681 = {
+				supply_node = 1
+			}
+			2144 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = ARL
+	}
+	buildings_max_level_factor=1.000
+}

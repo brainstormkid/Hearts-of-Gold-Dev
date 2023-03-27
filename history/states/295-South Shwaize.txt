@@ -1,0 +1,25 @@
+state={
+	id=295
+	name="Kostonia"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		63 294 1462 1873 2834 3379 3958 
+	}
+	manpower=750000
+	state_category = rural
+	history={
+		owner = FJE
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FJE
+	}
+	buildings_max_level_factor=1.000
+}

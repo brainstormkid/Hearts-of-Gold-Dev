@@ -1,0 +1,25 @@
+state={
+	id=320
+	name="Tvear"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		797 832 2165 3020 4467 4468 
+	}
+	manpower=461469
+	history={
+		owner = VIO
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

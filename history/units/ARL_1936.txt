@@ -1,0 +1,122 @@
+division_template = {
+	name = "Aurlunor Infantry"
+
+	#division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+units = {
+	#ARL Army
+	division = {
+		division_name = { "Coffee Division"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 3712
+		division_template = "Aurlunor Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = "Dragon Regiment"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 3712
+		division_template = "Aurlunor Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = "Twin Regiment"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 2128
+		division_template = "Aurlunor Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = "zoey Regiment"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 2128
+		division_template = "Aurlunor Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = "Ashura Guard"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 3832
+		division_template = "Aurlunor Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = "Poggers Guard"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 3832
+		division_template = "Aurlunor Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = "Lhumar Band"
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2894
+		division_template = "Aurlunor Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = "Talhunar Garrison"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 2894
+		division_template = "Aurlunor Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = "Imperial Royal Guard"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 681
+		division_template = "Aurlunor Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = "Chad Brigade"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 681
+		division_template = "Aurlunor Infantry"
+		start_experience_factor = 0.3
+	}
+}

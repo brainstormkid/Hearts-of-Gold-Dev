@@ -1,0 +1,26 @@
+
+state={
+	id=296
+	name="Schwaize"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		539 563 1524 1977 2245 2443 2714 2750 3909 3910 3922 
+	}
+	manpower=221766
+	history={
+		owner = AXR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = AXR
+	}
+	buildings_max_level_factor=1.000
+}

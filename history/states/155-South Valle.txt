@@ -1,0 +1,38 @@
+
+state={
+	id=155
+	state_category = town
+	name="Riverrun"
+    
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+
+	provinces={
+		12 1188 1869 3061 3491 3504 3507 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	history={
+		owner = VAL
+		victory_points = {
+			3061 10
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			3061 = {
+				supply_node = 1
+			}
+			3061 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = VAL
+	}
+}

@@ -1,0 +1,37 @@
+state={
+	id=432
+	name="East Vologda"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		1980 2912 3313 
+	}
+	state_category = town
+	history={
+		owner = RYZ
+		victory_points = {
+			1980 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 1
+			1980 = {
+				supply_node = 1
+			}
+			1980 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = RYZ
+
+	}
+	manpower=1569600
+	buildings_max_level_factor=1.000
+}

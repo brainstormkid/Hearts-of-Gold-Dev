@@ -1,0 +1,25 @@
+state={
+	id=404
+	name="Cloudbreach"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		66 483 622 1288 1606 2053 2594 3159 4564 4607 4608 
+	}
+	manpower=270819
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOU
+	}
+	buildings_max_level_factor=1.000
+}

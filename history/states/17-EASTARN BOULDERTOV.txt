@@ -1,0 +1,49 @@
+
+state={
+	id=17
+	name="Eastern Boulderov"
+	state_category = town
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		416 596 914 1082 1189 1390 2360 2561 2886 2889 3173 4568 4581 4591 4617 4627 4729 
+	}
+	history={
+		owner = ULD
+		victory_points = { #odeila
+			4568 20
+		}
+		victory_points = { #Nottingham
+			1082 10
+		}
+		victory_points = { #Boldara
+			1189 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1189 = {
+				supply_node = 1
+			}
+			1082 = {
+				supply_node = 1
+			}
+			4568 = {
+				supply_node = 1
+			}
+			4568 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = ULD
+		add_core_of = BOU
+	}
+	manpower=2550000
+	buildings_max_level_factor=1.000
+}

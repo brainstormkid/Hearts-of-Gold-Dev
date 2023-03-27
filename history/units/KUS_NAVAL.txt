@@ -1,0 +1,13 @@
+units = {
+	fleet = {
+		name = "Kush Fleet"			
+		naval_base = 4311
+		task_force = {				
+			name = "Kush Task Force"			
+			location = 4311
+			ship = { name = "KNS Kush" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KUS } } }
+			ship = { name = "KNS KATO" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KUS } } }
+			ship = { name = "KNS Serene" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KUS } } }		
+		}								
+	}
+}

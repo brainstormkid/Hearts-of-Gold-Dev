@@ -1,0 +1,26 @@
+
+state={
+	id=254
+	name="Paludis Plain"
+	state_category = tiny_island 
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		79 1915 2279 
+	}
+	manpower=68796
+	history={
+		owner = ALI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ALI
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,42 @@
+state={
+	id=161
+	state_category = large_town
+	name="Qaruxia-Astana"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		184 289 552 1256 1364 1861 1950 3123 3192 3265 3347 3904 3908 3928 3936 
+	}
+	history={
+		owner = CAV
+		victory_points = {
+			1256 15 #Atlahua
+		}
+		victory_points = {
+			3928 20 #Praesidium
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			1256 = {
+				supply_node = 1
+			}
+			3928 = {
+				supply_node = 1
+			}
+			1256 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = CAV
+	}
+	manpower=5100000
+	buildings_max_level_factor=1.000
+}

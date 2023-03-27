@@ -1,0 +1,16 @@
+units = {
+	fleet = {
+		name = "Dragon Fleet"			
+		naval_base = 1942
+		task_force = {				
+			name = "Coffee Fleet'"			
+			location = 3832
+			ship = { name = "DNS Twin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARL } } }
+			ship = { name = "DNS Lhumar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARL } } }
+			ship = { name = "DNS Coffee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARL } } }
+			ship = { name = "DNS Dragon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARL } } }	
+			ship = { name = "DNS Faith" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARL } } }	
+			ship = { name = "DNS Savras" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARL } } }	
+		}								
+	}
+} 

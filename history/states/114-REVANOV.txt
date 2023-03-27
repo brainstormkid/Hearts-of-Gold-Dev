@@ -1,0 +1,36 @@
+
+state={
+	id=114
+	name="Revanov"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		615 617 874 975 1665 1887 2054 2634 2653 2686 2864 2927 3824 3826 3851 
+	}
+	manpower=1350000
+	history={
+		owner = THI
+		victory_points = {
+			2653 10 #Kierkewick
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			2653 = {
+				supply_node = 1
+			}
+			2653 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,31 @@
+state={
+	id=431
+	state_category = tiny_island
+	name="South Revanov Islands"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		2792 3222 3871 4712 
+	}
+	manpower=114654
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 1
+			3871 = {
+				naval_base = 2
+			}
+			4712 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

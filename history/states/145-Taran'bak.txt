@@ -1,0 +1,28 @@
+state={
+	id=145
+	name="Taran'bak"
+	state_category = rural
+    
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+
+	provinces={
+		822 1626 2782 3486 
+	}
+	manpower=92964
+	history={
+		owner = TAR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = TAR
+	}
+	buildings_max_level_factor=1.000
+}

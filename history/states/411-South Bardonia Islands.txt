@@ -1,0 +1,25 @@
+state={
+	id=411
+	name="South Bardonia Islands"
+	state_category = tiny_island
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		85 1208 3147 
+	}
+	manpower=243639
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,44 @@
+state={
+	id=144
+	name="Lennox"
+	state_category = metropolis
+    
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+
+	provinces={
+		421 2214 2602 3193 3489 3509 
+	}
+	history={
+		owner = LEN
+		victory_points = {
+			2214 30
+		}
+		victory_points = {
+			3489 15
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3
+			2214 = {
+				supply_node = 1
+			}
+			3489 = {
+				supply_node = 1
+			}
+			2214 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = LEN
+	}
+	manpower=3369000
+	buildings_max_level_factor=1.000
+}

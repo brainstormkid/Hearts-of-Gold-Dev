@@ -1,0 +1,30 @@
+division_template = {
+	name = "Helian Infantry"
+
+	#division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+units = {
+	#HEL Army
+	division = {
+		name = "Morbius Division"
+		location = 1100
+		division_template = "Helian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Choppertown Regiment"
+		location = 1100
+		division_template = "Helian Infantry"
+		start_experience_factor = 0.3
+	}
+}

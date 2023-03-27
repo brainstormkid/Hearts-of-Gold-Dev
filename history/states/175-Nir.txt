@@ -1,0 +1,36 @@
+
+state={
+	id=175
+	state_category = rural
+	name="Nir"
+    
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+
+	history={
+		owner = ARL
+		victory_points = {
+			2083 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1 
+			2083 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = ARL
+	}
+	provinces={
+		43 68 987 1011 1068 1126 1174 1793 1886 2083 2568 3324 3686 3705 
+	}
+	manpower=1350000
+	buildings_max_level_factor=1.000
+}

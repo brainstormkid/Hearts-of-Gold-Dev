@@ -1,0 +1,37 @@
+
+state={
+	id=116
+	name="Ryzan"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		891 1215 1405 1733 1900 2506 2873 3694 3698 3730 3741 
+	}
+	manpower=1950000
+	state_category = rural
+	history={
+		owner = RYZ
+		victory_points = {
+			2506 20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 1
+			2506 = {
+				supply_node = 1
+			}
+			2506 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = RYZ
+	}
+	buildings_max_level_factor=1.000
+}

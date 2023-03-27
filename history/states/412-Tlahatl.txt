@@ -1,0 +1,38 @@
+state={
+	id=412
+	state_category = town
+	name="Tlahatl"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	history={
+		owner = HUI
+		victory_points = {
+			758 20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			758 = {
+				supply_node = 1
+			}
+			758 = {
+				naval_base = 3
+			}
+			2448 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = HUI
+	}
+	provinces={
+		758 2436 2448 2557 3872 
+	}
+	manpower=1050000
+	buildings_max_level_factor=1.000
+}

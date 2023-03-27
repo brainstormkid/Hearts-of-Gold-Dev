@@ -1,0 +1,26 @@
+
+state={
+	id=243
+	name="West Paludis"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		33 457 3359 3376 3516 
+	}
+	manpower=101787
+	history={
+		owner = OWY
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = OWY
+	}
+	buildings_max_level_factor=1.000
+}

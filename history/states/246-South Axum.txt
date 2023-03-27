@@ -1,0 +1,29 @@
+state={
+	id=246
+	name="Avarice"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		267 1331 1463 3141 3455 3482 
+	}
+	manpower=750000
+	history={
+		owner = OWY
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			3482 5		#Avarice
+		}
+		add_core_of = OWY
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=117
+	name="Vologda"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	history={
+		owner = RYZ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = RYZ
+
+	}
+	provinces={
+		2778 3724 
+	}
+	manpower=44463
+	buildings_max_level_factor=1.000
+}

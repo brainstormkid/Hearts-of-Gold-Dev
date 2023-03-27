@@ -1,0 +1,43 @@
+division_template = {
+	name = "Knight of Andorn"
+
+	division_names_group = AFG_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+	#HSE Army
+	division = {
+		name = "1st Knight of Andorn"
+		location = 1969
+		division_template = "Knight of Andorn"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "2nd Knight of Andorn"
+		location = 1969
+		division_template = "Knight of Andorn"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "3rd Knight of Andorn"
+		location = 1969
+		division_template = "Knight of Andorn"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "4th Knight of Andorn"
+		location = 1969
+		division_template = "Knight of Andorn"
+		start_experience_factor = 0.9
+	}
+}

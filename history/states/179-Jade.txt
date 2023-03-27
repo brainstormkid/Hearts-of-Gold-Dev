@@ -1,0 +1,29 @@
+state={
+	id=179
+	state_category = town
+	name="Jade"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		37 240 943 1038 1525 1855 2118 2325 2723 2883 3070 3083 3172 3847 3855 
+	}
+	manpower=900000
+	history={
+		owner = HUI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+			2723 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=107
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	name="Edal-Adadi"
+	provinces={
+		464 607 977 1214 1269 1491 1583 1649 1688 2238 2240 3297 3330 4089 4098 4112 4113 4138 4145 4155 
+	}
+	manpower=1200000
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,181 @@
+﻿capital = 101
+
+oob = "THI_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	transport = 1
+	gwtank = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_submarine = 1
+	support_weapons = 1
+}
+
+add_ideas = {
+	volunteer_only
+}
+
+set_convoys = 75
+
+build_railway = {
+	level = 3
+	start_province = 220
+	target_province = 1678
+}
+
+build_railway = {
+	level = 3
+	start_province = 1678
+	target_province = 1698
+}
+
+build_railway = {
+	level = 3
+	start_province = 1678
+	target_province = 118
+}
+
+build_railway = {
+	level = 3
+	start_province = 1698
+	target_province = 118
+}
+
+build_railway = {
+	level = 3
+	start_province = 118
+	target_province = 3973
+}
+
+build_railway = {
+	level = 3
+	start_province = 118
+	target_province = 1019
+}
+
+build_railway = {
+	level = 3
+	start_province = 118
+	target_province = 2037
+}
+
+build_railway = {
+	level = 3
+	start_province = 2037
+	target_province = 2526
+}
+
+build_railway = {
+	level = 3
+	start_province = 2526
+	target_province = 2459
+}
+
+build_railway = {
+	level = 3
+	start_province = 1019
+	target_province = 3973
+}
+
+build_railway = {
+	level = 3
+	start_province = 2037
+	target_province = 4166
+}
+
+build_railway = {
+	level = 3
+	start_province = 2526
+	target_province = 4166
+}
+
+build_railway = {
+	level = 3
+	start_province = 4166
+	target_province = 4218
+}
+
+build_railway = {
+	level = 3
+	start_province = 3973
+	target_province = 1964
+}
+
+build_railway = {
+	level = 3
+	start_province = 1019
+	target_province = 3917
+}
+
+build_railway = {
+	level = 3
+	start_province = 3973
+	target_province = 929
+}
+
+build_railway = {
+	level = 3
+	start_province = 3917
+	target_province = 1964
+}
+
+build_railway = {
+	level = 3
+	start_province = 1964
+	target_province = 929
+}
+
+build_railway = {
+	level = 3
+	start_province = 929
+	target_province = 319
+}
+
+build_railway = {
+	level = 3
+	start_province = 319
+	target_province = 1545
+}
+
+build_railway = {
+	level = 3
+	start_province = 319
+	target_province = 3836
+}
+
+build_railway = {
+	level = 3
+	start_province = 3836
+	target_province = 2653
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "MisticCrafter"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/THI/Mistic.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

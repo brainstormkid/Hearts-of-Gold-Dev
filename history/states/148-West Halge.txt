@@ -1,0 +1,27 @@
+state={
+	id=148
+	name="West Halge"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		288 713 728 1519 2166 3398 3421 
+	}
+	manpower=750000
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 4
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

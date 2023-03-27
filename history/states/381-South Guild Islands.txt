@@ -1,0 +1,28 @@
+state={
+	id=381
+	name="South Guild Islands"
+	state_category = tiny_island
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		84 642 4474 
+	}
+	manpower=71826
+	history={
+		victory_points = {
+			786 15
+		}
+		owner = SOU
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOU
+	}
+	buildings_max_level_factor=1.000
+}

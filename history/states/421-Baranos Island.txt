@@ -1,0 +1,28 @@
+state={
+	id=421
+	name="Baranos Island"
+	state_category = small_island
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		2580 
+	}
+	manpower=36582
+	history = {
+		owner = THI
+		buildings = {
+			infrastructure = 1
+			2580 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

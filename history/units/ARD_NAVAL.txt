@@ -1,0 +1,22 @@
+units = {
+	fleet = {
+		name = "Ardat Fleet"			
+		naval_base = 1057
+		task_force = {				
+			name = "Ardat Fleet"			
+			location = 1057
+			ship = { name = "ANS Ardat" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARD } } }
+			ship = { name = "ANS Mosul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARD } } }
+			ship = { name = "ANS Duke" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARD } } }
+			ship = { name = "ANS Axyr" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARD } } }	
+			ship = { name = "ANS Bard" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARD } } }			
+		}
+		task_force = {				
+			name = "2nd Ardat Fleet"			
+			location = 3254
+			ship = { name = "ANS Dalatra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARD } } }
+			ship = { name = "ANS Golden" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARD } } }
+			ship = { name = "ANS Poo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARD } } }		
+		}		
+	}
+} 

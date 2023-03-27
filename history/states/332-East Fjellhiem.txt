@@ -1,0 +1,29 @@
+state={
+	id=332
+	name="Fort Murdoch"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		842 4054 
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	history={
+		owner = AXR
+		buildings = {
+			arms_factory = 1 
+			infrastructure = 2
+		}
+		victory_points = {
+			4054 5		#Fort Murdoch
+		}
+		add_core_of = AXR
+	}
+}

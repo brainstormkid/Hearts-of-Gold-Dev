@@ -1,0 +1,25 @@
+state={
+	id=261
+	name="Gunngum"
+	state_category = wasteland
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		8 571 2477 2621 3098 3408 3409 3412 3440 
+	}
+	manpower=114699
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

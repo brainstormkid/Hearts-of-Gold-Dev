@@ -1,0 +1,25 @@
+state={
+	id=423
+	name="Reikland"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		4719 
+	}
+	manpower=477849
+	history={
+		owner = SR1
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SR1
+	}
+	buildings_max_level_factor=1.000
+}

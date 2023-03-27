@@ -1,0 +1,25 @@
+state={
+	id=370
+	state_category = rural
+	name="Meydan"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		227 1220 1360 2059 3367 4205 
+	}
+	manpower=287472
+	history={
+		owner = SIR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SIR
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,30 @@
+division_template = {
+	name = "Norfthornian Infantry"
+
+	#division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+units = {
+	#NRF Army
+	division = {
+		name = "Haggly Division"
+		location = 1394
+		division_template = "Norfthornian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Norfthorn Regiment"
+		location = 1394
+		division_template = "Norfthornian Infantry"
+		start_experience_factor = 0.3
+	}
+}

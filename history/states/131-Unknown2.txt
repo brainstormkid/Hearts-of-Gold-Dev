@@ -1,0 +1,32 @@
+state={
+	id=131
+	name="North Avondale"
+	state_category = town
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	history={
+		owner = WIV
+		victory_points = {
+			2205 14
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			2205 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = WIV
+	}
+	provinces={
+		90 174 1868 1906 2205 3529 3533 3539 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+}

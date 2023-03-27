@@ -1,0 +1,25 @@
+state={
+	id=250
+	name="West Boarav"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		65 246 459 535 592 790 1232 2549 3199 3403 3404 3405 3419 
+	}
+	manpower=338769
+	history={
+		owner = ALI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ALI
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=346
+	state_category = pastoral
+	name="East Snoen"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		618 1826 2427 2536 4339 4356 
+	}
+	manpower=114846
+	history={
+		owner = POS
+		add_core_of = POS
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+}

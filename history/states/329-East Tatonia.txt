@@ -1,0 +1,25 @@
+state={
+	id=329
+	state_category = pastoral
+	name="East Tatonia"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		584 667 680 1204 1610 2007 2236 3293 4033 4063 4077 4081 4101 
+	}
+	manpower=98496
+	history={
+		owner = TTO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TTO
+	}
+	buildings_max_level_factor=1.000
+}

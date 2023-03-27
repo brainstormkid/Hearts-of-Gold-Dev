@@ -1,0 +1,33 @@
+state={
+	id=124
+	name="Areska"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	history={
+		owner = SAV
+		victory_points = {
+			286 5
+		}
+		buildings = {
+			infrastructure = 2
+			286 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = SAV
+
+	}
+
+	provinces={
+		285 286 290 886 1641 2295 2694 2949 3306 3588 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+}

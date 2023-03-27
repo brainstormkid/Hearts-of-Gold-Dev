@@ -1,0 +1,14 @@
+units = {
+	fleet = {
+		name = "Holy Fleet"			
+		naval_base = 1942
+		task_force = {				
+			name = "Syltor Fleet"			
+			location = 3420
+			ship = { name = "SNS Hernicia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "SNS PogBar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "SNS Obrithyll" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "SNS Orilin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }		
+		}								
+	}
+} 

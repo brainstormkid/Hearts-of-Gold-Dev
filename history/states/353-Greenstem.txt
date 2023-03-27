@@ -1,0 +1,25 @@
+state={
+	id=353
+	name="Eastend Greenstem"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		1890 2170 4216 4223 
+	}
+	manpower=117849
+	history={
+		owner = GRN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GRN
+	}
+	buildings_max_level_factor=1.000
+}

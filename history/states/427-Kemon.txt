@@ -1,0 +1,25 @@
+state={
+	id=427
+	name="Kemon"
+	state_category = tiny_island
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		2218 3189 3195 
+	}
+	history={
+		owner = VIO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VIO
+	}
+	manpower=5766
+	buildings_max_level_factor=1.000
+}

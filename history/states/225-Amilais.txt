@@ -1,0 +1,30 @@
+state={
+	id=225
+	name="Amilais"
+	state_category = town
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		166 342 361 397 532 2085 2219 2651 2795 2998 3340 3838 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1 
+			arms_factory = 1
+		}
+		victory_points = {
+			3838 12
+		}
+		add_core_of = NIE
+	}
+}

@@ -1,0 +1,10 @@
+continents = {
+	syltor
+	nieden
+	plagos
+	alteniquia
+	sparwood
+	ummarnu
+	haven
+	sorligste
+}

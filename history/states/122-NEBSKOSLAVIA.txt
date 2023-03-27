@@ -1,0 +1,41 @@
+
+state={
+	id=122
+	name="Nebskoslavia"
+	state_category = town
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+    history={
+		owner = RYZ
+		victory_points = {
+			1286 20
+		}
+		victory_points = {
+			3599 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 1
+			1286 = {
+				supply_node = 1
+			}
+			3599 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = RYZ
+		add_core_of = NEB
+	}
+	provinces={
+		211 427 601 640 776 1000 1115 1286 1967 2009 2220 2530 3572 3574 3593 3599 
+	}
+	manpower=1350000
+	buildings_max_level_factor=1.000
+}

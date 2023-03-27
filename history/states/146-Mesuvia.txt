@@ -1,0 +1,35 @@
+state={
+	id=146
+	state_category = rural
+	name="Mesuvia"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		2460 3029 
+	}
+	manpower=429600
+	history={
+		owner = LEN
+		victory_points = {
+			3029 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			3029 = {
+				supply_node = 1
+			}
+			3029 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = LEN
+	}
+	buildings_max_level_factor=1.000
+}

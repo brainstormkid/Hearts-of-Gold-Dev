@@ -1,0 +1,25 @@
+state={
+	id=215
+	name="Egalia"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		321 1104 1648 1730 2293 2542 2844 3033 3763 3769 3771 
+	}
+	manpower=99657
+	buildings_max_level_factor=1.000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIE
+	}
+}

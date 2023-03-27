@@ -1,0 +1,30 @@
+state={
+	id=150
+	name="Aureo"
+	state_category = pastoral
+    
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+
+	provinces={
+		773 2556 3343 
+	}
+	manpower=148569
+	history={
+		owner = HLG
+		buildings = {
+			infrastructure = 1
+			3343 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = HLG
+	}
+	buildings_max_level_factor=1.000
+}

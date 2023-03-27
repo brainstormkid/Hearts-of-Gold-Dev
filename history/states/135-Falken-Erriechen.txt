@@ -1,0 +1,35 @@
+state={
+	id=135
+	name="P.O.S"
+	provinces={
+		1 99 255 656 671 1091 1168 1279 1369 1374 1520 1547 2258 2358 2465 2596 2740 2861 3039 3174 3337 3468 3472 3479 3481 3493 3498 3501 3512 3514 
+	}
+	manpower=1569300
+	state_category = large_town
+  
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+    
+	history={
+		owner = SAV
+		victory_points = {
+			255 30
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			industrial_complex = 2
+			255 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = SAV
+	}
+	buildings_max_level_factor=1.000
+}

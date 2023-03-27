@@ -1,0 +1,82 @@
+units = {
+	fleet = {
+		name = "Ryzani Petal Navy"			
+		naval_base = 3353
+		task_force = {				
+			name = "Ryzani Petals Task Force"			
+			location = 3353
+			ship = { name = "RNS Duma"  pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Tsar" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Tsar" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Tsar" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Demcracy" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Ryzan Stands" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Toss" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Carthya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Jos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Slout" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Ryzan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+		}
+		task_force = {				
+			name = "Ryzani Petals Destroyer Squadron"			
+			location = 709
+			ship = { name = "RNS Volk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Endurance" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Zikirov" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+		}
+		task_force = {				
+			name = "Ryzani Petals Fast Squadron"			
+			location = 2974
+			ship = { name = "RNS Demcracy" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Endurance" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Zikirov" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+		}
+	}
+	fleet = {
+		name = "Ryzani Southern Fleet"			
+		naval_base = 2506
+		task_force = {				
+			name = "Ryzani Southern Task Force"			
+			location = 2506
+			ship = { name = "RNS Aurlunor-Ryzan" pride_of_the_fleet = yes definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = RYZ  } }			
+				air_wings = { 
+					cv_fighter_equipment_0 =  { owner = "RYZ" amount = 24 }
+					cv_CAS_equipment_1 = { owner = "RYZ" amount = 12 }
+				}
+			}
+			ship = { name = "RNS Duma"  pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Tsar" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Tsar" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Demcracy" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Ryzan Stands" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Ryzan Stands" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Toss" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Carthya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Jos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Slout" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+		}
+		task_force = {				
+			name = "Ryzani Destroyer Squadron"			
+			location = 1980
+			ship = { name = "RNS Volk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Endurance" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Zikirov" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+		}
+		task_force = {				
+			name = "Ryzani Submarine Squadron"			
+			location = 4709
+			ship = { name = "R-1" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = RYZ } } }
+			ship = { name = "R-2" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = RYZ } } }		
+			ship = { name = "R-3" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = RYZ } } }			
+			ship = { name = "R-4" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = RYZ } } }	
+			ship = { name = "R-5" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = RYZ } } }
+		}
+		task_force = {				
+			name = "Ryzani Fast Squadron"			
+			location = 925
+			ship = { name = "RNS Demcracy" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Endurance" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+			ship = { name = "RNS Zikirov" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RYZ } } }
+		}
+	}
+} 

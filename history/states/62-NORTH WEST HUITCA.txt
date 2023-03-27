@@ -1,0 +1,32 @@
+state={
+	id=62
+	state_category = rural
+	name="Upperwest Huitca"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		22 358 1738 2601 3132 3963 
+	}
+	manpower=750000
+	history={
+		owner = HUI
+		victory_points = {
+			1738 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+			1738 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

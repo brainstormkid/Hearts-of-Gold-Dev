@@ -1,0 +1,28 @@
+state={
+	id=239
+	name="Ravgaard"
+	state_category = town
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		927 1446 1884 1888 2780 3131 3180 
+	}
+	manpower=1500000
+	history={
+		owner = OWY
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			3131 10		#Venzor
+		}
+		add_core_of = OWY
+	}
+	buildings_max_level_factor=1.000
+}

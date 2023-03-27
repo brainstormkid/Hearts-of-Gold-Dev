@@ -1,0 +1,25 @@
+state={
+	id=308
+	name="Interium Minor"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		53 141 379 424 1058 1377 1777 1801 1860 1941 1984 2002 2504 2630 3136 4633 4652 4662 4676 
+	}
+	manpower=750000
+	history={
+		owner = VIO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

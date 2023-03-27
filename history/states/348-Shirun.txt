@@ -1,0 +1,26 @@
+state={
+	id=348
+	name="Shirun"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		664 1411 1528 1615 2609 4378 
+	}
+	manpower=750000
+	history={
+		owner = SHR
+		buildings = {
+			arms_factory = 1
+			infrastructure = 2
+		}
+		add_core_of = SHR
+	}
+	buildings_max_level_factor=1.000
+}

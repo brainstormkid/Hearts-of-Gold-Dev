@@ -1,0 +1,26 @@
+
+state={
+	id=251
+	name="Valena"
+	state_category = wasteland
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		258 444 541 1042 1121 2232 2234 3307 3425 3436 3452 3460 3464 
+	}
+	manpower=116769
+	history={
+		owner = ALI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ALI
+	}
+	buildings_max_level_factor=1.000
+}

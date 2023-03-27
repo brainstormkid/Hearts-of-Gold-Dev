@@ -1,0 +1,28 @@
+state={
+	id=198
+	name="Najer'jad"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		277 1235 1427 1594 1808 2259 3540 3560 3567 
+	}
+	manpower=600000
+	history={
+		owner = NAJ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			277 5		#NeoTopia
+		}
+		add_core_of = NAJ
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,39 @@
+division_template = {
+	name = "Kush Infantry"
+
+	#division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+units = {
+	#Kush Army
+	division = {
+		name = "1st Kush Division"
+		location = 4311
+		division_template = "Kush Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd Kush Division"
+		location = 4311
+		division_template = "Kush Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Kush Band"
+		location = 4311
+		division_template = "Kush Infantry"
+		start_experience_factor = 0.3
+	}

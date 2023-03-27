@@ -1,0 +1,28 @@
+state={
+	id=232
+	name="Braunfels"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		40 117 209 265 323 768 2068 2130 2437 3925 3938 3950 
+	}
+	manpower=600000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			265 5
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

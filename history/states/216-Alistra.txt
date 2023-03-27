@@ -1,0 +1,25 @@
+state={
+	id=216
+	name="Alistra"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		609 1094 1246 1696 1772 1995 2041 2623 2737 2909 2932 2972 3364 3784 3794 3797 3815 
+	}
+	manpower=114843
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

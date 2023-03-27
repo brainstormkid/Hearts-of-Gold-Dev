@@ -1,0 +1,13 @@
+units = {
+	fleet = {
+		name = "Wivamovia Fleet"			
+		naval_base = 1942
+		task_force = {				
+			name = "Wivamovia Fleet'"			
+			location = 2997
+			ship = { name = "SNS Indominus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = WIV } } }	
+			ship = { name = "SNS Avondale" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = WIV } } }	
+			ship = { name = "SNS Hinomir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = WIV } } }	
+		}								
+	}
+} 

@@ -1,0 +1,77 @@
+division_template = {
+	name = "Ardat Infantry"
+
+	#division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+units = {
+	#Ardat Army
+	division = {
+		name = "1st Ardatian Infantry Division"
+		location = 957
+		division_template = "Ardat Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd Ardatian Infantry Division"
+		location = 957
+		division_template = "Ardat Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3rd Ardatian Infantry Division"
+		location = 957
+		division_template = "Ardat Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4th Ardatian Infantry Division"
+		location = 3254
+		division_template = "Ardat Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5th Ardatian Infantry Division"
+		location = 3254
+		division_template = "Ardat Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6th Ardatian Infantry Division"
+		location = 1057
+		division_template = "Ardat Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "7th Ardatian Infantry Division"
+		location = 1057
+		division_template = "Ardat Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8th Ardatian Infantry Division"
+		location = 1675
+		division_template = "Ardat Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "9th Ardatian Infantry Division"
+		location = 1675
+		division_template = "Ardat Infantry"
+		start_experience_factor = 0.3
+	}
+}

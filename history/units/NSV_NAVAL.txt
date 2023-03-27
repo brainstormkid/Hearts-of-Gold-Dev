@@ -1,0 +1,13 @@
+units = {
+	fleet = {
+		name = "Grib Fleet"			
+		naval_base = 3485
+		task_force = {				
+			name = "New Syltor Fleet'"			
+			location = 3485
+			ship = { name = "NSNS Gaming" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NSV } } }
+			ship = { name = "NSNS Neu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NSV } } }
+			ship = { name = "NSNS Gribbits" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = NSV } } }	
+		}								
+	}
+} 

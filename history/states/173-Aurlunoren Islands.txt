@@ -1,0 +1,35 @@
+state={
+	id=173
+	state_category = town
+	name="Aurlunoren Islands"
+ 
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+
+	provinces={
+		1305 2297 2854 2894 2944 3722 
+	}
+	history={
+		owner = ARL
+		victory_points = {
+			2894 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+                  2894 = {
+                      naval_base = 1
+                  }
+
+		}
+		add_core_of = ARL
+	}
+	manpower=1950000
+	buildings_max_level_factor=1.000
+}

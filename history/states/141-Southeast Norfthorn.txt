@@ -1,0 +1,32 @@
+state={
+	id=141
+	name="Southeast Norfthorn"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		442 606 1580 2119 3544 3547 3553 3554 3563 
+	}
+	manpower=750000
+	history={
+		owner = NRF
+		victory_points = {
+			3544 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			3544 = {
+				supply_node = 1
+			}
+		}
+		add_core_of = NRF
+	}
+	buildings_max_level_factor=1.000
+}

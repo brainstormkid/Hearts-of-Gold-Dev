@@ -1,0 +1,25 @@
+state={
+	id=227
+	name="Rieds"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		544 624 1138 1402 1670 2491 3162 3831 3842 3854 
+	}
+	manpower=1050000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

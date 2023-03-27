@@ -1,0 +1,32 @@
+state={
+	id=357
+	name="Leythe Countryside"
+	state_category = town
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		23 170 375 696 775 1103 1200 1267 1681 2265 3089 3128 3360 3388 4227 4235 4236 4251 4274 4297 
+	}
+	manpower=2250000
+	history={
+		owner = LEY
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			4251 5		#Kringal
+		}
+		victory_points = {
+			4227 5		#Calioptergrad
+		}
+		add_core_of = LEY
+	}
+	buildings_max_level_factor=1.000
+}

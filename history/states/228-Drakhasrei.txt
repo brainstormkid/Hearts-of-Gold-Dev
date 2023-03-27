@@ -1,0 +1,29 @@
+state={
+	id=228
+	name="Drakhasrei"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		112 238 1721 2935 3135 3846 
+	}
+	manpower=750000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			112 5
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

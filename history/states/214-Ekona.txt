@@ -1,0 +1,26 @@
+
+state={
+	id=214
+	name="Ekona"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		695 950 1175 1685 2583 2748 2922 3071 3680 3717 3733 
+	}
+	manpower=74442
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

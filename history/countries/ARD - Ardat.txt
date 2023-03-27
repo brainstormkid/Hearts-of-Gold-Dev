@@ -1,0 +1,82 @@
+﻿capital = 172
+
+oob = "ARD_1936"
+set_naval_oob = "ARD_NAVAL"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	transport = 1
+	gwtank = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_submarine = 1
+	support_weapons = 1
+}
+
+add_ideas = {
+	volunteer_only
+}
+
+set_convoys = 15
+
+build_railway = {
+	level = 3
+	start_province = 957
+	target_province = 1057
+}
+
+build_railway = {
+	level = 3
+	start_province = 957
+	target_province = 3254
+}
+
+# DIPLOMACY
+BAR = {
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_autonomy = {
+			target = ARD
+			autonomous_state = autonomy_dominion
+			freedom_level = 0.35
+		}
+		else = {
+			puppet = ARD
+		}
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Axyr"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/ARD/Axyr.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

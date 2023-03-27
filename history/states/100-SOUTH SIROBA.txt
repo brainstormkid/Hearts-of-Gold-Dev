@@ -1,0 +1,26 @@
+
+state={
+	id=100
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	name="South Siroba"
+	provinces={
+		817 911 1510 1511 1684 1703 1778 1978 2064 2254 2762 3025 3873 3876 3880 
+	}
+	manpower=900000
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

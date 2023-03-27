@@ -1,0 +1,102 @@
+division_template = {
+	name = "Nebskoslavian Infantry"
+
+	#division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+units = {
+	#NEB Army
+	division = {
+		division_name = { "Slout Division"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 1286
+		division_template = "Nebskoslavian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = { "Bear Regiment"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 1286
+		division_template = "Nebskoslavian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = { "Korol Regiment"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 1286
+		division_template = "Nebskoslavian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = { "Independence Regiment"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 1286
+		division_template = "Nebskoslavian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = { "Revolution Guard"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 3599
+		division_template = "Nebskoslavian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = { "Poggers Guard"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 3599
+		division_template = "Nebskoslavian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = { "Nebsko Band"
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3599
+		division_template = "Nebskoslavian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = { "Slouttawa Garrison"
+			is_name_ordered = yes
+			name_order = 1
+		}
+
+		location = 3593
+		division_template = "Nebskoslavian Infantry"
+		start_experience_factor = 0.3
+	}
+}

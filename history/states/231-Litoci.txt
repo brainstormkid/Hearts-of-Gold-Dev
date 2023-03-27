@@ -1,0 +1,28 @@
+state={
+	id=231
+	name="Litoci"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		636 717 1549 2665 2857 2910 3181 3229 3924 3932 3946 
+	}
+	manpower=900000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			3924 10
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

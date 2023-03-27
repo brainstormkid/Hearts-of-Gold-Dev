@@ -1,0 +1,27 @@
+
+state={
+	id=377
+	name="Cobbleworks"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		537 700 978 1025 1233 2482 2520 2856 3201 4186 4189 4198 4206 4209 
+	}
+	manpower=1350000
+	history={
+		owner = COB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = COB
+	}
+	buildings_max_level_factor=1.000
+}

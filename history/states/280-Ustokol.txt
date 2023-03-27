@@ -1,0 +1,36 @@
+
+state={
+	id=280
+	name="Ustokol"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+
+	history={
+		owner = NRM
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			4688 5 
+		}
+		victory_points = {
+			593 15 
+		}
+		add_core_of = NRM
+	}
+
+	provinces={
+		593 4688 
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

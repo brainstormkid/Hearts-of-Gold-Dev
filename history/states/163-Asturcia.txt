@@ -1,0 +1,25 @@
+state={
+	id=163
+	state_category = rural
+	name="Asturcia"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		161 329 742 1187 1365 1857 1926 2287 2328 3266 3346 4041 4043 
+	}
+	manpower=750000
+	history={
+		owner = CAV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CAV
+	}
+	buildings_max_level_factor=1.000
+}

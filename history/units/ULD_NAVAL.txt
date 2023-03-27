@@ -1,0 +1,48 @@
+units = {
+	fleet = {
+		name = "Aurora Fleet"			
+		naval_base = 4312
+		task_force = {				
+			name = "Task Force Fornost"			
+			location = 4312
+			ship = { name = "UNS Canine" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "UNS Knight" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "UNS Terroja" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "UNS Poo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }		
+		}								
+	}
+	fleet = {
+		name = "Uldarash Fleet"			
+		naval_base = 928
+		task_force = {				
+			name = "Task Force North"			
+			location = 928
+			ship = { name = "UNS Knight" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "UNS Tequila" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "UNS Sancturary" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "UNS Paloro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }		
+		}								
+	}
+	fleet = {
+		name = "Lake Patrol"			
+		naval_base = 586
+		task_force = {				
+			name = "Interior Task Force"			
+			location = 586
+			ship = { name = "UNS Survey" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "UNS Savior" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "UNS Boulder" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+		}								
+	}
+	fleet = {
+		name = "Haven Patrol"			
+		naval_base = 1488
+		task_force = {				
+			name = "Interior Task Force"			
+			location = 1488
+			ship = { name = "UNS Chev" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "UNS Kri" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+			ship = { name = "UNS Aurora" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAV } } }
+		}								
+	}
+}

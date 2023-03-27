@@ -1,0 +1,25 @@
+state={
+	id=324
+	name="Last Bastion"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		195 691 1002 1566 2067 2463 2546 3298 3339 3990 4010 4019 4049 4065 
+	}
+	manpower=297723
+	history={
+		owner = SRF
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SRF
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=380
+	state_category = town
+	name="Walmart"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		1020 2950 3210 4449 4458 
+	}
+	manpower=115530
+	history={
+		owner = VAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3 
+		}
+		add_core_of = VAN
+	}
+	buildings_max_level_factor=1.000
+}
