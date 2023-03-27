@@ -1,0 +1,419 @@
+form_andorn_category = {
+
+	form_andorn = {
+	
+		icon = generic_formable_nations
+
+		allowed = {
+			OR = {
+				original_tag = SAV
+			}
+		}
+		available = {
+			is_subject = no
+			# Wivamovia
+				controls_state = 128
+				controls_state = 125
+				controls_state = 131
+			# Heli
+				controls_state = 133
+				controls_state = 134
+			# Savras
+				controls_state = 130
+				controls_state = 136
+				controls_state = 135
+				controls_state = 137
+				controls_state = 129
+				controls_state = 123
+			# Askonia
+				controls_state = 126
+				controls_state = 127
+		}
+		
+		visible = {
+			OR = {
+				original_tag = SAV
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = AND
+			# Wivamovia
+			hidden_effect = {
+				128 = { add_core_of = SAV }
+				125 = { add_core_of = SAV }
+				131 = { add_core_of = SAV }
+			}
+			# Heli
+			hidden_effect = {
+				133 = { add_core_of = SAV }
+				134 = { add_core_of = SAV }
+			}
+			# Savras
+			hidden_effect = {
+				130 = { add_core_of = SAV }
+				136 = { add_core_of = SAV }
+				135 = { add_core_of = SAV }
+				137 = { add_core_of = SAV }
+				129 = { add_core_of = SAV }
+				123 = { add_core_of = SAV }
+			}
+			# Askonia
+			hidden_effect = {
+				126 = { add_core_of = SAV }
+				127 = { add_core_of = SAV }
+			hidden_effect = {
+				set_country_flag = AND
+				}
+			}
+		}
+	}
+}
+form_aurlunorryzan_category = {
+
+	form_aurlunorryzan = {
+
+		icon = generic_formable_nations
+
+		allowed = {
+			OR = {
+				original_tag = ARL
+				original_tag = RYZ
+			}
+		}
+		available = {
+			is_subject = no
+			# Aurlunor
+				controls_state = 166
+				controls_state = 171
+				controls_state = 172
+				controls_state = 175
+				controls_state = 174
+				controls_state = 176
+				controls_state = 173
+				controls_state = 169
+				controls_state = 177
+				controls_state = 168
+				controls_state = 167
+			# Ryzan
+				controls_state = 118
+				controls_state = 194
+				controls_state = 116
+				controls_state = 117
+				controls_state = 432
+				controls_state = 120
+				controls_state = 119
+				controls_state = 122
+				controls_state = 121
+				controls_state = 410
+		}
+		
+		visible = {
+			OR = {
+				original_tag = ARL
+				original_tag = RYZ
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ARE
+			# Aurlunor
+			hidden_effect = {
+				166 = { add_core_of = ROOT }
+				171 = { add_core_of = ROOT }
+				172 = { add_core_of = ROOT }
+				175 = { add_core_of = ROOT }
+				174 = { add_core_of = ROOT }
+				176 = { add_core_of = ROOT }
+				173 = { add_core_of = ROOT }
+				169 = { add_core_of = ROOT }
+				177 = { add_core_of = ROOT }
+				168 = { add_core_of = ROOT }
+				167 = { add_core_of = ROOT }
+			}
+			# Ryzan
+			hidden_effect = {
+				118 = { add_core_of = ROOT }
+				194 = { add_core_of = ROOT }
+				116 = { add_core_of = ROOT }
+				117 = { add_core_of = ROOT }
+				432 = { add_core_of = ROOT }
+				120 = { add_core_of = ROOT }
+				119 = { add_core_of = ROOT }
+				122 = { add_core_of = ROOT }
+				121 = { add_core_of = ROOT }
+				410 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_country_flag = ARE
+			}
+		}
+	}
+}
+form_sinatramafia_category = {
+
+	form_sinatramafia = {
+
+		icon = generic_formable_nations
+
+		allowed = {
+			OR = {
+				original_tag = SIN
+				original_tag = SEW
+			}
+		}
+		available = {
+			is_subject = no
+			# Sinatra
+				controls_state = 38
+				controls_state = 45
+			# Sewer
+				controls_state = 39
+				controls_state = 43
+				controls_state = 42
+				controls_state = 44
+		}
+		
+		visible = {
+			OR = {
+				original_tag = SIN
+				original_tag = SEW
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SNM_neutrality
+			# Sewer Mafia
+			hidden_effect = {
+				42 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				43 = { add_core_of = ROOT }
+				44 = { add_core_of = ROOT }
+			}
+			# Sinatra
+			hidden_effect = {
+				38 = { add_core_of = ROOT }
+				45 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				#set_global_flag = form_scandinavia_flag
+			}
+		}
+	}
+}
+form_simulami_category = {
+
+	form_simulami = {
+
+		icon = generic_formable_nations
+
+		allowed = {
+			OR = {
+				original_tag = FLR
+				original_tag = MUV
+				original_tag = KRO
+			}
+		}
+		available = {
+			is_subject = no
+			# Floramia
+				controls_state = 185
+				controls_state = 186
+				controls_state = 189
+				controls_state = 195
+				controls_state = 191
+				controls_state = 190
+				controls_state = 197
+				controls_state = 187
+				controls_state = 192
+			# Muvielle
+				controls_state = 196
+				controls_state = 193
+			# Krobun
+				controls_state = 188
+		}
+		
+		visible = {
+			OR = {
+				original_tag = FLR
+				original_tag = MUV
+				original_tag = KRO
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SIM_neutrality
+			# Floramia
+			hidden_effect = {
+				185 = { add_core_of = ROOT }
+				186 = { add_core_of = ROOT }
+				189 = { add_core_of = ROOT }
+				195 = { add_core_of = ROOT }
+				191 = { add_core_of = ROOT }
+				190 = { add_core_of = ROOT }
+				197 = { add_core_of = ROOT }
+				187 = { add_core_of = ROOT }
+				192 = { add_core_of = ROOT }
+			}
+			# Muvielle
+			hidden_effect = {
+				196 = { add_core_of = ROOT }
+				193 = { add_core_of = ROOT }
+			}
+			#Krobun
+			hidden_effect = {
+				188 = { add_core_of = ROOT }
+			}
+			
+			hidden_effect = {
+				#set_global_flag = form_scandinavia_flag
+			}
+		}
+	}
+}
+form_ombria_category = {
+
+	form_ombria = {
+
+		icon = generic_formable_nations
+
+		allowed = {
+			OR = {
+				original_tag = CAV
+			}
+		}
+		available = {
+			is_subject = no
+			# Carvay
+				controls_state = 163
+				controls_state = 209
+				controls_state = 165
+				controls_state = 164
+				controls_state = 162
+				controls_state = 161
+				controls_state = 65
+		}
+		
+		visible = {
+			OR = {
+				original_tag = CAV 
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = OMA_neutrality
+			# Carvay
+			hidden_effect = {
+				163 = { add_core_of = ROOT }
+				209 = { add_core_of = ROOT }
+				165 = { add_core_of = ROOT }
+				164 = { add_core_of = ROOT }
+				162 = { add_core_of = ROOT }
+				161 = { add_core_of = ROOT }
+				65  = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				#set_global_flag = form_scandinavia_flag
+			}
+		}
+	}
+}
+form_yimmuaudal_category = {
+
+	form_yimmuaudal = {
+
+		icon = generic_formable_nations
+
+		allowed = {
+			OR = {
+				original_tag = THI
+				original_tag = SRF
+			}
+		}
+		available = {
+			is_subject = no
+			# Theios
+				controls_state = 107
+				controls_state = 101
+				controls_state = 108
+				controls_state = 96
+				controls_state = 109
+				controls_state = 102
+				controls_state = 98
+				controls_state = 111
+				controls_state = 97
+				controls_state = 422
+				controls_state = 106
+				controls_state = 105
+				controls_state = 103
+				controls_state = 102
+				controls_state = 94
+				controls_state = 95
+				controls_state = 104
+				controls_state = 100
+				controls_state = 93
+				controls_state = 112
+				controls_state = 113
+				controls_state = 99
+				controls_state = 115
+				controls_state = 114
+				controls_state = 431
+			#Azuria
+				controls_state = 322
+				controls_state = 325
+				controls_state = 324
+				controls_state = 323
+				controls_state = 326
+		}
+		
+		visible = {
+			OR = {
+				original_tag = THI
+				original_tag = SRF
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = YIA_neutrality
+			# Theios
+			hidden_effect = {
+				107 = { add_core_of = ROOT }
+				101 = { add_core_of = ROOT }
+				108 = { add_core_of = ROOT }
+				96 = { add_core_of = ROOT }
+				109 = { add_core_of = ROOT }
+				102 = { add_core_of = ROOT }
+				98  = { add_core_of = ROOT }
+				111 = { add_core_of = ROOT }
+				97  = { add_core_of = ROOT }
+				422 = { add_core_of = ROOT }
+				106 = { add_core_of = ROOT }
+				105 = { add_core_of = ROOT }
+				103 = { add_core_of = ROOT }
+				102 = { add_core_of = ROOT }
+				94 = { add_core_of = ROOT }
+				95 = { add_core_of = ROOT }
+				104 = { add_core_of = ROOT }
+				100 = { add_core_of = ROOT }
+				93 = { add_core_of = ROOT }
+				112 = { add_core_of = ROOT }
+				113 = { add_core_of = ROOT }
+				99 = { add_core_of = ROOT }
+				140 = { add_core_of = ROOT }
+				114 = { add_core_of = ROOT }
+				431 = { add_core_of = ROOT }
+			}
+			# Azuria
+			hidden_effect = {
+				322  = { add_core_of = ROOT }
+				325  = { add_core_of = ROOT }
+				324  = { add_core_of = ROOT }
+				323  = { add_core_of = ROOT }
+				326  = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				#set_global_flag = form_scandinavia_flag
+			}
+		}
+	}
+}

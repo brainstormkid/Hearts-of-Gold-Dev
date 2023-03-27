@@ -1,0 +1,545 @@
+SAV_officer_training = {
+
+	SAV_thunder_training = {
+		
+		icon = generic_nationalism
+		
+		available = {
+			has_SAV_thunder = 1
+		}
+		
+		fire_only_once = no
+		
+		cost = 50
+		
+		days_remove = 90
+		
+		activation = {			
+			has_SAV_thunder = 1
+		}
+		
+		days_re_enable = 120
+		
+		remove_effect = {
+			SAV_thunder = {
+				add_random_trait = { 
+					old_guard 
+					brilliant_strategist 
+					inflexible_strategist
+					politically_connected
+					war_hero
+					career_officer
+					trait_cautious
+					trait_reckless
+					media_personality
+					harsh_leader
+					bearer_of_artillery
+					infantry_officer
+					cavalry_officer
+					armor_officer
+					engineer_officer
+					piglin_cannibal
+					confused
+					colourblind
+					promising_general
+					jungle_girl
+					fireflight
+					bleeding_heart
+					midnight_poppy
+					vigilant_sentinel
+					queen_terror
+					goddess_of_the_night
+				}
+			}
+		}
+	}
+	SAV_realz_training = {
+		
+		icon = generic_nationalism
+		
+		available = {
+			has_SAV_realz = 1
+		}
+		
+		fire_only_once = no
+		
+		cost = 50
+		
+		days_remove = 90
+		
+		activation = {			
+			has_SAV_realz = 1
+		}
+		
+		days_re_enable = 120
+		
+		remove_effect = {
+			SAV_realz = {
+				add_random_trait = { 
+					old_guard 
+					brilliant_strategist 
+					inflexible_strategist
+					politically_connected
+					war_hero
+					career_officer
+					trait_cautious
+					trait_reckless
+					media_personality
+					harsh_leader
+					bearer_of_artillery
+					infantry_officer
+					cavalry_officer
+					armor_officer
+					engineer_officer
+					piglin_cannibal
+					confused
+					colourblind
+					promising_general
+					jungle_girl
+					fireflight
+					bleeding_heart
+					midnight_poppy
+					vigilant_sentinel
+					queen_terror
+					goddess_of_the_night
+				}
+			}
+		}
+	}
+	SAV_lucius_training = {
+		
+		icon = generic_nationalism
+		
+		available = {
+			has_SAV_lucius = 1
+		}
+		
+		fire_only_once = no
+		
+		cost = 50
+		
+		days_remove = 90
+		
+		activation = {			
+			has_SAV_lucius = 1
+		}
+		
+		days_re_enable = 120
+		
+		remove_effect = {
+			SAV_lucius = {
+				add_random_trait = { 
+					old_guard 
+					brilliant_strategist 
+					inflexible_strategist
+					politically_connected
+					war_hero
+					career_officer
+					trait_cautious
+					trait_reckless
+					media_personality
+					harsh_leader
+					bearer_of_artillery
+					infantry_officer
+					cavalry_officer
+					armor_officer
+					engineer_officer
+					piglin_cannibal
+					confused
+					colourblind
+					promising_general
+					jungle_girl
+					fireflight
+					bleeding_heart
+					midnight_poppy
+					vigilant_sentinel
+					queen_terror
+					goddess_of_the_night
+				}
+			}
+		}
+	}
+	SAV_svinn_training = {
+		
+		icon = generic_nationalism
+		
+		available = {
+			has_SAV_svinn = 1
+		}
+		
+		fire_only_once = no
+		
+		cost = 50
+		
+		days_remove = 90
+		
+		activation = {			
+			has_SAV_svinn = 1
+		}
+		
+		days_re_enable = 120
+		
+		remove_effect = {
+			SAV_svinn = {
+				add_random_trait = { 
+					old_guard 
+					brilliant_strategist 
+					inflexible_strategist
+					politically_connected
+					war_hero
+					career_officer
+					trait_cautious
+					trait_reckless
+					media_personality
+					harsh_leader
+					bearer_of_artillery
+					infantry_officer
+					cavalry_officer
+					armor_officer
+					engineer_officer
+					piglin_cannibal
+					confused
+					colourblind
+					promising_general
+					jungle_girl
+					fireflight
+					bleeding_heart
+					midnight_poppy
+					vigilant_sentinel
+					queen_terror
+					goddess_of_the_night
+				}
+			}
+		}
+	}
+	SAV_skhorse_training = {
+		
+		icon = generic_nationalism
+		
+		available = {
+			has_SAV_skhorse = 1
+		}
+		
+		fire_only_once = no
+		
+		cost = 50
+		
+		days_remove = 90
+		
+		activation = {			
+			has_SAV_skhorse = 1
+		}
+		
+		days_re_enable = 120
+		
+		remove_effect = {
+			SAV_skhorse = {
+				add_random_trait = { 
+					old_guard 
+					brilliant_strategist 
+					inflexible_strategist
+					politically_connected
+					war_hero
+					career_officer
+					trait_cautious
+					trait_reckless
+					media_personality
+					harsh_leader
+					bearer_of_artillery
+					infantry_officer
+					cavalry_officer
+					armor_officer
+					engineer_officer
+					piglin_cannibal
+					confused
+					colourblind
+					promising_general
+					jungle_girl
+					fireflight
+					bleeding_heart
+					midnight_poppy
+					vigilant_sentinel
+					queen_terror
+					goddess_of_the_night
+				}
+			}
+		}
+	}
+	SAV_duel123abc_training = {
+		
+		icon = generic_nationalism
+		
+		available = {
+			has_SAV_duel123abc = 1
+		}
+		
+		fire_only_once = no
+		
+		cost = 50
+		
+		days_remove = 90
+		
+		activation = {			
+			has_SAV_skhorse = 1
+		}
+		
+		days_re_enable = 120
+		
+		remove_effect = {
+			SAV_duel123abc = {
+				add_random_trait = { 
+					old_guard 
+					brilliant_strategist 
+					inflexible_strategist
+					politically_connected
+					war_hero
+					career_officer
+					trait_cautious
+					trait_reckless
+					media_personality
+					harsh_leader
+					bearer_of_artillery
+					infantry_officer
+					cavalry_officer
+					armor_officer
+					engineer_officer
+					piglin_cannibal
+					confused
+					colourblind
+					promising_general
+					jungle_girl
+					fireflight
+					bleeding_heart
+					midnight_poppy
+					vigilant_sentinel
+					queen_terror
+					goddess_of_the_night
+				}
+			}
+		}
+	}
+	SAV_capna_training = {
+		
+		icon = generic_nationalism
+		
+		available = {
+			has_SAV_capna = 1
+		}
+		
+		fire_only_once = no
+		
+		cost = 50
+		
+		days_remove = 90
+		
+		activation = {			
+			has_SAV_capna = 1
+		}
+		
+		days_re_enable = 120
+		
+		remove_effect = {
+			SAV_capna = {
+				add_random_trait = {
+					old_guard 
+					brilliant_strategist 
+					inflexible_strategist
+					politically_connected
+					war_hero
+					career_officer
+					trait_cautious
+					trait_reckless
+					media_personality
+					harsh_leader
+					bearer_of_artillery
+					infantry_officer
+					cavalry_officer
+					armor_officer
+					engineer_officer
+					piglin_cannibal
+					confused
+					colourblind
+					promising_general
+					jungle_girl
+					fireflight
+					bleeding_heart
+					midnight_poppy
+					vigilant_sentinel
+					queen_terror
+					goddess_of_the_night
+				}
+			}
+		}
+	}
+	SAV_patchr_training = {
+		
+		icon = generic_nationalism
+		
+		available = {
+			has_SAV_patchr = 1
+		}
+		
+		fire_only_once = no
+		
+		cost = 50
+		
+		days_remove = 90
+		
+		activation = {			
+			has_SAV_patchr = 1
+		}
+		
+		days_re_enable = 120
+		
+		remove_effect = {
+			SAV_patchr = {
+				add_random_trait = { 
+					old_guard 
+					brilliant_strategist 
+					inflexible_strategist
+					politically_connected
+					war_hero
+					career_officer
+					trait_cautious
+					trait_reckless
+					media_personality
+					harsh_leader
+					bearer_of_artillery
+					infantry_officer
+					cavalry_officer
+					armor_officer
+					engineer_officer
+					piglin_cannibal
+					confused
+					colourblind
+					promising_general
+					jungle_girl
+					fireflight
+					bleeding_heart
+					midnight_poppy
+					vigilant_sentinel
+					queen_terror
+					goddess_of_the_night
+				}
+			}
+		}
+	}
+}
+
+SAV_brews = {
+
+	SAV_areskan_cognac = {
+		
+		icon = generic_nationalism
+		
+		fire_only_once = yes
+		
+		cost = 100
+		
+		complete_effect = {
+			random_list = {
+				12.5 = {
+					add_stability = 0.1
+				}
+				12.5 = {
+					add_manpower = 10000
+				}
+				12.5 = {
+					add_war_support = 0.1
+				}
+				12.5 = {
+					army_experience = 25
+				}
+				12.5 = {
+					air_experience = 25
+				}
+				12.5 = {
+					navy_experience = 25
+				}
+				12.5 = {
+					add_command_power = 25
+				}
+				12.5 = {
+					add_popularity = {
+						ideology = ROOT
+						popularity = 0.1
+					}
+				}
+			}
+			random_list = {
+				25 = {
+					add_stability = -0.01
+				}
+				25 = {
+					add_manpower = -1000
+				}
+				25 = {
+					add_war_support = -0.01
+				}
+				25 = {
+					add_popularity = {
+						ideology = ROOT
+						popularity = -0.01
+					}
+				}
+			}
+		}
+	}
+	SAV_pogdrink = {
+		
+		icon = generic_nationalism
+		
+		fire_only_once = yes
+		
+		cost = 100
+		
+		complete_effect = {		
+			random_list = {
+				12.5 = {
+					add_stability = 0.05
+				}
+				12.5 = {
+					add_manpower = 10000
+				}
+				12.5 = {
+					add_war_support = 0.05
+				}
+				12.5 = {
+					army_experience = 25
+				}
+				12.5 = {
+					air_experience = 25
+				}
+				12.5 = {
+					navy_experience = 25
+				}
+				12.5 = {
+					add_command_power = 25
+				}
+				12.5 = {
+					add_popularity = {
+						ideology = ROOT
+						popularity = 0.05
+					}
+				}
+			}
+			random_list = {
+				25 = {
+					add_stability = -0.01
+				}
+				25 = {
+					add_manpower = -1000
+				}
+				25 = {
+					add_war_support = -0.01
+				}
+				25 = {
+					add_popularity = {
+						ideology = ROOT
+						popularity = -0.01
+					}
+				}
+			}
+		}
+	}
+}

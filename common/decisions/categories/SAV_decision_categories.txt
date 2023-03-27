@@ -1,0 +1,11 @@
+SAV_officer_training = {
+	allowed = {
+		original_tag = SAV
+	}
+}
+
+SAV_brews = {
+	allowed = {
+		original_tag = SAV
+	}
+}
