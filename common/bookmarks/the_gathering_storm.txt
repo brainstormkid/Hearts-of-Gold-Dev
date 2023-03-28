@@ -19,6 +19,11 @@ bookmarks = {
 
 		"SAV"={
 			history = "SAV_GATHERING_STORM_DESC"
+			ideas = {
+				population_crisis
+				undeveloped_infrastructure
+				disunified_government
+			}
 		}
 
 		"BAR"={

@@ -13,7 +13,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_build_infrastructure
+			picture = andorn_spirit
 
 			modifier = {
 				monthly_population = -0.15
@@ -31,7 +31,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_build_infrastructure
+			picture = andorn_spirit
 
 			modifier = {
 				army_core_attack_factor = -0.20
@@ -50,7 +50,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_build_infrastructure
+			picture = andorn_spirit
 
 			modifier = {
 				stability_weekly = -0.05
@@ -68,7 +68,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_build_infrastructure
+			picture = andorn_spirit
 
 			modifier = {
 				stability_weekly = 0.05
@@ -89,7 +89,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_build_infrastructure
+			picture = andorn_spirit
 
 			modifier = {
 				war_support_weekly = 0.01

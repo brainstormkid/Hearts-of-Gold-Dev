@@ -39,4 +39,8 @@ spriteTypes = {
 		name = "GFX_idea_ryzan_spirit"
 		texturefile = "gfx/interface/ideas/idea_ryzan_spirit.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_andorn_spirit"
+		texturefile = "gfx/interface/ideas/idea_andorn_spirit.dds"
+	}
 }
