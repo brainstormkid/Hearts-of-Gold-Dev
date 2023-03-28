@@ -4,7 +4,7 @@ tags={
 	"Alternative History"
 	"Events"
 }
-name="DEV ATTEMPT 1"
+name="GitDev"
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"

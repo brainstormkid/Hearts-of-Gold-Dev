@@ -31,3 +31,8 @@ YIA_neutrality = {
 	color = rgb { 204 255 255 }
 	color_ui = rgb { 204 255 255 }
 }
+
+GEB = {
+	color = rgb { 204 255 255 }
+	color_ui = rgb { 204 255 255 }
+}

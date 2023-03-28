@@ -293,3 +293,13 @@ form_yimmuaudal_category = {
 		}
 	}
 }
+form_greater_nebskoslavia_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		OR = {
+			original_tag = NEB
+		}
+	}
+}

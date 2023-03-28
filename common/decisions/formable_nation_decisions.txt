@@ -417,3 +417,54 @@ form_yimmuaudal_category = {
 		}
 	}
 }
+form_greater_nebskoslavia_category = {
+
+	form_nebskoslavia = {
+	
+		icon = generic_formable_nations
+
+		allowed = {
+			OR = {
+				original_tag = NEB
+			}
+		}
+		available = {
+			is_subject = no
+			# Nebskoslavia
+				controls_state = 122
+			# Ryzan
+				controls_state = 121
+				controls_state = 120
+				controls_state = 119
+			# Bardonia	
+				controls_state = 72
+		}
+		
+		visible = {
+			OR = {
+				original_tag = NEB
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = GEB
+			# Nebskoslavia
+			hidden_effect = {
+				122 = { add_core_of = NEB }
+			}
+			# Ryzan
+			hidden_effect = {
+				121 = { add_core_of = NEB }
+				120 = { add_core_of = NEB }
+				119 = { add_core_of = NEB }
+			}
+			# Bardonia
+			hidden_effect = {
+				72 = { add_core_of = NEB }
+			}
+			hidden_effect = {
+				#set_country_flag = NEB
+			}
+		}
+	}
+}
