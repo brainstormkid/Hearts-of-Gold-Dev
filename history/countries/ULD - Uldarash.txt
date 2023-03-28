@@ -409,8 +409,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Uldarash Diarchy"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/ULD/Diarchy.dds"
+	desc = "POLITICS_ULDARASH_DIARCHY_DESC"
+	picture = "gfx/leaders/ULD/qwaser.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
