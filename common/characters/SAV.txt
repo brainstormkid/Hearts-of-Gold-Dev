@@ -64,6 +64,7 @@ characters={
 		name = thunderfantv
 		portraits={
 			army={
+				large="gfx/leaders/SAV/thunderfantv.dds"
 				small="GFX_idea_ice"
 			}
 		}
