@@ -35,4 +35,8 @@ spriteTypes = {
 		name = "GFX_idea_josbar"
 		texturefile = "gfx/interface/ideas/idea_josbar.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_ryzan_spirit"
+		texturefile = "gfx/interface/ideas/idea_ryzan_spirit.dds"
+	}
 }
