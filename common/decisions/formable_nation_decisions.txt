@@ -468,3 +468,51 @@ form_greater_nebskoslavia_category = {
 		}
 	}
 }
+form_chonky_deutzan_category = {
+
+	form_chonky_duetzan = {
+	
+		icon = generic_formable_nations
+
+		allowed = {
+			OR = {
+				original_tag = DEU
+			}
+		}
+		available = {
+			is_subject = no
+			# Deutzan
+				controls_state = 118
+			# Ryzan
+				controls_state = 194
+				controls_state = 116
+				controls_state = 117
+				controls_state = 410
+		}
+		
+		visible = {
+			OR = {
+				original_tag = DEU
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = CEU
+			# Deutzan
+			hidden_effect = {
+				118 = { add_core_of = DEU }
+			}
+			# Ryzan
+			hidden_effect = {
+				194 = { add_core_of = DEU }
+				116 = { add_core_of = DEU }
+				117 = { add_core_of = DEU }
+				410 = { add_core_of = DEU }
+			}
+			}
+			hidden_effect = {
+				#set_country_flag = CEU
+			}
+		}
+	}
+}
