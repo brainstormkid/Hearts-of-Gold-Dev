@@ -25,12 +25,6 @@ add_ideas = {
 	volunteer_only
 }
 
-build_railway = {
-	level = 3
-	start_province = 1394
-	target_province = 3544
-}
-
 # DIPLOMACY
 SAV = {
 	if = {
