@@ -39,66 +39,6 @@ add_ideas = {
 
 set_convoys = 30
 
-build_railway = {
-	level = 3
-	start_province = 1969
-	target_province = 4702
-}
-
-build_railway = {
-	level = 3
-	start_province = 1969
-	target_province = 1351
-}
-
-build_railway = {
-	level = 3
-	start_province = 1351
-	target_province = 286
-}
-
-build_railway = {
-	level = 3
-	start_province = 1351
-	target_province = 2394
-}
-
-build_railway = {
-	level = 3
-	start_province = 2394
-	target_province = 229
-}
-
-build_railway = {
-	level = 3
-	start_province = 229
-	target_province = 255
-}
-
-build_railway = {
-	level = 3
-	start_province = 255
-	target_province = 2258
-}
-
-build_railway = {
-	level = 3
-	start_province = 2258
-	target_province = 2813
-}
-
-build_railway = {
-	level = 3
-	start_province = 2813
-	target_province = 841
-}
-
-build_railway = {
-	level = 3
-	start_province = 841
-	target_province = 3420
-}
-
 1939.1.1 = {
 
 	add_political_power = 1198
