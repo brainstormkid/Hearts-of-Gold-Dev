@@ -19,6 +19,16 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
+			1329 = {
+				naval_base = 4
+			}
+			4720 = {
+				naval_base = 1
+			}
+			4721 = {
+				naval_base = 1
+			}
+
 		}
 		add_core_of = SEW
 	}

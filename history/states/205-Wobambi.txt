@@ -19,6 +19,9 @@ state={
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 3
+			3659 = {
+				naval_base = 9
+			}
 		}
 		victory_points = {
 			3659 15		#Wobambi-on-Sea

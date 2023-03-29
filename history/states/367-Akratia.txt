@@ -19,9 +19,12 @@ state={
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 3
+			355 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
-			355 10		#Homa
+			355 10		#Akratia City
 		}
 		add_core_of = AKR
 	}

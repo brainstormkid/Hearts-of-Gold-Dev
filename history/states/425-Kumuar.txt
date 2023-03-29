@@ -19,6 +19,9 @@ state={
 		buildings = {
 			industrial_complex = 1 
 			infrastructure = 2
+			371 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
 			371 5		#Kumuar

@@ -20,6 +20,9 @@ state={
 			industrial_complex = 2
 			arms_factory = 1
 			infrastructure = 3
+			456 = {
+			naval_base = 5
+			}
 		}
 		victory_points = {
 			456 20		#Campus_Ordo

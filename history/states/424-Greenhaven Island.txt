@@ -18,7 +18,10 @@ state={
 		owner = VIR
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1 
+			industrial_complex = 1
+			2977 = {
+				naval_base = 4
+			} 
 		}
 		victory_points = {
 			2977 10

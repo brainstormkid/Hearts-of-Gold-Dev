@@ -18,6 +18,9 @@ state={
 		owner = NAJ
 		buildings = {
 			infrastructure = 2
+			277 = {
+				naval_base = 2
+			}
 		}
 		victory_points = {
 			277 5		#NeoTopia

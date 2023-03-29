@@ -23,7 +23,10 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 2 
+			industrial_complex = 2
+			4226 = {
+				naval_base = 5
+			} 
 		}
 		add_core_of = SIN
 	}

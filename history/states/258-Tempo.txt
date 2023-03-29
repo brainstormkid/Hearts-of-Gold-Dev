@@ -19,6 +19,9 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+			3320 = {
+				naval_base = 9
+			}
 		}
 		victory_points = {
 			3320 20		#Sakurai_Tempo

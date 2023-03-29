@@ -26,6 +26,12 @@ state={
 			infrastructure = 3
 			arms_factory = 3
 			industrial_complex = 3 
+			3760 = {
+				naval_base = 8
+			}
+			1061 = {
+				naval_base = 5
+			}
 		}
 		add_core_of = BAR
 	}

@@ -18,6 +18,9 @@ state={
 		owner = PLG
 		buildings = {
 			infrastructure = 2
+			3535 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = PLG
 	}
