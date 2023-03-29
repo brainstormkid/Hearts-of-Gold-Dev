@@ -25,9 +25,6 @@ state={
 			infrastructure = 4
 			arms_factory = 3
 			industrial_complex = 3
-			1394 = {
-				supply_node = 1
-			}
 		}
 		add_core_of = NRF
 	}

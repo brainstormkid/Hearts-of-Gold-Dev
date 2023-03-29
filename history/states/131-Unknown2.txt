@@ -18,9 +18,6 @@ state={
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			2205 = {
-				supply_node = 1
-			}
 		}
 		add_core_of = WIV
 	}
