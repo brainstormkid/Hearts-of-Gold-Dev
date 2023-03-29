@@ -27,12 +27,6 @@ add_ideas = {
 
 set_convoys = 10
 
-build_railway = {
-	level = 3
-	start_province = 3415
-	target_province = 2021
-}
-
 1939.1.1 = {
 
 	add_political_power = 1198
