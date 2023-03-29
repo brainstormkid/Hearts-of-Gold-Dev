@@ -17,9 +17,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			286 = {
-				supply_node = 1
-			}
 		}
 		add_core_of = SAV
 

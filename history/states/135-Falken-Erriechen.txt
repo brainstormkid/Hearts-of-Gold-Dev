@@ -25,9 +25,6 @@ state={
 			infrastructure = 3
 			air_base = 3
 			industrial_complex = 2
-			255 = {
-				supply_node = 1
-			}
 		}
 		add_core_of = SAV
 	}

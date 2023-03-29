@@ -25,9 +25,6 @@ state={
 				naval_base = 2
 			}
 			arms_factory = 2
-			841 = {
-				supply_node = 1
-			}
 		}
 		add_core_of = SAV
 	}
