@@ -1,0 +1,1187 @@
+focus_tree = {
+	id = huitca_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUI
+		}
+	}
+	#Focus for Chichiltik
+	focus = {
+		id = LAT_chichiltik
+		icon = GFX_goal_generic_fortify_city
+		x = 8
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_a_right_to_sneedistan }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Treaty with White Raven
+	focus = {
+		id = LAT_treaty_with_white_raven
+		icon = GFX_goal_continuous_restrict_freedom
+		x = 7
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reconquest of Palermo
+	focus = {
+		id = LAT_reconquest_of_palermo
+		icon = GFX_focus_TUR_support_the_golden_square
+		x = 10
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Right to Sneedistan
+	focus = {
+		id = LAT_a_right_to_sneedistan
+		icon = GFX_focus_generic_italy_first
+		x = 2
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Full Federal Authority
+	focus = {
+		id = LAT_full_federal_authority
+		icon = GFX_focus_CZE_military_aeronautical_institute
+		x = 19
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_centralized_federation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ceremonial Monarchy
+	focus = {
+		id = LAT_ceremonial_monarchy
+		icon = GFX_focus_rom_handle_king
+		x = 18
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = LAT_empower_the_tlatoani }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Restore the Imperium
+	focus = {
+		id = LAT_restore_the_imperium
+		icon = GFX_focus_generic_japanese_imperial_glory
+		x = 15
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = LAT_chichiltik 
+		}
+		prerequisite = { 
+			focus = LAT_take_ummarnu 
+		}
+		prerequisite = { 
+			focus = LAT_absolute_monarchy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Nation under the Tlatoani
+	focus = {
+		id = LAT_nation_under_the_tlatoani
+		icon = GFX_focus_eng_god_save_the_king
+		x = 21
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = LAT_centralized_federation 
+		}
+		prerequisite = { 
+			focus = LAT_divine_right_to_rule 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Centralized Federation
+	focus = {
+		id = LAT_centralized_federation
+		icon = GFX_focus_GRE_bedrock_of_balkan_stability
+		x = 20
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_reorganize_the_states }
+		mutually_exclusive = { focus = LAT_state_autonomy_act }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Equip the Militias
+	focus = {
+		id = LAT_equip_the_militias
+		icon = GFX_goal_generic_military_sphere
+		x = 39
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_army_equipment_production }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Greater Horse Armor
+	focus = {
+		id = LAT_greater_horse_armor
+		icon = GFX_goal_continuous_armor_production
+		x = 40
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_xoacotle_calvary }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for TGS Dandelion
+	focus = {
+		id = LAT_tgs_dandelion
+		icon = GFX_goal_generic_navy_battleship
+		x = 36
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_ship_production }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Absolute Monarchy
+	focus = {
+		id = LAT_absolute_monarchy
+		icon = GFX_focus_generic_monarchy_2
+		x = 21
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_nation_under_the_tlatoani }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Divine Right to Rule
+	focus = {
+		id = LAT_divine_right_to_rule
+		icon = GFX_focus_GRE_an_orthodox_state
+		x = 22
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_empower_the_tlatoani }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Voluntary Union
+	focus = {
+		id = LAT_voluntary_union
+		icon = GFX_goal_continuous_boost_freedom
+		x = 15
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_authority_to_the_states }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Make Amends with the World
+	focus = {
+		id = LAT_make_amends_with_the_world
+		icon = GFX_goal_generic_improve_relations
+		x = 10
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Full Secularization
+	focus = {
+		id = LAT_full_secularization
+		icon = GFX_focus_mex_triumph_over_the_cristeros
+		x = 17
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_period_of_reform }
+		mutually_exclusive = { focus = LAT_one_true_faith }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ship Production
+	focus = {
+		id = LAT_ship_production
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 36
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_royal_navy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Void's Wrath
+	focus = {
+		id = LAT_voids_wrath
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 25
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_magical_technology }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Status of Lusitania
+	focus = {
+		id = LAT_status_of_lusitania
+		icon = GFX_focus_AST_squander_bug
+		x = 28
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = LAT_reintegrate_zoquiyo 
+			focus = LAT_punish_entropites 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ummarnu Co-Prosperity Sphere
+	focus = {
+		id = LAT_ummarnu_coprosperity_sphere
+		icon = GFX_focus_YUG_dissolve_serbia
+		x = 11
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_make_amends_with_the_world }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New Rathnir
+	focus = {
+		id = LAT_new_rathnir
+		icon = GFX_focus_por_the_pink_map
+		x = 5
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Durlian
+	focus = {
+		id = LAT_durlian
+		icon = GFX_focus_generic_adriatic_sea_focus
+		x = 5
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_huitca_commonwealth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sadisio
+	focus = {
+		id = LAT_sadisio
+		icon = GFX_focus_hol_the_zuiderzee_works
+		x = 3
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_huitca_commonwealth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Huitca Commonwealth
+	focus = {
+		id = LAT_huitca_commonwealth
+		icon = GFX_focus_eng_unite_the_anglosphere
+		x = 4
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_new_rathnir }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Free City of the Encan
+	focus = {
+		id = LAT_free_city_of_the_encan
+		icon = GFX_goal_generic_trade
+		x = 4
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_huitca_commonwealth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Explosives
+	focus = {
+		id = LAT_explosives
+		icon = GFX_goal_generic_air_naval_bomber
+		x = 38
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = LAT_army_equipment_production 
+		}
+		prerequisite = { 
+			focus = LAT_production_of_resources 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Centaris
+	focus = {
+		id = LAT_centaris
+		icon = GFX_focus_ger_great_red_menace
+		x = 13
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_reorganize_the_states }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for State Autonomy Act
+	focus = {
+		id = LAT_state_autonomy_act
+		icon = GFX_focus_BUL_balkan_federation_of_socialist_republics
+		x = 15
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = LAT_centralized_federation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Conplan 0001
+	focus = {
+		id = LAT_conplan_0001
+		icon = GFX_focus_spa_the_war_of_vengeance
+		x = 14
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_voluntary_union }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reorganize the States
+	focus = {
+		id = LAT_reorganize_the_states
+		icon = GFX_goal_generic_territory_or_war
+		x = 14
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Centari Expansion
+	focus = {
+		id = LAT_centari_expansion
+		icon = GFX_focus_jap_strike_south
+		x = 13
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_centaris }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Empower the Tlatoani
+	focus = {
+		id = LAT_empower_the_tlatoani
+		icon = GFX_focus_BUL_the_third_bulgarian_empire
+		x = 21
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = LAT_ceremonial_monarchy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Abolish the Monarchy
+	focus = {
+		id = LAT_abolish_the_monarchy
+		icon = GFX_focus_rom_abdicate
+		x = 18
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = LAT_ceremonial_monarchy 
+		}
+		prerequisite = { 
+			focus = LAT_full_secularization 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The HTSAA
+	focus = {
+		id = LAT_the_htsaa
+		icon = GFX_focus_research2
+		x = 30
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_strengthen_the_economy }
+		mutually_exclusive = { focus = LAT_the_aco }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Karginti Program
+	focus = {
+		id = LAT_karginti_program
+		icon = GFX_focus_rocketry
+		x = 28
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_acquire_caliginium }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Acquire Caliginium
+	focus = {
+		id = LAT_acquire_caliginium
+		icon = GFX_focus_wonderweapons
+		x = 29
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = LAT_reintegrate_zoquiyo 
+		}
+		prerequisite = { 
+			focus = LAT_the_htsaa 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Strengthen the Economy
+	focus = {
+		id = LAT_strengthen_the_economy
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 33
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Nationalize the HTSAA
+	focus = {
+		id = LAT_nationalize_the_htsaa
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 31
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_higher_sciences }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Urbanization
+	focus = {
+		id = LAT_urbanization
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 34
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_immigration_reform }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Universities
+	focus = {
+		id = LAT_universities
+		icon = GFX_focus_usa_build_the_pentagon
+		x = 32
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_the_htsaa }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Higher Sciences
+	focus = {
+		id = LAT_higher_sciences
+		icon = GFX_focus_research2
+		x = 30
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_the_htsaa }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The ACO
+	focus = {
+		id = LAT_the_aco
+		icon = GFX_goal_generic_wolf_pack
+		x = 26
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_punish_entropites }
+		mutually_exclusive = { focus = LAT_the_htsaa }
+	}
+
+	#Focus for April Election
+	focus = {
+		id = LAT_april_election
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for May Election
+	focus = {
+		id = LAT_may_election
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_april_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for June Election
+	focus = {
+		id = LAT_june_election
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_may_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for July Election
+	focus = {
+		id = LAT_july_election
+		icon = GFX_goal_unknown
+		x = 0
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_june_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Into the Stars
+	focus = {
+		id = LAT_into_the_stars
+		icon = GFX_focus_TUR_the_sun_language_theory
+		x = 27
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_karginti_program }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Operation Groundhog
+	focus = {
+		id = LAT_operation_groundhog
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 29
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_karginti_program }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Arcane Soldiers
+	focus = {
+		id = LAT_arcane_soldiers
+		icon = GFX_goal_continuous_def_against_influence
+		x = 26
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_magical_technology }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improved Roads
+	focus = {
+		id = LAT_improved_roads
+		icon = GFX_focus_generic_africa_infrastructure
+		x = 35
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_urbanization }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reintegrate Zoquiyo
+	focus = {
+		id = LAT_reintegrate_zoquiyo
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 29
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = LAT_punish_entropites }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Punish Entropites
+	focus = {
+		id = LAT_punish_entropites
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		x = 26
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = LAT_reintegrate_zoquiyo }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Nether Iceboat Railways
+	focus = {
+		id = LAT_nether_iceboat_railways
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 35
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_improved_roads }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for One True Faith
+	focus = {
+		id = LAT_one_true_faith
+		icon = GFX_focus_spa_no_compromise_on_carlist_ideals
+		x = 23
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = LAT_divine_right_to_rule 
+			focus = LAT_punish_entropites 
+		}
+		mutually_exclusive = { focus = LAT_full_secularization }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Magical Technology
+	focus = {
+		id = LAT_magical_technology
+		icon = GFX_goal_generic_radar
+		x = 25
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_the_aco }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Imperial Apotheosis
+	focus = {
+		id = LAT_imperial_apotheosis
+		icon = GFX_goal_support_democracy
+		x = 26
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_arcane_soldiers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for City Development
+	focus = {
+		id = LAT_city_development
+		icon = GFX_goal_generic_fortify_city
+		x = 33
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_urbanization }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Kangaroo Express
+	focus = {
+		id = LAT_kangaroo_express
+		icon = GFX_focus_AST_rats_tobruk
+		x = 32
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_strengthen_the_economy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Immigration Reform
+	focus = {
+		id = LAT_immigration_reform
+		icon = GFX_focus_hol_gateway_to_europe
+		x = 34
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_strengthen_the_economy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Archeology
+	focus = {
+		id = LAT_archeology
+		icon = GFX_focus_GRE_a_land_of_mountains
+		x = 32
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_universities }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Production of Resources
+	focus = {
+		id = LAT_production_of_resources
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 37
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_urbanization }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Royal Navy
+	focus = {
+		id = LAT_royal_navy
+		icon = GFX_goal_generic_navy_submarine
+		x = 36
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sun Warriors
+	focus = {
+		id = LAT_sun_warriors
+		icon = GFX_focus_prc_infiltration
+		x = 40
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Chief Warrior of Merit
+	focus = {
+		id = LAT_chief_warrior_of_merit
+		icon = GFX_focus_mex_soldaderas
+		x = 42
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_huitca_central_command_center }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Army Equipment Production
+	focus = {
+		id = LAT_army_equipment_production
+		icon = GFX_goal_generic_small_arms
+		x = 38
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_sun_warriors }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Xoacotle Calvary
+	focus = {
+		id = LAT_xoacotle_calvary
+		icon = GFX_focus_por_luso_tropicalism
+		x = 40
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_huitca_central_command_center }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Huitca Central Command Center
+	focus = {
+		id = LAT_huitca_central_command_center
+		icon = GFX_goal_generic_army_doctrines
+		x = 41
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_sun_warriors }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for August Elections
+	focus = {
+		id = LAT_august_elections
+		icon = GFX_goal_unknown
+		x = 0
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_july_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Authority to the States
+	focus = {
+		id = LAT_authority_to_the_states
+		icon = GFX_focus_generic_strike_at_democracy3
+		x = 15
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_state_autonomy_act }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Government of the People
+	focus = {
+		id = LAT_government_of_the_people
+		icon = GFX_focus_hol_liberation
+		x = 16
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = LAT_full_secularization 
+		}
+		prerequisite = { 
+			focus = LAT_state_autonomy_act 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Take Ummarnu
+	focus = {
+		id = LAT_take_ummarnu
+		icon = GFX_goal_tfv_saf_support_german_coup
+		x = 9
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = LAT_a_right_to_sneedistan 
+		}
+		prerequisite = { 
+			focus = LAT_reconquest_of_palermo 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Allium Alliance
+	focus = {
+		id = LAT_allium_alliance
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 6
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_make_amends_with_the_world }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Period of Reform
+	focus = {
+		id = LAT_period_of_reform
+		icon = GFX_focus_generic_treaty
+		x = 17
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Develop Talawa
+	focus = {
+		id = LAT_develop_talawa
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 12
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = LAT_annex_the_desert_of_infinity 
+			focus = LAT_reorganize_the_states 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Greater Alaar
+	focus = {
+		id = LAT_greater_alaar
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 12
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_develop_talawa }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Nationwide Squatters
+	focus = {
+		id = LAT_nationwide_squatters
+		icon = GFX_focus_jap_showa_restoration
+		x = 27
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_status_of_lusitania }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our soil, Our soil!
+	focus = {
+		id = LAT_our_soil_our_soil
+		icon = GFX_focus_por_recover_brazil
+		x = 6
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = LAT_treaty_with_white_raven 
+		}
+		prerequisite = { 
+			focus = LAT_allium_alliance 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Beacon of Democracy
+	focus = {
+		id = LAT_the_beacon_of_democracy
+		icon = GFX_goal_support_democracy
+		x = 8
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_make_amends_with_the_world }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Annex the Desert of Infinity
+	focus = {
+		id = LAT_annex_the_desert_of_infinity
+		icon = GFX_focus_mex_jefe_maximo
+		x = 11
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Request Fernheim
+	focus = {
+		id = LAT_request_fernheim
+		icon = GFX_focus_jap_manchurian_project
+		x = 9
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = LAT_make_amends_with_the_world }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }
