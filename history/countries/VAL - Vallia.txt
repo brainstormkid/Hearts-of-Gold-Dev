@@ -26,24 +26,6 @@ add_ideas = {
 	volunteer_only
 }
 
-build_railway = {
-	level = 3
-	start_province = 76
-	target_province = 1177
-}
-
-build_railway = {
-	level = 3
-	start_province = 1177
-	target_province = 3061
-}
-
-build_railway = {
-	level = 3
-	start_province = 1177
-	target_province = 1461
-}
-
 set_convoys = 25
 
 1939.1.1 = {
