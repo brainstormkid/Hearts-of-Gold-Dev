@@ -642,6 +642,14 @@ focus_tree = {
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = huitca.1 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
 		ai_will_do = {
 			factor = 1
 		}

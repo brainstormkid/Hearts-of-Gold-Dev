@@ -1,0 +1,31 @@
+###########################
+# Huitca Default Route Events
+###########################
+
+add_namespace = huitca
+
+# April Election
+country_event = {
+	id = huitca.1	#April Election
+	title = "April Election"
+	desc = "A new Cihuacoatl must be elected to lead our nation for the month of April."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Vickett Tizoc Vont"
+		retire_country_leader = yes 
+		create_country_leader = {
+			name = "Vickett Tizoc Vont"
+			desc = "POLITICS_VICKETT_DESC"
+			#picture = "gfx/leaders/HUI/vickett.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+			#
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}
