@@ -19,6 +19,9 @@ state={
 		owner = NIE
 		buildings = {
 			infrastructure = 2
+			3647 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
 			3647 5

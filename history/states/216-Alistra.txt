@@ -18,6 +18,9 @@ state={
 		owner = NIE
 		buildings = {
 			infrastructure = 2
+			2737 = {
+				naval_base = 6
+			}
 		}
 		add_core_of = NIE
 	}
