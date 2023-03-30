@@ -11,7 +11,7 @@ focus_tree = {
 	#A New Beginning
 	focus = {
 		id = A_New_Beginning
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 5
 		y = 0
 		cost = 10
@@ -28,7 +28,7 @@ focus_tree = {
 	#Fix the Population
 	focus = {
 		id = Fix_the_Population
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 5
 		y = 1
 		cost = 10
@@ -46,7 +46,7 @@ focus_tree = {
 	#Building Andorn
 	focus = {
 		id = Building_Andorn
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 10
 		y = 2
 		cost = 10
@@ -64,7 +64,7 @@ focus_tree = {
 	#Andorn First
 	focus = {
 		id = Andorn_First
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 0
 		y = 2
 		cost = 10
@@ -80,7 +80,7 @@ focus_tree = {
 	#Request Andorn Lands
 	focus = {
 		id = Request_Andorn_Lands
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 6
 		y = 3
 		cost = 10
@@ -112,7 +112,7 @@ focus_tree = {
 	#Askonian Goblins
 	focus = {
 		id = Askonian_Goblins
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 2
 		y = 5
 		cost = 10
@@ -131,7 +131,7 @@ focus_tree = {
 	#Reunify the Government
 	focus = {
 		id = Reunify_the_Government
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 4
 		y = 5
 		cost = 10
@@ -160,7 +160,7 @@ focus_tree = {
 	#Closer Syltor Ties
 	focus = {
 		id = Closer_Syltor_Ties
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 4
 		y = 2
 		cost = 10
@@ -179,7 +179,7 @@ focus_tree = {
 	#Askonian Horde
 	focus = {
 		id = Askonian_Horde
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 3
 		y = 6
 		cost = 10
@@ -199,7 +199,7 @@ focus_tree = {
 	#Knights of Andorn
 	focus = {
 		id = Knights_of_Andorn
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 1
 		y = 6
 		cost = 10
@@ -219,7 +219,7 @@ focus_tree = {
 	#Integrate the Helian State
 	focus = {
 		id = Integrate_the_Helian_State
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 5
 		y = 4
 		cost = 10
@@ -238,7 +238,7 @@ focus_tree = {
 	#Pressure the Helian State
 	focus = {
 		id = Pressure_the_Helian_State
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 7
 		y = 4
 		cost = 10
@@ -262,7 +262,7 @@ focus_tree = {
 	#Integrate Wivamovian Leaders
 	focus = {
 		id = Integrate_Wivamovian_Leaders
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 6
 		y = 5
 		cost = 10
@@ -279,7 +279,7 @@ focus_tree = {
 	#Luperkanian Settlementation
 	focus = {
 		id = Luperkanian_Settlementation
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 6
 		y = 7
 		cost = 10
@@ -302,7 +302,7 @@ focus_tree = {
 	#Regional Integration
 	focus = {
 		id = Regional_Integration
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 10
 		y = 5
 		cost = 10
@@ -320,7 +320,7 @@ focus_tree = {
 	#Andorn Restoration
 	focus = {
 		id = Andorn_Restoration
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		available = {
 			allow_branch = { has_completed_focus = Luperkanian_Settlementation }
 		}
@@ -341,7 +341,7 @@ focus_tree = {
 	#Nationalization of Neu Savras
 	focus = {
 		id = Nationalization_of_Neu_Savras
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 15
 		y = 1
 		cost = 10
@@ -359,7 +359,7 @@ focus_tree = {
 	#Fort Teuton
 	focus = {
 		id = Fort_Teuton
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 19
 		y = 1
 		cost = 10
@@ -377,7 +377,7 @@ focus_tree = {
 	#Syltor Brewing Company
 	focus = {
 		id = Syltor_Brewing_Company
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 19
 		y = 5
 		cost = 10
@@ -397,7 +397,7 @@ focus_tree = {
 	#Research on Wivamovians
 	focus = {
 		id = Research_on_Wivamovians
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 18
 		y = 2
 		cost = 10
@@ -422,7 +422,7 @@ focus_tree = {
 	#Strengthening the Military
 	focus = {
 		id = Strengthening_the_Military
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 20
 		y = 2
 		cost = 10
@@ -441,7 +441,7 @@ focus_tree = {
 	#Drugging Researchers
 	focus = {
 		id = Drugging_Researchers
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 18
 		y = 4
 		cost = 10
@@ -456,7 +456,7 @@ focus_tree = {
 	#Fortress Andorn
 	focus = {
 		id = Fortress_Andorn
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 15
 		y = 4
 		cost = 10
@@ -557,7 +557,7 @@ focus_tree = {
 	#Mobilize Andorn
 	focus = {
 		id = Mobilize_Andorn
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 20
 		y = 4
 		cost = 10
@@ -576,7 +576,7 @@ focus_tree = {
 	#Emergency Army Teachings
 	focus = {
 		id = Emergency_Army_Teachings
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 17
 		y = 6
 		cost = 10
@@ -591,7 +591,7 @@ focus_tree = {
 	#The Final Stand
 	focus = {
 		id = The_Final_Stand
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 16
 		y = 7
 		cost = 10
@@ -607,7 +607,7 @@ focus_tree = {
 	#The Flight of Andorn
 	focus = {
 		id = The_Flight_of_Andorn
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 18
 		y = 7
 		cost = 10
@@ -623,7 +623,7 @@ focus_tree = {
 	#Air Specialization
 	focus = {
 		id = Air_Specialization
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 9
 		y = 4
 		cost = 10
@@ -647,7 +647,7 @@ focus_tree = {
 	#Infantry Specialization
 	focus = {
 		id = Infantry_Specialization
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 10
 		y = 3
 		cost = 10
@@ -667,7 +667,7 @@ focus_tree = {
 	#Armor Specialization
 	focus = {
 		id = Armor_Specialization
-		icon = GFX_BAR_the_bardonian_civil_war-117138
+		icon = GFX_SAV_andorn
 		x = 11
 		y = 4
 		cost = 10
