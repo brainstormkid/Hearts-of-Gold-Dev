@@ -14,6 +14,15 @@ state={
 		owner = KOC
 		buildings = {
 			infrastructure = 1
+			4717 = {
+				naval_base = 10
+			}
+			4715 = {
+				naval_base = 1
+			}
+			4718 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = KOC
 	}

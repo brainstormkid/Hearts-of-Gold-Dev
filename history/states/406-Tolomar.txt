@@ -20,6 +20,7 @@ state={
 			infrastructure = 3
 			industrial_complex = 2 
 			arms_factory = 1
+			dockyard = 2
 		}
 		victory_points = {
 			2001 15	#Yarlei
