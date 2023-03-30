@@ -24,6 +24,9 @@ state={
 			2161 = {
 				supply_node = 1
 			}
+			2161 = {
+				naval_base = 10
+			}
 		}
 		add_core_of = ULD
 		add_core_of = BOU

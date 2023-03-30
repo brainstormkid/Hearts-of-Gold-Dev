@@ -26,6 +26,9 @@ state={
 			3917 = {
 				supply_node = 1
 			}
+			575 = {
+				naval_base = 5
+			}
 		}
 		add_core_of = THI
 	}

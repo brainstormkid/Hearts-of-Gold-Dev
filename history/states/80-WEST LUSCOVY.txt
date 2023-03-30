@@ -20,6 +20,10 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
+			dockyard = 3
+			2495 = {
+				naval_base = 8
+			}
 		}
 		victory_points = {
 			372 7		#Stadt, Hi Actes!
