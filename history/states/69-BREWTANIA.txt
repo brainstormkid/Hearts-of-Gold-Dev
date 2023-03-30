@@ -26,6 +26,7 @@ state={
 			industrial_complex = 2 
 		}
 		add_core_of = BAR
+		add_core_of = NDR
 	}
 	buildings_max_level_factor=1.000
 }

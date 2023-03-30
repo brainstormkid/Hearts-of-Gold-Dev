@@ -23,6 +23,7 @@ state={
 			}
 		}
 		add_core_of = CAV
+		add_core_of = NDR
 	}
 	buildings_max_level_factor=1.000
 }
