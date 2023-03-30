@@ -109,11 +109,11 @@ characters={
 		}
 		field_marshal = {
 			#traits = { charismatic }
-			skill = 4
-			attack_skill = 3
+			skill = 5
+			attack_skill = 5
 			defense_skill = 4
 			planning_skill = 3
-			logistics_skill = 2
+			logistics_skill = 4
 		}
 		advisor={
 			slot = political_advisor
@@ -169,8 +169,8 @@ characters={
 		#}
 		corps_commander = {
 			#traits = { charismatic }
-			skill = 4
-			attack_skill = 4
+			skill = 3
+			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 1
@@ -218,11 +218,11 @@ characters={
 		#}
 		navy_leader = {
 			#traits = { cuts_corners }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
 		}
 		advisor={
 			slot = political_advisor
@@ -329,10 +329,10 @@ characters={
 		}
 		corps_commander = {
 			#traits = { charismatic }
-			skill = 1
-			attack_skill = 0
-			defense_skill = 0
-			planning_skill = 1
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
 			logistics_skill = 1
 		}
 		advisor={
@@ -377,12 +377,12 @@ characters={
 				small="GFX_idea_aveleksei"
 			}
 		}
-		corps_commander = {
-			#traits = { charismatic }
-			skill = 1
-			attack_skill = 0
-			defense_skill = 0
-			planning_skill = 1
+		navy_leader = {
+			#traits = { cuts_corners }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
 			logistics_skill = 1
 		}
 		advisor={
@@ -429,11 +429,11 @@ characters={
 		#}
 		corps_commander = {
 			#traits = { charismatic }
-			skill = 1
-			attack_skill = 0
-			defense_skill = 0
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
 		}
 		advisor={
 			slot = political_advisor
@@ -479,10 +479,10 @@ characters={
 		#}
 		corps_commander = {
 			#traits = { charismatic }
-			skill = 1
-			attack_skill = 0
-			defense_skill = 0
-			planning_skill = 1
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
 			logistics_skill = 1
 		}
 		advisor={
@@ -529,11 +529,11 @@ characters={
 		#}
 		corps_commander = {
 			#traits = { charismatic }
-			skill = 1
-			attack_skill = 0
-			defense_skill = 0
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
 			planning_skill = 1
-			logistics_skill = 1
+			logistics_skill = 2
 		}
 		advisor={
 			slot = political_advisor
@@ -579,11 +579,11 @@ characters={
 		#}
 		corps_commander = {
 			#traits = { charismatic }
-			skill = 1
-			attack_skill = 0
-			defense_skill = 0
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
 		}
 		advisor={
 			slot = political_advisor
@@ -629,10 +629,10 @@ characters={
 		#}
 		corps_commander = {
 			#traits = { charismatic }
-			skill = 1
-			attack_skill = 0
-			defense_skill = 0
-			planning_skill = 1
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
 			logistics_skill = 1
 		}
 		advisor={
