@@ -47,4 +47,8 @@ spriteTypes = {
 		name = "GFX_idea_huitca_spirit"
 		texturefile = "gfx/interface/ideas/idea_huitca_spirit.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_uldarash_spirit"
+		texturefile = "gfx/interface/ideas/idea_uldarash_spirit.dds"
+	}
 }
