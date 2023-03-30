@@ -1,0 +1,72 @@
+units = {
+	fleet = {
+		name = "Huitcan Fleet"			
+		naval_base = 758
+		task_force = {				
+			name = "Huitcan Main Task Force"			
+			location = 758
+			ship = { name = "HNS 001"  pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = HUI } } }
+			ship = { name = "HNS 002" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 003" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 004" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 005" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 006" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 007" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 008" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 009" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 010" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 011" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 012" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 013" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 014" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 015" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+		}
+		task_force = {				
+			name = "1st Huitcan Destroyer Squadron"			
+			location = 3066
+			ship = { name = "HNS 016" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 017" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 018" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+		}
+		task_force = {				
+			name = "2nd Huitcan Destroyer Squadron"			
+			location = 3881
+			ship = { name = "HNS 019" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 020" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 021" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+		}
+		task_force = {				
+			name = "1st Huitcan Submarine Squadron"			
+			location = 2362
+			ship = { name = "H-1" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = HUI } } }
+			ship = { name = "H-2" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = HUI } } }		
+			ship = { name = "H-3" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = HUI } } }			
+			ship = { name = "H-4" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = HUI } } }	
+			ship = { name = "H-5" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = HUI } } }
+		}
+		task_force = {				
+			name = "2nd Huitcan Submarine Squadron"			
+			location = 1481
+			ship = { name = "H-6" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = HUI } } }
+			ship = { name = "H-7" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = HUI } } }		
+			ship = { name = "H-8" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = HUI } } }			
+			ship = { name = "H-9" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = HUI } } }	
+			ship = { name = "H-10" definition = submarine equipment = { ship_hull_submarine_1 = {amount = 1 owner = HUI } } }
+		}
+		task_force = {				
+			name = "Huitcan Heavy Squadron"			
+			location = 3235
+			ship = { name = "HNS 022" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 023" pride_of_the_fleet = yes definition = battlecruiser equipment = { ship_battle_cruiser_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 024" pride_of_the_fleet = yes definition = early battlecruiser equipment = { ship_battle_cruiser_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 025" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 026" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 027" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 028" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 029" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 030" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 031" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 032" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+		}
+	}
+} 
