@@ -33,6 +33,8 @@ set_technology = {
 add_ideas = {
 	volunteer_only
 	squatter_infestation
+	unsettled_south
+	mourning_prime_minister_juan_coyo
 }
 
 set_convoys = 60

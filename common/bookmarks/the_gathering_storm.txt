@@ -48,6 +48,11 @@ bookmarks = {
 
 		"HUI"={
 			history = "HUI_GATHERING_STORM_DESC"
+			ideas = {
+				squatter_infestation
+				unsettled_south
+				mourning_prime_minister_juan_coyo
+			}
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
