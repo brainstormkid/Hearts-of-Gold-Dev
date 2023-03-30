@@ -19,6 +19,9 @@ state={
 		buildings = {
 			arms_factory = 1
 			infrastructure = 1
+			3557 = {
+				naval_base = 4
+			}
 		}
 		victory_points = {
 			3557 5		#Bainfalla
