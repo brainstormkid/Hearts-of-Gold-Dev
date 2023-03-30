@@ -21,7 +21,7 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			4399 = 20 		#atris
+			4399 20 		
 		}
 		add_core_of = ULD
 		add_core_of = PLR
