@@ -17,6 +17,9 @@ state={
 		owner = FLR
 		buildings = {
 			infrastructure = 2
+			1287 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = FLR
 	}

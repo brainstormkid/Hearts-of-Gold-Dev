@@ -19,6 +19,9 @@ state={
 		buildings = {
 			arms_factory = 1 
 			infrastructure = 3
+			311 = {
+				naval_base = 4
+			}
 		}
 		victory_points = {
 			311 10		#New Saulot

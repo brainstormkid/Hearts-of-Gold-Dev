@@ -20,6 +20,10 @@ state={
 			arms_factory = 3
 			industrial_complex = 2
 			infrastructure = 4
+			dockyard = 2
+			1627 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
 			1627 30		#Muviel

@@ -24,6 +24,7 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			air_base = 1
+			dockyard = 4
 			2506 = {
 				supply_node = 1
 			}

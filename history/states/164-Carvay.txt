@@ -30,6 +30,7 @@ state={
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 2
+			dockyard = 3
 			1022 = {
 				supply_node = 1
 			}
