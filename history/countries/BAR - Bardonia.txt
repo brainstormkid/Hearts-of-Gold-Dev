@@ -127,4 +127,35 @@ create_country_leader = {
 		Warmonger
 	}
 }
+create_country_leader = {
+	name = "DHVO"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/BAR/DHVO.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+	create_country_leader = {
+	name = "Crezyman"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/BAR/Crezy.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+	create_country_leader = {
+	name = "Mobius"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/BAR/Mobius.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+
+}
 
