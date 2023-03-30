@@ -1,0 +1,54 @@
+
+state={
+	id=2
+	state_category = metropolis
+	name="Montroig"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		187 263 296 316 588 720 1397 1423 1970 2350 3154 4320 4349 4357 4367 
+	}
+	manpower=12000000
+	history={
+		owner = ULD
+		victory_points = {
+			4349 50
+		}
+		victory_points = {
+			263 20
+		}
+		victory_points = {
+			1397 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 5
+			dockyard = 2
+			4349 = {
+				supply_node = 1
+			}
+			263 = {
+				supply_node = 1
+			}
+			1397 = {
+				supply_node = 1
+			}
+			1397 = {
+				naval_base = 2
+			}
+			263 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = ULD
+		add_core_of = MOT
+	}
+	buildings_max_level_factor=1.000
+}

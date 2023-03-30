@@ -1,0 +1,25 @@
+state={
+	id=11
+	name="Zerith Lands"
+	state_category = pastoral
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		304 734 860 960 2014 2044 4643 
+	}
+	manpower=114639
+	history={
+		owner = ULD
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

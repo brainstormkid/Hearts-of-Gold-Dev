@@ -1,0 +1,35 @@
+state={
+	id=32
+	state_category = large_town
+	name="Bardawulf"
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	provinces={
+		702 1852 2084 4273 
+	}
+	history={
+		owner = ULD
+		victory_points = {
+			2084 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			2084 = {
+				supply_node = 1
+			}
+			2084 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = ULD
+	}
+	manpower=3600000
+	buildings_max_level_factor=1.000
+}
