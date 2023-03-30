@@ -1,6 +1,7 @@
 ﻿capital = 412
 
 oob = "HUI_1936"
+set_naval_oob = "HUI_NAVAL"
 
 # Starting tech
 set_technology = {
@@ -19,6 +20,14 @@ set_technology = {
 	early_carrier = 1
 	early_submarine = 1
 	support_weapons = 1
+	cv_early_fighter = 1
+	cv_CAS1 = 1
+	cv_naval_bomber1 = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	basic_train = 1
 }
 
 add_ideas = {
