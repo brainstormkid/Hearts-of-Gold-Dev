@@ -20,6 +20,15 @@ state={
 		buildings = {
 			arms_factory = 1
 			infrastructure = 3
+			4701 = {
+				naval_base = 6
+			}
+			4700 = {
+				naval_base = 1
+			}
+			4704 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
 			4701 10		#St. Acol's Fort

@@ -20,6 +20,9 @@ state={
 			arms_factory = 2
 			industrial_complex = 3 
 			infrastructure = 5
+			169 = {
+				naval_base = 10
+			}
 		}
 		victory_points = {
 			169 30		#Black Hollow

@@ -19,6 +19,9 @@ state={
 		buildings = {
 			arms_factory = 1
 			infrastructure = 4
+			4699 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = BAR
 	}
