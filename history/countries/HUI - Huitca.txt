@@ -32,6 +32,7 @@ set_technology = {
 
 add_ideas = {
 	volunteer_only
+	squatter_infestation
 }
 
 set_convoys = 60
