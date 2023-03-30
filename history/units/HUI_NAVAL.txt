@@ -57,8 +57,6 @@ units = {
 			name = "Huitcan Heavy Squadron"			
 			location = 3235
 			ship = { name = "HNS 022" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
-			ship = { name = "HNS 023" pride_of_the_fleet = yes definition = battlecruiser equipment = { ship_battle_cruiser_1 = { amount = 1 owner = HUI } } }
-			ship = { name = "HNS 024" pride_of_the_fleet = yes definition = early battlecruiser equipment = { ship_battle_cruiser_1 = { amount = 1 owner = HUI } } }
 			ship = { name = "HNS 025" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
 			ship = { name = "HNS 026" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
 			ship = { name = "HNS 027" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
