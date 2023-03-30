@@ -138,10 +138,10 @@ focus_tree = {
 	focus = {
 		id = Disappearence_of_Zefriov
 		icon = GFX_RYZ_ryzan-15842
-		#available = {
-			#allow_branch = { has_completed_focus = Prophet_Uni }
-		#}
-		#allow_branch = { has_completed_focus = Prophet_Uni }
+		available = {
+			allow_branch = { has_completed_focus = Prophet_Uni }
+		}
+		allow_branch = { has_completed_focus = Prophet_Uni }
 		x = 16
 		y = 0
 		cost = 3
