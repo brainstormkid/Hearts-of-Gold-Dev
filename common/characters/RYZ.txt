@@ -577,7 +577,7 @@ characters={
 				#small="GFX_idea_athos"
 			#}
 		#}
-		corps_commander = {
+		field_marshal = {
 			#traits = { charismatic }
 			skill = 4
 			attack_skill = 4

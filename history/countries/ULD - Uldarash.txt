@@ -39,6 +39,7 @@ recruit_character = ULD_senior
 
 add_ideas = {
 	volunteer_only
+	disunified_country
 }
 
 set_convoys = 85

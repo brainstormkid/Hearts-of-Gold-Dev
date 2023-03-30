@@ -44,6 +44,9 @@ bookmarks = {
 
 		"ULD"={
 			history = "ULD_GATHERING_STORM_DESC"
+			ideas = {
+				disunified_country
+			}
 		}
 
 		"HUI"={
