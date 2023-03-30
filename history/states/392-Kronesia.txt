@@ -18,6 +18,9 @@ state={
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1 
+			2543 = {
+				naval_base = 2
+			}
 		}
 		victory_points = {
 			2543 5	#Kronesia

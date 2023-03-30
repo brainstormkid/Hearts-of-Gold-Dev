@@ -20,6 +20,27 @@ state={
 			arms_factory = 2
 			industrial_complex = 2 
 			infrastructure = 3
+			dockyard = 2
+			903 = {
+				naval_base = 3
+			}
+			2955 = {
+				naval_base = 1
+			}
+			2060 = {
+				naval_base = 1
+			}
+			4723 = {
+				naval_base = 1
+			}
+			4724 = {
+				naval_base = 1
+			}
+			4725 = {
+				naval_base = 1
+			}
+
+
 		}
 		victory_points = {
 			786 10

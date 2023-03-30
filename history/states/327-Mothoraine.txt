@@ -21,6 +21,10 @@ state={
 			arms_factory = 2
 			industrial_complex = 4 
 			infrastructure = 4
+			dockyard = 2
+			4108 = {
+				naval_base = 8
+			}
 		}
 		victory_points = {
 			2868 25		#Mothoraine

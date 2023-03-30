@@ -19,6 +19,9 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2 
+			4139 = {
+				naval_base = 6
+			}
 		}
 		victory_points = {
 			4139 10	#Home Depot

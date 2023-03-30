@@ -20,6 +20,9 @@ state={
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1 
+			4294 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
 			4261 20	#Revaria

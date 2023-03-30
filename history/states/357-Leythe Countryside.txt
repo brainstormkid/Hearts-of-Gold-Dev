@@ -19,6 +19,10 @@ state={
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 2
+			4251 = {
+				naval_base = 3
+			}
+			
 		}
 		victory_points = {
 			4251 5		#Kringal

@@ -18,6 +18,9 @@ state={
 		owner = AEZ
 		buildings = {
 			infrastructure = 2
+			439 = {
+				naval_base = 4
+			}
 		}
 		add_core_of = AEZ
 	}

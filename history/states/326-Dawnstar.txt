@@ -21,6 +21,13 @@ state={
 			infrastructure = 4
 			industrial_complex = 3 
 			arms_factory = 3
+			dockyard = 3
+			467 = {
+				naval_base = 10
+			}
+			4024 = {
+				naval_base = 5
+			}
 		}
 		victory_points = {
 			2156 5		#heidelberg

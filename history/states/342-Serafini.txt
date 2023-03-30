@@ -19,6 +19,9 @@ state={
 		buildings = {
 			arms_factory = 1 
 			infrastructure = 3
+			502 = {
+				naval_base = 5
+			}
 		}
 		victory_points = {
 			502 12		#Serafini

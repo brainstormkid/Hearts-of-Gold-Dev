@@ -20,6 +20,22 @@ state={
 			arms_factory = 2
 			industrial_complex = 3 
 			infrastructure = 4
+			dockyard = 2
+			556 = {
+				naval_base = 1
+			}
+			1842 = {
+				naval_base = 1
+			}
+			2168 = {
+				naval_base = 1
+			}
+			2790 = {
+				naval_base = 1
+			}
+			132 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
 			556 15		#Inasta

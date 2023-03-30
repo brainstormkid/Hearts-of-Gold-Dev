@@ -18,6 +18,9 @@ state={
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1 
+			4491 = {
+				naval_base = 4
+			}
 		}
 		victory_points = {
 			796 5	#Lumaire

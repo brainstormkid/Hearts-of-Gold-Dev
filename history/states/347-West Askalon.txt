@@ -20,6 +20,9 @@ state={
 			arms_factory = 1
 			industrial_complex = 1 
 			infrastructure = 3
+			2038 = {
+				naval_base = 4
+			}
 		}
 		victory_points = {
 			2038 20		#Askalon

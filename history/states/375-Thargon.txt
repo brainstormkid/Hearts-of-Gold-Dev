@@ -20,6 +20,10 @@ state={
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 2
+			dockyard = 1
+			4244 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
 			4244 20	#Erstedam

@@ -20,6 +20,12 @@ state={
 		buildings = {
 			industrial_complex = 2
 			infrastructure = 3
+			553 = {
+				naval_base = 3
+			}
+			1107 = {
+				naval_base = 4
+			}
 		}
 		victory_points = {
 			553 25		#Posopolis

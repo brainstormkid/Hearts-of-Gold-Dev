@@ -19,6 +19,9 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 3 
+			4449 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = VAN
 	}

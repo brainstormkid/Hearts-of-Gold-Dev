@@ -22,6 +22,9 @@ state={
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
+			4506 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = FRO
 	}

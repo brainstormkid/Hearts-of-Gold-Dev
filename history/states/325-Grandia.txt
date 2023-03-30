@@ -20,6 +20,10 @@ state={
 			infrastructure = 4
 			industrial_complex = 2 
 			arms_factory = 2
+			dockyard = 2
+			1962 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
 			2691 25		#New Zemlya
