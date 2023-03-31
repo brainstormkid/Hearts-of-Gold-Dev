@@ -313,3 +313,14 @@ form_chonky_deutzan_category = {
 		}
 	}
 }
+form_alamayn_catagory = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+		OR = {
+			original_tag = ALI
+			original_tag = LUM
+		}
+	}
+}
