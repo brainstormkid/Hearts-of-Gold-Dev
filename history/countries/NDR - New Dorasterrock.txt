@@ -88,4 +88,33 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Wrenbee"
+	desc = "POLITICS_WRENBEE_DESC"
+	picture = "gfx/leaders/NDR/wrenbee.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Wrenbee"
+	desc = "POLITICS_WRENBEE_DESC"
+	picture = "gfx/leaders/NDR/wrenbee.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Crezyman"
+	desc = "POLITICS_CREZY_DESC"
+	picture = "gfx/leaders/NDR/Crezy.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
 
