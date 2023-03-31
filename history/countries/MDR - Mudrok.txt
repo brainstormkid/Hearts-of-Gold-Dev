@@ -62,6 +62,7 @@ add_ideas = {
 		construction2 = 1
 		concentrated_industry = 1
 		concentrated_industry2 = 1
+		basic_train = 1
 	}
 }
 

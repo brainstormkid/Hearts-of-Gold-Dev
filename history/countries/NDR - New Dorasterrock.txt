@@ -19,6 +19,7 @@ set_technology = {
 	early_carrier = 1
 	early_submarine = 1
 	support_weapons = 1
+	basic_train = 1
 }
 
 add_ideas = {
@@ -117,4 +118,3 @@ create_country_leader = {
 	traits = {
 		#
 	}
-
