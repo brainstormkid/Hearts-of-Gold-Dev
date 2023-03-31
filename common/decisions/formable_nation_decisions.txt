@@ -69,6 +69,71 @@ form_andorn_category = {
 		}
 	}
 }
+form_alamayn_category = {
+
+	form_alamayn = {
+	
+		icon = generic_formable_nations
+
+		allowed = {
+			OR = {
+				original_tag = ALI
+				original_tag = LUM
+			}
+		}
+		available = {
+			is_subject = no
+			# Lumenos
+				controls_state = 247
+				controls_state = 248
+			# ALI
+				controls_state = 252
+				controls_state = 251
+				controls_state = 250
+				controls_state = 253
+				controls_state = 249
+				controls_state = 255
+				controls_state = 244
+				controls_state = 254
+				controls_state = 408
+				controls_state = 245
+		}
+		
+		visible = {
+			OR = {
+				original_tag = ALI
+				original_tag = LUM
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ALY
+			# Lumenos
+			hidden_effect = {
+				247 = { add_core_of = ROOT }
+				248 = { add_core_of = ROOT }
+			}
+			#Ali 
+			hidden_effect = {
+				252 = { add_core_of = ROOT }
+				251 = { add_core_of = ROOT }
+				250 = { add_core_of = ROOT }
+				253 = { add_core_of = ROOT }
+				249 = { add_core_of = ROOT }
+				255 = { add_core_of = ROOT }
+				244 = { add_core_of = ROOT }
+				254 = { add_core_of = ROOT }
+				408 = { add_core_of = ROOT }
+				253 = { add_core_of = ROOT }
+				245 = { add_core_of = ROOT }
+				242 = { add_core_of = ROOT }
+				241 = { add_core_of = ROOT }
+				240 = { add_core_of = ROOT }
+				237 = { add_core_of = ROOT }
+			}
+		}
+	}
+}
 form_aurlunorryzan_category = {
 
 	form_aurlunorryzan = {
