@@ -1,10 +1,11 @@
 continents = {
-	syltor
-	nieden
-	plagos
-	alteniquia
-	sparwood
-	ummarnu
-	haven
-	sorligste
+	Syltor
+	Nieden
+	Plagos
+	Alteniquia
+	Sparwood
+	Ummarnu
+	Haven
+	Sorligste
+	Cymru
 }
