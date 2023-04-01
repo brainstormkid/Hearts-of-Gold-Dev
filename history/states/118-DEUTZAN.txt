@@ -1,7 +1,7 @@
 
 state={
 	id=118
-	name="Haegiel"
+	name="Deutzan"
       resources = {
 	    oil = 3
 	    aluminium = 3
@@ -13,7 +13,7 @@ state={
 	provinces={
 		985 1005 1620 1841 2369 2708 2738 3775 3780 
 	}
-	state_category = city
+	state_category = rural
     history={
 		owner = RYZ
 		buildings = {
@@ -22,6 +22,6 @@ state={
 		add_core_of = RYZ
 		add_core_of = DEU
 	}
-	manpower=1100000
+	manpower=243693
 	buildings_max_level_factor=1.000
 }
