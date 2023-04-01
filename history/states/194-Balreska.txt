@@ -1,0 +1,26 @@
+state={
+	id=194
+	name="Balreska"
+	state_category = rural
+      resources = {
+	    oil = 3
+	    aluminium = 3
+	    steel = 7
+	    rubber = 3
+	    tungsten = 3
+	    chromium = 3
+      }
+	history={
+		owner = RYZ
+		victory_points = {
+			925 1
+		}
+		add_core_of = RYZ
+		add_core_of = DEU
+	}
+	provinces={
+		337 925 1889 2731 3282  
+	}
+	manpower=156444
+	buildings_max_level_factor=1.000
+}
