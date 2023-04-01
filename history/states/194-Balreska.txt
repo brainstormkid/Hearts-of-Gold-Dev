@@ -1,6 +1,6 @@
 state={
 	id=194
-	name="Old Balreska"
+	name="Balreska"
 	state_category = rural
       resources = {
 	    oil = 3
@@ -15,22 +15,11 @@ state={
 		victory_points = {
 			925 1
 		}
-		buildings = {
-			infrastructure = 1
-			arms_factory = 1
-			air_base = 1
-			dockyard = 2
-			925 = {
-				supply_node = 1
-			}
-			925 = {
-				naval_base = 2
-			}
-		}
 		add_core_of = RYZ
+		add_core_of = DEU
 	}
 	provinces={
-		337 616 925 1889 2731 3282 
+		337 925 1889 2731 3282  
 	}
 	manpower=156444
 	buildings_max_level_factor=1.000
