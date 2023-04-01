@@ -11,7 +11,7 @@ state={
 	    chromium = 3
       }
 	history={
-		owner = FER
+		owner = NIE
 		victory_points = {
 			3841 15
 		}
@@ -24,6 +24,7 @@ state={
 			}
 		}
 		add_core_of = FER
+		add_core_of = NIE
 	}
 	provinces={
 		2407 3841 
