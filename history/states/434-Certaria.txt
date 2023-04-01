@@ -11,11 +11,11 @@ state={
 	    chromium = 3
       }
 	history={
-		owner = POS
+		owner = UBS
 		victory_points = {
 			1128 25
 		}
-		add_core_of = POS
+		add_core_of = UBS
 	}
 	provinces={
 		3249 1128 4249  
