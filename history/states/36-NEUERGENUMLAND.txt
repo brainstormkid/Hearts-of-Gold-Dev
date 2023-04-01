@@ -14,7 +14,7 @@ state={
 		362 637 1319 1798 2224 2505 2567 3223 4212 4238 4256 4290 
 	}
 	history={
-		owner = CAP
+		owner = ULD
 		victory_points = {
 			4256 15
 		}
@@ -27,6 +27,7 @@ state={
 			}
 		}
 		add_core_of = CAP
+		add_core_of = ULD
 	}
 	manpower=906549
 	buildings_max_level_factor=1.000
