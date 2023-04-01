@@ -69,7 +69,7 @@ form_andorn_category = {
 		}
 	}
 }
-form_alamayn_category = {
+form_alamayn_catagory = {
 
 	form_alamayn = {
 	
