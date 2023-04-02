@@ -16,7 +16,7 @@ state={
 	}
 	manpower=5850000
 	history={
-		owner = MDR
+		owner = FJ1
 		buildings = {
 			industrial_complex = 2
 			arms_factory = 2
@@ -29,6 +29,7 @@ state={
 			2880 15		#Skargness
 		}
 		add_core_of = MDR
+		add_core_of = FJ1
 	}
 	buildings_max_level_factor=1.000
 }

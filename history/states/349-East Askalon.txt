@@ -23,7 +23,7 @@ state={
 			553 = {
 				naval_base = 3
 			}
-			1107 = {
+			4315 = {
 				naval_base = 4
 			}
 		}

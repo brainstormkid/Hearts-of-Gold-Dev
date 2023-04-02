@@ -16,7 +16,7 @@ state={
 	}
 	manpower=2400000
 	history={
-		owner = BAR
+		owner = CAV
 		victory_points = {
 			1388 15
 		}

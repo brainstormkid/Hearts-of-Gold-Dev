@@ -14,7 +14,7 @@ state={
 	}
 	state_category = pastoral
 	history={
-		owner = INA
+		owner = KOC
 		victory_points = {
 			1052 15
 		}
@@ -26,6 +26,7 @@ state={
 			}
 		}
 		add_core_of = INA
+		add_core_of = KOC
 	}
 	manpower=388461
 	buildings_max_level_factor=1.000

@@ -20,6 +20,9 @@ state={
 			infrastructure = 3
 			industrial_complex = 2 
 			arms_factory = 1
+			4275 = {
+				naval_base = 10
+			}
 		}
 		victory_points = {
 			4275 15	#Athazolant

@@ -20,6 +20,12 @@ state={
 	provinces={
 		3249 1128 4249  
 	}
+	buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			1128 = {
+				naval_base = 6
+			}
 	manpower=1012000
 	buildings_max_level_factor=1.000
 }
