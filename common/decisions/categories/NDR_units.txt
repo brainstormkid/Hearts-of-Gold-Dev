@@ -1,0 +1,13 @@
+NDR_units = { 
+	allowed = {
+		original_tag = NDR
+	}
+
+	available = {
+		is_ai = no
+	}
+
+	visible = {
+		is_ai = no
+	}
+}
