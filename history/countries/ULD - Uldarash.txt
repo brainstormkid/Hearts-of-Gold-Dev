@@ -3,6 +3,10 @@
 oob = "ULD_1936"
 set_naval_oob = "ULD_NAVAL"
 
+set_research_slots = 4
+set_stability = 0.75
+set_war_support = 0
+
 
 # Starting tech
 set_technology = {
@@ -39,8 +43,9 @@ recruit_character = ULD_keechoo
 recruit_character = ULD_senior
 
 add_ideas = {
-	volunteer_only
+	disarmed_nation
 	disunified_country
+	undisturbed_isolation
 }
 
 set_convoys = 85

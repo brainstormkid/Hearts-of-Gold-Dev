@@ -29,6 +29,9 @@ recruit_character = BAR_democrat
 recruit_character = BAR_fascist
 recruit_character = BAR_dukesouleater
 recruit_character = BAR_ceibi
+recruit_character = BAR_axyr
+recruit_character = BAR_crezyman
+recruit_character = BAR_ice
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

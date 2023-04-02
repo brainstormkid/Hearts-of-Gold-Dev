@@ -77,9 +77,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Longbow"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/SIR/TBD.dds"
+	picture = "gfx/leaders/SIR/Longbow.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
