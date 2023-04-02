@@ -1,0 +1,59 @@
+
+NDR_units = {
+
+	NDR_recruitment = {
+
+icon = generic_nationalism
+
+fire_only_once = yes
+
+available = {
+		is_ai = no
+	}
+
+	visible = {
+		is_ai = no
+	}
+
+ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+					random_owned_controlled_state = {
+						limit = { ROOT = { has_full_control_of_state = PREV } }
+						prioritize = { 64 }
+						create_unit = {
+							division = "name = \"New Dorasterrock Veterans\" division_template = \"Revolutionary Guard\" start_experience_factor = 1.0 start_equipment_factor = 1.0" 
+							owner = NDR
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { ROOT = { has_full_control_of_state = PREV } }
+						prioritize = { 64 }
+						create_unit = {
+							division = "name = \"New Dorasterrock Veterans\" division_template = \"Revolutionary Guard\" start_experience_factor = 1.0 start_equipment_factor = 1.0" 
+							owner = NDR
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { ROOT = { has_full_control_of_state = PREV } }
+						prioritize = { 64 }
+						create_unit = {
+							division = "name = \"New Dorasterrock Veterans\" division_template = \"Revolutionary Guard\" start_experience_factor = 1.0 start_equipment_factor = 1.0" 
+							owner = NDR
+						}
+					}
+					random_owned_controlled_state = {
+						limit = { ROOT = { has_full_control_of_state = PREV } }
+						prioritize = { 64 }
+						create_unit = {
+							division = "name = \"New Dorasterrock Veterans\" division_template = \"Revolutionary Guard\" start_experience_factor = 1.0 start_equipment_factor = 1.0" 
+							owner = NDR
+						}
+					}
+				}
+		}
+	}
+}
