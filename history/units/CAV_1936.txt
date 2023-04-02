@@ -17,3 +17,66 @@ division_template = {
 	}
 	priority = 2
 }
+
+units = {
+	division = { #1
+		name = "Serene Militia"
+		location = 1022
+		division_template = "Carvay Infantry"
+		start_experience_factor = 0.1
+	}
+	division = { #2
+		name = "Serene Militia"
+		location = 1022
+		division_template = "Carvay Infantry"
+		start_experience_factor = 0.1
+	}
+	division = { #3
+		name = "Serene Militia"
+		location = 1022
+		division_template = "Carvay Infantry"
+		start_experience_factor = 0.1
+	}
+	division = { #4
+		name = "Serene Militia"
+		location = 1022
+		division_template = "Carvay Infantry"
+		start_experience_factor = 0.1
+	}
+	division = { #5
+		name = "Serene Militia"
+		location = 1022
+		division_template = "Carvay Infantry"
+		start_experience_factor = 0.1
+	}
+	division = { #6
+		name = "Serene Militia"
+		location = 1022
+		division_template = "Carvay Infantry"
+		start_experience_factor = 0.1
+	}
+	division = { #7
+		name = "Serene Militia"
+		location = 1022
+		division_template = "Carvay Infantry"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Serene Militia"
+		location = 1022
+		division_template = "Carvay Infantry"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Serene Militia"
+		location = 1022
+		division_template = "Carvay Infantry"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Serene Militia"
+		location = 1022
+		division_template = "Carvay Infantry"
+		start_experience_factor = 0.1
+	}
+}
