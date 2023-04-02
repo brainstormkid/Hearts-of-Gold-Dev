@@ -1,12 +1,12 @@
-characters={
-	BAR_ICE={ 
+characters = {
+	BAR_ice = {
 		name = Ice
-		portraits={
-			army={
+		portraits = {
+			army = {
 				small="GFX_idea_ice"
 			}
 		}
-		advisor={
+		advisor = {
 			slot = political_advisor
 			idea_token = ice
 			allowed = {
@@ -17,11 +17,11 @@ characters={
 			}
 		}		
 	}
-	BAR_AXYR={ 
+	BAR_axyr = {
 		name = Axyr
-		portraits={
-			army={
-				small="GFX_idea_axyr"
+		portraits = {
+			army = {
+				small "GFX_idea_axyr"
 			}
 		}
 		advisor={
@@ -35,14 +35,14 @@ characters={
 			}
 		}		
 	}
-	BAR_CREZY={ 
+	BAR_crezyman = {
 		name = Crezyman
-		portraits={
-			army={
-				small="GFX_idea_crezy"
+		portraits = {
+			army = {
+				small = "GFX_idea_crezy"
 			}
 		}
-		advisor={
+		advisor = {
 			slot = political_advisor
 			idea_token = crezy
 			allowed = {
@@ -53,11 +53,11 @@ characters={
 			}
 		}		
 	}
-	BAR_communist={
+	BAR_communist = {
 		name = Communist_Rando
-		portraits={
-			army={
-				small="GFX_idea_ice"
+		portraits = {
+			army = {
+				small = "GFX_idea_ice"
 			}
 		}
 		advisor={
@@ -71,14 +71,14 @@ characters={
 			}
 		}
 	}
-	BAR_democrat={
+	BAR_democrat = {
 		name = Democratic_Rando
-		portraits={
-			army={
-				small="GFX_idea_ice"
+		portraits = {
+			army = {
+				small = "GFX_idea_ice"
 			}
 		}
-		advisor={
+		advisor = {
 			slot = political_advisor
 			idea_token = democrat
 			allowed = {
@@ -89,32 +89,33 @@ characters={
 			}
 		}
 	}
-	BAR_fascist={
+	BAR_fascist = {
 		name = Fascist_Rando
-		portraits={
-			army=(
-				small="GFX_idea_ice"
+		portraits = {
+			army = {
+				small = "GFX_idea_ice"
 			}
 		}
-		advisor={
+	}
+		advisor = {
 			slot = political_advisor
 			idea_token = fascist
-			allowed = (
+			allowed = {
 				original_tag = BAR
-			}
+				}
 			traits = {
 				fascist_demagogue
 			}
 		}
-	}
-	BAR_dukesouleater={
+	
+	BAR_dukesouleater = {
 		name = DukeSoulEater
-		portraits={
-			army={
-				small="GFX_idea_crezy"
+		portraits = {
+			army = {
+				small = "GFX_idea_crezy"
 			}
 		}
-		advisor={
+		advisor = {
 			slot = political_advisor
 			idea_token = duke
 			allowed = {
@@ -125,14 +126,14 @@ characters={
 			}
 		}		
 	}
-	BAR_ceibi={
+	BAR_ceibi = { 
 		name = Ceibi
-		portraits={
-			army={
-				small="GFX_idea_axyr"
+		portraits = {
+			army = {
+				small = "GFX_idea_axyr"
 			}
 		}
-		advisor={
+		advisor = {
 			slot = political_advisor
 			idea_token = ceibi
 			allowed = {
