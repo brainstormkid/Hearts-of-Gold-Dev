@@ -17,3 +17,55 @@ division_template = {
 	}
 	priority = 2
 }
+
+units = {
+	#Theios Army
+	division = {
+		name = "Royal Guard"
+		location = 220
+		division_template = "Theios Infantry"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Royal Guard"
+		location = 220
+		division_template = "Theios Infantry"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Royal Guard"
+		location = 220
+		division_template = "Theios Infantry"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Royal Guard"
+		location = 220
+		division_template = "Theios Infantry"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Royal Guard"
+		location = 220
+		division_template = "Theios Infantry"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Royal Guard"
+		location = 220
+		division_template = "Theios Infantry"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Royal Guard"
+		location = 220
+		division_template = "Theios Infantry"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Royal Guard"
+		location = 220
+		division_template = "Theios Infantry"
+		start_experience_factor = 0.1
+	}
+}

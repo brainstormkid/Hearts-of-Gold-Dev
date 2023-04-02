@@ -127,7 +127,7 @@ units = {
 	#ULD Army
 	division = {
 		name = "Royal Guard"
-		location = 6558
+		location = 658
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
 	}

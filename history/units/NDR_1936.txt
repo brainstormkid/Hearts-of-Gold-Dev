@@ -22,7 +22,7 @@
 	priority = 2
 }
 
-units = {
+if = { limit = { NDR = { is_ai = no } } units = {
 	#NDR Army
 	division = {
 		name = "New Dorasterrock Veterans"
@@ -52,4 +52,5 @@ units = {
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
-}
+} }
+
