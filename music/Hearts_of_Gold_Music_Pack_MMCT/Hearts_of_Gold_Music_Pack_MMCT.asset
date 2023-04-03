@@ -64,3 +64,9 @@ music = {
     file = "wivamoviaanthem.ogg"
     volume = 0.65
 }
+
+music = {
+    name = "plagatea_MMCT"
+    file = "plagatea.ogg"
+    volume = 3.00
+}
