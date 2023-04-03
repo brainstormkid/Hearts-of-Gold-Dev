@@ -32,19 +32,19 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				air_chief_all_weather_3
 			}
 			cost = 100
 		}
 		advisor={
 			slot = high_command
 			idea_token = slout3
-			ledger = air
+			ledger = navy
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				navy_anti_submarine_1
 			}
 			cost = 100
 		}
@@ -82,19 +82,19 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				air_chief_old_guard
 			}
 			cost = 100
 		}
 		advisor={
 			slot = high_command
 			idea_token = josbar3
-			ledger = air
+			ledger = army
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				army_artillery_3
 			}
 			cost = 100
 		}
@@ -143,19 +143,19 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				air_close_air_support_2
 			}
 			cost = 100
 		}
 		advisor={
 			slot = high_command
 			idea_token = konstantin3
-			ledger = air
+			ledger = army
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				army_cavalry_2
 			}
 			cost = 100
 		}
@@ -193,8 +193,19 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				air_warfare_theorist 
+				military_theorist 
 			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = aasimar2
+			allowed = {
+				original_tag = RYZ
+			}
+			traits = {
+				air_chief_night_operations_1
+			}
+			cost = 100
 		}
 		advisor={
 			slot = high_command
@@ -204,7 +215,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				air_air_superiority_1
 			}
 			cost = 100
 		}
@@ -242,29 +253,29 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				air_warfare_theorist 
+				naval_theorist 
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = army_chief
 			idea_token = sarcasmo2
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				army_chief_defensive_2
 			}
 			cost = 100
 		}
 		advisor={
 			slot = high_command
 			idea_token = sarcasmo3
-			ledger = air
+			ledger = army
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				army_regrouping_3
 			}
 			cost = 100
 		}
@@ -296,13 +307,13 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = army_chief
 			idea_token = zardy2
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				army_chief_organizational_2
 			}
 			cost = 100
 		}
@@ -314,7 +325,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				air_bomber_interception_2
 			}
 			cost = 100
 		}
@@ -346,25 +357,25 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = army_chief
 			idea_token = bogomila2
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				army_chief_old_guard
 			}
 			cost = 100
 		}
 		advisor={
 			slot = high_command
 			idea_token = bogomila3
-			ledger = air
+			ledger = army
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				army_commando_3
 			}
 			cost = 100
 		}
@@ -396,25 +407,25 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = army_chief
 			idea_token = aveleksei2
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				army_chief_old_guard
 			}
 			cost = 100
 		}
 		advisor={
 			slot = high_command
 			idea_token = aveleksei3
-			ledger = air
+			ledger = army
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				army_infantry_3
 			}
 			cost = 100
 		}
@@ -446,25 +457,25 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = army_chief
 			idea_token = nikolai2
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				army_chief_maneuver_1
 			}
 			cost = 100
 		}
 		advisor={
 			slot = high_command
 			idea_token = nikolai3
-			ledger = air
+			ledger = navy
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				navy_fleet_logistics_2
 			}
 			cost = 100
 		}
@@ -496,13 +507,13 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = navy_chief
 			idea_token = anstolis2
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				navy_chief_naval_aviation_3
 			}
 			cost = 100
 		}
@@ -514,7 +525,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				air_air_combat_training_3
 			}
 			cost = 100
 		}
@@ -546,13 +557,13 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = navy_chief
 			idea_token = athos2
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				navy_chief_decisive_battle_3
 			}
 			cost = 100
 		}
@@ -564,7 +575,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				air_air_superiority_1
 			}
 			cost = 100
 		}
@@ -596,25 +607,25 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = navy_chief
 			idea_token = canadian2
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				navy_anti_submarine_2
 			}
 			cost = 100
 		}
 		advisor={
 			slot = high_command
 			idea_token = canadian3
-			ledger = air
+			ledger = navy
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				navy_fleet_logistics_3
 			}
 			cost = 100
 		}
@@ -646,25 +657,25 @@ characters={
 			}
 		}
 		advisor={
-			slot = air_chief
+			slot = navy_chief
 			idea_token = ibris2
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_chief_ground_support_2
+				navy_chief_decisive_battle_1
 			}
 			cost = 100
 		}
 		advisor={
 			slot = high_command
 			idea_token = ibris3
-			ledger = air
+			ledger = navy
 			allowed = {
 				original_tag = RYZ
 			}
 			traits = {
-				air_strategic_bombing_2
+				navy_capital_ship_2
 			}
 			cost = 100
 		}
