@@ -70,3 +70,9 @@ music = {
     file = "plagatea.ogg"
     volume = 3.00
 }
+
+music = {
+    name = "vostokanthem_MMCT"
+    file = "vostokanthem.ogg"
+    volume = 3.00
+}
