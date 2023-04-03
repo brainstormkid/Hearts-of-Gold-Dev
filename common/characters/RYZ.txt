@@ -22,7 +22,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				popular_figurehead 
 			}
 		}
 		advisor={
@@ -72,7 +72,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				popular_figurehead 
 			}
 		}
 		advisor={
@@ -122,7 +122,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				prince_of_terror 
 			}
 		}
 		advisor={
@@ -182,7 +182,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				smooth_talking_charmer 
 			}
 		}
 		advisor={
@@ -242,7 +242,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				smooth_talking_charmer 
 			}
 		}
 		advisor={
@@ -303,7 +303,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				compassionate_gentleman 
 			}
 		}
 		advisor={
@@ -353,7 +353,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				backroom_backstabber 
 			}
 		}
 		advisor={
@@ -403,7 +403,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				armaments_organizer 
 			}
 		}
 		advisor={
@@ -453,7 +453,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				fortification_engineer 
 			}
 		}
 		advisor={
@@ -503,7 +503,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				industry_reformer 
 			}
 		}
 		advisor={
@@ -553,7 +553,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				smooth_talking_charmer 
 			}
 		}
 		advisor={
@@ -603,7 +603,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				compassionate_gentleman 
 			}
 		}
 		advisor={
@@ -653,7 +653,7 @@ characters={
 				original_tag = RYZ
 			}
 			traits = {
-				headstrong 
+				prince_of_terror 
 			}
 		}
 		advisor={
