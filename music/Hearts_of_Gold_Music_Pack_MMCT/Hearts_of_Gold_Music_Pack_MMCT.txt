@@ -37,14 +37,6 @@ music = {
 }
 
 music = {
-    song = "goodbyeuni_MMCT"
-    chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
-    }
-}
-
-music = {
     song = "andornmilitarymarch_MMCT"
     chance = {
       modifier = { factor = 1 }
@@ -86,6 +78,14 @@ music = {
 
 music = {
     song = "rotaryzansong_MMCT"
+    chance = {
+      modifier = { factor = 1 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}
+
+music = {
+    song = "wivamoviaanthem_MMCT"
     chance = {
       modifier = { factor = 1 }
       #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
