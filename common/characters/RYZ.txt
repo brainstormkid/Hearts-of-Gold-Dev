@@ -8,7 +8,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			#traits = { charismatic }
+			traits = { brilliant_strategist armor_officer trickster trait_engineer }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 3
@@ -58,7 +58,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			#traits = { charismatic }
+			traits = { career_officer trait_cautious }
 			skill = 4
 			attack_skill = 1
 			defense_skill = 3
@@ -108,7 +108,7 @@ characters={
 			}
 		}
 		field_marshal = {
-			#traits = { charismatic }
+			traits = { trait_reckless armor_officer war_hero trickster panzer_leader }
 			skill = 5
 			attack_skill = 5
 			defense_skill = 4
@@ -168,7 +168,7 @@ characters={
 			#}
 		#}
 		corps_commander = {
-			#traits = { charismatic }
+			traits = { career_officer trait_reckless offensive_doctrine }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 2
@@ -228,7 +228,7 @@ characters={
 			#}
 		#}
 		navy_leader = {
-			#traits = { cuts_corners }
+			traits = { gentlemanly navy_career_officer superior_tactician }
 			skill = 4
 			attack_skill = 3
 			defense_skill = 3
@@ -289,7 +289,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			#traits = { charismatic }
+			traits = { brilliant_strategist trait_cautious armor_officer }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 1
@@ -339,7 +339,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			#traits = { charismatic }
+			traits = { career_officer }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -389,7 +389,7 @@ characters={
 			}
 		}
 		navy_leader = {
-			#traits = { cuts_corners }
+			traits = { bold naval_lineage superior_tactician }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 3
@@ -439,7 +439,7 @@ characters={
 			#}
 		#}
 		corps_commander = {
-			#traits = { charismatic }
+			traits = { offensive_doctrine fast_planner }
 			skill = 4
 			attack_skill = 3
 			defense_skill = 4
@@ -488,13 +488,13 @@ characters={
 				#small="GFX_idea_nikolai"
 			#}
 		#}
-		corps_commander = {
-			#traits = { charismatic }
+		navy_leader = {
+			traits = { old_guard_navy gentlemanly }
 			skill = 3
 			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
 		}
 		advisor={
 			slot = political_advisor
@@ -539,7 +539,7 @@ characters={
 			#}
 		#}
 		corps_commander = {
-			#traits = { charismatic }
+			traits = { inflexible_strategist career_officer }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -589,7 +589,6 @@ characters={
 			#}
 		#}
 		field_marshal = {
-			#traits = { charismatic }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -639,7 +638,7 @@ characters={
 			#}
 		#}
 		corps_commander = {
-			#traits = { charismatic }
+			traits = { cavalry_officer cavalry_leader }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 1
