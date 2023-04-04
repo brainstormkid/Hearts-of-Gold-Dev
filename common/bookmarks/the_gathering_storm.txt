@@ -17,25 +17,8 @@ bookmarks = {
 			}
 		}
 
-		"SAV"={
-			history = "SAV_GATHERING_STORM_DESC"
-			ideas = {
-				population_crisis
-				undeveloped_infrastructure
-				disunified_government
-			}
-		}
-
 		"BAR"={
 			history = "BAR_GATHERING_STORM_DESC"
-		}
-
-		"NDR"={
-			history = "NDR_GATHERING_STORM_DESC"
-		}
-
-		"ARL"={
-			history = "ARL_GATHERING_STORM_DESC"
 		}
 
 		"VIO"={
@@ -57,6 +40,59 @@ bookmarks = {
 				mourning_prime_minister_juan_coyo
 			}
 		}
+		
+		"NIE"={
+			history = "NIE_GATHERING_STORM_DESC"
+		}
+		
+		"TOR"={
+			history = "TOR_GATHERING_STORM_DESC"
+		}
+		
+		"THI"={
+			history = "THI_GATHERING_STORM_DESC"
+		}
+		
+		"SAV"={
+			minor = yes
+			history = "SAV_GATHERING_STORM_DESC"
+			ideas = {
+				population_crisis
+				undeveloped_infrastructure
+				disunified_government
+			}
+		}
+
+		"ARL"={
+			minor = yes
+			history = "ARL_GATHERING_STORM_DESC"
+		}
+		
+		"FJ1"={
+			minor = yes
+			history = "FJ1_GATHERING_STORM_DESC"
+		}
+		
+		"VAL"={
+			minor = yes
+			history = "VAL_GATHERING_STORM_DESC"
+		}
+		
+		"ARD"={
+			minor = yes
+			history = "ARD_GATHERING_STORM_DESC"
+		}
+		
+		"CAV"={
+			minor = yes
+			history = "CAV_GATHERING_STORM_DESC"
+		}
+		
+		"SRF"={
+			minor = yes
+			history = "SRF_GATHERING_STORM_DESC"
+		}
+		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
