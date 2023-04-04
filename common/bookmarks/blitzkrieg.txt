@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
 		name = "Trillium War"
-		desc = "TBA"
+		desc = "Never Happening"
 		date = 1939.1.1.12
 		picture = "GFX_select_date_1939"
 	}
