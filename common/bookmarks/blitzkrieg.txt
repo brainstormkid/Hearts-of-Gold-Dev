@@ -4,5 +4,12 @@ bookmarks = {
 		desc = "TBA"
 		date = 1900.1.1.12
 		picture = "GFX_select_date_1939"
+		
+		"RYZ"={
+			#history = "RYZ_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+		}
 	}
 }
