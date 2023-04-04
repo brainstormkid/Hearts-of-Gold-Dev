@@ -49,8 +49,8 @@ bookmarks = {
 			history = "TOR_GATHERING_STORM_DESC"
 		}
 		
-		"THI"={
-			history = "THI_GATHERING_STORM_DESC"
+		"MUV"={
+			history = "MUV_GATHERING_STORM_DESC"
 		}
 		
 		"SAV"={

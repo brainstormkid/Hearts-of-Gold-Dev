@@ -1,0 +1,83 @@
+focus_tree = {
+	id = valle_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VAL
+		}
+	}
+	#Moblize the Vallian State
+	focus = {
+		id = Moblize_Valle
+		icon = GFX_VAL_valle
+		x = 5
+		y = 0
+		cost = 3
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = valle.1 }
+			}
+			custom_effect_tooltip = valletip1
+			add_political_power = 100
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Vallian Naval Invasion Preparations
+	focus = {
+		id = Vallian_Naval_Preparations
+		icon = GFX_VAL_valle
+		x = 5
+		y = 1
+		cost = 2
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = valle.2 }
+			}
+			custom_effect_tooltip = valletip2
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Moblize_Valle }
+	}
+	#Buying Needed Equipment
+	focus = {
+		id = Buying_Needed_Equipment
+		icon = GFX_VAL_valle
+		x = 5
+		y = 2
+		cost = 2
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = valle.3 }
+			}
+			custom_effect_tooltip = valletip3
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Vallian_Naval_Preparations }
+	}
+	#Emergency Fortifcations
+	focus = {
+		id = Emergency_Fortifications
+		icon = GFX_VAL_valle
+		x = 5
+		y = 3
+		cost = 2
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = valle.4 }
+			}
+			custom_effect_tooltip = valletip4
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Buying_Needed_Equipment }
+	}
+}
