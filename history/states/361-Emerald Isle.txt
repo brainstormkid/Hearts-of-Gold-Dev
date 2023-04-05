@@ -22,6 +22,7 @@ state={
 			}
 		}
 		add_core_of = AKR
+		add_core_of = EME
 	}
 	manpower=447876
 	buildings_max_level_factor=1.000

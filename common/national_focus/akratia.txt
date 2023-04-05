@@ -1,0 +1,50 @@
+focus_tree = {
+	id = akratia_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AKR
+		}
+	}
+	#Dissolve Akratia
+	focus = {
+		id = Dissolution_of_Akratia
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 0
+		cost = 27
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = akratia.1 }
+				TOR = {
+					country_event = { id = akratia.2 }
+				}
+			}
+			TOR = {
+				transfer_state = 363
+				transfer_state = 364
+				transfer_state = 365
+				add_state_core = 363
+				add_state_core = 364
+				add_state_core = 365
+			}
+			LEY = {
+				transfer_state = 362
+				add_state_core = 362
+			}
+			EME = {
+				transfer_state = 361
+				transfer_state = 360
+			}
+			EOK = {
+				transfer_state = 366
+				transfer_state = 367
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}

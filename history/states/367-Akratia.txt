@@ -27,6 +27,7 @@ state={
 			355 10		#Akratia City
 		}
 		add_core_of = AKR
+		add_core_of = EOK
 	}
 	buildings_max_level_factor=1.000
 }
