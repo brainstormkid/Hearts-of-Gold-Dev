@@ -34,7 +34,12 @@ focus_tree = {
 		cost = 36
 		completion_reward = {
 			hidden_effect = {
-				country_event = { id = viodoxa.4 }
+				VIO = {
+					country_event = { id = allium.2 }
+				}
+				BAR = {
+					country_event = { id = allium.1 }
+				}
 			}
 			custom_effect_tooltip = viodoxatip2
 		}

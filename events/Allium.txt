@@ -4,17 +4,30 @@
 
 add_namespace = allium
 
-# Allium War beginning
+# Allium War beginning BAR
 country_event = {
 	id = allium.1	#Allium War start
 	title = "The War has begun"
-	desc = "Allium has become too powerful. The Southerners are attacking us. War is upon us!"
+	desc = "The Southerners are attacking us. War is upon us!"
 	picture = GFX_report_event_finnish_soldiers_snow
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "May Stoney save our souls"
+		name = "The War of Southern Aggression has Begun"
+	}
+}
+# Allium War beginning VIO
+country_event = {
+	id = allium.2	#Allium War start
+	title = "The War has begun"
+	desc = "The Allium Menace has grown too strong. They must be defeated before they become too powerful"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Allium-Coalition War has begun"
 		declare_war_on = { target = BAR    type = annex_everything target = BAR }
 	}
 }
