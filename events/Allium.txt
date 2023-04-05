@@ -31,3 +31,19 @@ country_event = {
 		declare_war_on = { target = BAR    type = annex_everything target = BAR }
 	}
 }
+#Third Rathnir Coalition Faction Offer
+country_event = {
+	id = allium.3	#Coalition members
+	title = "Offer of Alliance"
+	desc = "We have been offered to join the Third Rathnir Coalition"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "We shall join"
+		VIO ={
+			add_to_faction = ROOT
+		}
+	}
+}

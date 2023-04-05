@@ -83,5 +83,17 @@ country_event = {
 		VIO = {
 			create_faction = "Third Rathnir Coalition"
 		}
+		ULD = {
+			country_event = { id = allium.3 }
+		}
+		TOR = {
+			country_event = { id = allium.3 }
+		}
+		PLG = {
+			country_event = { id = allium.3 }
+		}
+		MUV = {
+			country_event = { id = allium.3 }
+		}
 	}
 }
