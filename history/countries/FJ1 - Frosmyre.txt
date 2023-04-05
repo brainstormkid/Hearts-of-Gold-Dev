@@ -77,9 +77,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Kaleb Helnok"
+	name = "Kelz"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/FJ1/Kaleb.dds"
+	picture = "gfx/leaders/FJ1/Kelz.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

@@ -77,9 +77,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Platitron"
+	name = "LPreston"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/UBS/Plat.dds"
+	picture = "gfx/leaders/UBS/Rosie.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
