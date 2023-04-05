@@ -92,6 +92,10 @@ bookmarks = {
 			minor = yes
 			history = "SRF_GATHERING_STORM_DESC"
 		}
+		"PLG"={
+			minor = yes
+			history = "PLG_GATHERING_STORM_DESC"
+		}
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
