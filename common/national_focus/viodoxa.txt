@@ -1,0 +1,46 @@
+focus_tree = {
+	id = viodoxa_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VIO
+		}
+	}
+	#Formation of the Third Coalition
+	focus = {
+		id = Third_Coalition_Formation
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 0
+		cost = 249
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = viodoxa.3 }
+			}
+			custom_effect_tooltip = viodoxatip1
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#War against Allium
+	focus = {
+		id = War_Against_Allium
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 1
+		cost = 36
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = viodoxa.4 }
+			}
+			custom_effect_tooltip = viodoxatip2
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = Third_Coalition_Formation }
+	}
+}

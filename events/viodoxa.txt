@@ -70,3 +70,18 @@ country_event = {
 		dismantle_faction
 	}
 }
+country_event = {
+	id = viodoxa.3	#Third Coalition Formation
+	title = "Formation of the Third Rathnir Coalition"
+	desc = "We have invited nations around the world to unite under a coalition to fight the growing threat of the Allium Alliance."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "We shall fight together!"
+		VIO = {
+			create_faction = "Third Rathnir Coalition"
+		}
+	}
+}
