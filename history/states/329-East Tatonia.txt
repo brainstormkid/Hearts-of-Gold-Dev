@@ -15,11 +15,12 @@ state={
 	}
 	manpower=98496
 	history={
-		owner = TTO
+		owner = SR1
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = TTO
+		add_core_of = SR1
 	}
 	buildings_max_level_factor=1.000
 }

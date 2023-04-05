@@ -12,13 +12,14 @@ state={
       }
 
 	history={
-		owner = LEY
+		owner = GRN
 		buildings = {
 			arms_factory = 1
 			infrastructure = 2
 
 		}
 		add_core_of = LEY
+		add_core_of = GRN
 
 	}
 

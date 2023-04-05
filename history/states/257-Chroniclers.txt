@@ -15,7 +15,7 @@ state={
 	}
 	manpower=1950000
 	history={
-		owner = CHR
+		owner = PLG
 		buildings = {
 			industrial_complex = 1 
 			infrastructure = 2
@@ -27,6 +27,7 @@ state={
 			3445 5		#Half-horn
 		}
 		add_core_of = CHR
+		add_core_of = PLG
 	}
 	buildings_max_level_factor=1.000
 }

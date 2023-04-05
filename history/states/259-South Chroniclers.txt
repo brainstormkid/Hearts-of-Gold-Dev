@@ -14,11 +14,12 @@ state={
 		2298 3443 3448 
 	}
 	history={
-		owner = CHR
+		owner = PLG
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = CHR
+		add_core_of = PLG
 	}
 	manpower=19146
 	buildings_max_level_factor=1.000

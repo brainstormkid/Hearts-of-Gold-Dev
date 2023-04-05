@@ -15,7 +15,7 @@ state={
 	state_category = pastoral
 	manpower=284496
 	history={
-		owner = THR
+		owner = PLG
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 1
@@ -24,6 +24,7 @@ state={
 			}
 		}
 		add_core_of = THR
+		add_core_of = PLG
 	}
 	buildings_max_level_factor=1.000
 }

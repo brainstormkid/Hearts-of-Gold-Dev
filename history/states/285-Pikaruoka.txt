@@ -15,7 +15,7 @@ state={
 	}
 	manpower=278979
 	history={
-		owner = PIK
+		owner = PLG
 		buildings = {
 			industrial_complex = 1 
 			infrastructure = 3
@@ -27,6 +27,7 @@ state={
 			}
 		}
 		add_core_of = PIK
+		add_core_of = PLG
 	}
 	buildings_max_level_factor=1.000
 }

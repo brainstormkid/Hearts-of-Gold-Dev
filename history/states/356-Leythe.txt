@@ -15,7 +15,7 @@ state={
 	}
 	manpower=2250000
 	history = {
-		owner = LEY
+		owner = GRN
 		buildings = {
 			industrial_complex = 1
 			arms_factory = 1
@@ -25,6 +25,7 @@ state={
 			4260 20		#Leythe
 		}
 		add_core_of = LEY
+		add_core_of = GRN
 	}
 	buildings_max_level_factor=1.000
 }
