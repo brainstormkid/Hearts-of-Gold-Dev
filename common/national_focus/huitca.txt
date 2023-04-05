@@ -634,69 +634,6 @@ focus_tree = {
 		mutually_exclusive = { focus = LAT_the_htsaa }
 	}
 
-	#Focus for April Election
-	focus = {
-		id = LAT_april_election
-		icon = GFX_goal_unknown
-		x = 0
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		completion_reward = {
-			hidden_effect = {
-				country_event = { id = huitca.1 }
-			}
-		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for May Election
-	focus = {
-		id = LAT_may_election
-		icon = GFX_goal_unknown
-		x = 0
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = LAT_april_election }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for June Election
-	focus = {
-		id = LAT_june_election
-		icon = GFX_goal_unknown
-		x = 0
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = LAT_may_election }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for July Election
-	focus = {
-		id = LAT_july_election
-		icon = GFX_goal_unknown
-		x = 0
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = LAT_june_election }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	#Focus for Into the Stars
 	focus = {
 		id = LAT_into_the_stars

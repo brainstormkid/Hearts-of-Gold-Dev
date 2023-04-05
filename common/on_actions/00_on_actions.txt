@@ -8,10 +8,19 @@ on_actions = {
 				}
 			}
 			RYZ = {
-		        country_event = { id = kato.1 days = 44 }
+		        country_event = { id = kato.1 days = 483 }
 			}
 			KUS = {
-		        country_event = { id = kato.2 days = 44 }
+		        country_event = { id = kato.2 days = 483 }
+			}
+			HUI = {
+				country_event = { id = huitca.1 days = 630 }
+			}
+			HUI = {
+				country_event = { id = huitca.2 days = 1281 }
+			}
+			HUI = {
+				country_event = { id = huitca.3 days = 1890 }
 			}
 		}
 	}

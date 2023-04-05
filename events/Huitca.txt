@@ -4,22 +4,74 @@
 
 add_namespace = huitca
 
-# April Election
+# May Election
 country_event = {
-	id = huitca.1	#April Election
-	title = "April Election"
-	desc = "A new Cihuacoatl must be elected to lead our nation for the month of April."
+	id = huitca.1	#May Election
+	title = "May Election"
+	desc = "A new Cihuacoatl must be elected to lead our nation for the month of May."
 	picture = GFX_report_event_finnish_soldiers_snow
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "Vickett Tizoc Vont"
+		name = "Sumo"
 		retire_country_leader = yes 
 		create_country_leader = {
-			name = "Vickett Tizoc Vont"
-			desc = "POLITICS_VICKETT_DESC"
-			#picture = "gfx/leaders/HUI/vickett.dds"
+			name = "SumoMC"
+			desc = "POLITICS_SUMO_DESC"
+			picture = "gfx/leaders/HUI/sumo.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+			#
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+# June Election
+country_event = {
+	id = huitca.2	#June Election
+	title = "June Election"
+	desc = "A new Cihuacoatl must be elected to lead our nation for the month of June."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "LilyPrism"
+		retire_country_leader = yes 
+		create_country_leader = {
+			name = "LilyPrism"
+			desc = "POLITICS_LILY_DESC"
+			#picture = "gfx/leaders/HUI/lily.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+			#
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+# July Election
+country_event = {
+	id = huitca.3	#July Election
+	title = "July Election"
+	desc = "A new Cihuacoatl must be elected to lead our nation for the month of July."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Gwfun22"
+		retire_country_leader = yes 
+		create_country_leader = {
+			name = "Gwfun22"
+			desc = "POLITICS_gwfun_DESC"
+			#picture = "gfx/leaders/HUI/gwfun.dds"
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
