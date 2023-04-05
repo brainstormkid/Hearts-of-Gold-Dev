@@ -4,3 +4,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/RYZ_event.dds"
 	}
 }
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_VAL_event"
+		texturefile = "gfx/event_pictures/VAL_event.dds"
+	}
+}

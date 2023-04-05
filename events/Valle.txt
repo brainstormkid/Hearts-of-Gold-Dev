@@ -9,7 +9,7 @@ country_event = {
 	id = valle.1	#Valle Moblization
 	title = "Vallian Moblization"
 	desc = "The Bardonian Menace has been subdued by the Ferrymen, we must prepare to eliminate the remaining Bardonians in a preemptive invasion."
-	picture = GFX_report_event_finnish_soldiers_snow
+	picture = GFX_VAL_event
 	
 	is_triggered_only = yes
 
@@ -23,7 +23,7 @@ country_event = {
 	id = valle.2	#Vallian Naval Invasion Preparations
 	title = "The invasion of Bardonia"
 	desc = "This plan will succed in finishing Bardonia off."
-	picture = GFX_report_event_finnish_soldiers_snow
+	picture = GFX_VAL_event
 	
 	is_triggered_only = yes
 
@@ -37,7 +37,7 @@ country_event = {
 	id = valle.3	#Buying Needed Equipment
 	title = "Our stockpiles must be replenished"
 	desc = "The Vallian industry is not prepared for supplying our current army, we must purchase equipment from abroad to keep our military strong against Bardonian."
-	picture = GFX_report_event_finnish_soldiers_snow
+	picture = GFX_VAL_event
 	
 	is_triggered_only = yes
 
@@ -51,7 +51,7 @@ country_event = {
 	id = valle.4	#Emergency Fortifcations
 	title = "Our cities must be prepared"
 	desc = "The failure of our invasion has caused us to prepare for an immiment Bardonian Invasion."
-	picture = GFX_report_event_finnish_soldiers_snow
+	picture = GFX_VAL_event
 	
 	is_triggered_only = yes
 
