@@ -14,11 +14,12 @@ state={
 		7 119 780 972 1087 1261 1270 1578 2326 3176 3935 3966 3984 4020 4029 4030 4036 
 	}
 	history={
-		owner = MDR
+		owner = FJ1
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = MDR
+		add_core_of = FJ1
 	}
 	manpower=115149
 	buildings_max_level_factor=1.000

@@ -15,11 +15,12 @@ state={
 		52 1216 1278 1302 1934 2221 2307 2865 3898 3919 3921 
 	}
 	history={
-		owner = MDR
+		owner = AXR
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = MDR
+		add_core_of = AXR
 	}
 	manpower=88176
 	buildings_max_level_factor=1.000

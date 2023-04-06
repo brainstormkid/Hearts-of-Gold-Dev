@@ -15,7 +15,7 @@ state={
 	}
 	manpower=1200000
 	history={
-		owner = KRO
+		owner = MUV
 		buildings = {
 			arms_factory = 1 
 			infrastructure = 3
@@ -27,6 +27,7 @@ state={
 			311 10		#New Saulot
 		}
 		add_core_of = KRO
+		add_core_of = MUV
 	}
 	buildings_max_level_factor=1.000
 }

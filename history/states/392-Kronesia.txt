@@ -14,7 +14,7 @@ state={
 		626 677 2543 4523 
 	}
 	history={
-		owner = SCH
+		owner = VAN
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1 
@@ -26,6 +26,7 @@ state={
 			2543 5	#Kronesia
 		}
 		add_core_of = SCH
+		add_core_of = VAN
 	}
 	manpower=744636
 	buildings_max_level_factor=1.000
