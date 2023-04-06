@@ -1,0 +1,229 @@
+spriteTypes = {
+	
+	### GUI
+	
+	spriteType = {
+		name = "GFX_resources_strip"
+		texturefile = "gfx/interface/resources_strip.dds"
+		noOfFrames = 8
+	}
+	
+	spriteType = {
+		name = "GFX_missing_resources_strip"
+		texturefile = "gfx/interface/missing_resources_strip.dds"
+		noOfFrames = 8
+	}
+	
+	### Texticons
+	
+	spriteType = {
+		name = "GFX_brick"
+		texturefile = "gfx/texticons/brick.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_rotten_flesh"
+		texturefile = "gfx/texticons/rotten_flesh.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_iron_sword"
+		texturefile = "gfx/texticons/iron_sword.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_gold_nugget"
+		texturefile = "gfx/texticons/gold_nugget.dds"
+		legacy_lazy_load = no
+	}
+	
+	### equipment
+	
+	SpriteType = {
+		name = "GFX_interwar_antitank_medium"
+		texturefile = "gfx/interface/technologies/AT_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/Art_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_interwar_antiair_medium"
+		texturefile = "gfx/interface/technologies/AA_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_antitank2_medium"
+		texturefile = "gfx/interface/technologies/AT_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_artillery1_medium"
+		texturefile = "gfx/interface/technologies/Art_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_antiair2_medium"
+		texturefile = "gfx/interface/technologies/AA_2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_antitank5_medium"
+		texturefile = "gfx/interface/technologies/AT_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Art_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_antiair5_medium"
+		texturefile = "gfx/interface/technologies/AA_3.dds"
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+		noOfFrames = 44
+		animation_rate_fps = 13
+		looping = yes
+		play_on_show = yes
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_improved_infantry_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+		noOfFrames = 44
+		animation_rate_fps = 13
+		looping = yes
+		play_on_show = yes
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_advanced_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+		noOfFrames = 44
+		animation_rate_fps = 13
+		looping = yes
+		play_on_show = yes
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_flexible_line_medium"
+		texturefile = "gfx/interface/technologies/flexible_line.dds"
+		noOfFrames = 44
+		animation_rate_fps = 13
+		looping = yes
+		play_on_show = yes
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_smoke_generator_medium"
+		texturefile = "gfx/interface/technologies/smoke_generator.dds"
+		noOfFrames = 40
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_nukes_medium"
+		texturefile = "gfx/interface/technologies/nukes.dds"
+		noOfFrames = 120
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+	}
+	
+	### agencies
+	
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_plc"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_plc.dds"
+		noOfFrames = 2
+	}
+	
+	### leaders
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_TWN_hausemaster"
+		texturefile = "gfx/leaders/TWN/Portrait_Wild_North_Hausemaster.dds"
+		noOfFrames = 28
+		animation_rate_fps = 24
+		looping = yes
+		play_on_show = yes
+	}
+	
+	### sharing group
+
+	spriteType = {
+		name = "GFX_PLC_trade_association"
+		texturefile = "gfx/interface/technology_sharing/PLC_trade_association.dds"
+	}
+	
+	### decision categories
+
+	spriteType = {
+		name = "GFX_decision_category_generic_monster"
+		texturefile = "gfx/interface/decisions/decision_category_generic_monster.dds"
+	}
+	
+	### decisions
+
+	spriteType = {
+		name = "GFX_decision_diamond"
+		texturefile = "gfx/interface/decisions/decision_diamond.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_iron"
+		texturefile = "gfx/interface/decisions/decision_iron.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_wood"
+		texturefile = "gfx/interface/decisions/decision_wood.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_netherite"
+		texturefile = "gfx/interface/decisions/decision_netherite.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_lazurite"
+		texturefile = "gfx/interface/decisions/decision_lazurite.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_redstone"
+		texturefile = "gfx/interface/decisions/decision_redstone.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_coal"
+		texturefile = "gfx/interface/decisions/decision_coal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_gunpowder"
+		texturefile = "gfx/interface/decisions/decision_gunpowder.dds"
+	}
+	
+}
