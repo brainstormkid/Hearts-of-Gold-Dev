@@ -1,4 +1,5 @@
-﻿#Hearts of Gold (V2): Legacy of the Ferrymen War (October 2022 - Current)
+﻿#Hearts of Gold (V2):
+Legacy of the Ferrymen War
 
 #GAME DIRECTOR
 Brainstormkid#0067
@@ -8,55 +9,63 @@ CharlieS401#4287
 IndigoSlimez#7377
 paleozoey#3730
 
-#RYZAN DEVELOPMENT TEAM
+#RYZAN
 Moc#3041
 Sarcasmo#6733
 Slout#2811
 
-#HUITCA DEVELOPMENT TEAM
+#HUITCA
 PABLITO#1746
 Infinick#2828
 
-#ULDARASH DEVELOPMENT TEAM
+#ULDARASH
 Canine#5474
 Butterscotch#2469
 Keechoo#1642
 
-#AESPERIUM NIEDEN DEVELOPMENT TEAM
+#AESPERIUM NIEDEN
 FaBiolUs08#7522
 
-#SAVRYIAN LEAGUE DEVELOPMENT TEAM
+#SAVRYIAN LEAGUE
 ionianboi#2821
 
-#AURLUNOR VELANDE DEVELOPMENT TEAM
+#AURLUNOR VELANDE
 Coffeeccubus#8008
 Sarcasmo#6733
+Oranje#1487
 
-#BARDONIA DEVELOPMENT TEAM
+#BARDONIA
 Mobius#2765
 
-#CARVAY DEVELOPMENT TEAM
+#CARVAY
 npKori#0001
 
-#LENNOX DEVELOPMENT TEAM
+#LENNOX
 BuzzB#3030
 
-#ThEIOS ESSUKDAL DEVELOPMENT TEAM
+#ThEIOS ESSUKDAL
 NattyNuke#8702
 MisticCrafter#8826
 
-#AKRATIA DEVELOPMENT TEAM
+#AKRATIA
 Yazov#1984
+
+#VIODOXA
+Hazel#3236
+Oranje#1487
+
+#ARDAT
+Axyr#0001
+DukeSoulEater#5889
 
 #MOD CREDITS
 Hearts of Minecraft: Sins of the Cohort
 Hearts of Rathnir: Wrath of War
 Equestria at War
-Economy in HOI4 (Only for version 2.2)
 
 ----------------
 
-#Hearts of Gold: Legacy of the Ferrymen War (May 2021 - October 2022)
+#Hearts of Gold: Legacy of the Ferrymen War
 
 #GAME DIRECTORS
 conlukmal#8771 (May 2021 - September 2021)
