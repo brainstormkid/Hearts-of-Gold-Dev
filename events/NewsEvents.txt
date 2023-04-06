@@ -1,1 +1,21 @@
-﻿
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# Coffee Breaks Record
+news_event = {
+	id = news.1
+	title = "Coffee"
+	desc = "Based"
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "An Achievement of Greatness"
+	}
+}
