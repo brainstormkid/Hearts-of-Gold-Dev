@@ -25,7 +25,24 @@ set_technology = {
 add_ideas = {
 	volunteer_only
 }
-
+GRN = {
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Together for Victory"
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_autonomy = {
+			target = ARD
+			autonomous_state = autonomy_dominion
+			freedom_level = 0.35
+		}
+		else = {
+			puppet = SR1
+		}
+	}
+}
 1939.1.1 = {
 
 	add_political_power = 1198
