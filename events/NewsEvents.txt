@@ -7,8 +7,8 @@ add_namespace = news
 # Coffee Breaks Record
 news_event = {
 	id = news.1
-	title = "Coffee"
-	desc = "Based"
+	title = "Coffee Breaks World Record!"
+	desc = "Today, April 24th, 2021, Coffeeccubus has ascended to the height of 106, 805 blocks Y making her the highest point any player has traveled in Rathnir. We hope that she makes a safe descend back down to the ground safely and soundly."
 	picture = GFX_news_event_001
 	
 	major = yes
@@ -17,5 +17,20 @@ news_event = {
 	
 	option = {
 		name = "An Achievement of Greatness"
+	}
+}
+# Coffee (HIDDEN)
+news_event = {
+	id = news.2
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date = 1936.03.25
+	}
+	
+	immediate = {
+		news_event = { id = news.1 }
 	}
 }

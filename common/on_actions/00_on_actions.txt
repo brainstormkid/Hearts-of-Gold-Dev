@@ -22,7 +22,6 @@ on_actions = {
 			HUI = {
 				country_event = { id = huitca.3 days = 1890 }
 			}
-			news_event = { id = news.1 days = 7 }
 		}
 	}
 	on_capitulation = {
