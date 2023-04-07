@@ -1,6 +1,117 @@
 ideas = {
 
 	country = {
+		disunified_country_5 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = uldarash_spirit
+
+			modifier = {
+				political_power_cost = 1
+				conscription_factor = -0.50
+				army_org_factor = -0.40
+				consumer_goods_factor = 0.30
+				construction_speed = -0.80
+				
+			}
+		}
+		disunified_country_4 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = uldarash_spirit
+
+			modifier = {
+				political_power_cost = 0.75
+				conscription_factor = -0.40
+				army_org_factor = -0.35
+				consumer_goods_factor = 0.20
+				
+			}
+		}
+		disunified_country_3 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = uldarash_spirit
+
+			modifier = {
+				political_power_cost = 0.65
+				conscription_factor = -0.30
+				army_org_factor = -0.30
+				consumer_goods_factor = 0.15
+				
+			}
+		}
+		disunified_country_2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = uldarash_spirit
+
+			modifier = {
+				political_power_cost = 0.50
+				conscription_factor = -0.20
+				army_org_factor = -0.25
+				consumer_goods_factor = 0.10
+				
+			}
+		}
+		disunified_country_1 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = uldarash_spirit
+
+			modifier = {
+				political_power_cost = 0.25
+				conscription_factor = -0.10
+				army_org_factor = -0.25
+				consumer_goods_factor = 0.05
+				
+			}
+		}
 		disunified_country = {
 
 			allowed = {
@@ -16,11 +127,32 @@ ideas = {
 			picture = uldarash_spirit
 
 			modifier = {
-				recruitable_population_factor = -0.10
-				army_org_factor = -0.20
+				political_power_cost = 0.10
+				conscription_factor = -0.5
+				army_org_factor = -0.10
 			}
 		}
+		army_reorganization = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = uldarash_spirit
+		
+			modifier = {
+				army_morale_factor = 0.1
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+		}
 	}
+}
 }
 	
 
