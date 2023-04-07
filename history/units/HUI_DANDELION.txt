@@ -1,0 +1,19 @@
+units = {
+	fleet = {
+		name = "TGS Dandelion Navy"			
+		naval_base = 758
+		task_force = {				
+			name = "TGS Dandelion Task Force"			
+			location = 758
+			ship = { name = "HNS 001"  pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = HUI } } }
+			ship = { name = "HNS 002" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 003" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 005" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 006" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 007" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 010" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 011" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+			ship = { name = "HNS 012" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = HUI } } }
+		}
+	}
+}
