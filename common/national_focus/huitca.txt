@@ -328,6 +328,11 @@ focus_tree = {
 		x = 5
 		y = 3
 		cost = 10
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 75
+			add_war_support = 0.1
+		}
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -341,6 +346,11 @@ focus_tree = {
 		x = 5
 		y = 5
 		cost = 10
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 75
+			army_experience = 25
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = LAT_huitca_commonwealth }
 		ai_will_do = {
@@ -378,6 +388,9 @@ focus_tree = {
 		x = 4
 		y = 4
 		cost = 10
+		completion_reward = {
+			add_manpower = 10000
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = LAT_new_rathnir }
 		ai_will_do = {
@@ -392,6 +405,12 @@ focus_tree = {
 		x = 4
 		y = 6
 		cost = 10
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 25
+			}
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = LAT_huitca_commonwealth }
 		ai_will_do = {
