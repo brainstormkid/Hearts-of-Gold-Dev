@@ -439,6 +439,14 @@ technologies = {
 				ai_land_doctrine_tier_2_trigger = yes
 				factor = 2
 			}
+			modifier = {
+				tag = ENG
+				factor = 1.5
+			}
+			modifier = {
+				tag = USA
+				factor = 0.5
+			}
 		}
 		
 		ai_research_weights = {
@@ -487,6 +495,14 @@ technologies = {
 			modifier = {
 				ai_land_doctrine_tier_2_trigger = yes
 				factor = 2
+			}
+			modifier = {
+				tag = ENG
+				factor = 0.5
+			}
+			modifier = {
+				tag = USA
+				factor = 1.5
 			}
 		}
 		
@@ -684,7 +700,7 @@ technologies = {
 		air_strategic_bomber_bombing_factor = 0.2
 		###########
 		xp_research_type = air
-		xp_unlock_cost = 100	
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -758,6 +774,14 @@ technologies = {
 			factor = 5
 			
 			modifier = {
+				factor = 0
+				tag = USA
+			}
+			modifier = {
+				tag = SOV
+				factor = 4
+			}
+			modifier = {
 				ai_land_doctrine_tier_1_trigger = yes
 				factor = 2
 			}
@@ -811,6 +835,11 @@ technologies = {
 				ai_land_doctrine_tier_2_trigger = yes
 				factor = 2
 			}
+
+			modifier = {
+				tag = GER
+				factor = 0.5
+			}
 		}
 		
 		ai_research_weights = {
@@ -860,6 +889,10 @@ technologies = {
 			modifier = {
 				ai_land_doctrine_tier_2_trigger = yes
 				factor = 2
+			}
+			modifier = {
+				tag = GER
+				factor = 0.5
 			}
 		}
 		
@@ -911,6 +944,10 @@ technologies = {
 				ai_land_doctrine_tier_2_trigger = yes
 				factor = 2
 			}
+			modifier = {
+				tag = GER
+				factor = 0.5
+			}
 		}
 		
 		ai_research_weights = {
@@ -960,6 +997,10 @@ technologies = {
 				ai_land_doctrine_tier_2_trigger = yes
 				factor = 2
 			}
+			modifier = {
+				tag = GER
+				factor = 0.5
+			}
 		}
 		
 		ai_research_weights = {
@@ -1003,6 +1044,10 @@ technologies = {
 			modifier = {
 				ai_land_doctrine_tier_2_trigger = yes
 				factor = 2
+			}
+			modifier = {
+				tag = GER
+				factor = 0.5
 			}
 		}
 		
@@ -1061,6 +1106,10 @@ technologies = {
 			modifier = {
 				ai_land_doctrine_tier_2_trigger = yes
 				factor = 2
+			}
+			modifier = {
+				tag = GER
+				factor = 0.5
 			}
 		}
 		
@@ -1177,7 +1226,7 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 		xp_research_type = air
-		xp_unlock_cost = 100	
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1222,7 +1271,7 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 		xp_research_type = air
-		xp_unlock_cost = 100	
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1300,7 +1349,7 @@ technologies = {
 		air_interception_detect_factor = 0.15
 		###########
 		xp_research_type = air
-		xp_unlock_cost = 100		
+		xp_unlock_cost = 100
 		doctrine = yes	
 		research_cost = 3
 		
@@ -1364,6 +1413,10 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			
+			modifier = {
+				factor = 0
+				tag = USA
+			}
 			modifier = {
 				ai_land_doctrine_tier_1_trigger = yes
 				factor = 2
@@ -2037,29 +2090,29 @@ technologies = {
 #			name = air_doctrine_folder
 #			position = { x = -1 y = 10 }
 #		}
-#
+#		
 #		ai_will_do = {
 #			factor = 1
 #		}
-#
+#		
 #		ai_research_weights = {
 #			air_doctrine = -1.0
 #			medium_air = -0.5
 #			heavy_air = -1.5
 #		}
 #	}
-#
+#	
 #	dead_reckoning_bombing = {
 #
 #		# EFFECT ########
 #		air_strategic_bomber_night_penalty = -0.6
 #		###########
-#
+#		
 #		path = {
 #			leads_to_tech = infiltration_bombing
 #			research_cost_coeff = 1
 #		}
-#
+#		
 #		doctrine = yes	
 #		research_cost = 2
 #		
@@ -2067,9 +2120,9 @@ technologies = {
 #			air_doctrine
 #			strategic_destruction_tree
 #		}
-#
-#
-#
+#		
+#		
+#		
 #		folder = {
 #			name = air_doctrine_folder
 #			position = { x = -2 y = 8 }
