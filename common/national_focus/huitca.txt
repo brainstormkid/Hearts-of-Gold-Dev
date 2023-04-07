@@ -355,6 +355,15 @@ focus_tree = {
 		x = 3
 		y = 5
 		cost = 10
+		completion_reward = {
+			412 = {
+				add_state_modifier = {
+					modifier = {
+						local_resources = 0.75
+					}
+				}
+			}
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = LAT_huitca_commonwealth }
 		ai_will_do = {
