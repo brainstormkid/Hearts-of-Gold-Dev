@@ -8,7 +8,7 @@ add_namespace = news
 news_event = {
 	id = news.1
 	title = "Coffee Breaks World Record!"
-	desc = "Today, April 24th, 2021, Coffeeccubus has ascended to the height of 106, 805 blocks Y making her the highest point any player has traveled in Rathnir. We hope that she makes a safe descend back down to the ground safely and soundly."
+	desc = "Today, April 24th, 2021, Coffeeccubus has ascended to the height of 106, 805 blocks Y making her the highest point any player has traveled in Rathnir. We hope that she makes a safe descent back down to the ground."
 	picture = GFX_news_event_001
 	
 	major = yes
@@ -32,5 +32,35 @@ news_event = {
 	
 	immediate = {
 		news_event = { id = news.1 }
+	}
+}
+# Dream Flash Mob
+news_event = {
+	id = news.3
+	title = "Dream Flash Mob"
+	desc = "Today, May 27th, 2021, multiple individuals all in Dream skins overtook the Stoneworks server after its members became severely intoxicated when they excessively drank copious amounts of absinthe during a party in Lhumar, Aurlunor Velande."
+	picture = GFX_news_event_002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "'dream stans are KOS imo' - Crezyman"
+	}
+}
+# Dream (HIDDEN)
+news_event = {
+	id = news.4
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date = 1938.02.16
+	}
+	
+	immediate = {
+		news_event = { id = news.3 }
 	}
 }

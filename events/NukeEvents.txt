@@ -1,1 +1,48 @@
-﻿
+﻿# Nuclear Attack PLACEHOLDER
+news_event = {
+	id = nuke_dropped.1
+	title = nuke_dropped.1.t
+	desc = nuke_dropped.1.d
+	picture = GFX_news_event_nuke
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			FROM = {
+				FROM = {
+					OR = {
+						state = 529
+						state = 528
+						state = 64
+						state = 126
+						state = 531
+						state = 282
+						state = 361
+						state = 2
+						state = 16 
+						state = 219
+						state = 37
+						state = 141
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = nuke_dropped.1.a
+		trigger = {
+			NOT = { FROM = { FROM = { is_owned_by = ROOT } } }
+		}
+	}
+	
+	option = {
+		name = nuke_dropped.1.b
+		trigger = {
+			FROM = { FROM = { is_owned_by = ROOT } }
+		}
+	}
+}
