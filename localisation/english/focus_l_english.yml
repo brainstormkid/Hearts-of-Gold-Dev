@@ -2713,3 +2713,10 @@ l_english:
  SOV_THE_USSR_NAME_EXILES:0 "Russia"
  SOV_RUSSIANS_DEMONYM_SOVIETS:0 "Soviets"
  SOV_RUSSIANS_DEMONYM_RUSSIANS:0 "Russians"
+ #ULD Focus Tree Localizations ##############################################
+ ULD_Recover_from_Ferrymen:0 "Recover from the Ferrymen"
+ ULD_A_New_State:0 "Building A New State"
+ ULD_Qwaser_Leadership:0 "Mantain Qwaser's Leadership"
+ ULD_Canine_Leadership:0 "Canine Takes the Reigns"
+ ULD_Put_States_First:0 "Put The States First"
+ ULD_Army_Reorganization:0 "Organization of the State Militaries"
