@@ -1,4 +1,32 @@
-﻿# Nuclear Attack PLACEHOLDER
+﻿###########################
+# Nuclear Bomb Events
+###########################
+
+add_namespace = nuke_dropped
+
+# Hidden event to set flag on nuke dropped
+news_event = {
+	id = nuke_dropped.0
+	picture = GFX_news_event_nuke
+
+	major = yes
+
+	is_triggered_only = yes
+
+	hidden = yes
+
+	fire_only_once = yes
+
+	immediate = {
+		news_event = { id = nuke_dropped.1 days = 1 }
+	}
+	
+	option = {
+		name = dummy_nuke_option
+	}
+}
+
+# Nuclear Attack PLACEHOLDER
 news_event = {
 	id = nuke_dropped.1
 	title = nuke_dropped.1.t
@@ -8,29 +36,6 @@ news_event = {
 	major = yes
 
 	is_triggered_only = yes
-
-	trigger = {
-		NOT = {
-			FROM = {
-				FROM = {
-					OR = {
-						state = 529
-						state = 528
-						state = 64
-						state = 126
-						state = 531
-						state = 282
-						state = 361
-						state = 2
-						state = 16 
-						state = 219
-						state = 37
-						state = 141
-					}
-				}
-			}
-		}
-	}
 
 	option = {
 		name = nuke_dropped.1.a
