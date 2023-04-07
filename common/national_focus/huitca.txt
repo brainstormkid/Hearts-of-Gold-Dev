@@ -180,7 +180,7 @@ focus_tree = {
 		y = 5
 		cost = 10
 		completion_reward = {
-			set_naval_oob = "HUI_DANDELION"
+			load_oob = "HUI_DANDELION"
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = LAT_ship_production }
@@ -863,7 +863,7 @@ focus_tree = {
 			add_doctrine_cost_reduction = {
 				cost_reduction = 0.5
 				uses = 1
-				category = land_doctrine
+				category = naval_doctrine
 			}
 		}
 		available_if_capitulated = yes
