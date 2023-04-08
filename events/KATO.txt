@@ -14,6 +14,9 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+	ai_chance = {
+			factor = 1
+		}
 		name = "Are they high?"
 		RYZ = {
 			leave_faction = yes
@@ -23,6 +26,9 @@ country_event = {
 		}
 	}
 	option = {
+	ai_chance = {
+			base = 0
+		}
 		name = "Down with the Bards!"
 		VAL = {
 			country_event = { id = bardonia.16 }
