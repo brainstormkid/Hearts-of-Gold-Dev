@@ -243,25 +243,7 @@ country_event = {
 	}
 }
 # Reinforce Volkoregrad
-country_event = {
-	id = ryzan.14	#Reinforce Volkoregrad
-	title = "Reinforce Volkoregrad"
-	desc = "Our military must be prepared for war. We must have our equipment perfected and our soldiers trained for the worse."
-	picture = GFX_RYZ_event
-	
-	is_triggered_only = yes
 
-	option = {
-		name = "Volkoregrad must be ready for the Dandelion Invasion"
-		119 = {
-			add_building_construction = {
-			type = bunker
-			province = 1700
-			level = 8
-			}
-		}
-	}
-}
 # Hiring Ulfaeng
 country_event = {
 	id = ryzan.14	#Hiring Ulfaeng
