@@ -1,6 +1,6 @@
 state={
 	id=187
-	name="Upper Meza"
+	name="Upper Mesa"
 	state_category = wasteland
       resources = {
 	    oil = 3
