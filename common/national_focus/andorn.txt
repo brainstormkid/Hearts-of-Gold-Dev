@@ -71,6 +71,10 @@ focus_tree = {
 		completion_reward = {
 			#
 		}
+		ai_will_do = {
+			base = 0
+		}
+		
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
