@@ -39,7 +39,6 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.5 
 			}
 		}
-
 		auronspeak_lost2 = {
 
 			allowed = {
@@ -76,6 +75,27 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.05
 				production_factory_max_efficiency_factor = -0.2
+			}
+		}
+		auronspeak_lost4 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				army_org_factor = -1.0
+				consumer_goods_factor = 0.10
+				production_factory_max_efficiency_factor = -0.5 
+				surrender_limit = -0.8
 			}
 		}
 		shattered_visage = {
