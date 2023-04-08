@@ -1,6 +1,6 @@
 state={
 	id=186
-	name="Lower Meza"
+	name="Lower Mesa"
 	state_category = pastoral
       resources = {
 	    oil = 3
