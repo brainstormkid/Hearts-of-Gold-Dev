@@ -20,11 +20,13 @@ units = {
 		location = 3637
 		division_template = "Bizonnian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Chad Division"
 		location = 3637
 		division_template = "Bizsonnian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 }

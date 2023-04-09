@@ -25,53 +25,62 @@ units = {
 		location = 957
 		division_template = "Ardat Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "2nd Ardatian Infantry Division"
 		location = 957
 		division_template = "Ardat Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "3rd Ardatian Infantry Division"
 		location = 957
 		division_template = "Ardat Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "4th Ardatian Infantry Division"
 		location = 3254
 		division_template = "Ardat Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "5th Ardatian Infantry Division"
 		location = 3254
 		division_template = "Ardat Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "6th Ardatian Infantry Division"
 		location = 1057
 		division_template = "Ardat Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "7th Ardatian Infantry Division"
 		location = 1057
 		division_template = "Ardat Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "8th Ardatian Infantry Division"
 		location = 1675
 		division_template = "Ardat Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "9th Ardatian Infantry Division"
 		location = 1675
 		division_template = "Ardat Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 }

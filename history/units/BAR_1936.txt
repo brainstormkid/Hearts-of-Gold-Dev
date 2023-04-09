@@ -25,6 +25,7 @@ units = {
 		location = 2986
 		division_template = "Bardonian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Hands Regiment"
@@ -49,47 +50,55 @@ units = {
 		location = 3772
 		division_template = "Bardonian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "First Baykonian Band"
 		location = 1373
 		division_template = "Bardonian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Second Baykonian Band"
 		location = 3760
 		division_template = "Bardonian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Lobopolis Garrison"
 		location = 762
 		division_template = "Bardonian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Bardonian Royal Guard"
 		location = 1601
 		division_template = "Bardonian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Anti-Communist Brigade"
 		location = 1262
 		division_template = "Bardonian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Northern Guard I "
 		location = 1519
 		division_template = "Bardonian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Northern Guard II "
 		location = 1918
 		division_template = "Bardonian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 }

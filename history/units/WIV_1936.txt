@@ -21,23 +21,27 @@ units = {
 		location = 2205
 		division_template = "Wivamovia Militia"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Hinomir Garrison"
 		location = 2205
 		division_template = "Wivamovia Militia"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Naval Officers"
 		location = 2997
 		division_template = "Wivamovia Militia"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Revolutionary Guard"
 		location = 2997
 		division_template = "Wivamovia Militia"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 }

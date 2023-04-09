@@ -25,23 +25,27 @@ units = {
 		location = 422
 		division_template = "Vallian Legion"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Western Guard"
 		location = 422
 		division_template = "Vallian Legion"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Eastern Guard"
 		location = 422
 		division_template = "Vallian Legion"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Valle Strikers"
 		location = 422
 		division_template = "Vallian Legion"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 }

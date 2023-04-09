@@ -20,11 +20,13 @@ units = {
 		location = 3485
 		division_template = "New Savyrian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Herncia Division"
 		location = 3485
 		division_template = "New Savyrian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 }

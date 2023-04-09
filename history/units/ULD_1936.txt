@@ -25,6 +25,7 @@ units = {
 		location = 928
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -32,6 +33,7 @@ units = {
 		location = 928
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -39,6 +41,7 @@ units = {
 		location = 928
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -46,6 +49,7 @@ units = {
 		location = 4312
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -53,6 +57,7 @@ units = {
 		location = 4312
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -60,6 +65,7 @@ units = {
 		location = 4329
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -67,6 +73,7 @@ units = {
 		location = 4329
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -74,6 +81,7 @@ units = {
 		location = 2084
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -81,6 +89,7 @@ units = {
 		location = 4349
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -88,6 +97,7 @@ units = {
 		location = 4349
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -95,6 +105,7 @@ units = {
 		location = 3374
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -102,6 +113,7 @@ units = {
 		location = 1864
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -109,6 +121,7 @@ units = {
 		location = 1864
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -116,6 +129,7 @@ units = {
 		location = 1616
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -123,6 +137,7 @@ units = {
 		location = 658
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -130,6 +145,7 @@ units = {
 		location = 658
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -137,6 +153,7 @@ units = {
 		location = 641
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -144,6 +161,7 @@ units = {
 		location = 2391
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -151,6 +169,7 @@ units = {
 		location = 1310
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -158,6 +177,7 @@ units = {
 		location = 28
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	#ULD Army
 	division = {
@@ -165,5 +185,6 @@ units = {
 		location = 4394
 		division_template = "Uldarash Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 }

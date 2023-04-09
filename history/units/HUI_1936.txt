@@ -45,42 +45,49 @@ units = {
 		location = 3837
 		division_template = "Huitca Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "2nd Huitcan Infantry Division"
 		location = 2362
 		division_template = "Huitca Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "3rd Huitcan Infantry Division"
 		location = 2723
 		division_template = "Huitca Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "4th Huitcan Infantry Division"
 		location = 1481
 		division_template = "Huitca Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "5th Huitcan Infantry Division"
 		location = 3037
 		division_template = "Huitca Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "6th Huitcan Infantry Division"
 		location = 41
 		division_template = "Huitca Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "7th Huitcan Infantry Division"
 		location = 2521
 		division_template = "Huitca Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "1st Sun Warrior Division"

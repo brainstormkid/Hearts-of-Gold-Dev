@@ -25,47 +25,55 @@ units = {
 		location = 220
 		division_template = "Theios Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Royal Guard"
 		location = 220
 		division_template = "Theios Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Royal Guard"
 		location = 220
 		division_template = "Theios Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Royal Guard"
 		location = 220
 		division_template = "Theios Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Royal Guard"
 		location = 220
 		division_template = "Theios Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Royal Guard"
 		location = 220
 		division_template = "Theios Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Royal Guard"
 		location = 220
 		division_template = "Theios Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Royal Guard"
 		location = 220
 		division_template = "Theios Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 }

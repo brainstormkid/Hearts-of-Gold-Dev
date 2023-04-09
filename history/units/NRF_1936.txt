@@ -20,11 +20,13 @@ units = {
 		location = 1394
 		division_template = "Norfthornian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Norfthorn Regiment"
 		location = 1394
 		division_template = "Norfthornian Infantry"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 }
