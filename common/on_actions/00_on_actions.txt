@@ -22,6 +22,9 @@ on_actions = {
 			HUI = {
 				country_event = { id = huitca.3 days = 1890 }
 			}
+			ULD = {
+				country_event = { id = uldarash.2 days = 1680 }
+			}
 		}
 	}
 	on_nuke_drop = {
