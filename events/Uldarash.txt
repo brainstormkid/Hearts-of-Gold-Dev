@@ -40,10 +40,6 @@ country_event = {
 	picture = GFX_report_event_finnish_soldiers_snow
 	
 	fire_only_once = yes 
-	
-	trigger = {
-		has_stability < 0.55
-	}
 
 	option = {
 		name = "An interesting development"
