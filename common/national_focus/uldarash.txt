@@ -1,0 +1,386 @@
+focus_tree = {
+	id = uldarash_focus
+	continuous_focus_position = { x = 3600 y = 1500 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ULD
+		}
+	}
+	#Recover from ferrymen
+	focus = {
+		id = ULD_Recover_from_Ferrymen
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 19
+		y = 0
+		cost = 6
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	#Building a new state
+	focus = {
+	prerequisite = { focus = ULD_Recover_from_Ferrymen }
+		id = ULD_A_New_State
+		icon = GFX_goal_generic_demand_territory
+		x = 19
+		y = 1
+		cost = 10
+		completion_reward = {
+			swap_ideas = { 
+			  remove_idea = disunified_country_5
+			  add_idea = disunified_country_4
+			}
+		}
+	}
+	#canine Path
+	focus = {
+	prerequisite = { focus = ULD_A_New_State }
+	mutually_exclusive = { focus = ULD_Qwaser_Leadership }
+		id = ULD_Canine_Leadership
+		icon = GFX_focus_por_salazar
+		x = 18
+		y = 2
+		cost = 10
+		completion_reward = {
+		create_country_leader = {
+				name = "Canine"
+				desc = "POLITICS_PETER_II_DESC"
+				picture = "canine.dds"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = { }
+			}
+			add_war_support = 0.10
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#Qwaser Path
+	focus = { 
+	prerequisite = { focus = ULD_A_New_State }
+	mutually_exclusive = { focus = ULD_Canine_Leadership }
+		id = ULD_Qwaser_Leadership
+		icon = GFX_focus_jap_showa_restoration
+		x = 20
+		y = 2
+		cost = 6
+		completion_reward = {
+		add_stability = 0.10
+	}
+}
+	#industry
+	focus = {
+	prerequisite = { focus = ULD_Qwaser_Leadership }
+	id = ULD_Put_States_First
+	icon = GFX_focus_TUR_treaty_of_saadabad
+	x = 24
+	y = 3
+	cost = 6
+	completion_reward = {
+		add_country_leader_trait = qwaser_peace_bird
+		
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						is_core_of = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						is_core_of = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						is_core_of = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						is_core_of = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = yes
+						}
+						is_core_of = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+		}
+	}
+	focus = {
+		prerequisite = { focus = ULD_Put_States_First }
+		id = ULD_Infrastructure_Projects
+		icon = GFX_focus_mex_privatisation
+		x = 24
+		y = 4
+		cost = 10
+		completion_reward = { 
+				random_owned_controlled_state = {
+					limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+					add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				}
+				random_owned_controlled_state = {
+					limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+					add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				}
+				random_owned_controlled_state = {
+					limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+					add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				}
+				random_owned_controlled_state = {
+					limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+					add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#Military
+	focus = {
+		prerequisite = { focus = ULD_Qwaser_Leadership }
+		id = ULD_Army_Reorganization
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 22
+		y = 3
+		cost = 10
+		completion_reward = {
+		add_ideas = { army_reorganization
+		}
+	}
+}
+	focus = {
+	prerequisite = { focus = ULD_Army_Reorganization }
+	id = ULD_finish_army_reforms
+	icon = GFX_focus_SOV_military_purge
+	x = 22
+	y = 4
+	cost = 10
+		completion_reward = {
+		remove_ideas = { army_reorganization }
+		add_ideas = { uldarash_royal_gaurd }
+		}
+	}
+	#Montroig Specific
+	focus = {	
+		prerequisite = { focus = ULD_Qwaser_Leadership }
+		id = ULD_montroigan_supplycorp
+		icon = GFX_focus_AST_squander_bug
+		x = 20
+		y = 3
+		cost = 6
+		completion_reward = {
+		add_ideas = { montroigan_supply_corps }
+		}
+	}
+	focus = {
+		prerequisite = { focus = ULD_montroigan_supplycorp }
+		id = ULD_Montroigan_Infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 20
+		y = 4
+		cost = 6
+		completion_reward = {
+			2 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 8
+			}
+		}
+	}
+	focus = {
+		prerequisite = { focus = ULD_Montroigan_Infrastructure }
+		prerequisite = { focus = ULD_Infrastructure_Projects }
+		prerequisite = { focus = ULD_finish_army_reforms }
+		id = ULD_Recovery_Surfacing
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 22
+		y = 5
+		cost = 10
+		completion_reward = {
+			add_war_support = 0.10
+			swap_ideas = { 
+			  remove_idea = disunified_country_4
+			  add_idea = disunified_country_3
+			}
+		}
+
+	}
+	focus = {
+		prerequisite = { focus = ULD_Recovery_Surfacing }
+		id = ULD_Buying_Alteniqua_Land
+		icon = GFX_focus_mex_privatisation
+		x = 22
+		y = 6
+		cost = 2
+		completion_reward = {
+			COB = {
+				country_event = { id = cobbleworks.1 }
+			}
+		}
+	}
+	focus = { 
+		prerequisite = { focus = ULD_Buying_Alteniqua_Land }
+		id = ULD_Nova_Regna
+		icon = GFX_BAR_into_plagadonia-125590
+		x = 22
+		y = 7
+		cost = 2
+		completion_reward = {
+		ULD = {
+			annex_country = {
+				target = TRT
+				transfer_troops = yes
+			}
+		}
+	}
+}
+	
+	
+	focus = { 
+		prerequisite = { focus = ULD_Nova_Regna }
+		id = ULD_Union_Stands_Strong
+		icon = GFX_focus_YUG_dissolve_serbia
+		x = 22
+		y = 8
+		cost = 6
+		completion_reward = {
+			add_war_support = 0.1	
+		}	
+	}
+	
+	
+	
+}
+#
+#
+#
+#
