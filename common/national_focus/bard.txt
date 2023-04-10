@@ -165,6 +165,7 @@ focus_tree = {
 			WIV = {
 				country_event = { id = bardonia.23 }
 			}
+			
 		}
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
@@ -384,6 +385,9 @@ focus_tree = {
 			    type = annex_everything
 			    target = ATH
 			}
+			BAR = {
+				add_threat = 30
+			}
 		}
 		prerequisite = { focus = BAR_just_how_far_we_can_go  }
 	}
@@ -587,19 +591,21 @@ focus_tree = {
 
 	#Return of the Prophet
 	focus = {
+		prerequisite = { focus = BAR_wrangle_lennox  }
 		id = BAR_return_of_the_prophet
 		icon = GFX_BAR_return_of_the_prophet-125573
-		available = {
-			allow_branch = { has_completed_focus = BAR_wrangle_lennox }
-		}
-		allow_branch = { has_completed_focus = BAR_wrangle_lennox }
+		
 		x = 10
 		y = 6
 		cost = 4.2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = BAR_wrangle_lennox  }
+		completion_reward = {
+			BAR = {
+			add_threat = 10
+			}
+		}
 	}
 
 	#Call to Auron
@@ -648,6 +654,15 @@ focus_tree = {
 			FOCUS_FILTER_MANPOWER
 		}
 		completion_reward = {
+			hidden_effect = {
+			BAR = {
+				add_to_faction = FJ1
+				add_to_faction = ARL
+				add_to_faction = SEW
+				add_to_faction = GRN
+				add_to_faction = SIN
+			}
+		}
 			add_ideas = service_by_requirement
 			add_manpower = 250000 
 		}
@@ -669,6 +684,10 @@ focus_tree = {
 			declare_war_on = {
 			    target = RYZ
 			    type = annex_everything
+			}
+			BAR = {
+				add_threat = 40
+			
 			}
 		}
 		prerequisite = { focus = BAR_final_preperations  }
@@ -876,6 +895,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = bardtip15
+			BAR = {
+				add_threat = 8
+			}
 			hidden_effect = {
 				add_state_core = 152
 				add_state_core = 154
@@ -951,10 +973,7 @@ focus_tree = {
 	focus = {
 		id = BAR_setting_the_bounds_wider
 		icon = GFX_BAR_setting_the_bounds_wider-117690
-		available = {
-			allow_branch = { has_completed_focus = BAR_spring_of_the_dandelions }
-		}
-		allow_branch = { has_completed_focus = BAR_spring_of_the_dandelions }
+		prerequisite = { focus = BAR_spring_of_the_dandelions }
 		x = 17
 		y = 0
 		cost = 5
@@ -979,6 +998,9 @@ focus_tree = {
 		completion_reward = {
 			BAR = {
 				country_event = { id = bardonia.19 }
+			}
+			BAR = {
+				add_threat = 5
 			}
 		}
 		search_filters = {
@@ -1034,6 +1056,9 @@ focus_tree = {
 			HLG = {
 				country_event = { id = bardonia.33 }
 			}
+			BAR = {
+				add_threat = 10
+			}
 		}
 		prerequisite = { focus = BAR_the_perfidious_baykons  } prerequisite = { focus = BAR_interests_in_bizesonne  } prerequisite = { focus = BAR_eldhamcolonies  }
 	}
@@ -1059,6 +1084,10 @@ focus_tree = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		completion_reward = {
+			BAR = {
+				add_threat = 15
+			
+			}
 			LEN = {
 				country_event = { id = bardonia.38 }
 			}
@@ -1277,7 +1306,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		mutually_exclusive = { focus = BAR_rein_in_the_hands }
 		completion_reward = {
 			add_ideas = Dandie_guard
 		}
@@ -1294,7 +1322,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-		mutually_exclusive = { focus = BAR_establish_the_dandelion_guard }
+		mutually_exclusive = { focus = BAR_hands_as_an_auxiliary_force }
 		completion_reward = {
 			swap_ideas = { 
 			  remove_idea = Dandie_guard 

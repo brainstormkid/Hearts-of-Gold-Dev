@@ -328,10 +328,7 @@ focus_tree = {
 	focus = {
 		id = Andorn_Restoration
 		icon = GFX_SAV_andorn
-		available = {
-			allow_branch = { has_completed_focus = Luperkanian_Settlementation }
-		}
-		allow_branch = { has_completed_focus = Luperkanian_Settlementation }
+		prerequisite = { focus = Luperkanian_Settlementation }
 		x = 17
 		y = 0
 		cost = 10
