@@ -124,6 +124,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		ai_will_do = {
+			base = 0
+		}
 		completion_reward = {
 			country_event = { id = bardonia.4 }
 			add_political_power = 40
@@ -804,6 +807,7 @@ focus_tree = {
 
 	#Foundation of the Allium Alliance
 	focus = {
+		prerequisite = { focus = BAR_talks_with_niedia  } prerequisite = { focus = BAR_reach_out_to_huitca  } prerequisite = { focus = BAR_our_best_friends focus = BAR_crooked_traitors }
 		id = BAR_foundation_of_the_allium_alliance
 		icon = GFX_BAR_foundation_of_the_allium_alliance-117595
 		x = 6
@@ -815,9 +819,22 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = bardtip8
 			country_event = { id = bardonia.11 }
+			if = {
+			limit = { has_completed_focus = BAR_our_best_friends }
+				hidden_effect = {
+			remove_state_core = 123
+			remove_state_core = 130
+			remove_state_core = 136
+			remove_state_core = 135
+			remove_state_core = 137
+			remove_state_core = 129
+			remove_state_core = 124
+			}
+			
 		}
-		prerequisite = { focus = BAR_talks_with_niedia  } prerequisite = { focus = BAR_reach_out_to_huitca  }
+		
 	}
+}
 
 	#Integrate Andorn
 	focus = {
