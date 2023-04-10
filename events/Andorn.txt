@@ -157,6 +157,9 @@ country_event = {
 	}
 	option = {
 		name = "Absolutely Not"
+		ai_will_do = {
+			base = 0
+		}
 		custom_effect_tooltip = andorntip7
 		hidden_effect = {
 			SAV = {
@@ -273,6 +276,7 @@ country_event = {
 		}
 		SAV = {
 			transfer_state = 153
+			add_state_core = 153
 		}
 	}
 	option = {
