@@ -44,6 +44,7 @@ recruit_character = ULD_senior
 
 add_ideas = {
 	disarmed_nation
+	disunified_country_5
 	undisturbed_isolation
 }
 
