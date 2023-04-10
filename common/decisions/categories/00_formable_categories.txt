@@ -219,6 +219,10 @@ form_greater_german_reich_category = {
 form_andorn_category = {
 
 	icon = generic_formable_nations
+	
+	ai_will_do = { 
+			base = 1
+			}
 
 	allowed = {
 		OR = {
@@ -243,10 +247,17 @@ form_silver_crownlands_category = {
 	icon = generic_formable_nations
 
 	allowed = {
-		OR = {
-			#original_tag = 
-			#original_tag = 
-		}
+			OR = {
+			original_tag = NAJ
+			original_tag = OWY
+			original_tag = LUM
+			original_tag = ALI
+			original_tag = VAL
+			original_tag = HLG
+			original_tag = TAR
+			original_tag = NSV
+			original_tag = LEN
+			}
 	}
 }
 form_sinatramafia_category = {
@@ -321,6 +332,18 @@ form_alamayn_catagory = {
 		OR = {
 			original_tag = ALI
 			original_tag = LUM
+		}
+	}
+}
+form_aldovir_category = {
+
+	icon = generic_formable_nations
+	
+	allowed = {
+		OR = {
+			original_tag = COB
+			original_tag = SIR
+			original_tag = HIN
 		}
 	}
 }
