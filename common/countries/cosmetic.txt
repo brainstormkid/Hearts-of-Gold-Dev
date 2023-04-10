@@ -11,9 +11,9 @@ ARE = {
 	color = rgb { 17 38 171 }
 	color_ui = rgb { 17 38 171 }
 }
-SCL_neutrality = {
-	color = rgb { 192 192 192 }
-	color_ui = rgb { 192 192 192 }
+SCL = {
+	color = rgb { 207 219 189 }
+	color_ui = rgb { 207 219 189 }
 }
 SNM_neutrality = {
 	color = rgb { 27 75 16 }
@@ -33,6 +33,10 @@ YIA_neutrality = {
 }
 
 GEB = {
+	color = rgb { 204 255 255 }
+	color_ui = rgb { 204 255 255 }
+}
+ALD = {
 	color = rgb { 204 255 255 }
 	color_ui = rgb { 204 255 255 }
 }
