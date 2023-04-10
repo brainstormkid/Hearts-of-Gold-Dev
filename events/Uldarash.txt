@@ -49,3 +49,29 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = uldarash.3 #sinatra Mafia
+	title = "Sinatra-Mafia"
+	desc = "we are united"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BAR
+		has_completed_focus = BAR_foundation_of_the_allium_alliance
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+
+		option = {
+			name = "sinatra-sower"
+			SEW = {
+				transfer_state = 38
+				transfer_state = 45
+			}
+	
+	}
+}
