@@ -17,3 +17,78 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Sourmere Infantry"
+		location = 1167
+		division_template = "Sourmere Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sourmere Infantry"
+		location = 1167
+		division_template = "Sourmere Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sourmere Infantry"
+		location = 1167
+		division_template = "Sourmere Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sourmere Infantry"
+		location = 1167
+		division_template = "Sourmere Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sourmere Infantry"
+		location = 1167
+		division_template = "Sourmere Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sourmere Infantry"
+		location = 1167
+		division_template = "Sourmere Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sourmere Infantry"
+		location = 1167
+		division_template = "Sourmere Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sourmere Infantry"
+		location = 1167
+		division_template = "Sourmere Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sourmere Infantry"
+		location = 1167
+		division_template = "Sourmere Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+}

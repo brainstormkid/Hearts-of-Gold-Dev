@@ -17,3 +17,61 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Sewer Infantry"
+		location = 763
+		division_template = "Sewer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sewer Infantry"
+		location = 763
+		division_template = "Sewer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sewer Infantry"
+		location = 763
+		division_template = "Sewer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sewer Infantry"
+		location = 763
+		division_template = "Sewer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sewer Infantry"
+		location = 763
+		division_template = "Sewer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sewer Infantry"
+		location = 763
+		division_template = "Sewer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sewer Infantry"
+		location = 763
+		division_template = "Sewer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}

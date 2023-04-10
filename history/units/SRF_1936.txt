@@ -17,3 +17,53 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Azuria Infantry"
+		location = 2525
+		division_template = "Azuria Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Azuria Infantry"
+		location = 2525
+		division_template = "Azuria Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Azuria Infantry"
+		location = 2525
+		division_template = "Azuria Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Azuria Infantry"
+		location = 2525
+		division_template = "Azuria Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Azuria Infantry"
+		location = 2525
+		division_template = "Azuria Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Azuria Infantry"
+		location = 2525
+		division_template = "Azuria Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}

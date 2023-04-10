@@ -13,3 +13,78 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Aljazair Infantry"
+		location = 1731
+		division_template = "Aljazair Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Aljazair Infantry"
+		location = 1731
+		division_template = "Aljazair Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	division = {
+		name = "Aljazair Infantry"
+		location = 1731
+		division_template = "Aljazair Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	division = {
+		name = "Aljazair Infantry"
+		location = 1731
+		division_template = "Aljazair Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	division = {
+		name = "Aljazair Infantry"
+		location = 1731
+		division_template = "Aljazair Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+	division = {
+		name = "Aljazair Infantry"
+		location = 1731
+		division_template = "Aljazair Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Aljazair Infantry"
+		location = 1731
+		division_template = "Aljazair Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Aljazair Infantry"
+		location = 1731
+		division_template = "Aljazair Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+
+
+
+
+	
+}

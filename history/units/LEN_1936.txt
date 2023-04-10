@@ -17,3 +17,21 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+division = {
+		name = "Lennox Infantry"
+		location = 2214
+		division_template = "Lennox Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Lennox Infantry"
+		location = 2214
+		division_template = "Lennox Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}

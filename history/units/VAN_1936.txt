@@ -17,3 +17,34 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Vandalah Infantry"
+		location = 796
+		division_template = "Vandalah Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+		
+
+	}
+	division = {
+		name = "Vandalah Infantry"
+		location = 796
+		division_template = "Vandalah Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+		
+
+	}
+	division = {
+		name = "Vandalah Infantry"
+		location = 796
+		division_template = "Vandalah Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+		
+
+	}
+	
+
+}

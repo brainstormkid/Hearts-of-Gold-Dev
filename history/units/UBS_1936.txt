@@ -1,5 +1,5 @@
 division_template = {
-	name = "UBS Infantry"
+	name = "UBSR Infantry"
 
 	#division_names_group = AFG_ARM_01
 
@@ -16,4 +16,102 @@ division_template = {
        	artillery = { x = 0 y = 1 }
 	}
 	priority = 2
+}
+units = {
+division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "UBSR Infantry"
+		location = 1186
+		division_template = "UBSR Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
 }

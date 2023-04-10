@@ -13,3 +13,22 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+division = {
+		name = "Iremith Infantry"
+		location = 4711
+		division_template = "Iremith Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Iremith Infantry"
+		location = 4711
+		division_template = "Iremith Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}
+	

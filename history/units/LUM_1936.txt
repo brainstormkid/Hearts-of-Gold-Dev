@@ -17,3 +17,29 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Lumenos Infantry"
+		location = 3044
+		division_template = "Lumenos Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Lumenos Infantry"
+		location = 3044
+		division_template = "Lumenos Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Lumenos Infantry"
+		location = 3044
+		division_template = "Lumenos Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}

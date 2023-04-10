@@ -13,3 +13,13 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+division = {
+		name = "Athazolant Infantry"
+		location = 4275
+		division_template = "Athazolant Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+}

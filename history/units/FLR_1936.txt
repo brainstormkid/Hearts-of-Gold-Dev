@@ -17,3 +17,54 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Floramia Infantry"
+		location = 3690
+		division_template = "Floramia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Floramia Infantry"
+		location = 3690
+		division_template = "Floramia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Floramia Infantry"
+		location = 3690
+		division_template = "Floramia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Floramia Infantry"
+		location = 3690
+		division_template = "Floramia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Floramia Infantry"
+		location = 3690
+		division_template = "Floramia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Floramia Infantry"
+		location = 3690
+		division_template = "Floramia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+}

@@ -23,6 +23,8 @@ units = {
 		location = 2649
 		division_template = "Viodoxa Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
 	}
 	division = {
 		name = "Imperial Guard"
@@ -35,53 +37,62 @@ units = {
 		location = 2649
 		division_template = "Viodoxa Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Imperial Guard"
 		location = 2649
 		division_template = "Viodoxa Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Imperial Guard"
 		location = 2649
 		division_template = "Viodoxa Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Imperial Guard"
 		location = 2649
 		division_template = "Viodoxa Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Imperial Guard"
 		location = 2649
 		division_template = "Viodoxa Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Imperial Guard"
 		location = 2649
 		division_template = "Viodoxa Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Imperial Guard"
 		location = 2649
 		division_template = "Viodoxa Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Imperial Guard"
 		location = 2649
 		division_template = "Viodoxa Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 	division = {
 		name = "Imperial Guard"
 		location = 2649
 		division_template = "Viodoxa Infantry"
 		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
 	}
 }

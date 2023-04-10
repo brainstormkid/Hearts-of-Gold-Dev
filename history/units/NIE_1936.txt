@@ -17,3 +17,86 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Nieden Infantry"
+		location = 247
+		division_template = "Nieden Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Nieden Infantry"
+		location = 247
+		division_template = "Nieden Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Nieden Infantry"
+		location = 247
+		division_template = "Nieden Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Nieden Infantry"
+		location = 247
+		division_template = "Nieden Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Nieden Infantry"
+		location = 247
+		division_template = "Nieden Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Nieden Infantry"
+		location = 247
+		division_template = "Nieden Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Nieden Infantry"
+		location = 247
+		division_template = "Nieden Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Nieden Infantry"
+		location = 247
+		division_template = "Nieden Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Nieden Infantry"
+		location = 247
+		division_template = "Nieden Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Nieden Infantry"
+		location = 247
+		division_template = "Nieden Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+}

@@ -17,3 +17,29 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Sinatra Infantry"
+		location = 4226
+		division_template = "Sinatra Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sinatra Infantry"
+		location = 4226
+		division_template = "Sinatra Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sinatra Infantry"
+		location = 4226
+		division_template = "Sinatra Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}

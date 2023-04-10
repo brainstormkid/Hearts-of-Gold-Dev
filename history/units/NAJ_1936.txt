@@ -17,3 +17,61 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Najer Infantry"
+		location = 3659
+		division_template = "Najer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Najer Infantry"
+		location = 3659
+		division_template = "Najer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Najer Infantry"
+		location = 3659
+		division_template = "Najer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Najer Infantry"
+		location = 3659
+		division_template = "Najer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Najer Infantry"
+		location = 3659
+		division_template = "Najer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Najer Infantry"
+		location = 3659
+		division_template = "Najer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Najer Infantry"
+		location = 3659
+		division_template = "Najer Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}

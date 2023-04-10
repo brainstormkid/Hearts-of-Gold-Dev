@@ -13,3 +13,29 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+division = {
+		name = "Falnir Infantry"
+		location = 1245
+		division_template = "Falnir Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Falnir Infantry"
+		location = 1245
+		division_template = "Falnir Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Falnir Infantry"
+		location = 1245
+		division_template = "Falnir Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}

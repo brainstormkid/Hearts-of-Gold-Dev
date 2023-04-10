@@ -17,3 +17,13 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Sironia Infantry"
+		location = 916
+		division_template = "Sironia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}

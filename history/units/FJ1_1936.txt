@@ -13,3 +13,77 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "Frosmyre Infantry"
+		location = 1825
+		division_template = "Frosmyre Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Frosmyre Infantry"
+		location = 1825
+		division_template = "Frosmyre Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Frosmyre Infantry"
+		location = 1825
+		division_template = "Frosmyre Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Frosmyre Infantry"
+		location = 1825
+		division_template = "Frosmyre Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Frosmyre Infantry"
+		location = 1825
+		division_template = "Frosmyre Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Frosmyre Infantry"
+		location = 1825
+		division_template = "Frosmyre Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Frosmyre Infantry"
+		location = 1825
+		division_template = "Frosmyre Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Frosmyre Infantry"
+		location = 1825
+		division_template = "Frosmyre Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Frosmyre Infantry"
+		location = 1825
+		division_template = "Frosmyre Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+}

@@ -17,3 +17,53 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+division = {
+		name = "Auron Infantry"
+		location = 2022
+		division_template = "Hands Volunteer"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Auron Infantry"
+		location = 2022
+		division_template = "Hands Volunteer"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Auron Infantry"
+		location = 2022
+		division_template = "Hands Volunteer"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Auron Infantry"
+		location = 2022
+		division_template = "Hands Volunteer"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Auron Infantry"
+		location = 2022
+		division_template = "Hands Volunteer"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Auron Infantry"
+		location = 2022
+		division_template = "Hands Volunteer"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+
+	}
+}

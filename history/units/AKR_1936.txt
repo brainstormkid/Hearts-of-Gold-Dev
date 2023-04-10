@@ -17,3 +17,101 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Akratia Infantry"
+		location = 355
+		division_template = "Akratia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}

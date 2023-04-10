@@ -13,3 +13,71 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "VIR Remnants"
+		location = 3259
+		division_template = "Aezenfjord Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "VIR Remnants"
+		location = 3259
+		division_template = "Aezenfjord Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "VIR Remnants"
+		location = 3259
+		division_template = "Aezenfjord Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "VIR Remnants"
+		location = 3259
+		division_template = "Aezenfjord Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "VIR Remnants"
+		location = 3259
+		division_template = "Aezenfjord Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "VIR Remnants"
+		location = 3259
+		division_template = "Aezenfjord Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "VIR Remnants"
+		location = 3259
+		division_template = "Aezenfjord Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "VIR Remnants"
+		location = 3259
+		division_template = "Aezenfjord Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}
+	
+	

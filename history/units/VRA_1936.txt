@@ -1,5 +1,5 @@
 division_template = {
-	name = "Huitca Infantry"
+	name = "Vraelea Infantry"
 
 	#division_names_group = AFG_ARM_01
 
@@ -13,3 +13,54 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+division = {
+		name = "Vraelea Infantry"
+		location = 1437
+		division_template = "Vraelea Infantry"
+		start_experience_factor = 0.8
+		
+
+	}
+	division = {
+		name = "Vraelea Infantry"
+		location = 1437
+		division_template = "Vraelea Infantry"
+		start_experience_factor = 0.8
+		
+
+	}
+	division = {
+		name = "Vraelea Infantry"
+		location = 1437
+		division_template = "Vraelea Infantry"
+		start_experience_factor = 0.8
+		
+
+	}
+	division = {
+		name = "Vraelea Infantry"
+		location = 1437
+		division_template = "Vraelea Infantry"
+		start_experience_factor = 0.8
+		
+
+	}
+	division = {
+		name = "Vraelea Infantry"
+		location = 1437
+		division_template = "Vraelea Infantry"
+		start_experience_factor = 0.8
+		
+
+	}
+	division = {
+		name = "Vraelea Infantry"
+		location = 1437
+		division_template = "Vraelea Infantry"
+		start_experience_factor = 0.8
+		
+
+	}
+}
+	
