@@ -3,6 +3,10 @@ form_andorn_category = {
 	form_andorn = {
 	
 		icon = generic_formable_nations
+		
+		ai_will_do = { 
+			base = 1
+			}
 
 		allowed = {
 			OR = {
@@ -34,6 +38,7 @@ form_andorn_category = {
 			OR = {
 				original_tag = SAV
 			}
+			NOT = { has_global_flag = form_andorn_flag }
 		}
 
 		complete_effect = {
@@ -64,6 +69,7 @@ form_andorn_category = {
 				127 = { add_core_of = SAV }
 			hidden_effect = {
 				set_country_flag = AND
+				set_global_flag = form_andorn_flag
 				}
 			}
 		}
@@ -104,9 +110,11 @@ form_alamayn_catagory = {
 				original_tag = ALI
 				original_tag = LUM
 			}
+			NOT = { has_global_flag = form_alamayn_flag }
 		}
 
 		complete_effect = {
+			set_global_flag = form_alamayn_flag
 			set_cosmetic_tag = ALY
 			# Lumenos
 			hidden_effect = {
@@ -178,6 +186,7 @@ form_aurlunorryzan_category = {
 				original_tag = ARL
 				original_tag = RYZ
 			}
+			NOT = { has_global_flag = form_aurlunorryzan_flag }
 		}
 
 		complete_effect = {
@@ -211,6 +220,7 @@ form_aurlunorryzan_category = {
 			}
 			hidden_effect = {
 				set_country_flag = ARE
+				set_global_flag = form_aurlunorryzan_flag
 			}
 		}
 	}
@@ -244,6 +254,7 @@ form_sinatramafia_category = {
 				original_tag = SIN
 				original_tag = SEW
 			}
+			NOT = { has_global_flag = form_sinatramafia_flag }
 		}
 
 		complete_effect = {
@@ -261,7 +272,7 @@ form_sinatramafia_category = {
 				45 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
-				#set_global_flag = form_scandinavia_flag
+				set_global_flag = form_sinatramafia_flag
 			}
 		}
 	}
@@ -304,6 +315,7 @@ form_simulami_category = {
 				original_tag = MUV
 				original_tag = KRO
 			}
+			NOT = { has_global_flag = form_simulami_flag }
 		}
 
 		complete_effect = {
@@ -331,7 +343,7 @@ form_simulami_category = {
 			}
 			
 			hidden_effect = {
-				#set_global_flag = form_scandinavia_flag
+				set_global_flag = form_simulami_flag
 			}
 		}
 	}
@@ -341,6 +353,10 @@ form_ombria_category = {
 	form_ombria = {
 
 		icon = generic_formable_nations
+		
+		ai_will_do = { 
+			base = 1
+			}
 
 		allowed = {
 			OR = {
@@ -363,6 +379,7 @@ form_ombria_category = {
 			OR = {
 				original_tag = CAV 
 			}
+			NOT = { has_global_flag = form_ombria_flag }
 		}
 
 		complete_effect = {
@@ -378,7 +395,7 @@ form_ombria_category = {
 				65  = { add_core_of = ROOT }
 			}
 			hidden_effect = {
-				#set_global_flag = form_scandinavia_flag
+				set_global_flag = form_ombria_flag
 			}
 		}
 	}
@@ -394,6 +411,7 @@ form_yimmuaudal_category = {
 				original_tag = THI
 				original_tag = SRF
 			}
+			NOT = { has_global_flag = form_yimmuaudal_flag }
 		}
 		available = {
 			is_subject = no
@@ -477,7 +495,7 @@ form_yimmuaudal_category = {
 				326  = { add_core_of = ROOT }
 			}
 			hidden_effect = {
-				#set_global_flag = form_scandinavia_flag
+				set_global_flag = form_yimmuaudal_flag
 			}
 		}
 	}
