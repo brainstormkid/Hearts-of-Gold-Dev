@@ -8,11 +8,17 @@ bard_peace = {
         OR = {
             tag = NDR
             tag = BAR
+			tag = SAV
+			tag = RYZ
         }
         FROM ={
             OR = {
                 tag = NDR
                 tag = BAR
+				tag = HEL
+				tag = ASK
+				tag = NEB
+				tag = RYZ
             }
         }
     }
