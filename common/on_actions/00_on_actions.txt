@@ -25,6 +25,9 @@ on_actions = {
 			ULD = {
 				country_event = { id = uldarash.2 days = 1680 }
 			}
+			SIN = {
+				country_event = { id = uldarash.3 days = 231 }
+			}
 		}
 	}
 	on_nuke_drop = {
