@@ -1163,6 +1163,11 @@ focus_tree = {
 		x = 9
 		y = 5
 		cost = 10
+		completion_reward = {
+			NIE = {
+				country_event = { id = huitca.4 }
+			}
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = LAT_make_amends_with_the_world }
 		ai_will_do = {

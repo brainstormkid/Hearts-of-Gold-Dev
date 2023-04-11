@@ -81,3 +81,64 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+country_event = {
+	id = huitca.4	#Request Fernheim
+	title = "Huitca requests Fernheim"
+	desc = "The Huitcan Federation is formally requesting us to hand over the lands of Fernheim  as it has been their historical land."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "It shall be given"
+		HUI = {
+			transfer_state = 55
+		}
+		hidden_effect = {
+			HUI = {
+				country_event = { id = huitca.5 } 
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = "These Ummarmu will not have our land"
+		hidden_effect = {
+			HUI = {
+				country_event = { id = huitca.6 } 
+			}
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = huitca.5	#Fernheim Given
+	title = "Nieden gives Fernheim"
+	desc = "Our request for the Fernheim territory has been granted by the Nieden state."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Our friendship shall grow stronger"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = huitca.6	#Fernheim Denied
+	title = "Nieden denies Fernheim"
+	desc = "Our request for the Fernheim territory has been denied by the Nieden state."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Those Soleannen Scumbags"
+		create_wargoal = {
+			type = take_state_focus
+			target = NIE
+			generator = { 55 }
+		}
+		ai_chance = { factor = 100 }
+	}
+}
