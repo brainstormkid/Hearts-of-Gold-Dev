@@ -40,9 +40,9 @@ ideas = {
 			picture = huitca_spirit
 
 			modifier = {
-				monthly_population = -0.1
-				supply_factor = -0.075
-				research_speed_factor = -0.025
+				monthly_population = -0.05
+				supply_factor = -0.1
+				research_speed_factor = -0.05
 			}
 		}
 		mourning_prime_minister_juan_coyo = {
@@ -60,8 +60,26 @@ ideas = {
 			picture = huitca_spirit
 
 			modifier = {
-				war_support_factor = -0.15
-				stability_factor = -0.15
+				war_support_factor = -0.10
+				stability_factor = -0.05
+			}
+		}
+		eternal_tlatoani = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = eternal_tlatoani
+
+			modifier = {
+				stability_factor = 0.05
 			}
 		}
 	}

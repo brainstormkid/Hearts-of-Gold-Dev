@@ -35,6 +35,7 @@ add_ideas = {
 	squatter_infestation
 	unsettled_south
 	mourning_prime_minister_juan_coyo
+	eternal_tlatoani
 }
 
 set_convoys = 60
