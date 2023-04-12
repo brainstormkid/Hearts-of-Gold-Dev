@@ -232,6 +232,10 @@ form_sinatramafia_category = {
 	form_sinatramafia = {
 
 		icon = generic_formable_nations
+		
+		ai_will_do = { 
+			base = 1
+			}
 
 		allowed = {
 			OR = {
@@ -284,6 +288,10 @@ form_simulami_category = {
 	form_simulami = {
 
 		icon = generic_formable_nations
+		
+		ai_will_do = { 
+			base = 1
+			}
 
 		allowed = {
 			OR = {
@@ -322,6 +330,7 @@ form_simulami_category = {
 
 		complete_effect = {
 			set_cosmetic_tag = SIM_neutrality
+			set_country_flag = SIM
 			# Floramia
 			hidden_effect = {
 				185 = { add_core_of = ROOT }
@@ -859,5 +868,115 @@ form_silver_crownlands_category = {
 			
 		}
 		
+	}
+}
+	form_sorgliste_category = {
+
+	form_sorgliste = {
+
+		icon = generic_formable_nations
+		
+		ai_will_do = { 
+			base = 1
+			}
+
+		allowed = {
+			OR = {
+				original_tag = SOU
+				original_tag = FRO
+			}
+			
+		}
+		visible = {
+			OR = {
+				original_tag = SOU
+				original_tag = FRO
+			}
+			NOT = { has_global_flag = form_sorgliste_flag }
+		}
+		available = {
+			is_subject = no
+			#soumere
+			controls_state = 406
+			controls_state = 403
+			controls_state = 404
+			controls_state = 405
+			controls_state = 402
+			controls_state = 400
+			controls_state = 381
+			controls_state = 382
+			controls_state = 383
+			controls_state = 397
+			controls_state = 396
+			#Frostmarch
+			controls_state = 388
+			controls_state = 389
+			controls_state = 387
+			controls_state = 390
+			controls_state = 384
+			controls_state = 386
+			controls_state = 385
+			#Cirnester
+			controls_state = 401
+			#lothgard
+			controls_state = 399
+			#regalia
+			controls_state = 398
+			#vandalah
+			controls_state = 392
+			controls_state = 395
+			controls_state = 394
+			controls_state = 391
+			controls_state = 393
+			controls_state = 380
+			#Pahojna
+			controls_state = 321
+		}
+		
+		
+
+		complete_effect = {
+			# Sorgliste
+			hidden_effect = {
+				406 = { add_core_of = ROOT }
+				403 = { add_core_of = ROOT }
+				404 = { add_core_of = ROOT }
+				405 = { add_core_of = ROOT }
+				402 = { add_core_of = ROOT }
+				400 = { add_core_of = ROOT }
+				382 = { add_core_of = ROOT }
+				381 = { add_core_of = ROOT }
+				383 = { add_core_of = ROOT }
+				397 = { add_core_of = ROOT }
+				396 = { add_core_of = ROOT }
+				#Frostmarch
+				388 = { add_core_of = ROOT }
+				389 = { add_core_of = ROOT }
+				387 = { add_core_of = ROOT }
+				390 = { add_core_of = ROOT }
+				384 = { add_core_of = ROOT }
+				386 = { add_core_of = ROOT }
+				385 = { add_core_of = ROOT }
+				#Cirnester
+				401 = { add_core_of = ROOT }
+				#Lothgard
+				399 = { add_core_of = ROOT }
+				#regalia
+				398 = { add_core_of = ROOT }
+				#vandalah
+				392 = { add_core_of = ROOT }
+				395 = { add_core_of = ROOT }
+				394 = { add_core_of = ROOT }
+				391 = { add_core_of = ROOT }
+				393 = { add_core_of = ROOT }
+				380 = { add_core_of = ROOT }
+				#Pahonja
+				321 = { add_core_of = ROOT }				
+			}
+			hidden_effect = {
+				set_global_flag = form_sorgliste_flag
+				set_cosmetic_tag = SOR
+			}
+		}
 	}
 }

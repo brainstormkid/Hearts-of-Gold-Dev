@@ -11,6 +11,9 @@ bandit_decisions = {
 		}
 
 		complete_effect = {
+		ai_will_do = {
+			base = 1
+			}
 			army_experience = 25
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
