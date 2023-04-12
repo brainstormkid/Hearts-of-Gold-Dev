@@ -1,0 +1,68 @@
+add_namespace = Niedea
+
+country_event = {
+	id = niedea.1
+	title = "Iremith Joins us"
+	desc = "Iremith has decided to rejoin the Niedean Empire"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Tessel is Next"
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = -1
+				is_historical_focus_on = no
+				}
+			}
+		NIE = {
+			annex_country = {
+				target = IRM
+				transfer_troops = yes
+			}
+			289 = { add_core_of = NIE }
+		}
+
+	}
+	option = {
+	name = "absolutely not"
+	ai_chance = {
+			base = 0
+			}
+	}
+}
+country_event = {
+	id = niedea.2
+	title = "Axrella becomes our vassal"
+	desc = "Axrella has submitted to our rule!"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good"
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = -1
+				is_historical_focus_on = no
+				}
+			}
+		NIE = {
+			puppet = AXR
+		}
+
+	}
+	option = {
+	name = "nah"
+	ai_chance = {
+			base = 0
+			}
+	}
+}
