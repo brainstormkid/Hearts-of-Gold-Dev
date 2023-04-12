@@ -28,5 +28,20 @@ country_event = {
 		MUV = {
 			country_event = { id = allium.3 }
 		}
+		COB = {
+			country_event = { id = allium.3 }
+		}
+		VIO = {
+			puppet = UBS
+		}
+		VRA = {
+			country_event = { id = allium.3 }
+		}
+		ALI = {
+			country_event = { id = allium.3 }
+		}
+		UBS = {
+			set_ruling_party = communism
+		}
 	}
 }

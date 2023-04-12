@@ -157,9 +157,13 @@ country_event = {
 	}
 	option = {
 		name = "Absolutely Not"
-		ai_will_do = {
+		ai_chance = {
 			base = 0
-		}
+			modifier = {
+				add = +1
+				is_historical_focus_on = no
+				}
+			}
 		custom_effect_tooltip = andorntip7
 		hidden_effect = {
 			SAV = {
@@ -233,6 +237,13 @@ country_event = {
 	}
 	option = {
 		name = "I don't trust Goblins"
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = +1
+				is_historical_focus_on = no
+				}
+			}
 		custom_effect_tooltip = andorntip10
 		ASK = {
 			transfer_state = 126
@@ -370,6 +381,13 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+	ai_chance = {
+			base = 1
+			modifier = {
+				add = -1
+				is_historical_focus_on = no
+				}
+			}
 		name = "What choice do we have?"
 		custom_effect_tooltip = andorntip12
 		SAV = {
@@ -386,7 +404,15 @@ country_event = {
 	}
 	option = {
 		name = "Piss Off"
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = +1
+				is_historical_focus_on = no
+				}
+			}
 		custom_effect_tooltip = andorntip12
+		
 		SAV = {
 			create_wargoal = {
 			type = take_state

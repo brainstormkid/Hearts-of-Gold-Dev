@@ -1,0 +1,264 @@
+add_namespace = formables
+
+
+country_event = {
+	id = formables.1
+	title = "Simulami Empire Constitution"
+	desc = "The two Sovereigns (Cadexii and ZenoHUN) tried to merge both of these together in the best way possible."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "The union is declared"
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = -1
+				is_historical_focus_on = no
+				}
+			}
+		MUV = {
+		transfer_state = 195
+		transfer_state = 191
+		transfer_state = 190
+		transfer_state = 189
+		transfer_state = 197
+		transfer_state = 187
+		transfer_state = 186
+		transfer_state = 185
+		}
+
+	}
+	option = {
+	name = "absolutely not"
+	ai_chance = {
+			base = 0
+			}
+
+	
+	}
+	
+}
+country_event = {
+	id = formables.2 #sinatra Mafia
+	title = "Sinatra-Mafia"
+	desc = "we are united"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BAR
+		has_completed_focus = BAR_foundation_of_the_allium_alliance
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+
+		option = {
+			name = "sinatra-sower"
+			ai_chance = {
+			base = 1
+			modifier = {
+				add = -1
+				is_historical_focus_on = no
+				}
+			}
+			SEW = {
+				transfer_state = 38
+				transfer_state = 45
+			}
+			option = {
+				name = "absolutely not"
+				ai_chance = {
+				base = 0
+			}
+		}
+	}
+}
+country_event = {
+	id = formables.3
+	title = "Grand Union of Sørgliste"
+	desc = "the many countries of Sørgliste have agreed to Unite as one"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Grand Union Has been Declared"
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = -1
+				is_historical_focus_on = no
+				}
+			}
+		SOU = {
+		#FRO
+		transfer_state = 388
+		transfer_state = 389
+		transfer_state = 387
+		transfer_state = 390
+		transfer_state = 384
+		transfer_state = 386
+		transfer_state = 385
+		#CIR
+		transfer_state = 401
+		#LOTH
+		transfer_state = 399
+		#REG
+		transfer_state = 398
+		#VAN
+		transfer_state = 392
+		transfer_state = 395
+		transfer_state = 394
+		transfer_state = 391
+		transfer_state = 393
+		transfer_state = 380
+		#Paj
+		transfer_state = 321
+		}
+
+	}
+	option = {
+	name = "absolutely not"
+	ai_chance = {
+			base = 0
+			}
+
+	
+	}
+	
+}
+country_event = {
+	id = formables.4
+	title = "Aldoviran Federalisation"
+	desc = "The Economic block of Aldovir Must be United"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Aldovir Empire??!??!?!"
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = -1
+				is_historical_focus_on = no
+				}
+			}
+		COB = {
+		#SIR
+		transfer_state = 372
+		transfer_state = 371
+		transfer_state = 369
+		transfer_state = 420
+		transfer_state = 370
+		transfer_state = 373
+		#HIN
+		transfer_state = 376
+		#RYELLEA
+		transfer_state = 109
+		transfer_state = 110
+		transfer_state = 111
+		transfer_state = 98
+		transfer_state = 97
+		#COB
+		transfer_state = 377 
+		transfer_state = 378
+		transfer_state = 375
+		transfer_state = 418		
+		}
+	}
+	option = {
+	name = "absolutely not"
+	ai_chance = {
+			base = 0
+			}
+
+	
+	}
+	
+}
+country_event = {
+	id = formables.5
+	title = "Pirate Empire"
+	desc = "the many countries of Sørgliste have agreed to join Tortuga as one"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Grand Union Has been Annexed"
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = -1
+				is_historical_focus_on = no
+				}
+			}
+			
+		TOR = {
+			annex_country = {
+				target = SOU
+				transfer_troops = yes
+			}
+		}
+		
+		hidden_effect = {
+				406 = { add_core_of = TOR }
+				403 = { add_core_of = TOR }
+				404 = { add_core_of = TOR }
+				405 = { add_core_of = TOR }
+				402 = { add_core_of = TOR }
+				400 = { add_core_of = TOR }
+				382 = { add_core_of = TOR }
+				381 = { add_core_of = TOR }
+				383 = { add_core_of = TOR }
+				397 = { add_core_of = TOR }
+				396 = { add_core_of = TOR }
+				#Frostmarch
+				388 = { add_core_of = TOR }
+				389 = { add_core_of = TOR }
+				387 = { add_core_of = TOR }
+				390 = { add_core_of = TOR }
+				384 = { add_core_of = TOR }
+				386 = { add_core_of = TOR }
+				385 = { add_core_of = TOR }
+				#Cirnester
+				401 = { add_core_of = TOR }
+				#Lothgard
+				399 = { add_core_of = TOR }
+				#regalia
+				398 = { add_core_of = TOR }
+				#vandalah
+				392 = { add_core_of = TOR }
+				395 = { add_core_of = TOR }
+				394 = { add_core_of = TOR }
+				391 = { add_core_of = TOR }
+				393 = { add_core_of = TOR }
+				380 = { add_core_of = TOR }
+				#Pahonja
+				321 = { add_core_of = TOR }				
+			}
+		}
+	option = {
+	name = "absolutely not"
+	ai_chance = {
+			base = 0
+			}
+
+	
+	}
+	
+}
