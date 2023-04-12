@@ -314,6 +314,9 @@ focus_tree = {
 		x = 11
 		y = 4
 		cost = 10
+		completion_reward = {
+			#
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = LAT_make_amends_with_the_world }
 		ai_will_do = {
