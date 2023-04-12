@@ -40,6 +40,12 @@ on_actions = {
 			TOR = {
 				country_event = { id = formables.5 days = 1785 }#16th of july before the war
 			}
+			NIE = {
+				country_event = { id = niedea.1 days = 1701 } #12 of july 
+			}
+			NIE = {
+				country_event = { id = niedea.2 days = 462 }#14 of may
+			}
 		}
 	}
 	on_nuke_drop = {
@@ -84,6 +90,22 @@ on_actions = {
         	}
       		if = {
         		limit = { tag = VAL FROM = { tag = BAR } }
+        		BAR = {
+        			annex_country = {
+            			target = VAL
+            		}
+					white_peace = {
+						tag = KUS
+						message = "Vallia has collapsed, KATO has withdrawn its forces"
+					}
+					white_peace = {
+						tag = RYZ
+						message = "Vallia has collapsed, KATO has withdrawn its forces"
+					}
+          		}
+        	}
+			if = {
+        		limit = { tag = VAL FROM = { tag = NSV } }
         		BAR = {
         			annex_country = {
             			target = VAL
