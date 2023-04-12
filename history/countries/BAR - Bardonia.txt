@@ -66,7 +66,7 @@ add_ideas = {
 	garfist_resistance
 }
 
-set_convoys = 50
+set_convoys = 600
 
 set_war_support = 0.20
 

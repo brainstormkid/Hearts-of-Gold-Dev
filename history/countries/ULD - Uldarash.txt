@@ -48,7 +48,7 @@ add_ideas = {
 	undisturbed_isolation
 }
 
-set_convoys = 85
+set_convoys = 850
 
 set_politics = {
 	ruling_party = neutrality

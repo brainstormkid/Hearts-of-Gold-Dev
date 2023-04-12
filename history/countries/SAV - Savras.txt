@@ -37,7 +37,7 @@ add_ideas = {
 	disunified_government
 }
 
-set_convoys = 30
+set_convoys = 300
 
 1939.1.1 = {
 

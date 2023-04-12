@@ -1,6 +1,6 @@
 ﻿capital = 368
 
-#oob = "SAV_1936"
+#oob = "TOR_1936"
 
 # Starting tech
 set_technology = {
@@ -25,7 +25,7 @@ set_technology = {
 add_ideas = {
 	volunteer_only
 }
-
+set_convoys = 1000
 # DIPLOMACY
 BAR = {
 	if = {
