@@ -26,7 +26,19 @@ on_actions = {
 				country_event = { id = uldarash.2 days = 1680 }
 			}
 			SIN = {
-				country_event = { id = uldarash.3 days = 231 }
+				country_event = { id = formables.2 days = 231 }
+			}
+			FLR = {
+				country_event = { id = formables.1 days = 1092 }
+			}
+			SOU = {
+				country_event = { id = formables.3 days = 567 } #19th of may
+			}
+			COB = {
+				country_event = { id = formables.4 days = 1995 } #26th of july start of the war
+			}
+			TOR = {
+				country_event = { id = formables.5 days = 1785 }#16th of july before the war
 			}
 		}
 	}
@@ -62,6 +74,14 @@ on_actions = {
             		}
           		}
         	}
+			if = {
+        		limit = { tag = HEL FROM = { tag = SAV } }
+        		SAV = {
+        			annex_country = {
+            			target = HEL
+            		}
+          		}
+        	}
       		if = {
         		limit = { tag = VAL FROM = { tag = BAR } }
         		BAR = {
@@ -76,6 +96,30 @@ on_actions = {
 						tag = RYZ
 						message = "Vallia has collapsed, KATO has withdrawn its forces"
 					}
+          		}
+        	}
+			if = {
+        		limit = { tag = RYZ FROM = { tag = BAR } }
+        		BAR = {
+        			annex_country = {
+            			target = RYZ
+            		}
+          		}
+        	}
+			if = {
+        		limit = { tag = HGL FROM = { tag = BAR } }
+        		BAR = {
+        			annex_country = {
+            			target = HLG
+            		}
+          		}
+        	}
+			if = {
+        		limit = { tag = LEN FROM = { tag = BAR } }
+        		BAR = {
+        			annex_country = {
+            			target = LEN
+            		}
           		}
         	}
       	}
