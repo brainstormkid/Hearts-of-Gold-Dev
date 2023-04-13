@@ -157,14 +157,15 @@ country_event = {
 			}
 		COB = {
 		#SIR
-		transfer_state = 372
-		transfer_state = 371
-		transfer_state = 369
-		transfer_state = 420
-		transfer_state = 370
-		transfer_state = 373
+		annex_country = {
+				target = SIR
+				transfer_troops = yes
+			}
 		#HIN
-		transfer_state = 376
+		annex_country = {
+				target = HIN
+				transfer_troops = yes
+			}
 		#RYELLEA
 		transfer_state = 109
 		transfer_state = 110

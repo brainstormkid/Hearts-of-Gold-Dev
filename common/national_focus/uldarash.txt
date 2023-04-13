@@ -367,13 +367,59 @@ focus_tree = {
 	
 	focus = { 
 		prerequisite = { focus = ULD_Nova_Regna }
-		id = ULD_Union_Stands_Strong
+		id = ULD_Union_Stands_Strong1
 		icon = GFX_focus_YUG_dissolve_serbia
 		x = 22
 		y = 8
-		cost = 6
+		cost = 71
 		completion_reward = {
-			add_war_support = 0.1	
+			add_war_support = 0.1
+			swap_ideas = { 
+			  remove_idea = disunified_country_3
+			  add_idea = disunified_country_2
+			}			
+		}	
+	}
+	focus = { 
+		prerequisite = { focus = ULD_Union_Stands_Strong1}
+		id = ULD_Union_Stands_Strong2
+		icon = GFX_focus_YUG_dissolve_serbia
+		x = 22
+		y = 9
+		cost = 71
+		completion_reward = {
+			add_war_support = 0.1
+			swap_ideas = { 
+			  remove_idea = disunified_country_2
+			  add_idea = disunified_country_1
+			}			
+		}	
+	}
+	focus = { 
+		prerequisite = { focus = ULD_Union_Stands_Strong2 }
+		id = ULD_Union_Stands_Strong3
+		icon = GFX_focus_YUG_dissolve_serbia
+		x = 22
+		y = 10
+		cost = 71
+		completion_reward = {
+			add_war_support = 0.1
+			swap_ideas = { 
+			  remove_idea = disunified_country_1
+			  add_idea = disunified_country
+			}			
+		}	
+	}
+	focus = { 
+		prerequisite = { focus = ULD_Union_Stands_Strong3 }
+		id = ULD_Union_Stands_Strong4
+		icon = GFX_focus_YUG_dissolve_serbia
+		x = 22
+		y = 8
+		cost = 71
+		completion_reward = {
+			add_war_support = 0.1
+			 remove_idea = disunified_country	
 		}	
 	}
 	
