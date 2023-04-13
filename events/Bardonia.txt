@@ -980,7 +980,7 @@ country_event = {
 	}
 	option = {
 		name = bardonia.43.b  #no
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 } #not sure what caused it but one time Auron denied it?
 		BAR = {
 			country_event = { id = bardonia.44 }
 			add_state_core = 76
