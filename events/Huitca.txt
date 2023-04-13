@@ -81,3 +81,20 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+
+#Ummarnu Co-Prosperity Sphere Offer
+country_event = {
+	id = huitca.4	#Ummarnu members
+	title = "Offer of Alliance"
+	desc = "We have been offered to join the Ummarnu Co-Prosperity Sphere"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Ummarnu shall be united"
+		HUI ={
+			add_to_faction = ROOT
+		}
+	}
+}

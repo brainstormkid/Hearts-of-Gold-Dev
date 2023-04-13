@@ -315,7 +315,18 @@ focus_tree = {
 		y = 4
 		cost = 10
 		completion_reward = {
-			#
+			HUI = {
+			create_faction = "Ummarnu Co-Prosperity Sphere"
+			}
+			SOL = {
+			country_event = { id = huitca.4 }
+			}
+			SIN = {
+			country_event = { id = huitca.4 }
+			}
+			SEW = {
+			country_event = { id = huitca.4 }
+			}
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = LAT_make_amends_with_the_world }
@@ -970,20 +981,6 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = LAT_sun_warriors }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for August Elections
-	focus = {
-		id = LAT_august_elections
-		icon = GFX_goal_unknown
-		x = 0
-		y = 6
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = LAT_july_election }
 		ai_will_do = {
 			factor = 1
 		}
