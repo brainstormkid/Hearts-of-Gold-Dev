@@ -92,6 +92,19 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+		trigger = {
+			is_in_faction = yes
+		}
+		name = "Ummarnu shall be united"
+		leave_faction = yes
+		HUI ={
+			add_to_faction = ROOT
+		}
+	}
+	option = {
+		trigger = {
+			is_in_faction = no
+		}
 		name = "Ummarnu shall be united"
 		HUI ={
 			add_to_faction = ROOT
