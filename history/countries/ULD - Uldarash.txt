@@ -70,3 +70,33 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Robert"
+	desc = "POLITICS_ULDARASH_DIARCHY_DESC"
+	picture = "gfx/leaders/ULD/robot.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Uldarash Diarchy"
+	desc = "POLITICS_ULDARASH_DIARCHY_DESC"
+	picture = "gfx/leaders/ULD/qwaser.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Uldarash Diarchy"
+	desc = "POLITICS_ULDARASH_DIARCHY_DESC"
+	picture = "gfx/leaders/ULD/qwaser.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}

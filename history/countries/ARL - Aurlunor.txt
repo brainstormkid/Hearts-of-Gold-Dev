@@ -101,3 +101,36 @@ create_country_leader = {
 		headstrong
 	}
 }
+create_country_leader = {
+	name = "Sareariel Lelya-Earcala"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/ARL/Coffee.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		popular_queen
+		headstrong
+	}
+}
+create_country_leader = {
+	name = "Sareariel Lelya-Earcala"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/ARL/Coffee.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		popular_queen
+		headstrong
+	}
+}
+create_country_leader = {
+	name = "Sareariel Lelya-Earcala"
+	desc = "POLITICS_SALCHAK_TOKA_DESC"
+	picture = "gfx/leaders/ARL/Coffee.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		popular_queen
+		headstrong
+	}
+}
