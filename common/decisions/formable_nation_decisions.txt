@@ -615,6 +615,10 @@ form_aldovir_category = {
 		
 		icon = generic_formable_nations
 		
+		ai_will_do = { 
+			base = 1
+			}
+		
 		allowed = {
 			OR = {
 				original_tag = SIR
