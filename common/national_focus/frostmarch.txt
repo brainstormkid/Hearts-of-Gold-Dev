@@ -1,0 +1,151 @@
+focus_tree = {
+	id = frostmarch_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRO
+		}
+	}
+	#Tensions with Vandalah
+	focus = {
+		id = tensions_with_vandalah
+		icon = GFX_SAV_andorn
+		x = 5
+		y = 0
+		cost = 10
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = tortuga.1 }
+			}
+			add_political_power = 100
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#War Vandalah
+	focus = {
+		id = War_Vandalah
+		icon = GFX_SAV_andorn
+		x = 5
+		y = 1
+		cost = 17
+		completion_reward = {
+			declare_war_on = {
+				target = VAN
+				type = annex_everything
+			}
+			SOU = {
+				declare_war_on = {
+				target = VAN
+				type = annex_everything
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = tensions_with_vandalah }
+	}
+	#Sorligiste union
+	focus = {
+		id = Sorligiste_Union
+		icon = GFX_SAV_andorn
+		x = 5
+		y = 2
+		cost = 17
+		completion_reward = {
+			annex_country = {
+				target = SOU
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = PAH
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = REG
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = CIR
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = LOT
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = VAN
+				transfer_troops = yes
+			}
+			set_cosmetic_tag = SOR
+			393 = {
+				add_core_of = FRO
+			}
+			321 = {
+				add_core_of = FRO
+			}
+			380 = {
+				add_core_of = FRO
+			}
+			381 = {
+				add_core_of = FRO
+			}
+			382 = {
+				add_core_of = FRO
+			}
+			406 = {
+				add_core_of = FRO
+			}
+			403 = {
+				add_core_of = FRO
+			}
+			404 = {
+				add_core_of = FRO
+			}
+			405 = {
+				add_core_of = FRO
+			}
+			402 = {
+				add_core_of = FRO
+			}
+			400 = {
+				add_core_of = FRO
+			}
+			396 = {
+				add_core_of = FRO
+			}
+			397 = {
+				add_core_of = FRO
+			}
+			392 = {
+				add_core_of = FRO
+			}
+			395 = {
+				add_core_of = FRO
+			}
+			391 = {
+				add_core_of = FRO
+			}
+			394 = {
+				add_core_of = FRO
+			}
+			399 = {
+				add_core_of = FRO
+			}
+			401 = {
+				add_core_of = FRO
+			}
+			398 = {
+				add_core_of = FRO
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = War_Vandalah }
+	}
+}

@@ -81,6 +81,9 @@ focus_tree = {
 		x = 18
 		y = 2
 		cost = 10
+		completion_reward = {
+			add_political_power = 100
+		}
 		available_if_capitulated = yes
 		mutually_exclusive = { focus = LAT_empower_the_tlatoani }
 		ai_will_do = {
@@ -380,13 +383,6 @@ focus_tree = {
 		y = 5
 		cost = 10
 		completion_reward = {
-			412 = {
-				add_state_modifier = {
-					modifier = {
-						local_resources = 0.75
-					}
-				}
-			}
 		}
 		available_if_capitulated = yes
 		prerequisite = { focus = LAT_huitca_commonwealth }
@@ -527,6 +523,9 @@ focus_tree = {
 		x = 21
 		y = 2
 		cost = 10
+		completion_reward = {
+			add_political_power = 100
+		}
 		available_if_capitulated = yes
 		mutually_exclusive = { focus = LAT_ceremonial_monarchy }
 		ai_will_do = {
