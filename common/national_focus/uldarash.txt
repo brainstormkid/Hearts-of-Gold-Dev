@@ -88,7 +88,7 @@ focus_tree = {
 	prerequisite = { focus = ULD_Invest_Industry }
 	id = ULD_Put_States_First
 	icon = GFX_focus_TUR_treaty_of_saadabad
-	x = 19
+	x = 20
 	y = 5
 	cost = 6
 	completion_reward = {
@@ -155,7 +155,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Put_States_First }
 		id = ULD_Infrastructure_Projects
 		icon = GFX_focus_mex_privatisation
-		x = 19
+		x = 20
 		y = 6
 		cost = 10
 		completion_reward = { 
@@ -303,7 +303,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Invest_Industry }
 		id = ULD_montroigan_supplycorp
 		icon = GFX_focus_AST_squander_bug
-		x = 17
+		x = 16
 		y = 5
 		cost = 6
 		completion_reward = {
@@ -314,7 +314,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_montroigan_supplycorp }
 		id = ULD_Montroigan_Infrastructure
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 17
+		x = 16
 		y = 6
 		cost = 6
 		completion_reward = {
@@ -328,11 +328,36 @@ focus_tree = {
 			}
 		}
 	}
+	#Aurora Specific
+	focus = {
+		prerequisite = { focus = ULD_Invest_Industry }
+		id = ULD_Aurora_Industry
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 18
+		y = 5
+		cost = 6
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	#Aurora Specific
+	focus = {
+		prerequisite = { focus = ULD_Aurora_Industry }
+		id = ULD_Aurora_Infrastructure
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 18
+		y = 6
+		cost = 6
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	#History Focus
 	focus = {
 		prerequisite = { focus = ULD_Qwaser_Leadership }
 		id = ULD_Recovery_Surfacing
 		icon = GFX_focus_generic_the_giant_wakes
-		x = 22
+		x = 24
 		y = 3
 		cost = 10
 		completion_reward = {
@@ -348,7 +373,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Recovery_Surfacing }
 		id = ULD_Buying_Alteniqua_Land
 		icon = GFX_focus_mex_privatisation
-		x = 22
+		x = 24
 		y = 6
 		cost = 2
 		completion_reward = {
@@ -361,7 +386,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Buying_Alteniqua_Land }
 		id = ULD_Nova_Regna
 		icon = GFX_BAR_into_plagadonia-125590
-		x = 22
+		x = 24
 		y = 4
 		cost = 2
 		completion_reward = {
@@ -379,7 +404,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Nova_Regna }
 		id = ULD_Union_Stands_Strong1
 		icon = GFX_focus_YUG_dissolve_serbia
-		x = 22
+		x = 24
 		y = 5
 		cost = 71
 		completion_reward = {
@@ -394,7 +419,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Union_Stands_Strong1}
 		id = ULD_Union_Stands_Strong2
 		icon = GFX_focus_YUG_dissolve_serbia
-		x = 22
+		x = 24
 		y = 6
 		cost = 71
 		completion_reward = {
@@ -409,7 +434,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Union_Stands_Strong2 }
 		id = ULD_Union_Stands_Strong3
 		icon = GFX_focus_YUG_dissolve_serbia
-		x = 22
+		x = 24
 		y = 7
 		cost = 71
 		completion_reward = {
@@ -424,7 +449,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Union_Stands_Strong3 }
 		id = ULD_Union_Stands_Strong4
 		icon = GFX_focus_YUG_dissolve_serbia
-		x = 22
+		x = 24
 		y = 8
 		cost = 71
 		completion_reward = {
