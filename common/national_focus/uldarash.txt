@@ -19,24 +19,21 @@ focus_tree = {
 			add_political_power = 100
 		}
 	}
-	#Building a new state
+	#Vestiges of Haven
 	focus = {
-	prerequisite = { focus = ULD_Recover_from_Ferrymen }
-		id = ULD_A_New_State
-		icon = GFX_goal_generic_demand_territory
-		x = 17
+		prerequisite = { focus = ULD_Recover_from_Ferrymen }
+		id = ULD_vestiges_of_haven
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 18
 		y = 1
-		cost = 10
+		cost = 6
 		completion_reward = {
-			swap_ideas = { 
-			  remove_idea = disunified_country_5
-			  add_idea = disunified_country_4
-			}
+			add_political_power = 100
 		}
 	}
 	#canine Path
 	focus = {
-	prerequisite = { focus = ULD_A_New_State }
+	prerequisite = { focus = ULD_vestiges_of_haven }
 	mutually_exclusive = { focus = ULD_Qwaser_Leadership }
 		id = ULD_Canine_Leadership
 		icon = GFX_focus_por_salazar
@@ -60,7 +57,7 @@ focus_tree = {
 	}
 	#Qwaser Path
 	focus = { 
-	prerequisite = { focus = ULD_A_New_State }
+	prerequisite = { focus = ULD_vestiges_of_haven }
 	mutually_exclusive = { focus = ULD_Canine_Leadership }
 		id = ULD_Qwaser_Leadership
 		icon = GFX_focus_jap_showa_restoration
@@ -353,12 +350,27 @@ focus_tree = {
 		}
 	}
 	#History Focus
+	#Building a new state
 	focus = {
-		prerequisite = { focus = ULD_Qwaser_Leadership }
+	prerequisite = { focus = ULD_Qwaser_Leadership }
+		id = ULD_A_New_State
+		icon = GFX_goal_generic_demand_territory
+		x = 24
+		y = 3
+		cost = 10
+		completion_reward = {
+			swap_ideas = { 
+			  remove_idea = disunified_country_5
+			  add_idea = disunified_country_4
+			}
+		}
+	}
+	focus = {
+		prerequisite = { focus = ULD_A_New_State }
 		id = ULD_Recovery_Surfacing
 		icon = GFX_focus_generic_the_giant_wakes
 		x = 24
-		y = 3
+		y = 4
 		cost = 10
 		completion_reward = {
 			add_war_support = 0.10
@@ -374,7 +386,7 @@ focus_tree = {
 		id = ULD_Buying_Alteniqua_Land
 		icon = GFX_focus_mex_privatisation
 		x = 24
-		y = 6
+		y = 5
 		cost = 2
 		completion_reward = {
 			COB = {
@@ -387,7 +399,7 @@ focus_tree = {
 		id = ULD_Nova_Regna
 		icon = GFX_BAR_into_plagadonia-125590
 		x = 24
-		y = 4
+		y = 6
 		cost = 2
 		completion_reward = {
 		ULD = {
@@ -405,7 +417,7 @@ focus_tree = {
 		id = ULD_Union_Stands_Strong1
 		icon = GFX_focus_YUG_dissolve_serbia
 		x = 24
-		y = 5
+		y = 7
 		cost = 71
 		completion_reward = {
 			add_war_support = 0.1
@@ -420,7 +432,7 @@ focus_tree = {
 		id = ULD_Union_Stands_Strong2
 		icon = GFX_focus_YUG_dissolve_serbia
 		x = 24
-		y = 6
+		y = 8
 		cost = 71
 		completion_reward = {
 			add_war_support = 0.1
@@ -435,7 +447,7 @@ focus_tree = {
 		id = ULD_Union_Stands_Strong3
 		icon = GFX_focus_YUG_dissolve_serbia
 		x = 24
-		y = 7
+		y = 9
 		cost = 71
 		completion_reward = {
 			add_war_support = 0.1
@@ -450,7 +462,7 @@ focus_tree = {
 		id = ULD_Union_Stands_Strong4
 		icon = GFX_focus_YUG_dissolve_serbia
 		x = 24
-		y = 8
+		y = 10
 		cost = 71
 		completion_reward = {
 			add_war_support = 0.1
