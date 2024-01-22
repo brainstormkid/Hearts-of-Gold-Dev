@@ -98,7 +98,7 @@ focus_tree = {
 	#industry
 	#Industry Start
 	focus = {
-		prerequisite = { focus = ULD_Qwaser_Leadership }
+		prerequisite = { focus = ULD_Qwaser_Leadership focus = ULD_Canine_Leadership }
 		id = ULD_Invest_Industry
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 19
