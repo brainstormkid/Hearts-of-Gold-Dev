@@ -528,7 +528,7 @@ focus_tree = {
 	#Government Path
 	focus = {
 		prerequisite = { focus = ULD_Qwaser_Leadership }
-		id = ULD_Government_United
+		id = ULD_Korp_System
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 34
 		y = 4
@@ -539,7 +539,7 @@ focus_tree = {
 	}
 	#Auroran Government Path
 	focus = {
-		prerequisite = { focus = ULD_Government_United }
+		prerequisite = { focus = ULD_Korp_System }
 		mutually_exclusive = { focus = ULD_Valkyrie_Way focus = ULD_Boulder_Protects }
 		id = ULD_Pavlovich_Guides
 		icon = GFX_goal_generic_allies_build_infantry
@@ -552,7 +552,7 @@ focus_tree = {
 	}
 	#Montroig Government Path
 	focus = {
-		prerequisite = { focus = ULD_Government_United }
+		prerequisite = { focus = ULD_Korp_System }
 		mutually_exclusive = { focus = ULD_Pavlovich_Guides focus = ULD_Boulder_Protects }
 		id = ULD_Valkyrie_Way
 		icon = GFX_goal_generic_allies_build_infantry
@@ -565,7 +565,7 @@ focus_tree = {
 	}
 	#Boulderov Government Path
 	focus = {
-		prerequisite = { focus = ULD_Government_United }
+		prerequisite = { focus = ULD_Korp_System }
 		mutually_exclusive = { focus = ULD_Pavlovich_Guides focus = ULD_Valkyrie_Way }
 		id = ULD_Boulder_Protects
 		icon = GFX_goal_generic_allies_build_infantry
