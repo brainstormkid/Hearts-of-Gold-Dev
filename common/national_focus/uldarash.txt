@@ -424,22 +424,17 @@ focus_tree = {
 	}
 	focus = { 
 		prerequisite = { focus = ULD_Buying_Alteniqua_Land }
-		id = ULD_Nova_Regna
+		id = ULD_Boulderov_Inquisition
 		icon = GFX_BAR_into_plagadonia-125590
 		x = 27
 		y = 6
 		cost = 10
 		completion_reward = {
-			ULD = {
-				annex_country = {
-				target = TRT
-				transfer_troops = yes
-				}
-			}
+			add_ideas = { Boulderov_Inquisition }
 		}
 	}
 	focus = { 
-		prerequisite = { focus = ULD_Nova_Regna }
+		prerequisite = { focus = ULD_Boulderov_Inquisition }
 		id = ULD_Chevkri_Military_Governor
 		icon = GFX_BAR_into_plagadonia-125590
 		x = 27
