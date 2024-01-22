@@ -237,6 +237,8 @@ ULD_Put_States_First:0 "Put The States First"
 ULD_Put_States_First_desc:0 "Placeholder"
 ULD_Army_Reorganization:0 "Organization of the State Militaries"
 ULD_Army_Reorganization_desc:0 "Placeholder"
+ULD_vestiges_of_haven:0 "Vestiges of Haven"
+ULD_vestiges_of_haven_desc:0 "Placeholder"
 #Huitca Localization
 LAT_chichiltik:0 "Chichiltik"
 LAT_chichiltik_desc:0 ""
