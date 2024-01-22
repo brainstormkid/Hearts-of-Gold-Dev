@@ -1,5 +1,5 @@
 ﻿l_english: 
-#ANDORN LOCALIZATION
+#ANDORN LOCALIZATION #####################
 A_New_Beginning:0 "A New Beginning"
 A_New_Beginning_desc:0 "Andorn has been shattered in the wake of the Bardonian Civil War. \n Its time to rebuild, reform, and fix ourselves into a modern \nSyltor nation by solving our current issues"
 Fix_the_Population:0 "Fix the Population"
@@ -60,7 +60,7 @@ Regional_Integration:0 "Regional Integration"
 Regional_Integration_desc:0 "Our Region has been in development into moderization.\n Its time to fully complete this modernization for a New Andorn."
 Luperkanian_Settlementation:0 "Luperkanian Settlementation"
 Luperkanian_Settlementation_desc:0 "Some Andorn citizens have been asking to for Luperkania.\n Maybe Bardonia will concede on our request."
-#RYZAN LOCALIZATION
+#RYZAN LOCALIZATION ##############################
 Third_Tsardom_Reformation:0 "Reformation of Tsardom"
 Third_Tsardom_Reformation_desc:0 "The Republic of Ryzan needs a Strong Government.\n The Tsar Line must be restored and a new President elected to represent us on the world stage!
 Ratification_of_Constitution:0 "Ryzani Consitution"
@@ -91,7 +91,7 @@ Ryzani_Navy:0 "Naval Moblization"
 Ryzani_Navy_desc:0 "The coming war must have are navy prepared to fight all enemies on the high seas"
 Ulfaeng_Hired:0 "Hire Ulfaeng"
 Ulfaeng_Hired_desc:0 "The experienced Bardonian army might be proven to be too strong against us. We must enlist in a mercenary group to defend our borders"
-#Bardonia Localization
+#Bardonia Localization #######################
 BAR_the_bardonian_civil_war:0 "The Bardonian Civil War"
 BAR_the_bardonian_civil_war_desc:0 "Bardonia has just recently erupted into a civil war following the removal of Jacw, and the refusal to grant Eleven the throne."
 BAR_the_question_of_andorn:0 "The Question of Andorn"
@@ -228,7 +228,7 @@ BAR_navalbasesolarnaria_desc:0 "We need a port in the south, Port Solarnaria is 
 ULD_Recover_from_Ferrymen:0 "Recover from the Ferrymen"
 ULD_Recover_from_Ferrymen_desc:0 "The Ferrymen's wrath of destruction has seriously affected Rathnir. Although we did not suffer as massively like Bardonia, the effects of the war must be addressed to insure our future."
 ULD_A_New_State:0 "A New State"
-ULD_A_New_State_desc:0 "Placeholder"
+ULD_A_New_State_desc:0 "Uldarash must reimagine itself as a unified country with unique parts working towards a greater Havenite goal."
 ULD_Qwaser_Leadership:0 "Mantain Qwaser's Leadership"
 ULD_Qwaser_Leadership_desc:0 "The Uldarashi Diarchy shall keep the state united under the joint leadership of Qwaser and Canine."
 ULD_Canine_Leadership:0 "Canine Takes the Reigns"
@@ -240,7 +240,7 @@ ULD_Army_Reorganization_desc:0 "Our army needs to be reorganized in order to pro
 ULD_vestiges_of_haven:0 "Vestiges of Haven"
 ULD_vestiges_of_haven_desc:0 "After two months and Bulgan captured on April 16th, 2021, the Khanate War can officialy come to a close with the remnants of the Khanate of Haven expelled and Uldarasi continental dominance insured."
 ULD_donfuer_crisis:0 "Plagdonian Emergency"
-ULD_donfuer_crisis_desc:0 "The purchase of Donfuer territory in Plagos has allowed us a puppet, Nova Regna. However, Plagatean and Bardonian pressure is putting doubts if this purchase was worth it."
+ULD_donfuer_crisis_desc:0 "The purchase of Donfuer territory in Plagos has allowed us a puppet, Nova Regna. However, Plagatean and Bardonian pressure is putting doubts if it was worth it."
 ULD_Recovery_Surfacing:0 "Recovery Plan"
 ULD_Recovery_Surfacing_desc:0 "We are a disunified country, this recovery plan shall maintain the stability of the state and internally strengthen the state to maintain our relevance on the world stage."
 ULD_Pavlovich_Guides:0 "Pavlovich Guides"
@@ -255,6 +255,16 @@ ULD_Hands_Bandits:0 "The Hands Deals with Them"
 ULD_Hands_Bandits_desc:0 "The Hands are preparing to eliminate the Farmland Bandit threat in Sanctuary. It is in our best interest to allow them to do the dirty work"
 ULD_Ourselves_Bandits:0 "We will deal with them"
 ULD_Ourselves_Bandits_desc:0 "The Farmland Bandits are our problem. No one else will interfere with Uldarashi problems even if it costs us."
+ULD_Union_Stands_Strong1:0 "Uldarash Stands Strong I"
+ULD_Union_Stands_Strong1_desc:0 "A step towards a unified Uldarash"
+ULD_Union_Stands_Strong2:0 "Uldarash Stands Strong II"
+ULD_Union_Stands_Strong2_desc:0 "Another step of progress towards a unified Uldarash"
+ULD_Union_Stands_Strong3:0 "Uldarash Stands Strong III"
+ULD_Union_Stands_Strong3_desc:0 "Another step of progress towards a unified Uldarash"
+ULD_Union_Stands_Strong4:0 "Uldarash United"
+ULD_Union_Stands_Strong4_desc:0 "The final push in having a unified Uldarash"
+ULD_Minute_Man_War:0 "Fate of Journey's End"
+ULD_Minute_Man_War_desc:0 "After CiderKnight was deposed from the Falnir throne, our relations with the new King, MidgeApe, has been rapidly deteriorating. We must decide their fate."
 #Huitca Localization
 LAT_chichiltik:0 "Chichiltik"
 LAT_chichiltik_desc:0 ""
