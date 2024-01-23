@@ -88,3 +88,17 @@ country_event = {
 		name = "Excellent"
 	}
 }
+# Minute Man War
+country_event = {
+	id = uldarash.5	#Minute Man War
+	title = "WAR!"
+	desc = "We do not recognize... the Kingdom of Falnir, nor it’s false usurper MidgeApe... who had raided and harassed... acting as squatters in the city of Asahiri... all treaties... to be null and void... formal declaration of war -aktaea"
+	picture = GFX_Minute_Man_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Imur Uldarash!"
+		create_wargoal = { type = annex_everything target = FAL }
+	}
+}

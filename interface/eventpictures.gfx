@@ -34,3 +34,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/cobbleworks_purchase_event.dds"
 	}
 }
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_Minute_Man_event"
+		texturefile = "gfx/event_pictures/Minute_Man_event.dds"
+	}
+}
