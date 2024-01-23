@@ -24,6 +24,7 @@ state={
 			3527 10		#Asgaroth
 		}
 		add_core_of = PLG
+		add_core_of = DOF
 	}
 	buildings_max_level_factor=1.000
 }
