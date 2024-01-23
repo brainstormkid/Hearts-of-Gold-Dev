@@ -11,7 +11,7 @@ state={
 	    chromium = 3
       }
 	provinces={
-		520 810 2745 3227 3461 
+		520 810 2745 3227 3461 1655
 	}
 	manpower=750000
 	history={
