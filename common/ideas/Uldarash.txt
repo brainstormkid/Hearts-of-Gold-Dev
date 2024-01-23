@@ -25,7 +25,7 @@ ideas = {
 		
 		montroigan_supply_corps = {
 		
-		allowed = {
+			allowed = {
 				always = no
 			}
 
@@ -39,7 +39,7 @@ ideas = {
 			
 			modifier = {
 				supply_consumption_factor = -0.1			
-		}
+			}
 		}
 		disunified_country_5 = {
 
@@ -241,7 +241,7 @@ ideas = {
 			picture = uldarash_spirit
 		
 			modifier = {
-				local_resources_factor = -0.3
+				local_resources_factor = -0.60
 			}
 		}
 		Chevkri_Chaos = {
