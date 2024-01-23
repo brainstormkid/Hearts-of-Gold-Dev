@@ -241,7 +241,7 @@ ideas = {
 			picture = uldarash_spirit
 		
 			modifier = {
-				
+				local_resources_factor = -0.3
 			}
 		}
 		Chevkri_Chaos = {

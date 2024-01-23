@@ -589,7 +589,8 @@ focus_tree = {
 		y = 4
 		cost = 10
 		completion_reward = {
-			
+			add_command_power = 20
+			add_political_power = 75
 		}
 	}
 	#Let Hands Deal with It
@@ -603,6 +604,14 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			remove_ideas = { Farmland_Bandits }
+			army_experience = 15
+			BAR = {
+				army_experience = 35
+				add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+				}
+			}
 		}
 	}
 	#Deal with it Ourselves
@@ -616,6 +625,11 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			remove_ideas = { Farmland_Bandits }
+			army_experience = 50
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -2500
+			}
 		}
 	}
 	#Minute Man War
