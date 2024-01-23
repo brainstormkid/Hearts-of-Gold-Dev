@@ -1,0 +1,19 @@
+###########################
+# Falnir Default Route Events
+###########################
+
+add_namespace = falnir
+
+# Minute Man War
+country_event = {
+	id = falnir.1	#Minute Man War
+	title = "Minute Man War"
+	desc = "...the despicable state of Uldarash declared war upon our... neutral nation. Their reason for war is... nothing but a weak  excuse... to the other nations in the world I ask for support... If we were to fall it shall not be without a glorious fight."
+	picture = GFX_Minute_Man_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Hail King @Midge, Hail the Kingdom of Falnir"
+	}
+}
