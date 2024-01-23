@@ -15,11 +15,11 @@ state={
 	}
 	manpower=185787
 	history={
-		owner = VIO
+		owner = PLG
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = VIO
+		add_core_of = PLG
 	}
 	buildings_max_level_factor=1.000
 }

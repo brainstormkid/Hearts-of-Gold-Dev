@@ -15,7 +15,7 @@ state={
 	}
 	manpower=9000000
 	history={
-		owner = VIO
+		owner = PLG
 		buildings = {
 			arms_factory = 2
 			industrial_complex = 3 
@@ -31,7 +31,7 @@ state={
 			1101 20		#Andoros
 		}
 		add_core_of = TRT
-		add_core_of = VIO
+		add_core_of = PLG
 	}
 	buildings_max_level_factor=1.000
 }
