@@ -29,6 +29,8 @@ bookmarks = {
 			history = "ULD_GATHERING_STORM_DESC"
 			ideas = {
 				disunified_country
+				Khanate_War
+				Farmland_Bandits
 			}
 		}
 

@@ -46,6 +46,8 @@ add_ideas = {
 	disarmed_nation
 	disunified_country_5
 	undisturbed_isolation
+	Khanate_War
+	Farmland_Bandits
 }
 
 set_convoys = 850
