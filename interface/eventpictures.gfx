@@ -28,3 +28,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_event_nuke.dds"
 	}
 }
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_ULD_COB_purchase_event"
+		texturefile = "gfx/event_pictures/cobbleworks_purchase_event.dds"
+	}
+}

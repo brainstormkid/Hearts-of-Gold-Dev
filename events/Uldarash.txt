@@ -75,3 +75,16 @@ country_event = {
 	
 	}
 }
+# Uldarash Purchases Cobbleworks Land
+country_event = {
+	id = uldarash.4	#Cobbleworks Land Purchase
+	title = "Alteniqua Holdings"
+	desc = "Our purchase of Cobbleworks territory has gone smoothly. We now have East and West Kaithrat."
+	picture = GFX_ULD_COB_purchase_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Excellent"
+	}
+}

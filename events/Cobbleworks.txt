@@ -1,0 +1,28 @@
+###########################
+# Cobbleworks Default Route Events
+###########################
+
+add_namespace = cobbleworks
+
+# Cobbleworks Uldarash Land Purchase
+country_event = {
+	id = cobbleworks.1	#Cobbleworks Land Purchase
+	title = "Uldarash Purchase"
+	desc = "The Second Empire of Uldarash is willing to purchase some of our lands, East and West Kaithrat, for 100k."
+	picture = GFX_ULD_COB_purchase_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "A deal is a deal"
+		ULD = {
+			transfer_state = 435
+			transfer_state = 436
+		}
+		hidden_effect = {
+			ULD = {
+				country_event = { id = uldarash.4 } 
+			}
+		}
+	}
+}
