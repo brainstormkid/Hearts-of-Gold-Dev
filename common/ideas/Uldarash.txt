@@ -244,6 +244,24 @@ ideas = {
 				
 			}
 		}
+		Chevkri_Chaos = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war = {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = uldarash_spirit
+		
+			modifier = {
+				
+			}
+		}
 	}
 }
 	

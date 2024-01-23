@@ -307,7 +307,7 @@ focus_tree = {
 		y = 7
 		cost = 10
 		completion_reward = {
-		add_ideas = { army_reorganization
+		add_ideas = { army_reorganization }
 		}
 	}
 }
@@ -440,6 +440,10 @@ focus_tree = {
 		x = 27
 		y = 7
 		cost = 10
+		completion_reward = {
+			remove_ideas = { Chevkri_Chaos }
+			add_ideas = {  }
+		}
 	}
 	focus = { 
 		prerequisite = { focus = ULD_Buying_Alteniqua_Land }
