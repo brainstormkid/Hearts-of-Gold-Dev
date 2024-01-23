@@ -107,3 +107,16 @@ country_event = {
 		}
 	}
 }
+# CiderKnight Deposed
+country_event = {
+	id = uldarash.6	#CiderKnight Deposed
+	title = "Falnir Deposes King"
+	desc = "...Ciderknight... was virtually forced to abdicate from this throne or face war snd rebellion from MidgeApe and his followers... -aktaea"
+	picture = GFX_CiderKnight_deposed_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "The Falniri Issue must be dealt with"
+	}
+}

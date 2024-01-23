@@ -1,0 +1,38 @@
+focus_tree = {
+	id = falnir_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FAL
+		}
+	}
+	#CiderKnight Deposed
+	focus = {
+		id = CiderKnight_Deposed
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 0
+		cost = 258
+		completion_reward = {
+			create_country_leader = {
+				name = "MidgeApe"
+				desc = "POLITICS_PETER_II_DESC"
+				picture = ""
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = { }
+			}
+			hidden_effect = {
+				country_event = { id = falnir.2 }
+				ULD = {
+					country_event = { id = uldarash.6 }
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}

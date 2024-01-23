@@ -40,3 +40,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Minute_Man_event.dds"
 	}
 }
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_CiderKnight_deposed_event"
+		texturefile = "gfx/event_pictures/journeys_end_event.dds"
+	}
+}
