@@ -40,7 +40,9 @@ focus_tree = {
 		y = 1
 		cost = 10
 		completion_reward = {
-			
+			ULD = {
+				country_event = { id = uldarash.8 }
+			}	
 		}
 	}
 	#canine Path
