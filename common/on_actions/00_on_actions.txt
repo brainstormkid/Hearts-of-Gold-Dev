@@ -47,6 +47,7 @@ on_actions = {
 			NIE = {
 				country_event = { id = niedea.2 days = 462 }#14 of may
 			}
+			BAR = { news_event = { id = news.2 days = 84 }
 		}
 	}
 	on_nuke_drop = {
