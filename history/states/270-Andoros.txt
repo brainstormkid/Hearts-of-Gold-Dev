@@ -33,6 +33,7 @@ state={
 		add_core_of = TRT
 		add_core_of = PLG
 		add_core_of = DOF
+		add_core_of = NRG
 	}
 	buildings_max_level_factor=1.000
 }

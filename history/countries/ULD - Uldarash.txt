@@ -29,6 +29,8 @@ set_technology = {
 
 }
 
+puppet = NRG
+
 recruit_character = ULD_canine
 recruit_character = ULD_ganeff
 recruit_character = ULD_robotgirlyman
