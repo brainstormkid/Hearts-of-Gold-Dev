@@ -141,3 +141,39 @@ country_event = {
 		}
 	}
 }
+# Giving Nova Regna to Plagatea
+country_event = {
+	id = uldarash.8	#Giving Nova Regna to Plagatea
+	title = "Plagadonia Emergency"
+	desc = ""
+	picture = GFX_donfuer_sale_event
+	
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = "Nova Regna is not worth it"
+		PLG = {
+			transfer_state = 271
+			transfer_state = 267
+			transfer_state = 270
+			transfer_state = 269
+			transfer_state = 273
+			transfer_state = 272
+		}
+	}
+	option = {
+		ai_chance = {
+			base = 0
+		}
+		name = "We will protect our Plagos Holdings"
+		PLG = {
+			declare_war_on = {
+		    target = NRG
+		    type = annex_everything
+			}
+		}
+	}
+}
