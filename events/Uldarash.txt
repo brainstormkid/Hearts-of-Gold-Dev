@@ -120,3 +120,24 @@ country_event = {
 		name = "The Falniri Issue must be dealt with"
 	}
 }
+# Purchase of Donfuer
+country_event = {
+	id = uldarash.7	#Donfuer Purchase
+	title = "Purchase Donfuer"
+	desc = "Donfuer, a 2b2t cross server nation, has recently been experiencing inactivity and regional tensions in Plagos. However, we can step in and purchase their lands to expand our influence in Rathnir."
+	picture = GFX_donfuer_sale_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Our Empire grows across the seas"
+		NRG = {
+			transfer_state = 271
+			transfer_state = 267
+			transfer_state = 270
+			transfer_state = 269
+			transfer_state = 273
+			transfer_state = 272
+		}
+	}
+}

@@ -15,7 +15,7 @@ state={
 	}
 	manpower=185787
 	history={
-		owner = PLG
+		owner = DOF
 		buildings = {
 			infrastructure = 1
 		}

@@ -46,3 +46,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/journeys_end_event.dds"
 	}
 }
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_donfuer_sale_event"
+		texturefile = "gfx/event_pictures/donfuer_sale_event.dds"
+	}
+}
