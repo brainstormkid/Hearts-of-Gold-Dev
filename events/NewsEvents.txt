@@ -313,3 +313,30 @@ news_event = {
 	}
 	is_triggered_only = yes
 }
+# Printing Press
+news_event = {
+	id = news.22
+	title = "LUXIOS UNIVERSITY PRINTING PRESS"
+	desc = "Today marks the day we have constructed a printing press in the Luxios University. This means that we can now begin printing and distributing books on a scale never seen before in the nation of Solisios."
+	picture = GFX_news_event_011
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Praise be to Lux"
+	}
+}
+# Printing Press (HIDDEN)
+news_event = {
+	id = news.23
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.22 }
+	}
+	is_triggered_only = yes
+}
