@@ -184,7 +184,7 @@ These are our shields, do not attack us or you will be considered hostile to the
 	is_triggered_only = yes
 	
 	option = {
-		name = "Bruh"
+		name = "POG!"
 	}
 }
 # Aurora Protects Wallmart (HIDDEN)
@@ -196,6 +196,65 @@ news_event = {
 	
 	immediate = {
 		news_event = { id = news.12 }
+	}
+	is_triggered_only = yes
+}
+# Montroig Art Contest
+news_event = {
+	id = news.14
+	title = "First Montroig Art Contest"
+	desc = "macaroknee got 1st place with 'The French Revolution' (center)
+
+Arcadian_Sheep achieved 2nd place with the religious-themed painting of 'The Vision' (left).
+
+Agapitikos' sculpture 'Society' (right) won the 3rd price."
+	picture = GFX_news_event_007
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Round of Applause for the Winners"
+	}
+}
+# Montroig Art Contest (HIDDEN)
+news_event = {
+	id = news.15
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.14 }
+	}
+	is_triggered_only = yes
+}
+
+# Himo Dies
+news_event = {
+	id = news.16
+	title = "First King of Andorn is dead"
+	desc = "Himo, First King of Andorn and founder of the Pog Bar, is dead by my hand. He bestowed upon me the fruits of his labor, barring a few notable exceptions. He only asked one thing in return: that I relieve him of he suffering. -Mistic Audalad"
+	picture = GFX_news_event_008
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Long live the King of Andorn"
+	}
+}
+# Himo Dies (HIDDEN)
+news_event = {
+	id = news.17
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.16 }
 	}
 	is_triggered_only = yes
 }
