@@ -340,3 +340,59 @@ news_event = {
 	}
 	is_triggered_only = yes
 }
+# Andorn Marriage
+news_event = {
+	id = news.24
+	title = "A Harmonious Union"
+	desc = "On the Seventh Month of the Second day of the year 931, the Velereth of the Aurlûnor Velande, Saraeriel-Leyla Earcala (Coffeccubus) and the Kaiser of Andorn, Lucius von Savras (Shadowking0103) had been wedded together."
+	picture = GFX_news_event_012
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "May the Union Last 10,000 Years!"
+	}
+}
+# Andorn Marriage (HIDDEN)
+news_event = {
+	id = news.25
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.24 }
+	}
+	is_triggered_only = yes
+}
+# Tortuga Monster Attack
+news_event = {
+	id = news.26
+	title = "Tortuga Titan Attack"
+	desc = "Tortuga was enjoying a peaceful day when a titan rosed from the depth of the ocean. 
+As soon as our crew heard of the threat we assembled to fight the monster.  
+After a long fight, we finally defeated the titan."
+	picture = GFX_news_event_013
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "GGs"
+	}
+}
+# Tortuga Monster Attack (HIDDEN)
+news_event = {
+	id = news.27
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.26 }
+	}
+	is_triggered_only = yes
+}
