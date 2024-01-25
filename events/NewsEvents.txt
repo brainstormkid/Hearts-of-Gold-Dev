@@ -423,3 +423,32 @@ news_event = {
 	}
 	is_triggered_only = yes
 }
+# Deadwood Hotel Event
+news_event = {
+	id = news.30
+	title = "Deadwood Hotel Event"
+	desc = "Crezyman and DHVO discover the body of MisticCrafter, after she was choked to death. DHVO was thrown off of a bridge later that evening.
+
+The guests cast the Lich's phylactery into the void, destroying him. The guests are thrust back out of the hotel."
+	picture = GFX_news_event_015
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ""
+	}
+}
+# Deadwood Hotel Event (HIDDEN)
+news_event = {
+	id = news.31
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.30 }
+	}
+	is_triggered_only = yes
+}
