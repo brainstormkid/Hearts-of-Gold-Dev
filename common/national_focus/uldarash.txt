@@ -443,8 +443,10 @@ focus_tree = {
 		y = 7
 		cost = 10
 		completion_reward = {
-			remove_ideas = { Chevkri_Chaos }
-			add_ideas = {  }
+			swap_ideas = { 
+				remove_idea = Chevkri_Chaos 
+				add_idea = Chevkri_Military_Governor 
+			}
 		}
 	}
 	focus = { 

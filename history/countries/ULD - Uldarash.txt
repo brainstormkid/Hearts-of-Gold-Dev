@@ -48,6 +48,7 @@ add_ideas = {
 	disunified_country_5
 	Khanate_War
 	Farmland_Bandits
+	Chevkri_Chaos
 }
 
 set_convoys = 850

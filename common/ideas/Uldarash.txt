@@ -259,7 +259,29 @@ ideas = {
 			picture = uldarash_spirit
 		
 			modifier = {
-				
+				stability_factor = -0.18
+				war_stability_factor = -0.12
+				research_speed_factor	 = -0.14
+			}
+		}
+		Chevkri_Military_Governor = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war = {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = uldarash_spirit
+		
+			modifier = {
+				stability_factor = 0.12
+				war_stability_factor = 0.09
+				research_speed_factor = 0.08
 			}
 		}
 	}
