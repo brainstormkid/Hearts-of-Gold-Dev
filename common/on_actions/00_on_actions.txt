@@ -49,6 +49,8 @@ on_actions = {
 			}
 			BAR = { news_event = { id = news.2 days = 42 }
 			BAR = { news_event = { id = news.4 days = 735 }
+			BAR = { news_event = { id = news.7 days = 84 }
+			BAR = { news_event = { id = news.9 days = 168 }
 		}
 	}
 	on_nuke_drop = {

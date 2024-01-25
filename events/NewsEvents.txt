@@ -77,3 +77,68 @@ news_event = {
 	}
 	is_triggered_only = yes
 }
+
+# Athaz Plushie
+news_event = {
+	id = news.6
+	title = "ANNOUNCEMENT FROM THE MERCHANTS' GUILD!"
+	desc = "TODAY IS THE DAY! Carpicious has now released a very special item into Rathnir:
+
+The ATHAZ PLUSHIE !
+
+It's a cute collectible that depicts one of the server's known personalities: ATHAZ!
+
+Order NOW and get a chance to acquire the ATHAZ PLUSHIE!"
+	picture = GFX_news_event_003
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "POG!"
+	}
+}
+# Athaz Plushie (HIDDEN)
+news_event = {
+	id = news.7
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.6 }
+	}
+	is_triggered_only = yes
+}
+# Valen Plushie
+news_event = {
+	id = news.8
+	title = "ANNOUNCEMENT FROM THE MERCHANTS' GUILD"
+	desc = "Another wonderful news! Numis of Viodoxa has released a new product into the market that will surely attract your attention:
+
+The VALEN PLUSHIE
+
+We have yet another celebrity depicted into a cute plushie. This time it's Valen, Regent Archon of Viodoxa"
+	picture = GFX_news_event_004
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Chad"
+	}
+}
+# Athaz Plushie (HIDDEN)
+news_event = {
+	id = news.9
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.8 }
+	}
+	is_triggered_only = yes
+}

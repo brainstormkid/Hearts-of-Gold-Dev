@@ -52,3 +52,15 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/donfuer_sale_event.dds"
 	}
 }
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_news_event_003"
+		texturefile = "gfx/event_pictures/news_event_003.dds"
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_news_event_004"
+		texturefile = "gfx/event_pictures/news_event_004.dds"
+	}
+}
