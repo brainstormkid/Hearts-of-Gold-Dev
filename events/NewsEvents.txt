@@ -285,3 +285,31 @@ news_event = {
 	}
 	is_triggered_only = yes
 }
+# Stoney Trial
+news_event = {
+	id = news.20
+	title = "Stoney Floods Urnu-Arrack"
+	desc = "Due to the enormous flooding of Urnu-Arrak, we have tracked down that citizen to be StoneyStoner. He is facing trial this morning in Urnu-Arrak, at 10 AM, EST.
+	Due to his escape, he has a $1 bounty on his life."
+	picture = GFX_news_event_010
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Stoney is Guilty"
+	}
+}
+# Stoney Trial (HIDDEN)
+news_event = {
+	id = news.21
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.20 }
+	}
+	is_triggered_only = yes
+}
