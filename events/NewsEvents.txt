@@ -396,3 +396,30 @@ news_event = {
 	}
 	is_triggered_only = yes
 }
+# Ulfaeng Bear
+news_event = {
+	id = news.28
+	title = "THE FYNG HAS RETURNED!"
+	desc = "After his deep slumber of 2000 years, the nature spirit that resides within Yuarkrig, the Floating Tree in Elsywr, has awoken! From this day forth, the avatar shall be named Steve!"
+	picture = GFX_news_event_014
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "The One Who Howls Fate!"
+	}
+}
+# Ulfaeng Bear (HIDDEN)
+news_event = {
+	id = news.29
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.28 }
+	}
+	is_triggered_only = yes
+}
