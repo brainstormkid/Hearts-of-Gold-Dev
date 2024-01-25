@@ -258,3 +258,30 @@ news_event = {
 	}
 	is_triggered_only = yes
 }
+# Kush Fire
+news_event = {
+	id = news.18
+	title = "The Great Fire of Kush"
+	desc = "Yesterday at 4:19 AM the famous Kush brothel erupted in fire. Many people died trapped inside and many more died trying to put out the fire. The flame was contained only after it had already destroyed many of the buildings and killed most of the residents."
+	picture = GFX_news_event_009
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "May the cactus protect"
+	}
+}
+# Kush Fire (HIDDEN)
+news_event = {
+	id = news.19
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.18 }
+	}
+	is_triggered_only = yes
+}
