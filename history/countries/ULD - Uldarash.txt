@@ -49,6 +49,8 @@ add_ideas = {
 	Khanate_War
 	Farmland_Bandits
 	Chevkri_Chaos
+	Pavlovism_Religion
+	Boulderism_Religion
 }
 
 set_convoys = 850
