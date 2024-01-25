@@ -130,7 +130,7 @@ We have yet another celebrity depicted into a cute plushie. This time it's Valen
 		name = "Chad"
 	}
 }
-# Athaz Plushie (HIDDEN)
+# Valen Plushie (HIDDEN)
 news_event = {
 	id = news.9
 	hidden = yes
@@ -139,6 +139,34 @@ news_event = {
 	
 	immediate = {
 		news_event = { id = news.8 }
+	}
+	is_triggered_only = yes
+}
+# Potato Virus
+news_event = {
+	id = news.10
+	title = "BRS-515 Idaho Virus Detected in Bardonia"
+	desc = "It has been discovered that it originated from beetroot soup and the virus is only local to Bardonia's climate which is suitable for beetroot. Please stay away from the Solanum province of Bardonia.
+May peace be with you"
+	picture = GFX_news_event_005
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Bruh"
+	}
+}
+# Potato Virus (HIDDEN)
+news_event = {
+	id = news.11
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.10 }
 	}
 	is_triggered_only = yes
 }
