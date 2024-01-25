@@ -170,3 +170,32 @@ news_event = {
 	}
 	is_triggered_only = yes
 }
+# Aurora Protects Wallmart
+news_event = {
+	id = news.12
+	title = "The Order Stands Guard at Walmart"
+	desc = "The Order of the Aurora now guards Walmart from Bandits to help stabilize the region from the chaotic force of banditry.
+
+These are our shields, do not attack us or you will be considered hostile to the entire Order and will be KoS"
+	picture = GFX_news_event_006
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Bruh"
+	}
+}
+# Aurora Protects Wallmart (HIDDEN)
+news_event = {
+	id = news.13
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.12 }
+	}
+	is_triggered_only = yes
+}
