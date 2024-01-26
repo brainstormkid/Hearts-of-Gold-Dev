@@ -85,4 +85,12 @@ spriteTypes = {
 		name = "GFX_idea_soleannen_spirit"
 		texturefile = "gfx/interface/ideas/idea_soleannen_spirit.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_twin_dragon_spirit"
+		texturefile = "gfx/interface/ideas/idea_twin_dragon_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dandelism_spirit"
+		texturefile = "gfx/interface/ideas/idea_dandelism_spirit.dds"
+	}
 }

@@ -36,6 +36,7 @@ recruit_character = ARL_aesop
 add_ideas = {
 	volunteer_only
 	squatter_crisis
+	Twin_Dragon_Religion
 }
 
 set_convoys = 40

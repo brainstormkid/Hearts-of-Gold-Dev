@@ -64,6 +64,7 @@ add_ideas = {
 	pop_decline
 	auronspeak_lost
 	garfist_resistance
+	Dandelism_Religion
 }
 
 set_convoys = 600

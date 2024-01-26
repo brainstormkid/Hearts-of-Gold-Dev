@@ -55,6 +55,42 @@ ideas = {
 				army_core_defence_factor = 0.05
 			}
 		}
+		Twin_Dragon_Religion = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war = {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = twin_dragon_spirit
+		
+			modifier = {
+				army_org_regain = 0.05
+			}
+		}
+		Dandelism_Religion = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war = {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = dandelism_spirit
+		
+			modifier = {
+				army_attack_factor = 0.05
+			}
+		}
 	}
 }
 	
