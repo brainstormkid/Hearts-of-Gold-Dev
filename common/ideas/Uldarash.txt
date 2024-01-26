@@ -300,7 +300,7 @@ ideas = {
 			picture = uldarash_spirit
 		
 			modifier = {
-				
+				army_speed_factor = 0.05
 			}
 		}
 		Boulderism_Religion = {
@@ -318,7 +318,7 @@ ideas = {
 			picture = uldarash_spirit
 		
 			modifier = {
-				
+				army_defence_factor = 0.05
 			}
 		}
 	}
