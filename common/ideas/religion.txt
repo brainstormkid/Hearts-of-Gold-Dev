@@ -1,0 +1,43 @@
+ideas = {
+
+	country = {
+		Pavlovism_Religion = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war = {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = pavlovism_spirit
+		
+			modifier = {
+				army_speed_factor = 0.05
+			}
+		}
+		Boulderism_Religion = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war = {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = boulderism_spirit
+		
+			modifier = {
+				army_defence_factor = 0.05
+			}
+		}
+	}
+}
+	
+

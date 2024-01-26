@@ -77,4 +77,8 @@ spriteTypes = {
 		name = "GFX_idea_pavlovism_spirit"
 		texturefile = "gfx/interface/ideas/idea_pavlovism_spirit.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_boulderism_spirit"
+		texturefile = "gfx/interface/ideas/idea_boulderism_spirit.dds"
+	}
 }
