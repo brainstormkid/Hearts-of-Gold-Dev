@@ -73,4 +73,8 @@ spriteTypes = {
 		name = "GFX_idea_eternal_tlatoani"
 		texturefile = "gfx/interface/ideas/idea_eternal_tlatoani.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_pavlovism_spirit"
+		texturefile = "gfx/interface/ideas/idea_pavlovism_spirit.dds"
+	}
 }

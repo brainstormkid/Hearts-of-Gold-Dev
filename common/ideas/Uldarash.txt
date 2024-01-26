@@ -297,7 +297,7 @@ ideas = {
 		
 			removal_cost = -1
 		
-			picture = uldarash_spirit
+			picture = pavlovism_spirit
 		
 			modifier = {
 				
