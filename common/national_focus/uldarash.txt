@@ -39,11 +39,10 @@ focus_tree = {
 		x = 19
 		y = 1
 		cost = 10
-		bypass = {
-			NOT = {
-				country_exists = NRG
-			}
+		available = {
+    			country_exists = NRG
 		}
+		bypass_if_unavailable = yes
 		completion_reward = {
 			ULD = {
 				country_event = { id = uldarash.8 }
