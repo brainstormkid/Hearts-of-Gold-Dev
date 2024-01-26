@@ -32,6 +32,7 @@ bookmarks = {
 				Khanate_War
 				Farmland_Bandits
 				Chevkri_Chaos
+				Pavlovism_Religion
 			}
 		}
 
