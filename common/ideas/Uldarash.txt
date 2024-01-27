@@ -205,7 +205,8 @@ ideas = {
 			picture = uldarash_spirit
 		
 			modifier = {
-				
+				army_core_defence_factor = 0.05
+				breakthrough_factor = 0.05
 			}
 		}
 		Khanate_War = {
