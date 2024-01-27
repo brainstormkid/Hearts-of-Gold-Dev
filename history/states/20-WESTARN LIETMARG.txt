@@ -29,7 +29,7 @@ state={
 			}
 		}
 		add_core_of = ULD
-		add_core_of = ADS
+		add_core_of = CHE
 	}
 	manpower=2100000
 	buildings_max_level_factor=1.000

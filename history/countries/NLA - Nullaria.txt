@@ -1,6 +1,6 @@
-capital = 23
+﻿capital = 12
 
-oob = "EBG_1936"
+oob = "NLA_1936"
 
 # Starting tech
 set_technology = {
@@ -77,12 +77,13 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Hinda Schmitt"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/COB/TBD.dds"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
 		#
 	}
 }
+

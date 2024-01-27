@@ -32,7 +32,7 @@ state={
 			}
 		}
 		add_core_of = ULD
-		add_core_of = EBG
+		add_core_of = PLR
 	}
 	buildings_max_level_factor=1.000
 }

@@ -1,6 +1,6 @@
-capital = 19
+﻿capital = 4
 
-oob = "ADS_1936"
+oob = "ALO_1936"
 
 # Starting tech
 set_technology = {
@@ -77,12 +77,13 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "?"
+	name = "Gamerblox2077"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
 		#
 	}
 }
+

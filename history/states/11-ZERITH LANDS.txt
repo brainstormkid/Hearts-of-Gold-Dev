@@ -20,6 +20,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = ULD
+		add_core_of = NLA
 	}
 	buildings_max_level_factor=1.000
 }
