@@ -93,4 +93,8 @@ spriteTypes = {
 		name = "GFX_idea_dandelism_spirit"
 		texturefile = "gfx/interface/ideas/idea_dandelism_spirit.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_bardonia_spirit"
+		texturefile = "gfx/interface/ideas/idea_bardonia_spirit.dds"
+	}
 }
