@@ -559,7 +559,7 @@ focus_tree = {
 		y = 5
 		cost = 10
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = { Aker_of_Aurora }
 		}
 	}
 	#Montroig Government Path
@@ -572,7 +572,7 @@ focus_tree = {
 		y = 5
 		cost = 10
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = { Guardian_of_Montroig }
 		}
 	}
 	#Boulderov Government Path
@@ -585,7 +585,7 @@ focus_tree = {
 		y = 5
 		cost = 10
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = { Ashannu_of_Boulderov }
 		}
 	}
 	#Farmland Bandit Raids

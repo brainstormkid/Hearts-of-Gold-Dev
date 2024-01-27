@@ -285,6 +285,74 @@ ideas = {
 				research_speed_factor = 0.08
 			}
 		}
+		Aker_of_Aurora = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war = {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = uldarash_spirit
+		
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+				production_speed_arms_factory_factor = 0.10
+				conversion_cost_civ_to_mil_factor = -0.10
+				army_org_regain = 0.05
+			}
+		}
+		Guardian_of_Montroig = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war = {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = uldarash_spirit
+		
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+				production_speed_supply_node_factor = 0.10
+				production_speed_infrastructure_factor = 0.10
+				production_speed_rail_way_factor = 0.10
+				army_morale_factor = 0.05
+			}
+		}
+		Ashannu_of_Boulderov = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war = {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = uldarash_spirit
+		
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+				consumer_goods_factor = -0.1
+				production_speed_industrial_complex_factor = 0.10
+				conversion_cost_mil_to_civ_factor = -0.10
+				attrition = -0.05
+			}
+		}
 		
 	}
 }
