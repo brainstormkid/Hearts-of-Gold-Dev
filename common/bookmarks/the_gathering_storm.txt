@@ -76,6 +76,10 @@ bookmarks = {
 		"ARL"={
 			minor = yes
 			history = "ARL_GATHERING_STORM_DESC"
+			ideas = {
+				Twin_Dragon_Religion
+				squatter_crisis
+			}
 		}
 		
 		"FJ1"={
