@@ -642,9 +642,8 @@ focus_tree = {
 	}
 	#Minute Man War
 	focus = {
-		prerequisite = { focus = ULD_finish_army_reforms }
-		prerequisite = { focus = ULD_Union_Stands_Strong4 }
-		prerequisite = { focus = ULD_Boulderov_Fort }
+		prerequisite = { focus = ULD_Boulderov_Fort focus = ULD_Union_Stands_Strong4 focus = ULD_finish_army_reforms }
+		prerequisite = { focus = ULD_Union_Stands_Strong4 focus = ULD_Canine_Leadership }
 		id = ULD_Minute_Man_War
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 24
