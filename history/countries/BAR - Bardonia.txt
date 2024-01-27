@@ -60,11 +60,11 @@ if = {
 
 add_ideas = {
 	volunteer_only
+	Dandelism_Religion
 	shattered_visage
 	pop_decline
 	auronspeak_lost
 	garfist_resistance
-	Dandelism_Religion
 }
 
 set_convoys = 600

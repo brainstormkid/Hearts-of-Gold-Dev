@@ -45,12 +45,13 @@ recruit_character = ULD_keechoo
 recruit_character = ULD_senior
 
 add_ideas = {
+	Pavlovism_Religion
+	Boulderism_Religion
 	disunified_country_5
 	Khanate_War
 	Farmland_Bandits
 	Chevkri_Chaos
-	Pavlovism_Religion
-	Boulderism_Religion
+	volunteer_only
 }
 
 set_convoys = 850
