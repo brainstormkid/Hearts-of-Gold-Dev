@@ -16,7 +16,10 @@ focus_tree = {
 		y = 0
 		cost = 10
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = { 
+			  remove_idea = disunified_country_5
+			  add_idea = disunified_country_4
+			}
 		}
 	}
 	#Vestiges of Haven
@@ -107,7 +110,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Qwaser_Leadership focus = ULD_Canine_Leadership }
 		id = ULD_Invest_Industry
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 19
+		x = 13
 		y = 4
 		cost = 10
 		completion_reward = {
@@ -118,7 +121,7 @@ focus_tree = {
 	prerequisite = { focus = ULD_Invest_Industry }
 	id = ULD_Put_States_First
 	icon = GFX_focus_TUR_treaty_of_saadabad
-	x = 21
+	x = 15
 	y = 5
 	cost = 10
 	completion_reward = {
@@ -185,7 +188,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Put_States_First }
 		id = ULD_Infrastructure_Projects
 		icon = GFX_focus_mex_privatisation
-		x = 21
+		x = 15
 		y = 6
 		cost = 6
 		completion_reward = { 
@@ -309,7 +312,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Ourselves_Bandits focus = ULD_Hands_Bandits }
 		id = ULD_Army_Reorganization
 		icon = GFX_goal_generic_axis_build_infantry
-		x = 31
+		x = 29
 		y = 7
 		cost = 10
 		completion_reward = {
@@ -321,7 +324,7 @@ focus_tree = {
 	prerequisite = { focus = ULD_Army_Reorganization }
 	id = ULD_finish_army_reforms
 	icon = GFX_focus_SOV_military_purge
-	x = 31
+	x = 28
 	y = 8
 	cost = 10
 		completion_reward = {
@@ -334,7 +337,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Invest_Industry }
 		id = ULD_montroigan_supplycorp
 		icon = GFX_focus_AST_squander_bug
-		x = 17
+		x = 11
 		y = 5
 		cost = 10
 		completion_reward = {
@@ -345,7 +348,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_montroigan_supplycorp }
 		id = ULD_Montroigan_Infrastructure
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 17
+		x = 11
 		y = 6
 		cost = 6
 		completion_reward = {
@@ -364,7 +367,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Invest_Industry }
 		id = ULD_Aurora_Industry
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 19
+		x = 13
 		y = 5
 		cost = 10
 		completion_reward = {
@@ -376,7 +379,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Aurora_Industry }
 		id = ULD_Aurora_Infrastructure
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 19
+		x = 13
 		y = 6
 		cost = 6
 		completion_reward = {
@@ -389,22 +392,19 @@ focus_tree = {
 	prerequisite = { focus = ULD_Qwaser_Leadership }
 		id = ULD_A_New_State
 		icon = GFX_goal_generic_demand_territory
-		x = 25
+		x = 22
 		y = 4
 		cost = 20
 		completion_reward = {
-			swap_ideas = { 
-			  remove_idea = disunified_country_5
-			  add_idea = disunified_country_4
-			}
+			add_political_power = 100
 		}
 	}
 	focus = {
-		prerequisite = { focus = ULD_A_New_State }
+		prerequisite = { focus = ULD_Qwaser_Leadership focus = ULD_Canine_Leadership }
 		id = ULD_Recovery_Surfacing
 		icon = GFX_focus_generic_the_giant_wakes
-		x = 23
-		y = 5
+		x = 18
+		y = 4
 		cost = 10
 		completion_reward = {
 			add_war_support = 0.10
@@ -419,7 +419,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_A_New_State }
 		id = ULD_Buying_Alteniqua_Land
 		icon = GFX_focus_mex_privatisation
-		x = 26
+		x = 22
 		y = 5
 		cost = 10
 		completion_reward = {
@@ -432,7 +432,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Buying_Alteniqua_Land }
 		id = ULD_Boulderov_Inquisition
 		icon = GFX_BAR_into_plagadonia-125590
-		x = 27
+		x = 23
 		y = 6
 		cost = 10
 		completion_reward = {
@@ -443,7 +443,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Boulderov_Inquisition }
 		id = ULD_Chevkri_Military_Governor
 		icon = GFX_BAR_into_plagadonia-125590
-		x = 27
+		x = 23
 		y = 7
 		cost = 10
 		completion_reward = {
@@ -457,7 +457,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Buying_Alteniqua_Land }
 		id = ULD_Montroig_Grows
 		icon = GFX_BAR_into_plagadonia-125590
-		x = 25
+		x = 21
 		y = 6
 		cost = 10
 	}
@@ -465,7 +465,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Montroig_Grows }
 		id = ULD_Boulderov_Grows
 		icon = GFX_BAR_into_plagadonia-125590
-		x = 25
+		x = 21
 		y = 7
 		cost = 10
 	}
@@ -474,7 +474,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Chevkri_Military_Governor }
 		id = ULD_Boulderov_Fort
 		icon = GFX_BAR_into_plagadonia-125590
-		x = 26
+		x = 22
 		y = 8
 		cost = 10
 	}
@@ -484,8 +484,8 @@ focus_tree = {
 		prerequisite = { focus = ULD_Recovery_Surfacing }
 		id = ULD_Union_Stands_Strong1
 		icon = GFX_focus_YUG_dissolve_serbia
-		x = 23
-		y = 6
+		x = 18
+		y = 5
 		cost = 10
 		completion_reward = {
 			add_war_support = 0.1
@@ -499,8 +499,8 @@ focus_tree = {
 		prerequisite = { focus = ULD_Union_Stands_Strong1}
 		id = ULD_Union_Stands_Strong2
 		icon = GFX_focus_YUG_dissolve_serbia
-		x = 23
-		y = 7
+		x = 18
+		y = 6
 		cost = 10
 		completion_reward = {
 			add_war_support = 0.1
@@ -514,8 +514,8 @@ focus_tree = {
 		prerequisite = { focus = ULD_Union_Stands_Strong2 }
 		id = ULD_Union_Stands_Strong3
 		icon = GFX_focus_YUG_dissolve_serbia
-		x = 23
-		y = 8
+		x = 18
+		y = 7
 		cost = 10
 		completion_reward = {
 			add_war_support = 0.1
@@ -529,8 +529,8 @@ focus_tree = {
 		prerequisite = { focus = ULD_Union_Stands_Strong3 }
 		id = ULD_Union_Stands_Strong4
 		icon = GFX_focus_YUG_dissolve_serbia
-		x = 23
-		y = 9
+		x = 18
+		y = 8
 		cost = 10
 		completion_reward = {
 			add_war_support = 0.1
@@ -542,7 +542,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Qwaser_Leadership }
 		id = ULD_Korp_System
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 34
+		x = 32
 		y = 4
 		cost = 10
 		completion_reward = {
@@ -555,7 +555,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ULD_Valkyrie_Way focus = ULD_Boulder_Protects }
 		id = ULD_Pavlovich_Guides
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 32
+		x = 30
 		y = 5
 		cost = 10
 		completion_reward = {
@@ -568,7 +568,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ULD_Pavlovich_Guides focus = ULD_Boulder_Protects }
 		id = ULD_Valkyrie_Way
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 34
+		x = 32
 		y = 5
 		cost = 10
 		completion_reward = {
@@ -581,7 +581,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ULD_Pavlovich_Guides focus = ULD_Valkyrie_Way }
 		id = ULD_Boulder_Protects
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 36
+		x = 34
 		y = 5
 		cost = 10
 		completion_reward = {
@@ -593,7 +593,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Qwaser_Leadership }
 		id = ULD_Bandit_Problem
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 29
+		x = 26
 		y = 4
 		cost = 10
 		completion_reward = {
@@ -607,7 +607,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ULD_Ourselves_Bandits }
 		id = ULD_Hands_Bandits
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 28
+		x = 25
 		y = 5
 		cost = 10
 		completion_reward = {
@@ -628,7 +628,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ULD_Hands_Bandits }
 		id = ULD_Ourselves_Bandits
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 30
+		x = 27
 		y = 5
 		cost = 10
 		completion_reward = {
@@ -647,7 +647,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Boulderov_Fort }
 		id = ULD_Minute_Man_War
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 26
+		x = 24
 		y = 10
 		cost = 10
 		completion_reward = {
