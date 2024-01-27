@@ -44,7 +44,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = canine
+			idea_token = ganeff
 			allowed = {
 				original_tag = ULD
 			}
@@ -69,6 +69,16 @@ characters={
 			planning_skill = 4
 			logistics_skill = 2
 		}
+		advisor={
+			slot = political_advisor
+			idea_token = robot
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				headstrong 
+			}
+		}
 	}
 	ULD_qwaser={ 
 		name = "Qwaser"
@@ -85,6 +95,16 @@ characters={
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 1
+		}
+		advisor={
+			slot = theorist
+			idea_token = qwaser
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				
+			}
 		}
 	}
 	ULD_fourbac={ 
@@ -103,6 +123,16 @@ characters={
 			planning_skill = 0
 			logistics_skill = 0
 		}
+		advisor={
+			slot = political_advisor
+			idea_token = fourbac
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				headstrong 
+			}
+		}
 	}
 	ULD_Silas={ 
 		name = "Silas"
@@ -119,6 +149,16 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = silas
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				headstrong 
+			}
 		}
 	}
 	ULD_Scotchknight={ 
@@ -137,6 +177,16 @@ characters={
 			planning_skill = 1
 			logistics_skill = 2
 		}
+		advisor={
+			slot = political_advisor
+			idea_token = scotch
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				headstrong 
+			}
+		}
 	}
 	ULD_Tequilaknight={ 
 		name = "TequilaKnight"
@@ -153,6 +203,16 @@ characters={
 			defense_skill = 0
 			planning_skill = 0
 			logistics_skill = 0
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = tequila
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				headstrong 
+			}
 		}
 	}
 	ULD_Sixes={ 
@@ -171,6 +231,16 @@ characters={
 			planning_skill = 1
 			logistics_skill = 2
 		}
+		advisor={
+			slot = political_advisor
+			idea_token = sixes
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				headstrong 
+			}
+		}
 	}
 	ULD_Rakia={ 
 		name = "Rakia"
@@ -187,6 +257,16 @@ characters={
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 1
+		}
+		advisor={
+			slot = theorist
+			idea_token = rakia
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				
+			}
 		}
 	}
 	ULD_Keechoo={ 
@@ -205,6 +285,16 @@ characters={
 			planning_skill = 1
 			logistics_skill = 2
 		}
+		advisor={
+			slot = theorist
+			idea_token = keechoo
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				
+			}
+		}
 	}
 	ULD_senior={ 
 		name = "Senior Ravioli"
@@ -221,6 +311,16 @@ characters={
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = senior
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				headstrong 
+			}
 		}
 	}
 }
