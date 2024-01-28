@@ -452,7 +452,7 @@ news_event = {
 	}
 	is_triggered_only = yes
 }
-# Deadwood Hotel Event
+# Theios Wedding
 news_event = {
 	id = news.32
 	title = "Wedding in Theios"
@@ -467,7 +467,7 @@ news_event = {
 		name = "Rat and Man"
 	}
 }
-# Deadwood Hotel Event (HIDDEN)
+# Theios Wedding (HIDDEN)
 news_event = {
 	id = news.33
 	hidden = yes
@@ -476,6 +476,37 @@ news_event = {
 	
 	immediate = {
 		news_event = { id = news.32 }
+	}
+	is_triggered_only = yes
+}
+# New Rathnir
+news_event = {
+	id = news.34
+	title = "The Greatest Discovery"
+	desc = "At last, I have returned home.
+
+What was found in Plagos led to a monumental discovery: new land beyond Rathnir to the far east!
+
+There are many implications to this, and it raises many questions, but I'm sure all will make sense in time. -Athaz"
+	picture = GFX_news_event_017
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "it's free real estate"
+	}
+}
+# New Rathnir (HIDDEN)
+news_event = {
+	id = news.35
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.34 }
 	}
 	is_triggered_only = yes
 }
