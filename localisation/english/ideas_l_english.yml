@@ -125,6 +125,12 @@
  Guardian_of_Montroig_desc:0 "The Guardian of the Montroig Republic is solely in charge of guaranteeing the stability of the State.\n\nThis means they have the capacity to dismiss any Montroig Minister effecting negatively the nation and call for elections.\n\nThe Guardian of the Montroig Republic is elected through a popular vote using the rank system."
  Ashannu_of_Boulderov:0 "Ashannu of Boulderov"
  Ashannu_of_Boulderov_desc:0 "The High Council of Boulderov consisted of three leaders which were the Law of the Land, rulers of Boulderov, and the highest authority.\n\nThis council oversaw the large-scale handling of the nation, and could choose to oversee any aspect of Boulderov they feel like."
+ frost_arms_materiel_manufacturer:0 "Nikephoro's Frost Arms"
+ frost_arms_materiel_manufacturer_desc:0 ""
+ magus_elysium_materiel_manufacturer:0 "Magus Elysium"
+ magus_elysium_materiel_manufacturer_desc:0 ""
+ blackstone_materiel_manufacturer:0 "Blackstone Smiths"
+ blackstone_materiel_manufacturer_desc:0 ""
  #GENERIC STUFF
  isolation:0 "Isolation"
  civilian_economy:0 "Civilian Economy"
