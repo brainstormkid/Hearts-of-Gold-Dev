@@ -25,6 +25,16 @@ characters={
 				headstrong 
 			}
 		}
+		advisor={
+			slot = theorist
+			idea_token = canine
+			allowed = {
+				original_tag = ULD
+			}
+			traits = {
+				
+			}
+		}
 	}
 	ULD_ganeff={ 
 		name = "Ganeff"
@@ -43,13 +53,13 @@ characters={
 			logistics_skill = 2
 		}
 		advisor={
-			slot = political_advisor
+			slot = high_command
 			idea_token = ganeff
 			allowed = {
 				original_tag = ULD
 			}
 			traits = {
-				headstrong 
+				 
 			}
 		}
 	}
@@ -70,13 +80,13 @@ characters={
 			logistics_skill = 2
 		}
 		advisor={
-			slot = political_advisor
+			slot = navy_chief
 			idea_token = robot
 			allowed = {
 				original_tag = ULD
 			}
 			traits = {
-				headstrong 
+				
 			}
 		}
 	}
@@ -124,13 +134,13 @@ characters={
 			logistics_skill = 0
 		}
 		advisor={
-			slot = political_advisor
+			slot = army_chief
 			idea_token = fourbac
 			allowed = {
 				original_tag = ULD
 			}
 			traits = {
-				headstrong 
+				
 			}
 		}
 	}
@@ -205,13 +215,13 @@ characters={
 			logistics_skill = 0
 		}
 		advisor={
-			slot = political_advisor
+			slot = air_chief
 			idea_token = tequila
 			allowed = {
 				original_tag = ULD
 			}
 			traits = {
-				headstrong 
+				
 			}
 		}
 	}
@@ -232,13 +242,13 @@ characters={
 			logistics_skill = 2
 		}
 		advisor={
-			slot = political_advisor
+			slot = high_command
 			idea_token = sixes
 			allowed = {
 				original_tag = ULD
 			}
 			traits = {
-				headstrong 
+				
 			}
 		}
 	}
@@ -313,13 +323,13 @@ characters={
 			logistics_skill = 2
 		}
 		advisor={
-			slot = political_advisor
+			slot = high_command
 			idea_token = senior
 			allowed = {
 				original_tag = ULD
 			}
 			traits = {
-				headstrong 
+				 
 			}
 		}
 	}
