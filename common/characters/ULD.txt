@@ -103,7 +103,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				naval_theorist
 			}
 		}
 	}
@@ -265,7 +265,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				military_theorist
 			}
 		}
 	}
@@ -292,7 +292,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				air_warfare_theorist
 			}
 		}
 	}
