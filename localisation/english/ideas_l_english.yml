@@ -131,7 +131,10 @@
  magus_elysium_materiel_manufacturer_desc:0 ""
  blackstone_materiel_manufacturer:0 "Blackstone Smiths"
  blackstone_materiel_manufacturer_desc:0 ""
- #GENERIC STUFF
+ Secular_Religion:0 "Secularism"
+ Secular_Religion_desc:0 "Secularism is most commonly thought of as the separation of religion from civil affairs and the state and may be broadened to a similar position seeking to remove or to minimize the role of religion in any public sphere."
+ 
+ #GENERIC STUFF ######################################
  isolation:0 "Isolation"
  civilian_economy:0 "Civilian Economy"
  low_economic_mobilisation:0 "Early Mobilization"
