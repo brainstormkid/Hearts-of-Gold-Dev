@@ -38,7 +38,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = ULD_Recover_from_Ferrymen }
 		id = ULD_donfuer_crisis
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_ULD_nova_regna
 		x = 21
 		y = 1
 		cost = 10
