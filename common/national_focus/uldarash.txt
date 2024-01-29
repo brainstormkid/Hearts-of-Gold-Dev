@@ -11,7 +11,7 @@ focus_tree = {
 	#Recover from ferrymen
 	focus = {
 		id = ULD_Recover_from_Ferrymen
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_ULD_ferrymen_legacy
 		x = 20
 		y = 0
 		cost = 10
