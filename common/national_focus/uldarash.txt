@@ -445,7 +445,7 @@ focus_tree = {
 	focus = { 
 		prerequisite = { focus = ULD_Buying_Alteniqua_Land }
 		id = ULD_Boulderov_Inquisition
-		icon = GFX_BAR_into_plagadonia-125590
+		icon = GFX_ULD_Boulderism
 		x = 21
 		y = 6
 		cost = 10
@@ -481,7 +481,7 @@ focus_tree = {
 	focus = { 
 		prerequisite = { focus = ULD_Montroig_Grows }
 		id = ULD_Boulderov_Grows
-		icon = GFX_BAR_into_plagadonia-125590
+		icon = GFX_ULD_Boulderism
 		x = 19
 		y = 7
 		cost = 10
@@ -493,7 +493,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Boulderov_Grows }
 		prerequisite = { focus = ULD_Chevkri_Military_Governor }
 		id = ULD_Boulderov_Fort
-		icon = GFX_BAR_into_plagadonia-125590
+		icon = GFX_ULD_Boulderism
 		x = 20
 		y = 8
 		cost = 10
@@ -666,7 +666,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Korp_System }
 		mutually_exclusive = { focus = ULD_Pavlovich_Guides focus = ULD_Valkyrie_Way }
 		id = ULD_Boulder_Protects
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_ULD_Boulderism
 		x = 32
 		y = 5
 		cost = 10
