@@ -405,7 +405,7 @@ focus_tree = {
 	focus = {
 	prerequisite = { focus = ULD_Qwaser_Leadership }
 		id = ULD_A_New_State
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_ULD_new_state
 		x = 20
 		y = 4
 		cost = 20
@@ -678,7 +678,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = ULD_Qwaser_Leadership }
 		id = ULD_Bandit_Problem
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_ULD_farmland
 		x = 24
 		y = 4
 		cost = 10
