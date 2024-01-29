@@ -91,6 +91,24 @@ ideas = {
 				army_attack_factor = 0.05
 			}
 		}
+		Secular_Religion = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war = {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = generic_build_infrastructure
+		
+			modifier = {
+				
+			}
+		}
 	}
 }
 	

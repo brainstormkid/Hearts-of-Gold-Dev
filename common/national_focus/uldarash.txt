@@ -26,7 +26,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = ULD_Recover_from_Ferrymen }
 		id = ULD_vestiges_of_haven
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_ULD_vestiges_haven
 		x = 19
 		y = 1
 		cost = 10
