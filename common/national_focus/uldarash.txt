@@ -83,7 +83,7 @@ focus_tree = {
 	prerequisite = { focus = ULD_vestiges_of_haven }
 	mutually_exclusive = { focus = ULD_Canine_Leadership focus = ULD_Federation_Leadership }
 		id = ULD_Qwaser_Leadership
-		icon = GFX_focus_jap_showa_restoration
+		icon = GFX_ULD_qwaser
 		x = 20
 		y = 2
 		cost = 10
@@ -470,7 +470,7 @@ focus_tree = {
 	focus = { 
 		prerequisite = { focus = ULD_Buying_Alteniqua_Land }
 		id = ULD_Montroig_Grows
-		icon = GFX_BAR_into_plagadonia-125590
+		icon = GFX_ULD_Montroig_Grows
 		x = 19
 		y = 6
 		cost = 10
