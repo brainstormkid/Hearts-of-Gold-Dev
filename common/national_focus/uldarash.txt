@@ -627,7 +627,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = ULD_Qwaser_Leadership }
 		id = ULD_Korp_System
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_ULD_recovery
 		x = 30
 		y = 4
 		cost = 10
@@ -640,7 +640,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Korp_System }
 		mutually_exclusive = { focus = ULD_Valkyrie_Way focus = ULD_Boulder_Protects }
 		id = ULD_Pavlovich_Guides
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_ULD_aurora_way_shine
 		x = 28
 		y = 5
 		cost = 10
@@ -653,7 +653,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Korp_System }
 		mutually_exclusive = { focus = ULD_Pavlovich_Guides focus = ULD_Boulder_Protects }
 		id = ULD_Valkyrie_Way
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_ULD_Montroig_way
 		x = 30
 		y = 5
 		cost = 10
@@ -666,7 +666,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Korp_System }
 		mutually_exclusive = { focus = ULD_Pavlovich_Guides focus = ULD_Valkyrie_Way }
 		id = ULD_Boulder_Protects
-		icon = GFX_ULD_Boulderism
+		icon = GFX_ULD_Boulderov_way
 		x = 32
 		y = 5
 		cost = 10
