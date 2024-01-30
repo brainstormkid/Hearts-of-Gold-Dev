@@ -416,7 +416,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = ULD_Qwaser_Leadership focus = ULD_Canine_Leadership }
 		id = ULD_Recovery_Surfacing
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_ULD_recovery
 		x = 17
 		y = 4
 		cost = 10
