@@ -311,7 +311,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Boulder_Protects focus = ULD_Valkyrie_Way focus = ULD_Pavlovich_Guides }
 		prerequisite = { focus = ULD_Ourselves_Bandits focus = ULD_Hands_Bandits }
 		id = ULD_Army_Reorganization
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_ULD_reorg
 		x = 26
 		y = 7
 		cost = 10
