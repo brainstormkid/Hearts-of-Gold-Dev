@@ -456,7 +456,7 @@ focus_tree = {
 	focus = { 
 		prerequisite = { focus = ULD_Boulderov_Inquisition }
 		id = ULD_Chevkri_Military_Governor
-		icon = GFX_BAR_into_plagadonia-125590
+		icon = GFX_ULD_chevkri
 		x = 21
 		y = 7
 		cost = 10
