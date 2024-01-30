@@ -22,7 +22,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				headstrong 
+				 compassionate_gentleman
 			}
 		}
 		advisor={
@@ -59,7 +59,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				war_industrialist
 			}
 		}
 		advisor={
@@ -96,7 +96,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				captain_of_industry
 			}
 		}
 		advisor={
@@ -160,7 +160,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				popular_figurehead
 			}
 		}
 		advisor={
@@ -197,7 +197,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				headstrong 
+				 prince_of_terror
 			}
 		}
 		advisor={
@@ -234,7 +234,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				headstrong 
+				quartermaster_general 
 			}
 		}
 		advisor={
@@ -271,7 +271,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				headstrong
 			}
 		}
 		advisor={
@@ -308,7 +308,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				fortification_engineer
 			}
 		}
 		advisor={
@@ -399,7 +399,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				smooth_talking_charmer
 			}
 		}
 		advisor={
