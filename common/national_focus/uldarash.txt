@@ -493,7 +493,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Boulderov_Grows }
 		prerequisite = { focus = ULD_Chevkri_Military_Governor }
 		id = ULD_Boulderov_Fort
-		icon = GFX_ULD_Boulderism
+		icon = GFX_ULD_boulderov_fort
 		x = 20
 		y = 8
 		cost = 10
