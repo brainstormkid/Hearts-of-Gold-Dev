@@ -2930,17 +2930,17 @@ spriteTypes = {	##Icon For:
 		legacy_lazy_load = no
 	}
 	SpriteType = { 
-		name = "GFX_ULD_aurora_way"
-		texturefile = "gfx/interface/goals/GFX_ULD_aurora_way.dds"
+		name = "GFX_ULD_Aurora_Way"
+		texturefile = "gfx/interface/goals/GFX_ULD_Aurora_Way.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_ULD_aurora_way_shine"
-		texturefile = "gfx/interface/goals/GFX_ULD_aurora_way.dds"
+		name = "GFX_ULD_Aurora_Way_shine"
+		texturefile = "gfx/interface/goals/GFX_ULD_Aurora_Way.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_ULD_aurora_way.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_ULD_Aurora_Way.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2952,7 +2952,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_ULD_aurora_way.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_ULD_Aurora_Way.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2969,7 +2969,6 @@ spriteTypes = {	##Icon For:
 		name = "GFX_ULD_Boulderov_way"
 		texturefile = "gfx/interface/goals/GFX_ULD_Boulderov_way.dds"
 	}
-
 	##Icon Shine For: 
 	SpriteType = { 
 		name = "GFX_ULD_Boulderov_way_shine"

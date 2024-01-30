@@ -640,7 +640,7 @@ focus_tree = {
 		prerequisite = { focus = ULD_Korp_System }
 		mutually_exclusive = { focus = ULD_Valkyrie_Way focus = ULD_Boulder_Protects }
 		id = ULD_Pavlovich_Guides
-		icon = GFX_ULD_aurora_way_shine
+		icon = GFX_ULD_Aurora_Way
 		x = 28
 		y = 5
 		cost = 10

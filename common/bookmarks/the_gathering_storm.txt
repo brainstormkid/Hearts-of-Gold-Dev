@@ -4,8 +4,36 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "RYZ"
+		default_country = "ULD"
 		default = yes
+		
+		"ULD"={
+			history = "ULD_GATHERING_STORM_DESC"
+			ideas = {
+				Pavlovism_Religion
+				Boulderism_Religion
+				disunified_country
+			}
+			focuses = {
+				ULD_Recovery_Surfacing
+				ULD_Recover_from_Ferrymen
+				ULD_Minute_Man_War
+			}
+		}
+		
+		"BAR"={
+			history = "BAR_GATHERING_STORM_DESC"
+			ideas = {
+				Dandelism_Religion
+				shattered_visage
+				pop_decline
+			}
+			focuses = {
+				BAR_the_bardonian_civil_war
+				BAR_spring_of_the_dandelions
+				BAR_return_of_the_prophet
+			}
+		}
 		
 		"RYZ"={
 			history = "RYZ_GATHERING_STORM_DESC"
@@ -15,28 +43,15 @@ bookmarks = {
 				senate_deadlock
 				department_inefficency
 			}
-		}
-
-		"BAR"={
-			history = "BAR_GATHERING_STORM_DESC"
-			ideas = {
-				Dandelism_Religion
-				shattered_visage
-				pop_decline
+			focuses = {
+				Third_Tsardom_Reformation
+				Disappearence_of_Zefriov
+				Ratification_of_Constitution
 			}
 		}
 
 		"VIO"={
 			history = "VIO_GATHERING_STORM_DESC"
-		}
-
-		"ULD"={
-			history = "ULD_GATHERING_STORM_DESC"
-			ideas = {
-				Pavlovism_Religion
-				Boulderism_Religion
-				disunified_country
-			}
 		}
 
 		"HUI"={
@@ -59,8 +74,8 @@ bookmarks = {
 			history = "TOR_GATHERING_STORM_DESC"
 		}
 		
-		"MUV"={
-			history = "MUV_GATHERING_STORM_DESC"
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
 		}
 		
 		"SAV"={
@@ -109,6 +124,10 @@ bookmarks = {
 		"PLG"={
 			minor = yes
 			history = "PLG_GATHERING_STORM_DESC"
+		}
+		"MUV"={
+			minor = yes
+			history = "MUV_GATHERING_STORM_DESC"
 		}
 		
 		effect = {

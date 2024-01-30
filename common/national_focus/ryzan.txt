@@ -147,6 +147,7 @@ focus_tree = {
 			}
 			custom_effect_tooltip = ryzantip7
 		}
+		prerequisite = { focus = Prophet_Uni }
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
