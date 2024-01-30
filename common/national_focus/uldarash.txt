@@ -323,7 +323,7 @@ focus_tree = {
 	focus = {
 	prerequisite = { focus = ULD_Army_Reorganization }
 	id = ULD_finish_army_reforms
-	icon = GFX_focus_SOV_military_purge
+	icon = GFX_ULD_army_org
 	x = 26
 	y = 8
 	cost = 10
@@ -432,7 +432,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = ULD_A_New_State }
 		id = ULD_Buying_Alteniqua_Land
-		icon = GFX_focus_mex_privatisation
+		icon = GFX_ULD_purchase
 		x = 20
 		y = 5
 		cost = 10
