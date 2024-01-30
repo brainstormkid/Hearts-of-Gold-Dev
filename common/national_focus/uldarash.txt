@@ -569,7 +569,7 @@ focus_tree = {
 	focus = { 
 		prerequisite = { focus = ULD_Recovery_Surfacing }
 		id = ULD_Union_Stands_Strong1
-		icon = GFX_focus_YUG_dissolve_serbia
+		icon = GFX_ULD_Union
 		x = 17
 		y = 5
 		cost = 10
@@ -584,7 +584,7 @@ focus_tree = {
 	focus = { 
 		prerequisite = { focus = ULD_Union_Stands_Strong1}
 		id = ULD_Union_Stands_Strong2
-		icon = GFX_focus_YUG_dissolve_serbia
+		icon = GFX_ULD_Union
 		x = 17
 		y = 6
 		cost = 10
@@ -599,7 +599,7 @@ focus_tree = {
 	focus = { 
 		prerequisite = { focus = ULD_Union_Stands_Strong2 }
 		id = ULD_Union_Stands_Strong3
-		icon = GFX_focus_YUG_dissolve_serbia
+		icon = GFX_ULD_Union
 		x = 17
 		y = 7
 		cost = 10
@@ -614,7 +614,7 @@ focus_tree = {
 	focus = { 
 		prerequisite = { focus = ULD_Union_Stands_Strong3 }
 		id = ULD_Union_Stands_Strong4
-		icon = GFX_focus_YUG_dissolve_serbia
+		icon = GFX_ULD_Union
 		x = 17
 		y = 8
 		cost = 10
