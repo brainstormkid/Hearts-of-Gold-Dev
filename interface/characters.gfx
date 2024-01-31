@@ -129,4 +129,8 @@ spriteTypes = {
 		name = "GFX_idea_silas"
 		texturefile = "gfx/interface/ideas/idea_silas.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_sixes"
+		texturefile = "gfx/interface/ideas/idea_sixes.dds"
+	}
 }

@@ -290,7 +290,7 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/ULD/sixes.dds"
-				small="GFX_idea_ice"
+				small="GFX_idea_sixes"
 			}
 		}
 		corps_commander = {
