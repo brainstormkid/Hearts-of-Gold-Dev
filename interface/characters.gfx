@@ -113,4 +113,8 @@ spriteTypes = {
 		name = "GFX_idea_qwaser"
 		texturefile = "gfx/interface/ideas/idea_qwaser.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_fourbac"
+		texturefile = "gfx/interface/ideas/idea_fourbac.dds"
+	}
 }

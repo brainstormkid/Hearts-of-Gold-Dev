@@ -142,7 +142,7 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/ULD/fourbac.dds"
-				small="GFX_idea_ice"
+				small="GFX_idea_fourbac"
 			}
 		}
 		corps_commander = {
