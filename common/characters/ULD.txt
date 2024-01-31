@@ -327,7 +327,7 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/ULD/rakia.dds"
-				small="GFX_idea_ice"
+				small="GFX_idea_rakia"
 			}
 		}
 		corps_commander = {
