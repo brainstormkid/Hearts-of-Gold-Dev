@@ -78,7 +78,7 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/ULD/robot.dds"
-				small="GFX_idea_ice"
+				small="GFX_idea_robot"
 			}
 		}
 		corps_commander = {
@@ -179,7 +179,7 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/ULD/silas.dds"
-				small="GFX_idea_ice"
+				small="GFX_idea_silas"
 			}
 		}
 		navy_leader = {
