@@ -115,7 +115,7 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/ULD/qwaser.dds"
-				small="GFX_idea_ice"
+				small="GFX_idea_qwaser"
 			}
 		}
 		corps_commander = {
