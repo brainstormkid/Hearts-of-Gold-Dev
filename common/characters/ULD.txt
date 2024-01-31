@@ -32,7 +32,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				air_close_air_support_2
 			}
 		}
 	}
@@ -69,7 +69,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				 
+				 army_logistics_2
 			}
 		}
 	}
@@ -106,7 +106,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				navy_chief_decisive_battle_2
 			}
 		}
 	}
@@ -170,7 +170,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				army_chief_defensive_2
 			}
 		}
 	}
@@ -207,7 +207,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				army_chief_offensive_2
 			}
 		}
 	}
@@ -244,7 +244,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				navy_amphibious_assault_2
 			}
 		}
 	}
@@ -281,7 +281,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				air_air_superiority_2
 			}
 		}
 	}
@@ -318,7 +318,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				
+				air_air_combat_training_2
 			}
 		}
 	}
@@ -409,7 +409,7 @@ characters={
 				original_tag = ULD
 			}
 			traits = {
-				 
+				 army_concealment_2
 			}
 		}
 	}
