@@ -101,4 +101,8 @@ spriteTypes = {
 		name = "GFX_idea_canine"
 		texturefile = "gfx/interface/ideas/idea_canine.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_scotch"
+		texturefile = "gfx/interface/ideas/idea_scotch.dds"
+	}
 }
