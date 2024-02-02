@@ -89,9 +89,9 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 		add_stability = 0.10
+		}
 		ai_will_do = {
 			factor = 1
-		}
 		}
 	}
 	#Federation Path
@@ -121,6 +121,9 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	focus = {
