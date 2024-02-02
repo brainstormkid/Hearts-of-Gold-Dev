@@ -90,14 +90,14 @@ characters={
 	WIV_fascist={
 		name = Fascist_Rando
 		portraits={
-			army=(
+			army={
 				small="GFX_idea_ice"
 			}
 		}
 		advisor={
 			slot = political_advisor
 			idea_token = fascist
-			allowed = (
+			allowed = {
 				original_tag = WIV
 			}
 			traits = {
