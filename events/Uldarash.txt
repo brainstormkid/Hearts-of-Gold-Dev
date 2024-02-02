@@ -4,34 +4,6 @@
 
 add_namespace = uldarash
 
-# 1st Paloro Referendum
-country_event = {
-	id = uldarash.1	#1st Paloro Referendum
-	title = "Paloro Independence Referendum"
-	desc = "The State of Paloro in Uldarash has completed an independence referendum with a 100% support for independence"
-	picture = GFX_report_event_finnish_soldiers_snow
-	
-	fire_only_once = yes 
-	
-	trigger = {
-		has_stability < 0.6
-		{ TAG = ULD }
-	}
-	
-	option = {
-		name = "Interesting"
-		trigger = {
-			NOT = {
-				TAG = ULD
-			}
-		}
-	}
-	option = {
-		name = "God damn Palorians"
-		trigger = { TAG = ULD }
-	}
-}
-
 # Paloro Independence
 country_event = {
 	id = uldarash.2	#Paloro Independence
