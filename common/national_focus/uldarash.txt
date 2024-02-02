@@ -734,8 +734,11 @@ focus_tree = {
 	}
 	#Minute Man War
 	focus = {
-		prerequisite = { focus = ULD_Boulderov_Fort focus = ULD_Union_Stands_Strong4 focus = ULD_finish_army_reforms }
+		prerequisite = { focus = ULD_Boulderov_Fort focus = ULD_Union_Stands_Strong4 focus = ULD_finish_army_reforms focus = ULD_Qwaser_Leadership }
 		prerequisite = { focus = ULD_Union_Stands_Strong4 focus = ULD_Canine_Leadership focus = ULD_Auroran_Army_Organization }
+		available = {
+			date > 1940.12.11
+		}
 		id = ULD_Minute_Man_War
 		icon = GFX_ULD_Falnir
 		x = 15
