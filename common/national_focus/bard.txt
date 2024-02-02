@@ -891,7 +891,7 @@ focus_tree = {
 			FOCUS_FILTER_MANPOWER
 		}
 		available = {
-			owns_state = 153
+			owns_state = 155
 		}
 		completion_reward = {
 			custom_effect_tooltip = bardtip15
