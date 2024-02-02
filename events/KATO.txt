@@ -50,9 +50,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+		ai_chance = {
+			base = 0
+		}
 		name = "We must support our KATO allies"
 	}
 	option = {
+		ai_chance = {
+			base = 1
+		}
 		name = "That's Suicide!"
 		KUS = {
 			remove_from_faction = VAL
