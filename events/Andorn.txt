@@ -289,6 +289,9 @@ country_event = {
 			transfer_state = 153
 			add_state_core = 153
 		}
+		ai_chance = {
+			base = 1
+		}
 	}
 	option = {
 		name = "Greedy Andornians need to stay where they live"
@@ -296,6 +299,13 @@ country_event = {
 		hidden_effect = {
 			SAV = {
 				country_event = { id = andorn.16 }
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = +1
+				is_historical_focus_on = no
 			}
 		}
 	}
