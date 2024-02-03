@@ -1,0 +1,61 @@
+###########################
+# Tortuga Default Route Events
+###########################
+
+add_namespace = tortuga
+
+country_event = {
+	id = tortuga.1
+	title = "Pirate Empire"
+	desc = "the many countries of Sørgliste have agreed to join Tortuga as one"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Grand Union Has been Annexed"
+		ai_chance = {
+			base = 1
+		}
+		modifier = {
+			add = -1
+			is_historical_focus_on = no
+		}
+		406 = { add_core_of = TOR }
+		403 = { add_core_of = TOR }
+		404 = { add_core_of = TOR }
+		405 = { add_core_of = TOR }
+		402 = { add_core_of = TOR }
+		400 = { add_core_of = TOR }
+		382 = { add_core_of = TOR }
+		381 = { add_core_of = TOR }
+		383 = { add_core_of = TOR }
+		397 = { add_core_of = TOR }
+		396 = { add_core_of = TOR }
+		#Frostmarch
+		388 = { add_core_of = TOR }
+		389 = { add_core_of = TOR }
+		387 = { add_core_of = TOR }
+		390 = { add_core_of = TOR }
+		384 = { add_core_of = TOR }
+		386 = { add_core_of = TOR }
+		385 = { add_core_of = TOR }
+		#Cirnester
+		401 = { add_core_of = TOR }
+		#Lothgard
+		399 = { add_core_of = TOR }
+		#regalia
+		398 = { add_core_of = TOR }
+		#vandalah
+		392 = { add_core_of = TOR }
+		395 = { add_core_of = TOR }
+		394 = { add_core_of = TOR }
+		391 = { add_core_of = TOR }
+		393 = { add_core_of = TOR }
+		380 = { add_core_of = TOR }
+				#Pahonja
+		321 = { add_core_of = TOR }				
+	}
+}

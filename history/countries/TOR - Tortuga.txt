@@ -26,25 +26,6 @@ add_ideas = {
 	volunteer_only
 }
 set_convoys = 1000
-# DIPLOMACY
-BAR = {
-	if = {
-		limit = {
-			OR = {
-				has_dlc = "Together for Victory"
-				has_dlc = "Man the Guns"
-			}
-		}
-		set_autonomy = {
-			target = ARD
-			autonomous_state = autonomy_dominion
-			freedom_level = 0.35
-		}
-		else = {
-			puppet = ARD
-		}
-	}
-}
 
 set_politics = {
 	ruling_party = neutrality

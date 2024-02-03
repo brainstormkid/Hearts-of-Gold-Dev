@@ -8,51 +8,20 @@ focus_tree = {
 			tag = TOR
 		}
 	}
-	#Independence At Last
-	focus = {
-		id = independence_at_last
-		icon = GFX_SAV_andorn
-		x = 5
-		y = 0
-		cost = 10
-		completion_reward = {
-			hidden_effect = {
-				country_event = { id = tortuga.1 }
-			}
-			add_political_power = 100
-		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-	}
-	#Akratia Has Fallen
-	focus = {
-		id = Akratia_Falls
-		icon = GFX_SAV_andorn
-		x = 5
-		y = 1
-		cost = 17
-		completion_reward = {
-			add_political_power = 100
-		}
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
-		prerequisite = { focus = independence_at_last }
-	}
 	#Annexation of Sorligiste
 	focus = {
 		id = Sorligiste_Annex
 		icon = GFX_SAV_andorn
 		x = 5
 		y = 2
-		cost = 17
+		cost = 159
 		completion_reward = {
-			annex_country = { target = FRO transfer_troops = yes }
+			FRO = {
+				country_event = { id = frostmarch.2 }
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
-		prerequisite = { focus = Akratia_Falls }
 	}
 }

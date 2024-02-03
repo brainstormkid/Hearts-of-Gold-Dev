@@ -1,0 +1,127 @@
+###########################
+# Frostmarch Default Route Events
+###########################
+
+add_namespace = frostmarch
+
+country_event = {
+	id = frostmarch.1
+	title = "Grand Union of Sørgliste"
+	desc = "the many countries of Sørgliste have agreed to Unite as one"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Grand Union Has been Declared"
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = -1
+				is_historical_focus_on = no
+			}
+		}
+		set_cosmetic_tag = SOR
+		393 = {
+			add_core_of = FRO
+		}
+		321 = {
+			add_core_of = FRO
+		}
+		380 = {
+			add_core_of = FRO
+		}
+		381 = {
+			add_core_of = FRO
+		}
+		382 = {
+			add_core_of = FRO
+		}
+		406 = {
+			add_core_of = FRO
+		}
+		403 = {
+			add_core_of = FRO
+		}
+		404 = {
+			add_core_of = FRO
+		}
+		405 = {
+			add_core_of = FRO
+		}
+		402 = {
+			add_core_of = FRO
+		}
+		400 = {
+			add_core_of = FRO
+		}
+		396 = {
+			add_core_of = FRO
+		}
+		397 = {
+			add_core_of = FRO
+		}
+		392 = {
+			add_core_of = FRO
+		}
+		395 = {
+			add_core_of = FRO
+		}
+		391 = {
+			add_core_of = FRO
+		}
+		394 = {
+			add_core_of = FRO
+		}
+		399 = {
+			add_core_of = FRO
+		}
+		401 = {
+			add_core_of = FRO
+		}
+		398 = {
+			add_core_of = FRO
+		}
+
+	}
+	option = {
+		name = "absolutely not"
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+country_event = {
+	id = frostmarch.2
+	title = "Tortuga Offers a Deal"
+	desc = "The Pirate Nation to our north is asking for us to be annexed into them to strengthen our global footprint on the world"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Annexation shall be preferred"
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = -1
+				is_historical_focus_on = no
+			}
+		}
+		TOR = {
+			country_event = { id = tortuga.1 }
+			annex_country = { target = FRO transfer_troops = yes }
+		}
+
+	}
+	option = {
+		name = "absolutely not"
+		ai_chance = {
+			base = 0
+		}
+	}
+}

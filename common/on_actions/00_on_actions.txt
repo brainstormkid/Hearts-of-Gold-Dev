@@ -31,14 +31,8 @@ on_actions = {
 			FLR = {
 				country_event = { id = formables.1 days = 1092 }
 			}
-			SOU = {
-				country_event = { id = formables.3 days = 567 } #19th of may
-			}
 			COB = {
 				country_event = { id = formables.4 days = 1995 } #26th of july start of the war
-			}
-			TOR = {
-				country_event = { id = formables.5 days = 1785 }#16th of july before the war
 			}
 			NIE = {
 				country_event = { id = niedea.1 days = 1701 } #12 of july 

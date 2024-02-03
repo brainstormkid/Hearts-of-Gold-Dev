@@ -685,17 +685,6 @@ form_aldovir_category = {
 				set_global_flag = form_aldovir_flag
 				set_country_flag = ALD
 			}
-			retire_country_leader = yes 
-			create_country_leader = {
-				name = "Jabberdrake"
-				#desc = "POLITICS_LUCIUS_DESC"
-				picture = "gfx/leaders/COB/TBD.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-				#
-				}
-			}
 		}
 		
 	}
