@@ -40,23 +40,23 @@ on_actions = {
 			NIE = {
 				country_event = { id = niedea.2 days = 462 }#14 of may
 			}
-			BAR = { news_event = { id = news.2 days = 42 }
-			BAR = { news_event = { id = news.4 days = 735 }
-			BAR = { news_event = { id = news.7 days = 84 }
-			BAR = { news_event = { id = news.9 days = 168 }
-			BAR = { news_event = { id = news.11 days = 462 }
-			BAR = { news_event = { id = news.13 days = 588 }
-			BAR = { news_event = { id = news.15 days = 735 }
-			BAR = { news_event = { id = news.17 days = 63 }
-			BAR = { news_event = { id = news.19 days = 1701 }
-			BAR = { news_event = { id = news.21 days = 1659 }
-			BAR = { news_event = { id = news.23 days = 1491 }
-			BAR = { news_event = { id = news.25 days = 1491 }
-			BAR = { news_event = { id = news.27 days = 1596 }
-			BAR = { news_event = { id = news.29 days = 1596 }
-			BAR = { news_event = { id = news.31 days = 1659 }
-			BAR = { news_event = { id = news.33 days = 651 }
-			BAR = { news_event = { id = news.35 days = 777 }
+			BAR = { news_event = { id = news.2 days = 42 } }
+			BAR = { news_event = { id = news.4 days = 735 } }
+			BAR = { news_event = { id = news.7 days = 84 } }
+			BAR = { news_event = { id = news.9 days = 168 } }
+			BAR = { news_event = { id = news.11 days = 462 } }
+			BAR = { news_event = { id = news.13 days = 588 } }
+			BAR = { news_event = { id = news.15 days = 735 } }
+			BAR = { news_event = { id = news.17 days = 63 } }
+			BAR = { news_event = { id = news.19 days = 1701 } }
+			BAR = { news_event = { id = news.21 days = 1659 } }
+			BAR = { news_event = { id = news.23 days = 1491 } }
+			BAR = { news_event = { id = news.25 days = 1491 } }
+			BAR = { news_event = { id = news.27 days = 1596 } }
+			BAR = { news_event = { id = news.29 days = 1596 } }
+			BAR = { news_event = { id = news.31 days = 1659 } }
+			BAR = { news_event = { id = news.33 days = 651 } }
+			BAR = { news_event = { id = news.35 days = 777 } }
 		}
 	}
 	on_nuke_drop = {
