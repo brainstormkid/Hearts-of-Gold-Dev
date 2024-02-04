@@ -288,3 +288,105 @@ country_event = {
 		}
 	}
 }
+
+# The Battle is Lost
+country_event = {
+	id = ryzan.17
+	title = "Carthya has Fallen"
+	desc = "The Bardonian Invasion has overwhelmed our defenses. It is time to negotiate"
+	picture = GFX_report_event_german_parade_paris
+	
+	fire_only_once = yes
+	
+	trigger = {
+        original_tag = RYZ
+		119 = { is_controlled_by = BAR }
+    }
+	
+	option = { # Become Westreach
+		name = "Submit to Bardonian Occupation"
+		BAR = { country_event = ryzan.18 }
+		BAR = { puppet = RYZ }
+		RYZ = {
+			white_peace = BAR
+		}
+		set_cosmetic_tag = RYZ_Westreach
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+			last_election = "1935.12.17"
+			election_frequency = 48
+			long_name = BOA_party_long
+			name = BOA
+		}
+		create_country_leader = {
+			name = "Jacob Azurov"
+			desc = "POLITICS_JOSEF_TERBOVEN_DESC"
+			picture = GFX_portrait_Jacob_Azurov
+			expire = "1965.1.1"
+			ideology = Moderatism
+			traits = {}
+		}
+		transfer_state = 194
+       	transfer_state = 119
+		transfer_state = 122
+		transfer_state = 121
+		transfer_state = 120
+		transfer_state = 117
+		transfer_state = 432
+		transfer_state = 116
+		transfer_state = 410
+		release = DEU
+	}
+	option = { # Become Free Ryzan
+		name = "Fight in Exile"
+		ai_chance = {
+			factor = 1
+		}
+		BAR = { country_event = ryzan.18 }
+		BAR = { puppet = RYZ }
+		RYZ = {
+			white_peace = BAR
+		}
+		set_cosmetic_tag = RYZ_Westreach
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+			last_election = "1935.12.17"
+			election_frequency = 48
+			long_name = BOA_party_long
+			name = BOA
+		}
+		create_country_leader = {
+			name = "Jacob Azurov"
+			desc = "POLITICS_JOSEF_TERBOVEN_DESC"
+			picture = GFX_portrait_Jacob_Azurov
+			expire = "1965.1.1"
+			ideology = Moderatism
+			traits = {}
+		}
+		transfer_state = 194
+       	transfer_state = 119
+		transfer_state = 122
+		transfer_state = 121
+		transfer_state = 120
+		transfer_state = 117
+		transfer_state = 432
+		transfer_state = 116
+		transfer_state = 410
+		release = DEU
+		DEU = { change_tag_from = RYZ }
+		
+	}
+	option = { # decide to fight on
+		name = "Ryzan Fights On"
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_stability = -0.05
+	}
+}
