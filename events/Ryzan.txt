@@ -276,6 +276,7 @@ country_event = {
 		NEB = {
 			transfer_state = 122
 			declare_war_on = { target = RYZ   type = annex_everything }
+			declare_war_on = { target = BAR  type = annex_everything }
 		}
 		DEU = {
 			transfer_state = 118

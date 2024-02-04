@@ -28,23 +28,15 @@ BAR_puppet = {
 
         complete_effect = {
 			RYZ = {
-				IF = {
-					BAR = {
-						controls_state = 194
-						controls_state = 118
-					}
-	       			transfer_state = 194
-					transfer_state = 118
-				}
+				transfer_state = 194
        			transfer_state = 119
 				transfer_state = 122
 				transfer_state = 121
 				transfer_state = 120
-				transfer_state = 120
-				transfer_state = 120
 				transfer_state = 117
 				transfer_state = 432
 				transfer_state = 116
+				transfer_state = 410
 				set_cosmetic_tag = RYZ_Westreach
 				set_politics = {
 					ruling_party = neutrality
