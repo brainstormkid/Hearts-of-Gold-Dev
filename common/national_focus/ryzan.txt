@@ -281,31 +281,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = Reinforce_Volkoregrad focus = Reinforce_Tossagrad focus = Reinforce_Carthya }
 	}
-	#Nebsko Flee
-	#Nebsko declares war on Ryzan - BARD WAR STARTS
-	focus = {
-		id = Nebsko_Flee
-		icon = GFX_RYZ_ryzan-15842
-		x = 20
-		y = 4
-		cost = 30
-		completion_reward = {
-			hidden_effect = {
-				country_event = { id = ryzan.16 }
-			}
-			custom_effect_tooltip = ryzantip10
-		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = Ulfaeng_Hired focus = Ryzani_Navy }
-	}
 	#Emergency Ryzani Mobilization
 	focus = {
 		id = Ryzani_Moblization
 		icon = GFX_RYZ_ryzan-15842
-		x = 19
-		y = 5
+		x = 17
+		y = 3
 		cost = 10
 		completion_reward = {
 			hidden_effect = {
@@ -316,14 +297,14 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = Nebsko_Flee }
+		prerequisite = { focus = Reinforce_Volkoregrad focus = Reinforce_Tossagrad focus = Reinforce_Carthya }
 	}
 	#Ryzani Reorganization
 	focus = {
 		id = Ryzani_Military_Reorg
 		icon = GFX_RYZ_ryzan-15842
-		x = 21
-		y = 5
+		x = 23
+		y = 3
 		cost = 20
 		completion_reward = {
 			hidden_effect = {
@@ -334,5 +315,5 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = Nebsko_Flee }
+		prerequisite = { focus = Reinforce_Volkoregrad focus = Reinforce_Tossagrad focus = Reinforce_Carthya }
 	}

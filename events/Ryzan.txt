@@ -266,20 +266,23 @@ country_event = {
 country_event = {
 	id = ryzan.16	#Nebsko Flee
 	title = "Internal Collapse of Ryzan"
-	desc = "Nebskoslavia and Duetzan have decided to finally show their traitorous colors and leave our united state as Bardonian invasion is here"
+	desc = "Nebskoslavian Partisans have staged a revolution against the new Westreach government and the Bardonian Empire."
 	picture = GFX_RYZ_event
 	
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = RYZ
+		RYZ = {
+			is_puppet_of = BAR
+		}
+    }
 
 	option = {
-		name = "They will die along with the rest of the traitors in the blood-soaked dandelions"
+		name = "This guerilla campaign shall be destroyed"
 		NEB = {
 			transfer_state = 122
 			declare_war_on = { target = RYZ   type = annex_everything }
 			declare_war_on = { target = BAR  type = annex_everything }
-		}
-		DEU = {
-			transfer_state = 118
 		}
 		hidden_effect = {
 			NEB = {
