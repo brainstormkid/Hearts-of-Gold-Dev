@@ -394,6 +394,9 @@
  RYZ_Tsardom:1 "Third Tsardom of Ryzan"
  RYZ_Tsardom_DEF:1 "the Ryzan Tsardom"
  RYZ_Tsardom_ADJ:0 "Ryzani"
+ RYZ_Free:0 "Free Ryzan"
+ RYZ_Free_DEF:1 "the Free Ryzan"
+ RYZ_Free_ADJ:1 "Ryzani"
 
  NDR_communism:1 "New Dorasterrock"
  NDR_communism_DEF:1 "the New Dorasterrock Socialist Republic"

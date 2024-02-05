@@ -1,0 +1,25 @@
+focus_tree = {
+	id = deutzan_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DEU
+		}
+	}
+	#Free Ryzan Movement
+	focus = {
+		id = Free_Ryzan
+		icon = GFX_RYZ_ryzan-15842
+		x = 5
+		y = 2
+		cost = 10
+		completion_reward = {
+			set_cosmetic_tag = RYZ_Free
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}
