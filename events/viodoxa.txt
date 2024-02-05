@@ -43,5 +43,8 @@ country_event = {
 		UBS = {
 			set_ruling_party = communism
 		}
+		DEU = {
+			country_event = { id = allium.3 }
+		}
 	}
 }

@@ -16,10 +16,7 @@ focus_tree = {
 		y = 0
 		cost = 249
 		completion_reward = {
-			hidden_effect = {
-				country_event = { id = viodoxa.3 }
-			}
-			custom_effect_tooltip = viodoxatip1
+			country_event = { id = viodoxa.3 }
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -33,15 +30,14 @@ focus_tree = {
 		y = 1
 		cost = 36
 		completion_reward = {
-			hidden_effect = {
-				VIO = {
+			VIO = {
 					country_event = { id = allium.2 }
 				}
+			hidden_effect = {
 				BAR = {
 					country_event = { id = allium.1 }
 				}
 			}
-			custom_effect_tooltip = viodoxatip2
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL

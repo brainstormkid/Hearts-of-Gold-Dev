@@ -97,37 +97,9 @@ bookmarks = {
 			}
 		}
 		
-		"FJ1"={
-			minor = yes
-			history = "FJ1_GATHERING_STORM_DESC"
-		}
-		
 		"VAL"={
 			minor = yes
 			history = "VAL_GATHERING_STORM_DESC"
-		}
-		
-		"ARD"={
-			minor = yes
-			history = "ARD_GATHERING_STORM_DESC"
-		}
-		
-		"CAV"={
-			minor = yes
-			history = "CAV_GATHERING_STORM_DESC"
-		}
-		
-		"SRF"={
-			minor = yes
-			history = "SRF_GATHERING_STORM_DESC"
-		}
-		"PLG"={
-			minor = yes
-			history = "PLG_GATHERING_STORM_DESC"
-		}
-		"MUV"={
-			minor = yes
-			history = "MUV_GATHERING_STORM_DESC"
 		}
 		
 		effect = {
