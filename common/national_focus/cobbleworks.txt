@@ -1,0 +1,25 @@
+focus_tree = {
+	id = cobbleworks_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = COB
+		}
+	}
+	#Formation of Aldovir Empire
+	focus = {
+		id = Aldovir_Empire_Formation
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 0
+		cost = 306
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}
