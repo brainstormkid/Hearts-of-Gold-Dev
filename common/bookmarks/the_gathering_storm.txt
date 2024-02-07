@@ -97,6 +97,11 @@ bookmarks = {
 			}
 		}
 		
+		"LEY"={
+			minor = yes
+			history = "LEY_GATHERING_STORM_DESC"
+		}
+		
 		"VAL"={
 			minor = yes
 			history = "VAL_GATHERING_STORM_DESC"
