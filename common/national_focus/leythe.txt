@@ -8,15 +8,17 @@ focus_tree = {
 			tag = LEY
 		}
 	}
-	#Placeholder
+	#Formation of UKWS
 	focus = {
-		id = Placeholder
+		id = Formation_of_UKWS
 		#icon = GFX_SAV_andorn
 		x = 5
 		y = 0
-		cost = 27
+		cost = 3
 		completion_reward = {
-			
+			GRN = {
+				country_event = { id = leythe.1 }
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
