@@ -78,4 +78,21 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
+	#Avaria Leaves
+	focus = {
+		prerequisite = { focus = LEY_Invite_Avaria focus = LEY_Invite_Eok }
+		id = LEY_Avaria_Leaves
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 3
+		cost = 99
+		completion_reward = {
+			LEY = {
+				country_event = { id = leythe.5 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
 }
