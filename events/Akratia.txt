@@ -30,3 +30,16 @@ country_event = {
 		name = "Akratia is gone, the pirates have arrived"
 	}
 }
+# Dissolve Akratia (Tortuga)
+country_event = {
+	id = akratia.3	#Dissolve Akratia
+	title = "Yazov has dissolved Akratia"
+	desc = "The Akratian Empire has dissolved due to its instability and weak government, we have been graciously gifted these new lands to be the start of a new era."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Akratia is gone, the Leythe shall rise"
+	}
+}

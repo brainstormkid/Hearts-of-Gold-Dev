@@ -17,7 +17,7 @@ focus_tree = {
 		cost = 3
 		completion_reward = {
 			GRN = {
-				country_event = { id = leythe.1 }
+				country_event = { id = leythe.1.a }
 			}
 		}
 		search_filters = {

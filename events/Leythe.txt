@@ -1,0 +1,35 @@
+###########################
+# Leythe Default Route Events
+###########################
+
+add_namespace = leythe
+
+# Greenstem Offer
+country_event = {
+	id = leythe.1.a	#Greenstem Offer
+	title = "Leythian Offer"
+	desc = "Placeholder"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "United we Stand"
+		LEY = {
+			country_event = { id = leythe.1.b }
+		}
+	}
+}
+# Greenstem Accepts
+country_event = {
+	id = leythe.1.b	#Greenstem Accepts
+	title = "Greenstem Accepts our Offer"
+	desc = "Placeholder"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "UKWS Stands Strong"
+	}
+}

@@ -16,11 +16,12 @@ focus_tree = {
 		y = 0
 		cost = 27
 		completion_reward = {
-			hidden_effect = {
-				country_event = { id = akratia.1 }
-				TOR = {
-					country_event = { id = akratia.2 }
-				}
+			country_event = { id = akratia.1 }
+			TOR = {
+				country_event = { id = akratia.2 }
+			}
+			LEY = {
+				country_event = { id = akratia.3 }
 			}
 			TOR = {
 				transfer_state = 363
