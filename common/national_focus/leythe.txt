@@ -24,7 +24,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Formation of UKWS
+	#Leythe Claim on Akratian land
 	focus = {
 		prerequisite = { focus = LEY_Formation_of_UKWS }
 		id = LEY_Claim_Adris
@@ -35,6 +35,43 @@ focus_tree = {
 		completion_reward = {
 			AKR = {
 				country_event = { id = leythe.2 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Invite Avaria
+	focus = {
+		prerequisite = { focus = LEY_Claim_Adris }
+		id = LEY_Invite_Avaria
+		#icon = GFX_SAV_andorn
+		x = 4
+		y = 2
+		cost = 15
+		completion_reward = {
+			AVR = {
+				country_event = { id = leythe.3.a }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Invite Junta of Eok
+	focus = {
+		prerequisite = { focus = LEY_Claim_Adris }
+		id = LEY_Invite_Eok
+		#icon = GFX_SAV_andorn
+		x = 6
+		y = 2
+		cost = 15
+		available = {
+    			country_exists = EOK
+		}
+		completion_reward = {
+			EOK = {
+				country_event = { id = leythe.4.a }
 			}
 		}
 		search_filters = {
