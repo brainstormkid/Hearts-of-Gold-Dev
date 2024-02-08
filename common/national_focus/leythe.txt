@@ -78,9 +78,29 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
+	#Invite Emerald Isle
+	focus = {
+		prerequisite = { focus = LEY_Claim_Adris }
+		id = LEY_Invite_Emerald
+		#icon = GFX_SAV_andorn
+		x = 8
+		y = 2
+		cost = 6
+		available = {
+    			country_exists = EME
+		}
+		completion_reward = {
+			EME = {
+				country_event = { id = leythe.5.a }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
 	#Avaria Leaves
 	focus = {
-		prerequisite = { focus = LEY_Invite_Avaria focus = LEY_Invite_Eok }
+		prerequisite = { focus = LEY_Invite_Avaria focus = LEY_Invite_Eok focus = LEY_Invite_Emerald }
 		id = LEY_Avaria_Leaves
 		#icon = GFX_SAV_andorn
 		x = 5
@@ -88,7 +108,7 @@ focus_tree = {
 		cost = 99
 		completion_reward = {
 			LEY = {
-				country_event = { id = leythe.5 }
+				country_event = { id = leythe.6 }
 			}
 		}
 		search_filters = {
