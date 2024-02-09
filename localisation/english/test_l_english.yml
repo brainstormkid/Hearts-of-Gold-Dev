@@ -1024,6 +1024,9 @@
  LEY_communism:1 "Revolutionary Leythe"
  LEY_communism_DEF:1 "Leythe"
  LEY_communism_ADJ:0 "Leythe"
+ LEY_UKWS:0 "United Kingdom of Western Sparwood"
+ LEY_UKWS_DEF:1 "the United Kingdom of Western Sparwood"
+ LEY_UKWS_ADJ:1 "Sparwoodian"
 
  SR1_neutrality:1 "Serafini"
  SR1_neutrality_DEF:1 "the Maritime Republic of Serafini"

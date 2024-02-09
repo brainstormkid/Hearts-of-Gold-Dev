@@ -19,7 +19,7 @@ country_event = {
 			country_event = { id = leythe.2 }
 		}
 		LEY = {
-				#set_cosmetic_tag = 
+				set_cosmetic_tag = LEY_UKWS
 				annex_country = { target = GRN transfer_troops = yes }
 				add_state_core = 353
 				add_state_core = 359
