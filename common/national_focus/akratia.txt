@@ -31,7 +31,7 @@ focus_tree = {
 				add_state_core = 364
 				add_state_core = 365
 			}
-			GRN = {
+			LEY = {
 				transfer_state = 362
 				add_state_core = 362
 			}

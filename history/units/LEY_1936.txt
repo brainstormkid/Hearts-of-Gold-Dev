@@ -17,3 +17,62 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+division = {
+		name = "Leythian Infantry"
+		location = 4260
+		division_template = "Leythe Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Leythian Infantry"
+		location = 4260
+		division_template = "Leythe Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Leythian Infantry"
+		location = 4260
+		division_template = "Leythe Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Leythian Infantry"
+		location = 4260
+		division_template = "Leythe Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Leythian Infantry"
+		location = 4260
+		division_template = "Leythe Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Leythian Infantry"
+		location = 4260
+		division_template = "Leythe Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Leythian Infantry"
+		location = 4260
+		division_template = "Leythe Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	
+}

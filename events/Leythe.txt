@@ -6,7 +6,7 @@ add_namespace = leythe
 
 # Greenstem Offer
 country_event = {
-	id = leythe.1.a	#Greenstem Offer
+	id = leythe.1	#Greenstem Offer
 	title = "Leythian Offer"
 	desc = "Placeholder"
 	picture = GFX_report_event_finnish_soldiers_snow
@@ -16,13 +16,28 @@ country_event = {
 	option = {
 		name = "United we Stand"
 		LEY = {
-			country_event = { id = leythe.1.b }
+			country_event = { id = leythe.2 }
+		}
+		LEY = {
+				#set_cosmetic_tag = 
+				annex_country = { target = GRN transfer_troops = yes }
+				add_state_core = 353
+				add_state_core = 359
+		}
+		ai_chance = {
+				base = 0
+		}
+	}
+	option = {
+		name = "absolutely not"
+		ai_chance = {
+				base = 0
 		}
 	}
 }
 # Greenstem Accepts
 country_event = {
-	id = leythe.1.b	#Greenstem Accepts
+	id = leythe.2	#Greenstem Accepts
 	title = "Greenstem Accepts our Offer"
 	desc = "Placeholder"
 	picture = GFX_report_event_finnish_soldiers_snow
@@ -31,5 +46,103 @@ country_event = {
 
 	option = {
 		name = "UKWS Stands Strong"
+	}
+}
+
+# ROOT Invite
+country_event = {
+	id = leythe.3	#ROOT Invite
+	title = "Leythe offers Annexation"
+	desc = "Placeholder"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Better United than Divided"
+		trigger = {
+			original_tag = AVR
+		}
+		LEY = {
+			country_event = { id = leythe.4 }
+			annex_country = { target = ROOT transfer_troops = yes }
+			add_state_core = 355
+			add_state_core = 344
+			add_state_core = 347
+		}
+		ai_chance = {
+				base = 1
+		}
+	}
+	option = {
+		name = "Better United than Divided"
+		trigger = {
+			original_tag = EOK
+		}
+		LEY = {
+			country_event = { id = leythe.4 }
+			annex_country = { target = ROOT transfer_troops = yes }
+			#add_state_core = 
+		}
+		ai_chance = {
+				base = 1
+		}
+	}
+	option = {
+		name = "Better United than Divided"
+		trigger = {
+			original_tag = EME
+		}
+		LEY = {
+			country_event = { id = leythe.4 }
+			annex_country = { target = ROOT transfer_troops = yes }
+			#add_state_core = 
+		}
+		ai_chance = {
+				base = 1
+		}
+	}
+	option = {
+		name = "absolutely not"
+		ai_chance = {
+				base = 0
+		}
+	}
+}
+
+# ROOT Accept
+country_event = {
+	id = leythe.4	#ROOT Accept
+	title = "Another Nation joins UKWS"
+	desc = "Placeholder"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "UKWS Stands Strong"
+	}
+}
+
+# Avaria Leaves
+country_event = {
+	id = leythe.5	#Avaria Leaves
+	title = "Avaria has negotiated to leave"
+	desc = "Placeholder"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "May we meet again"
+		release = AVR
+	}
+	option = {
+		name = "We will not allow it"
+		release = AVR
+		create_wargoal = { type = annex_everything target = AVR }
+		ai_chance = {
+			base = 0
+		}
 	}
 }

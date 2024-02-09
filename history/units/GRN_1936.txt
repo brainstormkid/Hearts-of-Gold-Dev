@@ -16,7 +16,7 @@ division_template = {
 units = {
 division = {
 		name = "Greenstem Infantry"
-		location = 4260
+		location = 1291
 		division_template = "Greenstem Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -24,7 +24,7 @@ division = {
 	}
 	division = {
 		name = "Greenstem Infantry"
-		location = 4260
+		location = 1291
 		division_template = "Greenstem Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -32,7 +32,7 @@ division = {
 	}
 	division = {
 		name = "Greenstem Infantry"
-		location = 4260
+		location = 1291
 		division_template = "Greenstem Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -40,31 +40,7 @@ division = {
 	}
 	division = {
 		name = "Greenstem Infantry"
-		location = 4260
-		division_template = "Greenstem Infantry"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
-	division = {
-		name = "Greenstem Infantry"
-		location = 4260
-		division_template = "Greenstem Infantry"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
-	division = {
-		name = "Greenstem Infantry"
-		location = 4260
-		division_template = "Greenstem Infantry"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
-	division = {
-		name = "Greenstem Infantry"
-		location = 4260
+		location = 1291
 		division_template = "Greenstem Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5

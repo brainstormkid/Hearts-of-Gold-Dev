@@ -17,7 +17,7 @@ focus_tree = {
 		cost = 3
 		completion_reward = {
 			GRN = {
-				country_event = { id = leythe.1.a }
+				country_event = { id = leythe.1 }
 			}
 		}
 		search_filters = {
@@ -29,12 +29,12 @@ focus_tree = {
 		prerequisite = { focus = LEY_Formation_of_UKWS }
 		id = LEY_Claim_Adris
 		#icon = GFX_SAV_andorn
-		x = 5
+		x = 20
 		y = 1
 		cost = 12
 		completion_reward = {
 			AKR = {
-				country_event = { id = leythe.2 }
+				country_event = { id = leythe.3 }
 			}
 		}
 		search_filters = {
@@ -46,12 +46,12 @@ focus_tree = {
 		prerequisite = { focus = LEY_Claim_Adris }
 		id = LEY_Invite_Avaria
 		#icon = GFX_SAV_andorn
-		x = 4
+		x = 18
 		y = 2
 		cost = 15
 		completion_reward = {
 			AVR = {
-				country_event = { id = leythe.3.a }
+				country_event = { id = leythe.3 }
 			}
 		}
 		search_filters = {
@@ -63,7 +63,7 @@ focus_tree = {
 		prerequisite = { focus = LEY_Claim_Adris }
 		id = LEY_Invite_Eok
 		#icon = GFX_SAV_andorn
-		x = 6
+		x = 20
 		y = 2
 		cost = 15
 		available = {
@@ -71,7 +71,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			EOK = {
-				country_event = { id = leythe.4.a }
+				country_event = { id = leythe.3 }
 			}
 		}
 		search_filters = {
@@ -83,7 +83,7 @@ focus_tree = {
 		prerequisite = { focus = LEY_Claim_Adris }
 		id = LEY_Invite_Emerald
 		#icon = GFX_SAV_andorn
-		x = 8
+		x = 22
 		y = 2
 		cost = 6
 		available = {
@@ -91,7 +91,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			EME = {
-				country_event = { id = leythe.5.a }
+				country_event = { id = leythe.3 }
 			}
 		}
 		search_filters = {
@@ -103,12 +103,12 @@ focus_tree = {
 		prerequisite = { focus = LEY_Invite_Avaria focus = LEY_Invite_Eok focus = LEY_Invite_Emerald }
 		id = LEY_Avaria_Leaves
 		#icon = GFX_SAV_andorn
-		x = 5
+		x = 20
 		y = 3
 		cost = 99
 		completion_reward = {
 			LEY = {
-				country_event = { id = leythe.6 }
+				country_event = { id = leythe.5 }
 			}
 		}
 		search_filters = {
