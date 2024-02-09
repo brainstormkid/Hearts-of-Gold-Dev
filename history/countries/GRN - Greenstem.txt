@@ -24,6 +24,7 @@ set_technology = {
 
 add_ideas = {
 	volunteer_only
+	Garfism_Religion
 }
 
 1939.1.1 = {

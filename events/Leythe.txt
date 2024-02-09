@@ -23,6 +23,7 @@ country_event = {
 				annex_country = { target = GRN transfer_troops = yes }
 				add_state_core = 353
 				add_state_core = 359
+				add_ideas = Garfism_Religion
 		}
 		ai_chance = {
 				base = 0
