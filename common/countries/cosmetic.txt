@@ -40,3 +40,7 @@ ALD = {
 	color = rgb { 204 255 255 }
 	color_ui = rgb { 204 255 255 }
 }
+LEY_UKWS = {
+	color = rgb { 168 181 27 }
+	color_ui = rgb { 168 181 27 }
+}

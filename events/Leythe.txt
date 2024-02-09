@@ -83,7 +83,8 @@ country_event = {
 		LEY = {
 			country_event = { id = leythe.4 }
 			annex_country = { target = ROOT transfer_troops = yes }
-			#add_state_core = 
+			add_state_core = 367
+			add_state_core = 366
 		}
 		ai_chance = {
 				base = 1
@@ -97,7 +98,8 @@ country_event = {
 		LEY = {
 			country_event = { id = leythe.4 }
 			annex_country = { target = ROOT transfer_troops = yes }
-			#add_state_core = 
+			add_state_core = 360
+			add_state_core = 361
 		}
 		ai_chance = {
 				base = 1
@@ -137,10 +139,16 @@ country_event = {
 	option = {
 		name = "May we meet again"
 		release = AVR
+		remove_state_core = 355
+		remove_state_core = 344
+		remove_state_core = 347
 	}
 	option = {
 		name = "We will not allow it"
 		release = AVR
+		remove_state_core = 355
+		remove_state_core = 344
+		remove_state_core = 347
 		create_wargoal = { type = annex_everything target = AVR }
 		ai_chance = {
 			base = 0
