@@ -170,3 +170,36 @@ country_event = {
 		set_cosmetic_tag = LEY
 	}
 }
+
+# Anti-Garfism Coalition
+country_event = {
+	id = leythe.7	#Anti-Garfism Coalition
+	title = "UBSR Politburo June 4th"
+	desc = "We have warned you once
+We will warn you twice
+If we warn you thrice the coalition’s forces will bring you down"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Kicking Jacw will defuse the situation"
+		ai_chance = {
+			base = 1
+		}
+	}
+	option = {
+		name = "UKWS shall prevail foes"
+		THI = {
+			create_faction = "Theios Coalition"
+			create_wargoal = { type = annex_everything target = LEY }
+		}
+		THI = { add_to_faction = TOR }
+		THI = { add_to_faction = UBS }
+		THI = { add_to_faction = VIO }
+		THI = { add_to_faction = NIE }
+		ai_chance = {
+			base = 0
+		}
+	}
+}

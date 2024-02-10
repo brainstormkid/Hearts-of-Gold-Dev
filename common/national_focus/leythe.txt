@@ -108,6 +108,7 @@ focus_tree = {
 		y = 4
 		cost = 10
 		completion_reward = {
+			add_political_power = 100
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -167,6 +168,7 @@ focus_tree = {
 		y = 4
 		cost = 10
 		completion_reward = {
+			add_political_power = 100
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -226,6 +228,7 @@ focus_tree = {
 		y = 4
 		cost = 10
 		completion_reward = {
+			add_political_power = 100
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -240,6 +243,7 @@ focus_tree = {
 		y = 5
 		cost = 10
 		completion_reward = {
+			add_ideas = University_of_Leythe
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -254,6 +258,10 @@ focus_tree = {
 		y = 5
 		cost = 10
 		completion_reward = {
+			add_ideas = Forest_of_Quartz
+			353 = {
+				set_demilitarized_zone = yes
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL

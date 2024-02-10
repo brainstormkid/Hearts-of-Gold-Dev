@@ -1,0 +1,46 @@
+ideas = {
+
+	country = {
+	
+		University_of_Leythe = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+		modifier = {
+			research_speed_factor = 0.1
+			}
+
+		}
+		
+		Forest_of_Quartz = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+		modifier = {
+				recruitable_population_factor = 0.15
+			}
+
+		}
+
+	}
+}
