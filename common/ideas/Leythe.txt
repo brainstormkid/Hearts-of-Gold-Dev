@@ -41,6 +41,46 @@ ideas = {
 			}
 
 		}
+		
+		Legacy_of_Neoz = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+		modifier = {
+				
+			}
+
+		}
+		
+		Akratian_War_Monuments = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+		modifier = {
+				
+			}
+
+		}
 
 	}
 }

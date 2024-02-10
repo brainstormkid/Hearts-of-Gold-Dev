@@ -24,6 +24,7 @@ set_technology = {
 
 add_ideas = {
 	volunteer_only
+	Legacy_of_Neoz
 }
 
 1939.1.1 = {

@@ -190,6 +190,10 @@ focus_tree = {
 		y = 5
 		cost = 6
 		completion_reward = {
+			swap_ideas = { 
+			  remove_idea = Legacy_of_Neoz
+			  add_idea = Akratian_War_Monuments
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
