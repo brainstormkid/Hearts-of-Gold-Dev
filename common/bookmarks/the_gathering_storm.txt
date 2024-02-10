@@ -100,6 +100,10 @@ bookmarks = {
 		"LEY"={
 			minor = yes
 			history = "LEY_GATHERING_STORM_DESC"
+			ideas = {
+			}
+			focuses = {
+			}
 		}
 		
 		"VAL"={

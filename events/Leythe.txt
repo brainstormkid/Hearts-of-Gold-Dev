@@ -155,3 +155,18 @@ country_event = {
 		}
 	}
 }
+
+# UKWS Collapses
+country_event = {
+	id = leythe.6	#UKWS Collapses
+	title = "Placeholder"
+	desc = "Placeholder"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Placeholder"
+		set_cosmetic_tag = LEY
+	}
+}
