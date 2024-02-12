@@ -1,0 +1,33 @@
+focus_tree = {
+	id = niedea_focus
+	continuous_focus_position = { x = 3600 y = 1500 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NIE
+		}
+	}
+	#Cardinal Sam of Soleannen
+	focus = {
+		id = NIE_Cardinal_Soleannen
+		#icon = GFX_ULD_ferrymen_legacy
+		x = 20
+		y = 0
+		cost = 0
+		completion_reward = {
+			  add_ideas = { }
+		}
+	}
+	#Soleannen State
+	focus = {
+		prerequisite = { focus = NIE_Cardinal_Soleannen }
+		id = NIE_True_Soleannen_State
+		#icon = GFX_ULD_vestiges_haven
+		x = 20
+		y = 1
+		cost = 3
+		completion_reward = {
+			add_ideas = { }
+		}
+	}
