@@ -29,5 +29,91 @@ focus_tree = {
 		cost = 3
 		completion_reward = {
 			add_ideas = { }
+			NIE = { puppet = KRO }
 		}
 	}
+	#Unterrech Rebellion
+	focus = {
+		prerequisite = { focus = NIE_True_Soleannen_State }
+		id = NIE_Unterrech_Rebellion
+		#icon = GFX_ULD_vestiges_haven
+		x = 20
+		y = 2
+		cost = 3
+		completion_reward = {
+			
+		}
+	}
+	#Unterrech Rebellion
+	focus = {
+		prerequisite = { focus = NIE_True_Soleannen_State }
+		id = NIE_Unterrech_Rebellion
+		#icon = GFX_ULD_vestiges_haven
+		x = 20
+		y = 3
+		cost = 3
+		completion_reward = {
+			
+		}
+	}
+	#Noble Council
+	focus = {
+		prerequisite = { focus = NIE_Unterrech_Rebellion }
+		id = NIE_Noble_Council
+		#icon = GFX_ULD_vestiges_haven
+		x = 20
+		y = 4
+		cost = 63
+		completion_reward = {
+			
+		}
+	}
+	#New Laws
+	focus = {
+		prerequisite = { focus = NIE_Noble_Council }
+		id = NIE_New_Laws
+		#icon = GFX_ULD_vestiges_haven
+		x = 20
+		y = 5
+		cost = 3
+		completion_reward = {
+			
+		}
+	}
+	#Guarentee Arxella
+	focus = {
+		prerequisite = { focus = NIE_New_Laws }
+		id = NIE_Guarentee_Arxella
+		#icon = GFX_ULD_vestiges_haven
+		x = 20
+		y = 6
+		cost = 18
+		completion_reward = {
+			give_guarantee = AXR
+		}
+	}
+	#Niedea
+	focus = {
+		prerequisite = { focus = NIE_Guarentee_Arxella }
+		id = NIE_Niedea
+		#icon = GFX_ULD_vestiges_haven
+		x = 20
+		y = 4
+		cost = 6
+		completion_reward = {
+			
+		}
+	}
+	#Soleannen Empire
+	focus = {
+		prerequisite = { focus = NIE_Niedea }
+		id = NIE_Soleannen_Empire
+		#icon = GFX_ULD_vestiges_haven
+		x = 20
+		y = 7
+		cost = 39
+		completion_reward = {
+			
+		}
+	}
+}
