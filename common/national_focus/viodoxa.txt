@@ -8,15 +8,165 @@ focus_tree = {
 			tag = VIO
 		}
 	}
+	#Sale of Seaside
+	focus = {
+		id = Sell_Seaside
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 0
+		cost = 36
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Valen Takes power
+	focus = {
+		id = Valen_Takes_Power
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 1
+		cost = 81
+		prerequisite = { focus = Sell_Seaside }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Purple Insurrection
+	focus = {
+		id = Purple_Insurrection
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 2
+		cost = 54
+		prerequisite = { focus = Valen_Takes_Power }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Yazov Takes Power
+	focus = {
+		id = Yazov_Takes_Power
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 3
+		cost = 3
+		prerequisite = { focus = Purple_Insurrection }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Purple Insurrection Ends
+	focus = {
+		id = Purple_Insurrection_Ends
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 4
+		cost = 6
+		prerequisite = { focus = Yazov_Takes_Power }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Viodoxa Reforms
+	focus = {
+		id = Viodoxa_Reforms
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 5
+		cost = 3
+		prerequisite = { focus = Purple_Insurrection_Ends }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Thicc Thighs War
+	focus = {
+		id = Thicc_Thigh_War
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 6
+		cost = 42
+		prerequisite = { focus = Viodoxa_Reforms }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Puppet UBSR
+	focus = {
+		id = Puppet_UBSR
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 7
+		cost = 3
+		prerequisite = { focus = Thicc_Thigh_War }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#ed and Danzig Archons
+	focus = {
+		id = yazov_leaves
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 8
+		cost = 15
+		prerequisite = { focus = Puppet_UBSR }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
 	#Formation of the Third Coalition
 	focus = {
 		id = Third_Coalition_Formation
 		#icon = GFX_SAV_andorn
 		x = 5
 		y = 0
-		cost = 249
+		cost = 3
+		prerequisite = { focus = yazov_leaves }
 		completion_reward = {
 			country_event = { id = viodoxa.3 }
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Hazel and Loic Take Power
+	focus = {
+		id = Hazel_Loic_Archons
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 0
+		cost = 3
+		prerequisite = { focus = yazov_leaves }
+		completion_reward = {
+			
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -28,7 +178,8 @@ focus_tree = {
 		#icon = GFX_SAV_andorn
 		x = 5
 		y = 1
-		cost = 36
+		cost = 33
+		prerequisite = { focus = Third_Coalition_Formation }
 		completion_reward = {
 			VIO = {
 					country_event = { id = allium.2 }
@@ -42,6 +193,5 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = Third_Coalition_Formation }
 	}
 }
