@@ -3,6 +3,62 @@
 ###########################
 
 add_namespace = viodoxa
+
+country_event = {
+	id = viodoxa.1	#Valen Takes Power
+	title = "Abdication of the Archonate"
+	desc = "Zelious and Spike have abdicated from their Archon positions in Viodoxa. The only viable replacement is Valen McSpiegel. Should we accept this?"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "A McSpiegelian Viodoxa"
+		create_country_leader = {
+			name = "Valen McSpiegel"
+			desc = "POLITICS_SALCHAK_TOKA_DESC"
+			picture = "gfx/leaders/VIO/hazel.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				#
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	#option = {
+		name = "Archonate Forever!"
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.5
+		}
+		start_civil_war = {
+			ideology = fascism
+			size = 0.5
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+	id = viodoxa.2	#Purple Insurrection
+	title = "Purple Insurrection"
+	desc = ""
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Greatest Viodoxan Psyop"
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
 country_event = {
 	id = viodoxa.3	#Third Coalition Formation
 	title = "Formation of the Third Rathnir Coalition"
