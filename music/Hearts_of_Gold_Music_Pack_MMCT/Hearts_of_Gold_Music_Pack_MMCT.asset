@@ -8,71 +8,113 @@
 music = {
     name = "maintheme"
     file = "hoi4mainthemeallies.ogg"
-    volume = 0.65
+    volume = 1.00
 }
 
 music = {
     name = "axistheme_MMCT"
     file = "axistheme.ogg"
-    volume = 0.65
+    volume = 1.00
 }
 
 music = {
     name = "nationalanthemofthehuitcafederation_MMCT"
     file = "nationalanthemofthehuitcafederation.ogg"
-    volume = 0.65
+    volume = 1.00
 }
 
 music = {
     name = "andornmilitarymarch_MMCT"
     file = "andornmilitarymarch.ogg"
-    volume = 0.65
+    volume = 1.00
 }
 
 music = {
     name = "legacyofthedragonsecondaurlunorenryzaniempireanthem_MMCT"
     file = "legacyofthedragonsecondaurlunorenryzaniempireanthem.ogg"
-    volume = 0.65
+    volume = 1.00
 }
 
 music = {
     name = "savrasandanthem_MMCT"
     file = "savrasandanthem.ogg"
-    volume = 0.65
+    volume = 1.00
 }
 
 music = {
     name = "nationalanthemofthecsardomofnebskoslavia_MMCT"
     file = "nationalanthemofthecsardomofnebskoslavia.ogg"
-    volume = 0.65
+    volume = 1.00
 }
 
 music = {
     name = "legacyofthechancellor_MMCT"
     file = "legacyofthechancellor.ogg"
-    volume = 0.65
+    volume = 1.00
 }
 
 music = {
     name = "rotaryzansong_MMCT"
     file = "rotaryzansong.ogg"
-    volume = 0.65
+    volume = 1.00
 }
 
 music = {
     name = "wivamoviaanthem_MMCT"
     file = "wivamoviaanthem.ogg"
-    volume = 0.65
+    volume = 1.00
 }
 
 music = {
     name = "plagatea_MMCT"
     file = "plagatea.ogg"
-    volume = 3.00
+    volume = 1.00
 }
 
 music = {
     name = "vostokanthem_MMCT"
     file = "vostokanthem.ogg"
-    volume = 3.00
+    volume = 1.00
+}
+
+music = {
+    name = "Koningschterhymne_Von_Athinische_Republik_MMCT"
+    file = "Koningschterhymne_Von_Athinische_Republik.ogg"
+    volume = 1.00
+}
+
+music = {
+    name = "_-Anthem-of-The-Simulami-Empire_MMCT"
+    file = "_-Anthem-of-The-Simulami-Empire.ogg"
+    volume = 1.00
+}
+
+music = {
+    name = "lennoxanthem_MMCT"
+    file = "lennoxanthem.ogg"
+    volume = 1.00
+}
+
+music = {
+    name = "OrderMuvielle_MMCT"
+    file = "OrderMüvielle.ogg"
+    volume = 1.00
+}
+
+music = {
+    name = "Might-of-the-Dragon-Turtle-Heroic-Fantasy-Music_MMCT"
+    file = "Might-of-the-Dragon-Turtle-Heroic-Fantasy-Music.ogg"
+    volume = 1.00
+}
+
+music = {
+    name = "KrobunyFolkSong_MMCT"
+    file = "KrobunyFolkSong.ogg"
+    volume = 1.00
+}
+
+music = {
+    name = "KrobunyMarchingSong_MMCT"
+    file = "KrobunyMarchingSong.ogg"
+    volume = 1.00
 }

@@ -107,3 +107,59 @@ music = {
       #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
     }
 }
+
+music = {
+    song = "Koningschterhymne_Von_Athinische_Republik_MMCT"
+    chance = {
+      modifier = { factor = 1 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}
+
+music = {
+    song = "_-Anthem-of-The-Simulami-Empire_MMCT"
+    chance = {
+      modifier = { factor = 1 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}
+
+music = {
+    song = "lennoxanthem_MMCT"
+    chance = {
+      modifier = { factor = 1 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}
+
+music = {
+    song = "OrderMuvielle_MMCT"
+    chance = {
+      modifier = { factor = 1 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}
+
+music = {
+    song = "Might-of-the-Dragon-Turtle-Heroic-Fantasy-Music_MMCT"
+    chance = {
+      modifier = { factor = 1 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}
+
+music = {
+    song = "KrobunyMarchingSong_MMCT"
+    chance = {
+      modifier = { factor = 1 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}
+
+music = {
+    song = "KrobunyFolkSong_MMCT"
+    chance = {
+      modifier = { factor = 1 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}
