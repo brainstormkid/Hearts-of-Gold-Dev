@@ -149,3 +149,35 @@ country_event = {
 		}
 	}
 }
+
+# Chevkri Independence
+country_event = {
+	id = uldarash.9	#Chevkri Independence
+	title = "Chevkri wishes for independence!"
+	desc = "Ursus wishes to declare independence from us after hosting an independence vote in his state per wish of his people, which succeded 21-8! Do we grant him his request?"
+	picture = GFX_chevkri_event
+	
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = "No"
+	}
+	option = {
+		ai_chance = {
+			base = 0
+		}
+		name = "Only more autonomy"
+		release = CHE
+		ULD = { puppet = CHE }
+	}
+	option = {
+		ai_chance = {
+			base = 0
+		}
+		name = "Sure"
+		release = CHE
+	}
+}

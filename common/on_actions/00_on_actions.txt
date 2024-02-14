@@ -25,6 +25,9 @@ on_actions = {
 			ULD = {
 				country_event = { id = uldarash.2 days = 1638 } #July 9th
 			}
+			ULD = {
+				country_event = { id = uldarash.9 days = 693 } #May 25th
+			}
 			SIN = {
 				country_event = { id = formables.2 days = 231 }
 			}
