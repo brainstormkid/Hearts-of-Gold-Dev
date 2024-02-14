@@ -58,14 +58,9 @@ Oranje#1487
 Axyr#0001
 DukeSoulEater#5889
 
-#MOD CREDITS
-Hearts of Minecraft: Sins of the Cohort
-Hearts of Rathnir: Wrath of War
-Equestria at War
-
 ----------------
 
-#Hearts of Gold: Legacy of the Ferrymen War
+#Hearts of Gold: The Rathnir Coalition War
 
 #GAME DIRECTORS
 conlukmal#8771 (May 2021 - September 2021)
