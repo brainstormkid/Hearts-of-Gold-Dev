@@ -75,7 +75,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	neutrality = 60
+	communism = 0
+	democratic = 20
+	fascism = 20
 }
 
 create_country_leader = {
@@ -90,9 +93,9 @@ create_country_leader = {
 }
 
 	create_country_leader = {
-	name = "Essendor"
+	name = "Sknow"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/CAV/EssendorPortrait.dds"
+	picture = "gfx/leaders/CAV/SknowPortrait.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -110,9 +113,9 @@ create_country_leader = {
 	}
 }
 	create_country_leader = {
-	name = "Frostina Mezeria"
+	name = "Raziel Martelus"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/CAV/FrostinaPortrait.dds"
+	picture = "gfx/leaders/CAV/RazielPortrait.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
