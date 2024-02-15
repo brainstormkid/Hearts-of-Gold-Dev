@@ -8,15 +8,152 @@ focus_tree = {
 			tag = VIO
 		}
 	}
+	#Retake Charon
+	focus = {
+		id = Retake_Charon
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 0
+		cost = 10
+		completion_reward = {
+			remove_ideas = { }
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
 	#Valen Takes power
 	focus = {
 		id = Valen_Takes_Power
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 0
-		cost = 117
+		y = 2
+		cost = 107
+		prerequisite = { focus = Retake_Charon }
 		completion_reward = {
 			country_event = { id = viodoxa.1 }
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Viodoxan Constitution Reform
+	focus = {
+		id = Viodoxa_Constitution_Reform
+		#icon = GFX_SAV_andorn
+		x = 15
+		y = 4
+		cost = 3
+		prerequisite = { focus = Valen_Takes_Power }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Rule of One
+	focus = {
+		id = Rule_of_One
+		#icon = GFX_SAV_andorn
+		x = 15
+		y = 7
+		cost = 3
+		prerequisite = { focus = Viodoxa_Constitution_Reform }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Remilitarization Act
+	focus = {
+		id = Remilitarization_Act
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 4
+		cost = 3
+		prerequisite = { focus = Valen_Takes_Power }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Reform the Synkletos
+	focus = {
+		id = Reform_the_Synkletos
+		#icon = GFX_SAV_andorn
+		x = 22
+		y = 5
+		cost = 3
+		prerequisite = { focus = Remilitarization_Act }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Federalize Viodoxa
+	focus = {
+		id = Federalize_Viodoxa
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 6
+		cost = 3
+		prerequisite = { focus = Remilitarization_Act }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#EXP Tax
+	focus = {
+		id = EXP_Tax
+		#icon = GFX_SAV_andorn
+		x = 22
+		y = 7
+		cost = 3
+		prerequisite = { focus = Reform_the_Synkletos }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Yazov Synkletos
+	focus = {
+		id = Yazov_Synkletos
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 9
+		cost = 3
+		prerequisite = { focus = EXP_Tax }
+		prerequisite = { focus = Federalize_Viodoxa }
+		prerequisite = { focus = Rule_of_One }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#An Insurrection?
+	focus = {
+		id = An_Insurrection?
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 10
+		cost = 3
+		prerequisite = { focus = Yazov_Synkletos }
+		completion_reward = {
+			
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -27,8 +164,8 @@ focus_tree = {
 		id = Purple_Insurrection
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 1
-		cost = 54
+		y = 11
+		cost = 45
 		prerequisite = { focus = Valen_Takes_Power }
 		completion_reward = {
 			country_event = { id = viodoxa.2 }
@@ -42,7 +179,7 @@ focus_tree = {
 		id = Yazov_Takes_Power
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 2
+		y = 12
 		cost = 3
 		prerequisite = { focus = Purple_Insurrection }
 		completion_reward = {
@@ -57,7 +194,7 @@ focus_tree = {
 		id = Purple_Insurrection_Ends
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 3
+		y = 13
 		cost = 6
 		prerequisite = { focus = Yazov_Takes_Power }
 		completion_reward = {
@@ -72,7 +209,7 @@ focus_tree = {
 		id = Viodoxa_Reforms
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 4
+		y = 14
 		cost = 3
 		prerequisite = { focus = Purple_Insurrection_Ends }
 		completion_reward = {
@@ -87,7 +224,7 @@ focus_tree = {
 		id = Thicc_Thigh_War
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 5
+		y = 15
 		cost = 42
 		prerequisite = { focus = Viodoxa_Reforms }
 		completion_reward = {
@@ -102,7 +239,7 @@ focus_tree = {
 		id = Puppet_UBSR
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 6
+		y = 16
 		cost = 3
 		prerequisite = { focus = Thicc_Thigh_War }
 		completion_reward = {
@@ -117,7 +254,7 @@ focus_tree = {
 		id = yazov_leaves
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 7
+		y = 17
 		cost = 15
 		prerequisite = { focus = Puppet_UBSR }
 		completion_reward = {
@@ -132,7 +269,7 @@ focus_tree = {
 		id = Third_Coalition_Formation
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 8
+		y = 18
 		cost = 3
 		prerequisite = { focus = yazov_leaves }
 		completion_reward = {
@@ -147,7 +284,7 @@ focus_tree = {
 		id = Hazel_Loic_Archons
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 9
+		y = 19
 		cost = 3
 		prerequisite = { focus = yazov_leaves }
 		completion_reward = {
@@ -162,7 +299,7 @@ focus_tree = {
 		id = War_Against_Allium
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 10
+		y = 20
 		cost = 33
 		prerequisite = { focus = Third_Coalition_Formation }
 		completion_reward = {

@@ -28,7 +28,7 @@ country_event = {
 			factor = 1
 		}
 	}
-	#option = {
+	option = {
 		name = "Archonate Forever!"
 		add_popularity = {
 			ideology = fascism
@@ -46,7 +46,7 @@ country_event = {
 country_event = {
 	id = viodoxa.2	#Purple Insurrection
 	title = "Purple Insurrection"
-	desc = ""
+	desc = "Placeholder"
 	picture = GFX_report_event_finnish_soldiers_snow
 	
 	is_triggered_only = yes
