@@ -92,7 +92,7 @@ create_country_leader = {
 	}
 }
 
-	create_country_leader = {
+create_country_leader = {
 	name = "Sknow"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/CAV/SknowPortrait.dds"
@@ -102,7 +102,7 @@ create_country_leader = {
 		#
 	}
 }
-	create_country_leader = {
+create_country_leader = {
 	name = "Baekry Mezeria"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/CAV/BaekryPortrait.dds"
@@ -112,7 +112,7 @@ create_country_leader = {
 		#
 	}
 }
-	create_country_leader = {
+create_country_leader = {
 	name = "Raziel Martelus"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/CAV/RazielPortrait.dds"
