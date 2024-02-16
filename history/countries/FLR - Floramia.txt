@@ -26,6 +26,8 @@ add_ideas = {
 	volunteer_only
 }
 
+puppet = MUV
+
 1939.1.1 = {
 
 	add_political_power = 1198
