@@ -1,0 +1,43 @@
+focus_tree = {
+	id = plagatea_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PLG
+		}
+	}
+	#Release Plagadonia
+	focus = {
+		id = PLG_Release_Plagadonia
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 0
+		cost = 135
+		completion_reward = {
+			release = PLD
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#War Plagadonia
+	focus = {
+		id = PLG_Release_Plagadonia
+		#icon = GFX_SAV_andorn
+		x = 5
+		y = 1
+		prerequisite = { focus = PLG_Release_Plagadonia }
+		cost = 84
+		completion_reward = {
+			declare_war_on = {
+				target = PLD
+				type = annex_everything
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}
