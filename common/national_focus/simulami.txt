@@ -139,4 +139,88 @@ focus_tree = {
 			
 		}
 	}
+	#Drako-Müviel Voyager Company
+	focus = {
+		prerequisite = { focus = MUV_Treaty_of_Kijaro }
+		id = MUV_Drako-Müviel_Voyager_Company
+		#icon = GFX_ULD_nova_regna
+		x = 20
+		y = 11
+		cost = 10
+		completion_reward = {
+			
+		}
+	}
+	#First Constitution of Simulamae
+	focus = {
+		prerequisite = { focus = MUV_Drako-Müviel_Voyager_Company }
+		id = MUV_First_Constitution_of_Simulamae
+		#icon = GFX_ULD_nova_regna
+		x = 20
+		y = 12
+		cost = 10
+		completion_reward = {
+			
+		}
+	}
+	#Empire of Simulami
+	focus = {
+		prerequisite = { focus = MUV_First_Constitution_of_Simulamae }
+		id = MUV_Empire_of_Simulami
+		#icon = GFX_ULD_nova_regna
+		x = 20
+		y = 13
+		cost = 10
+		completion_reward = {
+			
+		}
+	}
+	#Drako-Simulami Mining Company
+	focus = {
+		prerequisite = { focus = MUV_Empire_of_Simulami }
+		id = MUV_Drako-Simulami_Mining_Company
+		#icon = GFX_ULD_nova_regna
+		x = 25
+		y = 14
+		cost = 10
+		completion_reward = {
+			
+		}
+	}
+	#Elysian-Simulami dispute
+	focus = {
+		prerequisite = { focus = MUV_Drako-Simulami_Mining_Company }
+		id = MUV_Elysian-Simulami_dispute
+		#icon = GFX_ULD_nova_regna
+		x = 25
+		y = 15
+		cost = 10
+		completion_reward = {
+			
+		}
+	}
+	#Step Away from Soleannen
+	focus = {
+		prerequisite = { focus = MUV_Empire_of_Simulami }
+		id = MUV_Step_Away_from_Soleannen
+		#icon = GFX_ULD_nova_regna
+		x = 20
+		y = 15
+		cost = 10
+		completion_reward = {
+			
+		}
+	}
+	#Children of Ni'us
+	focus = {
+		prerequisite = { focus = MUV_Step_Away_from_Soleannen }
+		id = MUV_Children_of_Ni'us
+		#icon = GFX_ULD_nova_regna
+		x = 20
+		y = 16
+		cost = 10
+		completion_reward = {
+			
+		}
+	}	
 }
