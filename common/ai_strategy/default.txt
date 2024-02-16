@@ -1,9 +1,9 @@
 # Written by Henrik "Groogy" Hansson
 # Modified by Daniel "Da9L" Sjöberg
 
-ULD_volunteers = {
+VIO_volunteers = {
 	allowed = {
-		original_tag = ULD
+		original_tag = VIO
 	}
 	enable = {
 		country_exists = PLG
@@ -32,6 +32,41 @@ ULD_volunteers = {
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "PLG"
+		value = 100
+	}
+}
+
+BAR_volunteers = {
+	allowed = {
+		original_tag = VIO
+	}
+	enable = {
+		country_exists = PLG
+		PLG = {
+				has_war_with = PLD
+		}
+	}
+
+	abort = {
+		PLG = {
+			NOT = {
+				has_war_with = PLD
+			}
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "PLD"
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = "PLD"
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "PLD"
 		value = 100
 	}
 }
