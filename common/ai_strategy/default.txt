@@ -1,6 +1,41 @@
 # Written by Henrik "Groogy" Hansson
 # Modified by Daniel "Da9L" Sjöberg
 
+ULD_volunteers = {
+	allowed = {
+		original_tag = ULD
+	}
+	enable = {
+		country_exists = PLG
+		PLG = {
+				has_war_with = PLD
+		}
+	}
+
+	abort = {
+		PLG = {
+			NOT = {
+				has_war_with = PLD
+			}
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "PLG"
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = "PLG"
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "PLG"
+		value = 100
+	}
+}
+
 default_unit_production = { #If adding country-unique ones, bear in mind that they STACK
 	enable = {
 		always = yes
