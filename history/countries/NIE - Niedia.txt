@@ -25,6 +25,7 @@ set_technology = {
 add_ideas = {
 	volunteer_only
 	Soleannen_Religion
+	Estate_System
 }
 
 1939.1.1 = {

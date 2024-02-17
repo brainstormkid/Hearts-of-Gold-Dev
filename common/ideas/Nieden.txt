@@ -1,0 +1,65 @@
+ideas = {
+
+	country = {
+	
+		Estate_System = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+						
+			}
+		}
+		
+		Soleannen_Cardinal_Samael_SoulEater = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+		modifier = {
+				
+			}
+
+		}
+		
+		true_soleannen_state = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+						
+			}
+		}
+
+	}
+}
+
