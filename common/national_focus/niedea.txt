@@ -40,7 +40,19 @@ focus_tree = {
 		y = 2
 		cost = 3
 		completion_reward = {
-			
+			release = UNT
+			UNT = {
+				declare_war_on = {
+				target = NIE
+				type = annex_everything
+				}
+			}
+			hidden_effect = {
+				UNT = {
+					load_oob = "UNT_1936"
+				}
+			}
+			country_event = { id = nieden.1 }
 		}
 	}
 	#Noble Council
