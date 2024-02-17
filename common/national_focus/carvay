@@ -8,7 +8,7 @@ focus_tree = {
 			tag = CAV
 		}
 	}
-#Political Deadlock
+	#Political Deadlock
 	focus = {
 		id = CAV_Political_Deadlock
 		icon = 
@@ -20,7 +20,7 @@ focus_tree = {
 			}
 		}
 	}
-#Maintain Status Quo
+	#Maintain Status Quo
 	focus = {
 		prerequisite = { focus = CAV_Political_Deadlock }
 		id = CAV_status_quo
@@ -32,10 +32,10 @@ focus_tree = {
 			remove_stability = 0.10
 		}
 	}
-#Isolationist Victory
+	#Isolationist Victory
 	focus = {
 		prerequisite = { focus = CAV_status_quo }
-     mutually_exclusive = { focus = CAV_Internationalism_victory }
+     		mutually_exclusive = { focus = CAV_Internationalism_victory }
 		id = CAV_Isolation_victory
 		icon = 
 		x = 19
@@ -44,13 +44,13 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.25
       add_political_power = 50
-        
+			}
 		}
 	}
-#Internationalist Victory
+	#Internationalist Victory
 	focus = {
 		prerequisite = { focus = CAV_status_quo }
-    mutually_exclusive = { focus = CAV_Isolation_victory }
+  		mutually_exclusive = { focus = CAV_Isolation_victory }
 		id = CAV_Internationalism_victory
 		icon = 
 		x = 21
