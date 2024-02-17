@@ -24,6 +24,7 @@ state={
 			765 10 #Wood Hut
 		}
 		add_core_of = NIE
+		add_core_of = UNT
 	}
 	buildings_max_level_factor=1.000
 }

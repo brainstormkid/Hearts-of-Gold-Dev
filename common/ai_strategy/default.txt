@@ -1,6 +1,41 @@
 # Written by Henrik "Groogy" Hansson
 # Modified by Daniel "Da9L" Sjöberg
 
+MUV_volunteers = {
+	allowed = {
+		original_tag = MUV
+	}
+	enable = {
+		country_exists = UNT
+		NIE = {
+				has_war_with = UNT
+		}
+	}
+
+	abort = {
+		NIE = {
+			NOT = {
+				has_war_with = UNT
+			}
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "NIE"
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = "NIE"
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "NIE"
+		value = 100
+	}
+}
+
 VIO_volunteers = {
 	allowed = {
 		original_tag = VIO
