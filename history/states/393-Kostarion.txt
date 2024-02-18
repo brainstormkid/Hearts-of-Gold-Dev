@@ -23,6 +23,7 @@ state={
 			}
 		}
 		add_core_of = VAN
+		add_core_of = KOT
 	}
 	buildings_max_level_factor=1.000
 }

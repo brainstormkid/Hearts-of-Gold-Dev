@@ -26,6 +26,7 @@ state={
 			796 5	#Lumaire
 		}
 		add_core_of = VAN
+		add_core_of = OST
 	}
 	manpower=500466
 	buildings_max_level_factor=1.000

@@ -15,7 +15,7 @@ state={
 	}
 	manpower=717369
 	history={
-		owner = VAN
+		owner = SCH
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1 
@@ -25,7 +25,6 @@ state={
 
 		}
 		add_core_of = SCH
-		add_core_of = VAN
 	}
 	buildings_max_level_factor=1.000
 }
