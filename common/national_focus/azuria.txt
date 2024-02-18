@@ -16,7 +16,9 @@ focus_tree = {
 		y = 0
 		cost = 159
 		completion_reward = {
-			
+			OST = {
+				country_event = { id = azuria.1 }
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
@@ -31,7 +33,6 @@ focus_tree = {
 		cost = 159
 		prerequisite = { focus = Magisterium_Formation }
 		completion_reward = {
-			
 		}
 		search_filters = {
 			FOCUS_FILTER_MANPOWER

@@ -1,0 +1,36 @@
+###########################
+# Azuria Default Route Events
+###########################
+
+add_namespace = azuria
+
+country_event = {
+	id = azuria.1
+	title = "Magisterium"
+	desc = "The death of Dexter Og of Azuria has prompted the new formation of a nation between Azurian Syndicate and Osteria."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Praise Grand Magister Hub"
+		ai_chance = {
+			base = 1
+		}
+		modifier = {
+			add = -1
+			is_historical_focus_on = no
+		}
+		AZU = {
+			434 = { add_core_of = AZU }
+			380 = { add_core_of = AZU }
+			395 = { add_core_of = AZU }
+			392 = { add_core_of = AZU }
+			391 = { add_core_of = AZU }
+			annex_country = { target = OST transfer_troops = yes }
+		}
+					
+	}
+}
