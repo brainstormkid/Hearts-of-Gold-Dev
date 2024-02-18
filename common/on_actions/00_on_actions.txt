@@ -160,6 +160,11 @@ on_actions = {
             		}
           		}
         	}
+			if = {
+        		limit = { tag = VAN FROM = { tag = FRO } }
+        		release = KOT
+				release = OST
+        	}
       	}
     }
 }
