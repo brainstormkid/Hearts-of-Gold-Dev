@@ -16,7 +16,7 @@ state={
 	}
 	manpower=8250000
 	history={
-		owner = SRF
+		owner = AZU
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3 
@@ -38,7 +38,7 @@ state={
 		victory_points = {
 			4024 20		#Dawnstar
 		}
-		add_core_of = SRF
+		add_core_of = AZU
 	}
 	buildings_max_level_factor=1.000
 }

@@ -11,7 +11,7 @@ state={
 	    chromium = 3
       }
 	history={
-		owner = SR1
+		owner = SRF
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 3
@@ -19,7 +19,7 @@ state={
 		victory_points = {
 			518 10		#Envy
 		}
-		add_core_of = SR1
+		add_core_of = SRF
 	}
 
 	provinces={

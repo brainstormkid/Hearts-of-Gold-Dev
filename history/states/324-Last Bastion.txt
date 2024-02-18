@@ -15,14 +15,14 @@ state={
 	}
 	manpower=297723
 	history={
-		owner = SRF
+		owner = AZU
 		buildings = {
 			infrastructure = 2
 		}
 		victory_points = {
 			691 10		#TLB
 		}
-		add_core_of = SRF
+		add_core_of = AZU
 	}
 	buildings_max_level_factor=1.000
 }

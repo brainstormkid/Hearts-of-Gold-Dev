@@ -1,0 +1,40 @@
+focus_tree = {
+	id = azuria_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AZU
+		}
+	}
+	#Magisterium Formation
+	focus = {
+		id = Magisterium_Formation
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 0
+		cost = 159
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+	}
+	#Magisterium Ultimatium
+	focus = {
+		id = Magisterium_Ultimatium
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 1
+		cost = 159
+		prerequisite = { focus = Magisterium_Formation }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+	}
+}

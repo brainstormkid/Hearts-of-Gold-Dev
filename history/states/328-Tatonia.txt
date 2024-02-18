@@ -15,7 +15,7 @@ state={
 	}
 	manpower=1500000
 	history={
-		owner = SR1
+		owner = SRF
 		buildings = {
 			infrastructure = 1
 		}
@@ -23,7 +23,7 @@ state={
 			3202 10		#Wolfsfels
 		}
 		add_core_of = TTO
-		add_core_of = SR1
+		add_core_of = SRF
 	}
 	buildings_max_level_factor=1.000
 }

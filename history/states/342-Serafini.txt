@@ -15,7 +15,7 @@ state={
 	}
 	manpower=1584876
 	history={
-		owner = SR1
+		owner = SRF
 		buildings = {
 			arms_factory = 1 
 			infrastructure = 3
@@ -26,7 +26,7 @@ state={
 		victory_points = {
 			502 12		#Serafini
 		}
-		add_core_of = SR1
+		add_core_of = SRF
 	}
 	buildings_max_level_factor=1.000
 }
