@@ -765,10 +765,7 @@ country_event = {
 		name = bardonia.33.a  #We surrender
 		ai_chance = { factor = 85 }
 		BAR = {
-			annex_country = {
-			    target = HLG
-			    transfer_troops = yes
-			}
+			BAR = { puppet = HLG }
 			country_event = { id = bardonia.34 }
 		}
 	}
