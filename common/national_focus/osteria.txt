@@ -1,0 +1,48 @@
+focus_tree = {
+	id = osteria_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OST
+		}
+	}
+	#Annex SCHS
+	focus = {
+		id = Annex_SCHS
+		icon = GFX_SAV_andorn
+		x = 20
+		y = 0
+		cost = 3
+		completion_reward = {
+			391 = { add_core_of = OST }
+			392 = { add_core_of = OST }
+			annex_country = {
+				target = SCH
+				transfer_troops = yes
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+	}
+	#Take Certaria
+	focus = {
+		id = Take_Certeria
+		icon = GFX_SAV_andorn
+		x = 20
+		y = 1
+		cost = 192
+		completion_reward = {
+			OST = {
+			 transfer_state = 434
+			}
+			434 = { add_core_of = OST }
+		}
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = Annex_SCHS }
+	}
+}
