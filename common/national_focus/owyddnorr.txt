@@ -31,13 +31,98 @@ focus_tree = {
 				157 = {
 					add_core_of = BAR
 				}
-				hidden_effect = {
-					BAR = {
-						country_event = { id = owyddnorr.1 }
-					}
-					LUM = {
-						country_event = { id = owyddnorr.1 }
-					}
+			}
+			ALI = {
+				transfer_state = 242
+				transfer_state = 243
+				242 = {
+					add_core_of = ALI
+				}
+				243 = {
+					add_core_of = ALI
+				}
+			}
+			ATH = {
+				transfer_state = 240
+				240 = {
+					add_core_of = ATH
+				}
+			}
+			CLI = {
+				transfer_state = 241
+				241 = {
+					add_core_of = CLI
+				}
+			}
+			set_cosmetic_tag = NEO
+			release = DAE
+			release = RAV
+			hidden_effect = {
+				BAR = {
+					country_event = { id = owyddnorr.1 }
+				}
+				LUM = {
+					country_event = { id = owyddnorr.1 }
+				}
+				ALI = {
+					country_event = { id = owyddnorr.1 }
+				}
+				country_event = { id = owyddnorr.1 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Cliffton Annexation
+	focus = {
+		id = OWY_Cliffton_Annexation
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 1
+		cost = 63
+		prerequisite = { focus = OWY_Collapse_of_Owyddnorr }
+		completion_reward = {
+			annex_country = {
+				target = CLI
+				transfer_troops = yes
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Taran'Bak Annexation
+	focus = {
+		id = OWY_Taran'Bak_Annexation
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 2
+		cost = 21
+		prerequisite = { focus = OWY_Cliffton_Annexation }
+		completion_reward = {
+			annex_country = {
+				target = TAR
+				transfer_troops = yes
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Second Collapse
+	focus = {
+		id = OWY_Second_Collapse
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 3
+		cost = 99
+		prerequisite = { focus = OWY_Taran'Bak_Annexation }
+		completion_reward = {
+			ALI = {
+				annex_country = {
+					target = OWY
+					transfer_troops = yes
 				}
 			}
 		}

@@ -29,6 +29,7 @@ state={
 			2207 20		#Illerya
 		}
 		add_core_of = OWY
+		add_core_of = DAE
 	}
 	buildings_max_level_factor=1.000
 }

@@ -23,6 +23,7 @@ state={
 			3131 10		#Venzor
 		}
 		add_core_of = OWY
+		add_core_of = RAV
 	}
 	buildings_max_level_factor=1.000
 }

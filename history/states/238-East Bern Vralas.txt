@@ -34,6 +34,7 @@ state={
 			2809 35		#Duskopion
 		}
 		add_core_of = OWY
+		add_core_of = DAE
 	}
 	buildings_max_level_factor=1.000
 }
