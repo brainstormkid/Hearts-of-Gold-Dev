@@ -74,14 +74,31 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
+	#Northern Athaz Annexation
+	focus = {
+		id = OWY_Northern_Athaz_Annexation
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 1
+		cost = 33
+		prerequisite = { focus = OWY_Collapse_of_Owyddnorr }
+		completion_reward = {
+			OWY = {
+				transfer_state = 240
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
 	#Cliffton Annexation
 	focus = {
 		id = OWY_Cliffton_Annexation
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 1
-		cost = 63
-		prerequisite = { focus = OWY_Collapse_of_Owyddnorr }
+		y = 2
+		cost = 30
+		prerequisite = { focus = OWY_Northern_Athaz_Annexation }
 		completion_reward = {
 			annex_country = {
 				target = CLI
@@ -97,7 +114,7 @@ focus_tree = {
 		id = OWY_Taran'Bak_Annexation
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 2
+		y = 3
 		cost = 21
 		prerequisite = { focus = OWY_Cliffton_Annexation }
 		completion_reward = {
@@ -115,7 +132,7 @@ focus_tree = {
 		id = OWY_Second_Collapse
 		#icon = GFX_SAV_andorn
 		x = 20
-		y = 3
+		y = 4
 		cost = 99
 		prerequisite = { focus = OWY_Taran'Bak_Annexation }
 		completion_reward = {
