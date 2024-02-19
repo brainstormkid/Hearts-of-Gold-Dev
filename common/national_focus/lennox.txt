@@ -1,0 +1,28 @@
+focus_tree = {
+	id = lennox_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LEN
+		}
+	}
+	#Taking Bardon Landing
+	focus = {
+		id = LEN_Taking_Bardon_Landing
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 0
+		cost = 21
+		completion_reward = {
+				transfer_state = 407
+				407 = {
+					add_core_of = LEN
+				}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}
