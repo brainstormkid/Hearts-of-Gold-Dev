@@ -19,9 +19,26 @@ focus_tree = {
 			LUM = {
 				transfer_state = 246
 				246 = {
-					add_core_of = AXU
+					add_core_of = LUM
 				}
-				country_event = { id = owyddnorr.1 }
+			}
+			BAR = {
+				transfer_state = 156
+				transfer_state = 157
+				156 = {
+					add_core_of = BAR
+				}
+				157 = {
+					add_core_of = BAR
+				}
+				hidden_effect = {
+					BAR = {
+						country_event = { id = owyddnorr.1 }
+					}
+					LUM = {
+						country_event = { id = owyddnorr.1 }
+					}
+				}
 			}
 		}
 		search_filters = {
