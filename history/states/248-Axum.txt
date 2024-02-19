@@ -24,6 +24,7 @@ state={
 			3432 20		#Axum
 		}
 		add_core_of = LUM
+		add_core_of = AXU
 	}
 	manpower=3000000
 	buildings_max_level_factor=1.000

@@ -1,0 +1,25 @@
+focus_tree = {
+	id = lumeno_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LUM
+		}
+	}
+	#Axum Independence
+	focus = {
+		id = Axum_Independence
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 0
+		cost = 21
+		completion_reward = {
+			release = AXU
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}

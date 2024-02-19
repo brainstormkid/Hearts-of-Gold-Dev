@@ -19,6 +19,7 @@ focus_tree = {
 			OST = {
 				country_event = { id = azuria.1 }
 			}
+			set_cosmetic_tag = MAG
 		}
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
