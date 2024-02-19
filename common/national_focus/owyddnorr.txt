@@ -1,27 +1,27 @@
 focus_tree = {
-	id = axum_focus
+	id = owyddnnor_focus
 	continuous_focus_position = { x = 0 y = 1500 } 
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = AXU
+			tag = OWY
 		}
 	}
-	#The Great Extinguishing
+	#Collapse of Owyddnorr
 	focus = {
-		id = AXU_The_Great_Extinguishing
+		id = OWY_Collapse_of_Owyddnorr
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 0
-		cost = 27
+		cost = 30
 		completion_reward = {
-			annex_country = { target = LUM transfer_troops = yes }
-			247 = {
-				add_core_of = AXU
-			}
-			246 = {
-				add_core_of = AXU
+			LUM = {
+				transfer_state = 246
+				246 = {
+					add_core_of = AXU
+				}
+				country_event = { id = owyddnorr.1 }
 			}
 		}
 		search_filters = {

@@ -1,0 +1,27 @@
+###########################
+# Owyddnorr Default Route Events
+###########################
+
+add_namespace = owyddnorr
+
+country_event = {
+	id = owyddnorr.1
+	title = "Collapse of Owyddnorr"
+	desc = "I am old. My years in Rathnir are many, and I have seen Owyddnorr since its birth right down to today. Owyddnorr is my home. I love Owyddnorr, and so I must set those of you  who wish to soar in this new age free."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "PepeSalute King Sini"
+		ai_chance = {
+			base = 1
+		}
+		modifier = {
+			add = -1
+			is_historical_focus_on = no
+		}			
+	}
+}

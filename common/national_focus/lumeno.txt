@@ -10,7 +10,7 @@ focus_tree = {
 	}
 	#Axum Independence
 	focus = {
-		id = Axum_Independence
+		id = LUM_Axum_Independence
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 0
