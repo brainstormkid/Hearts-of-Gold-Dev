@@ -37,6 +37,9 @@ on_actions = {
 			NIE = {
 				country_event = { id = niedea.2 days = 462 }#14 of may
 			}
+			AXU = {
+				country_event = { id = onestate.1 days = 399 }#11 of may
+			}
 			BAR = { news_event = { id = news.2 days = 42 } }
 			BAR = { news_event = { id = news.4 days = 735 } }
 			BAR = { news_event = { id = news.7 days = 84 } }
@@ -164,6 +167,12 @@ on_actions = {
         		limit = { tag = VAN FROM = { tag = FRO } }
         		release = KOT
 				release = OST
+        	}
+			if = {
+        		limit = { tag = ONE FROM = { tag = AXU } }
+        		ALI = {
+					transfer_state = 246
+				}
         	}
       	}
     }

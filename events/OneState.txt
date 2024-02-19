@@ -1,0 +1,26 @@
+###########################
+# OneState Default Route Events
+###########################
+
+add_namespace = onestate
+
+# One State War
+country_event = {
+	id = onestate.1	#One State War
+	title = "The Davidite War"
+	desc = "Today the One State, previously being the cult of the Davidites, has declared its war of revenge on the Kingdom of Axum. The treacherous Axumite kingdom had betrayed and exiled the Davidites long ago for their beliefs, but now the Davidites have returned en masse to end their former oppressor and liberate the city of Adwa from the Axumite inquisitors. Today a formal declaration of war has been issued by the One State, the foolish Al-Jazair has decided to intervene, but this shall be the downfall of them in the end, not us."
+	#picture = GFX_ULD_COB_purchase_event
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Axum shall prevail"
+		ONE = {
+			transfer_state = 246
+			declare_war_on = {
+				target = AXU
+				type = annex_everything
+			}
+		}
+	}
+}
