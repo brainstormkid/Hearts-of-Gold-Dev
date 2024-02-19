@@ -1,0 +1,28 @@
+focus_tree = {
+	id = axum_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AXU
+		}
+	}
+	#The Great Extinguishing
+	focus = {
+		id = AXU_The_Great_Extinguishing
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 0
+		cost = 27
+		completion_reward = {
+			annex_country = { target = LUM transfer_troops = yes }
+			247 = {
+				add_core_of = AXU
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}
