@@ -1358,6 +1358,9 @@
  ALI_communism:1 "Almanie Socialist Republic"
  ALI_communism_DEF:1 "the Almanie Socialist Republic"
  ALI_communism_ADJ:0 "Almanie"
+ ALA:1 "Constitutional Republic of Alamayn"
+ ALA_DEF:1 "the Constitutional Republic of Alamayn"
+ ALA_ADJ:0 "Alamanie"
 
  FLR_neutrality:1 "Kingdom of Floramia"
  FLR_neutrality_DEF:1 "the Kingdom of Floramia"
