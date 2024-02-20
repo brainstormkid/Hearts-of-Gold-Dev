@@ -15,7 +15,7 @@ state={
 	}
 	manpower=1050000
 	history={
-		owner = FJ1
+		owner = MDR
 		buildings = {
 			arms_factory = 1
 			infrastructure = 2
@@ -24,7 +24,6 @@ state={
 			4164 10		#Nyr Tlorn
 		}
 		add_core_of = MDR
-		add_core_of = FJ1
 	}
 	buildings_max_level_factor=1.000
 }

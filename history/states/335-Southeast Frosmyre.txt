@@ -14,7 +14,7 @@ state={
 		281 1846 2632 2826 3253 3311 4143 4175 4184 
 	}
 	history={
-		owner = FJ1
+		owner = MDR
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 2
@@ -23,7 +23,6 @@ state={
 			1846 5		#Heimstadt
 		}
 		add_core_of = MDR
-		add_core_of = FJ1
 	}
 	manpower=1050000
 	buildings_max_level_factor=1.000
