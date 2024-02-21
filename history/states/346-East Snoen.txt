@@ -15,10 +15,8 @@ state={
 	}
 	manpower=114846
 	history={
-		owner = VIO
-		add_core_of = POS
-		add_core_of = AVR
-		add_core_of = VIO
+		owner = SHI
+		add_core_of = SHI
 		buildings = {
 			infrastructure = 2
 		}
