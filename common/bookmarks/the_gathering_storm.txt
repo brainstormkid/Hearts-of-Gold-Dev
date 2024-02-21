@@ -52,6 +52,12 @@ bookmarks = {
 
 		"VIO"={
 			history = "VIO_GATHERING_STORM_DESC"
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
 		}
 
 		"HUI"={
@@ -61,6 +67,9 @@ bookmarks = {
 				unsettled_south
 				mourning_prime_minister_juan_coyo
 			}
+			focuses = {
+				
+			}
 		}
 		
 		"NIE"={
@@ -69,10 +78,19 @@ bookmarks = {
 				Soleannen_Religion
 				Estate_System
 			}
+			focuses = {
+				
+			}
 		}
 		
 		"TOR"={
 			history = "TOR_GATHERING_STORM_DESC"
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
 		}
 		
 		"---"={
@@ -86,6 +104,7 @@ bookmarks = {
 				Legacy_of_Neoz
 			}
 			focuses = {
+				
 			}
 		}
 		
@@ -97,6 +116,9 @@ bookmarks = {
 				undeveloped_infrastructure
 				disunified_government
 			}
+			focuses = {
+				
+			}
 		}
 
 		"ARL"={
@@ -105,6 +127,9 @@ bookmarks = {
 			ideas = {
 				Twin_Dragon_Religion
 				squatter_crisis
+			}
+			focuses = {
+				
 			}
 		}
 		
