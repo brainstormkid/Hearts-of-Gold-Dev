@@ -16,16 +16,8 @@ division_template = {
 
 units = {
 	division = {
-		name = "Maldun Infantry"
-		location = 598
-		division_template = "Maldun Infantry"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
-	division = {
-		name = "Maldun Infantry"
-		location = 598
+		name = "1st Maldun Infantry"
+		location = 13
 		division_template = "Maldun Infantry"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5

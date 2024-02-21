@@ -17,3 +17,37 @@ division_template = {
 	}
 	priority = 2
 }
+units = {
+	division = {
+		name = "1st Mudrok Infantry"
+		location = 4134
+		division_template = "Mudro Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "2nd Mudrok Infantry"
+		location = 4134
+		division_template = "Mudro Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "3rd Mudrok Infantry"
+		location = 4134
+		division_template = "Mudro Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "4th Mudrok Infantry"
+		location = 4134
+		division_template = "Mudro Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+}

@@ -1,5 +1,5 @@
 division_template = {
-	name = "Huitca Infantry"
+	name = "Pahjona Infantry"
 
 	#division_names_group = AFG_ARM_01
 
@@ -12,4 +12,15 @@ division_template = {
 		infantry = { x = 1 y = 2 }
 	}
 	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st Pahjona Infantry"
+		location = 1009
+		division_template = "Pahjona Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
 }
