@@ -16,7 +16,7 @@ state={
 	state_category = town
 	manpower=1650000
 	history={
-		owner = PLG
+		owner = SLT
 		buildings = {
 			arms_factory = 1
 			infrastructure = 3
@@ -34,7 +34,6 @@ state={
 			4701 10		#St. Acol's Fort
 		}
 		add_core_of = SLT
-		add_core_of = PLG
 	}
 	buildings_max_level_factor=1.000
 }

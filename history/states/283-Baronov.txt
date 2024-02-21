@@ -15,11 +15,11 @@ state={
 	}
 	manpower=1178496
 	history={
-		owner = BAR
+		owner = AVA
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = BAR
+		add_core_of = AVA
 	}
 	buildings_max_level_factor=1.000
 }
