@@ -16,13 +16,7 @@ focus_tree = {
 		y = 0
 		cost = 27
 		completion_reward = {
-			annex_country = { target = LUM transfer_troops = yes }
-			247 = {
-				add_core_of = AXU
-			}
-			246 = {
-				add_core_of = AXU
-			}
+			country_event = { id = axum.1 }
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
