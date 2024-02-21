@@ -15,11 +15,11 @@ state={
 	}
 	manpower=38496
 	history={
-		owner = AXR
+		owner = MAU
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = AXR
+		add_core_of = MAU
 	}
 	buildings_max_level_factor=1.000
 }
