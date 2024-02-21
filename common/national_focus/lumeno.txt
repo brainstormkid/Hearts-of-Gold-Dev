@@ -17,6 +17,7 @@ focus_tree = {
 		cost = 21
 		completion_reward = {
 			release = AXU
+			AXU = { change_tag_from = LUM }
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
