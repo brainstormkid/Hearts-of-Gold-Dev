@@ -78,6 +78,16 @@ bookmarks = {
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
+
+		"LEY"={
+			minor = yes
+			history = "LEY_GATHERING_STORM_DESC"
+			ideas = {
+				Legacy_of_Neoz
+			}
+			focuses = {
+			}
+		}
 		
 		"SAV"={
 			minor = yes
@@ -96,21 +106,6 @@ bookmarks = {
 				Twin_Dragon_Religion
 				squatter_crisis
 			}
-		}
-		
-		"LEY"={
-			minor = yes
-			history = "LEY_GATHERING_STORM_DESC"
-			ideas = {
-				Legacy_of_Neoz
-			}
-			focuses = {
-			}
-		}
-		
-		"VAL"={
-			minor = yes
-			history = "VAL_GATHERING_STORM_DESC"
 		}
 		
 		effect = {
