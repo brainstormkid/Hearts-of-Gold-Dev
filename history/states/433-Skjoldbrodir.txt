@@ -14,7 +14,7 @@ state={
 	}
 	state_category = town
 	history={
-		owner = BAR
+		owner = SKI
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1
@@ -27,7 +27,7 @@ state={
 		victory_points = {
 			1294 10 
 		}
-		add_core_of = BAR
+		add_core_of = SKI
 	}
 	manpower=1500000
 	buildings_max_level_factor=1.000
