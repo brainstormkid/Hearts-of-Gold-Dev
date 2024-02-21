@@ -1,0 +1,41 @@
+###########################
+# Axum Default Route Events
+###########################
+
+add_namespace = axum
+
+# The Great Extinguishing
+country_event = {
+	id = axum.1	#The Great Extinguishing
+	title = "The Great Extinguishing"
+	desc = ""
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Axum shall rule"
+    is_historical_focus_on = yes
+    annex_country = { target = LUM transfer_troops = yes }
+			247 = {
+				add_core_of = AXU
+			}
+			246 = {
+				add_core_of = AXU
+			}
+	}
+  option = {
+		name = "Lumenos shall rule"
+    is_historical_focus_on = no
+    LUM = { change_tag_from = AXU }
+    LUM = {
+      annex_country = { target = LUM transfer_troops = yes }
+			  247 = {
+				  add_core_of = AXU
+			  }
+			  246 = {
+				  add_core_of = AXU
+			  }
+    }	
+  }
+}
