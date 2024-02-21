@@ -26,4 +26,20 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
+	division = {
+		name = "Sironia Infantry"
+		location = 916
+		division_template = "Sironia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Sironia Infantry"
+		location = 916
+		division_template = "Sironia Infantry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
 }

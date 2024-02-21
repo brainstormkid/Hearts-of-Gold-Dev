@@ -15,7 +15,7 @@ state={
 	}
 	manpower=6750000
 	history={
-		owner = SIR
+		owner = THE
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 5
@@ -30,6 +30,7 @@ state={
 			392 20	#Kuclela
 		}
 		add_core_of = SIR
+		add_core_of = THE
 	}
 	buildings_max_level_factor=1.000
 }
