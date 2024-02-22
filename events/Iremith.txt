@@ -1,0 +1,32 @@
+###########################
+# Iremith Default Route Events
+###########################
+
+add_namespace = iremith
+
+# Annex Tessel
+country_event = {
+	id = iremith.1	#Annex Tessel
+	title = "Iremith Offer"
+	desc = "The nation of Iremith to our north offers to purchase our island of Tessel."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Tessel shall be sold"
+		ai_chance = {
+			base = 1
+		}
+		IRM = {
+			transfer_state = 288
+			add_state_core = 288
+		}
+	}
+	option = {
+		name = "Denied"
+		ai_chance = {
+			base = 0
+		}
+	}
+}

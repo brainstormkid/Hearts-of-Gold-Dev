@@ -1,0 +1,27 @@
+focus_tree = {
+	id = iremith_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IRM
+		}
+	}
+	#Buying Tessel
+	focus = {
+		id = IRM_Buying_Tessel
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 0
+		cost = 93
+		completion_reward = {
+			VIO = {
+				country_event = { id = iremith.1 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}

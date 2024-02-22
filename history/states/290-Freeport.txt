@@ -15,14 +15,14 @@ state={
 	}
 	manpower=357696
 	history={
-		owner = VIO
+		owner = MAU
 		buildings = {
 			infrastructure = 1
 			2993 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = VIO
+		add_core_of = MAU
 	}
 	buildings_max_level_factor=1.000
 }
