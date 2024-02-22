@@ -1,0 +1,26 @@
+focus_tree = {
+	id = aezenfjord_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AEZ
+		}
+	}
+	#Annexing Shirun
+	focus = {
+		id = AEZ_Annexing_Shirun
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 0
+		cost = 9
+		completion_reward = {
+			annex_country = { target = SHI transfer_troops = yes }
+			add_state_core = 346
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}

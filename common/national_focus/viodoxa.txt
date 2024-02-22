@@ -16,6 +16,11 @@ focus_tree = {
 		y = 0
 		cost = 39
 		completion_reward = {
+			annex_country = { target = POS transfer_troops = yes }
+			add_state_core = 345
+			add_state_core = 343
+			add_state_core = 349
+			add_state_core = 350
 			remove_ideas = { }
 		}
 		search_filters = {
