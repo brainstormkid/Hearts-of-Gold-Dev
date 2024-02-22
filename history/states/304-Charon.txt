@@ -24,6 +24,8 @@ state={
 		victory_points = {
 			382 20
 		}	#Make this  a ferrymen core eventually idk
+		add_core_of = VAR
+		add_core_of = VIO
 	}
 	buildings_max_level_factor=1.000
 }

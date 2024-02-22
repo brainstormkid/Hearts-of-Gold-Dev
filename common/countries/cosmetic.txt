@@ -48,3 +48,8 @@ MAG = {
 	color = rgb { 38 20 86 }
 	color_ui = rgb { 38 20 86 }
 }
+
+ADY = {
+	color = rgb { 29 173 112 }
+	color_ui = rgb { 29 173 112 }
+}

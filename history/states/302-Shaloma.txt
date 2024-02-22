@@ -25,6 +25,7 @@ state={
 			4487 6
 		}
 		add_core_of = VIO
+		add_core_of = SHA
 	}
 	buildings_max_level_factor=1.000
 }

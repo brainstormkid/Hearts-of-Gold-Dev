@@ -26,6 +26,7 @@ state={
 			3143 15
 		}
 		add_core_of = VIO
+		add_core_of = VAR
 	}
 	manpower=1575000
 	buildings_max_level_factor=1.000
