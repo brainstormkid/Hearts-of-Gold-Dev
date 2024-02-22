@@ -21,6 +21,9 @@ focus_tree = {
 			add_state_core = 343
 			add_state_core = 349
 			add_state_core = 350
+			SIV = {
+				add_state_core = 343
+			}
 			remove_ideas = { }
 		}
 		search_filters = {
@@ -36,7 +39,7 @@ focus_tree = {
 		cost = 2
 		prerequisite = { focus = Viodoxa_Constitution_Reform }
 		completion_reward = {
-			
+			add_ideas = {  }
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -51,7 +54,7 @@ focus_tree = {
 		cost = 2
 		prerequisite = { focus = Valen_Takes_Power }
 		completion_reward = {
-			
+			add_ideas = {  }
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -66,7 +69,7 @@ focus_tree = {
 		cost = 2
 		prerequisite = { focus = Viodoxa_Constitution_Reform }
 		completion_reward = {
-			
+			add_ideas = {  }
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -111,7 +114,60 @@ focus_tree = {
 		cost = 3
 		prerequisite = { focus = National_Armories }
 		completion_reward = {
-			
+			286 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Settling Sun's Gate
+	focus = {
+		id = VIO_Settling_Sun's_Gate
+		#icon = GFX_SAV_andorn
+		x = 36
+		y = 6
+		cost = 10
+		prerequisite = { focus = Lonely_Light_Naval_Yards }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 3 }
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Settling Karlpfensland
+	focus = {
+		id = VIO_Settling_Karlpfensland
+		#icon = GFX_SAV_andorn
+		x = 34
+		y = 6
+		cost = 10
+		prerequisite = { focus = Lonely_Light_Naval_Yards }
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Selling Karlpfensland
+	focus = {
+		id = VIO_Selling_Karlpfensland
+		#icon = GFX_SAV_andorn
+		x = 35
+		y = 7
+		cost = 10
+		prerequisite = { focus = VIO_Settling_Sun's_Gate }
+		prerequisite = { focus = VIO_Settling_Karlpfensland }
+		completion_reward = {
+			add_research_slot = 1
+			add_offsite_building = { type = industrial_complex level = -1 }
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -141,7 +197,13 @@ focus_tree = {
 		cost = 3
 		prerequisite = { focus = National_Armories }
 		completion_reward = {
-			
+			345 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL

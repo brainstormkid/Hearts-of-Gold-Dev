@@ -29,6 +29,7 @@ state={
 			1899 10
 		}
 		add_core_of = VIO
+		add_core_of = ROS
 	}
 	buildings_max_level_factor=1.000
 }

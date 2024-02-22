@@ -19,6 +19,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = VIO
+		add_core_of = SIV
 	}
 	manpower=153846
 	buildings_max_level_factor=1.000
