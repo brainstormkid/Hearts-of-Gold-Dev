@@ -1,0 +1,64 @@
+ideas = {
+
+	country = {
+	
+		VIO_Recovering_from_Ferrymen_War = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				
+			}
+		}
+		
+		VIO_Viodoxa_University = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				
+			}
+		}
+		
+		VIO_Viodoxa_Unity_Monument = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				
+			}
+		}
+
+	}
+}
+

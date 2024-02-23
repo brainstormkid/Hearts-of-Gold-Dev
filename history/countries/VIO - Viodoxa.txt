@@ -22,8 +22,17 @@ set_technology = {
 	basic_train = 1
 }
 
+create_faction = "Southern Rathnir Defense Accords"
+add_to_faction = VIO
+add_to_faction = ULD
+add_to_faction = AEZ
+add_to_faction = FRO
+add_to_faction = SOU
+add_to_faction = VRA
+
 add_ideas = {
 	volunteer_only
+	VIO_Recovering_from_Ferrymen_War
 }
 set_convoys = 800
 

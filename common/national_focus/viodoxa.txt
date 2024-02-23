@@ -8,13 +8,13 @@ focus_tree = {
 			tag = VIO
 		}
 	}
-	#Retake Charon
+	#Treaty of Istanboulder
 	focus = {
-		id = Retake_Charon
+		id = VIO_Treaty_of_Istanboulder
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 0
-		cost = 39
+		cost = 12
 		completion_reward = {
 			annex_country = { target = POS transfer_troops = yes }
 			add_state_core = 345
@@ -27,7 +27,66 @@ focus_tree = {
 			OPT = {
 				add_state_core = 345
 			}
-			remove_ideas = { }
+			#release = CHA
+			remove_ideas = { VIO_Recovering_from_Ferrymen_War }
+			diplomatic_relation = {
+				country = AKR
+				relation = non_aggression_pact
+				active = yes
+			}
+			diplomatic_relation = {
+				country = AVR
+				relation = non_aggression_pact
+				active = yes
+			}
+			diplomatic_relation = {
+				country = AEZ
+				relation = non_aggression_pact
+				active = yes
+			}
+			diplomatic_relation = {
+				country = UBS
+				relation = non_aggression_pact
+				active = yes
+			}
+			hidden_effect = {
+				AKR = {
+					diplomatic_relation = {
+						country = AVR
+						relation = non_aggression_pact
+						active = yes
+					}
+					diplomatic_relation = {
+						country = AEZ
+						relation = non_aggression_pact
+						active = yes
+					}
+					diplomatic_relation = {
+						country = UBS
+						relation = non_aggression_pact
+						active = yes
+					}
+				}
+				AVR = {
+					diplomatic_relation = {
+						country = AEZ
+						relation = non_aggression_pact
+						active = yes
+					}
+					diplomatic_relation = {
+						country = UBS
+						relation = non_aggression_pact
+						active = yes
+					}
+				}
+				UBS = {
+					diplomatic_relation = {
+						country = AEZ
+						relation = non_aggression_pact
+						active = yes
+					}
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -35,14 +94,14 @@ focus_tree = {
 	}
 	#Viodoxa University
 	focus = {
-		id = Viodoxa_University
+		id = VIO_Viodoxa_University
 		#icon = GFX_SAV_andorn
 		x = 14
 		y = 5
 		cost = 2
-		prerequisite = { focus = Viodoxa_Constitution_Reform }
+		prerequisite = { focus = VIO_Viodoxa_Constitution_Reform }
 		completion_reward = {
-			add_ideas = {  }
+			add_ideas = { Viodoxa_University }
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -50,12 +109,12 @@ focus_tree = {
 	}
 	#National Armories
 	focus = {
-		id = National_Armories
+		id = VIO_National_Armories
 		#icon = GFX_SAV_andorn
 		x = 32
 		y = 4
 		cost = 2
-		prerequisite = { focus = Valen_Takes_Power }
+		prerequisite = { focus = VIO_Valen_Takes_Power }
 		completion_reward = {
 			add_ideas = {  }
 		}
@@ -65,12 +124,12 @@ focus_tree = {
 	}
 	#Viodoxa Unity Monument
 	focus = {
-		id = Viodoxa_Unity_Monument
+		id = VIO_Viodoxa_Unity_Monument
 		#icon = GFX_SAV_andorn
 		x = 12
 		y = 5
 		cost = 2
-		prerequisite = { focus = Viodoxa_Constitution_Reform }
+		prerequisite = { focus = VIO_Viodoxa_Constitution_Reform }
 		completion_reward = {
 			add_ideas = {  }
 		}
@@ -80,12 +139,12 @@ focus_tree = {
 	}
 	#OPTC XP Factory
 	focus = {
-		id = OPTC_XP_Factory
+		id = VIO_OPTC_XP_Factory
 		#icon = GFX_SAV_andorn
 		x = 32
 		y = 6
 		cost = 3
-		prerequisite = { focus = National_Armories }
+		prerequisite = { focus = VIO_National_Armories }
 		completion_reward = {
 			
 		}
@@ -95,12 +154,12 @@ focus_tree = {
 	}
 	#Kamur Naval Yards
 	focus = {
-		id = Kamur_Naval_Yards
+		id = VIO_Kamur_Naval_Yards
 		#icon = GFX_SAV_andorn
 		x = 33
 		y = 5
 		cost = 3
-		prerequisite = { focus = National_Armories }
+		prerequisite = { focus = VIO_National_Armories }
 		completion_reward = {
 			
 		}
@@ -110,12 +169,12 @@ focus_tree = {
 	}
 	#Lonely Light Naval Yards
 	focus = {
-		id = Lonely_Light_Naval_Yards
+		id = VIO_Lonely_Light_Naval_Yards
 		#icon = GFX_SAV_andorn
 		x = 35
 		y = 5
 		cost = 3
-		prerequisite = { focus = National_Armories }
+		prerequisite = { focus = VIO_National_Armories }
 		completion_reward = {
 			286 = {
 				add_building_construction = {
@@ -136,7 +195,7 @@ focus_tree = {
 		x = 36
 		y = 6
 		cost = 10
-		prerequisite = { focus = Lonely_Light_Naval_Yards }
+		prerequisite = { focus = VIO_Lonely_Light_Naval_Yards }
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 3 }
 		}
@@ -151,7 +210,7 @@ focus_tree = {
 		x = 34
 		y = 6
 		cost = 10
-		prerequisite = { focus = Lonely_Light_Naval_Yards }
+		prerequisite = { focus = VIO_Lonely_Light_Naval_Yards }
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 2 }
 		}
@@ -176,14 +235,14 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Cracheraburg  Naval Yards
+	#Cracheraburg Naval Yards
 	focus = {
-		id = Cracheraburg_Naval_Yards
+		id = VIO_Cracheraburg_Naval_Yards
 		#icon = GFX_SAV_andorn
 		x = 31
 		y = 5
 		cost = 3
-		prerequisite = { focus = National_Armories }
+		prerequisite = { focus = VIO_National_Armories }
 		completion_reward = {
 			
 		}
@@ -193,12 +252,12 @@ focus_tree = {
 	}
 	#Interdam Naval Yards
 	focus = {
-		id = Interdam_Naval_Yards
+		id = VIO_Interdam_Naval_Yards
 		#icon = GFX_SAV_andorn
 		x = 29
 		y = 5
 		cost = 3
-		prerequisite = { focus = National_Armories }
+		prerequisite = { focus = VIO_National_Armories }
 		completion_reward = {
 			345 = {
 				add_building_construction = {
@@ -214,12 +273,12 @@ focus_tree = {
 	}
 	#Valen Takes power
 	focus = {
-		id = Valen_Takes_Power
+		id = VIO_Valen_Takes_Power
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 2
-		cost = 67
-		prerequisite = { focus = Retake_Charon }
+		cost = 105
+		prerequisite = { focus = VIO_Treaty_of_Istanboulder }
 		completion_reward = {
 			country_event = { id = viodoxa.1 }
 		}
@@ -229,12 +288,12 @@ focus_tree = {
 	}
 	#Viodoxan Constitution Reform
 	focus = {
-		id = Viodoxa_Constitution_Reform
+		id = VIO_Viodoxa_Constitution_Reform
 		#icon = GFX_SAV_andorn
 		x = 13
 		y = 4
 		cost = 2
-		prerequisite = { focus = Valen_Takes_Power }
+		prerequisite = { focus = VIO_Valen_Takes_Power }
 		completion_reward = {
 			
 		}
@@ -244,12 +303,12 @@ focus_tree = {
 	}
 	#Rule of One
 	focus = {
-		id = Rule_of_One
+		id = VIO_Rule_of_One
 		#icon = GFX_SAV_andorn
 		x = 13
 		y = 7
 		cost = 2
-		prerequisite = { focus = Viodoxa_Constitution_Reform }
+		prerequisite = { focus = VIO_Viodoxa_Constitution_Reform }
 		completion_reward = {
 			
 		}
@@ -259,12 +318,12 @@ focus_tree = {
 	}
 	#Remilitarization Act
 	focus = {
-		id = Remilitarization_Act
+		id = VIO_Remilitarization_Act
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 4
 		cost = 2
-		prerequisite = { focus = Valen_Takes_Power }
+		prerequisite = { focus = VIO_Valen_Takes_Power }
 		completion_reward = {
 			
 		}
@@ -274,12 +333,12 @@ focus_tree = {
 	}
 	#Amnesty Act
 	focus = {
-		id = Amnesty_Act
+		id = VIO_Amnesty_Act
 		#icon = GFX_SAV_andorn
 		x = 25
 		y = 12
 		cost = 3
-		prerequisite = { focus = Purple_Insurrection }
+		prerequisite = { focus = VIO_Purple_Insurrection }
 		completion_reward = {
 			
 		}
@@ -289,12 +348,12 @@ focus_tree = {
 	}
 	#Duel Citizenship Act
 	focus = {
-		id = Duel_Citizenship_Act
+		id = VIO_Duel_Citizenship_Act
 		#icon = GFX_SAV_andorn
 		x = 26
 		y = 6
 		cost = 2
-		prerequisite = { focus = Valen_Takes_Power }
+		prerequisite = { focus = VIO_Valen_Takes_Power }
 		completion_reward = {
 			
 		}
@@ -304,12 +363,12 @@ focus_tree = {
 	}
 	#Subsidize Food
 	focus = {
-		id = Subsidize_Food
+		id = VIO_Subsidize_Food
 		#icon = GFX_SAV_andorn
 		x = 25
 		y = 7
 		cost = 3
-		prerequisite = { focus = Duel_Citizenship_Act }
+		prerequisite = { focus = VIO_Duel_Citizenship_Act }
 		completion_reward = {
 			
 		}
@@ -319,12 +378,12 @@ focus_tree = {
 	}
 	#Civil Rights Bill
 	focus = {
-		id = Civil_Rights_Bill
+		id = VIO_Civil_Rights_Bill
 		#icon = GFX_SAV_andorn
 		x = 27
 		y = 7
 		cost = 3
-		prerequisite = { focus = Duel_Citizenship_Act }
+		prerequisite = { focus = VIO_Duel_Citizenship_Act }
 		completion_reward = {
 			
 		}
@@ -334,12 +393,12 @@ focus_tree = {
 	}
 	#Promote Business
 	focus = {
-		id = Promote_Business
+		id = VIO_Promote_Business
 		#icon = GFX_SAV_andorn
 		x = 29
 		y = 7
 		cost = 3
-		prerequisite = { focus = Duel_Citizenship_Act }
+		prerequisite = { focus = VIO_Duel_Citizenship_Act }
 		completion_reward = {
 			
 		}
@@ -349,12 +408,12 @@ focus_tree = {
 	}
 	#Viodoxa Library
 	focus = {
-		id = Viodoxa_Library
+		id = VIO_Viodoxa_Library
 		#icon = GFX_SAV_andorn
 		x = 23
 		y = 7
 		cost = 3
-		prerequisite = { focus = Duel_Citizenship_Act }
+		prerequisite = { focus = VIO_Duel_Citizenship_Act }
 		completion_reward = {
 			
 		}
@@ -364,12 +423,12 @@ focus_tree = {
 	}
 	#Reform the Synkletos
 	focus = {
-		id = Reform_the_Synkletos
+		id = VIO_Reform_the_Synkletos
 		#icon = GFX_SAV_andorn
 		x = 21
 		y = 5
 		cost = 3
-		prerequisite = { focus = Remilitarization_Act }
+		prerequisite = { focus = VIO_Remilitarization_Act }
 		completion_reward = {
 			
 		}
@@ -379,12 +438,12 @@ focus_tree = {
 	}
 	#Federalize Viodoxa
 	focus = {
-		id = Federalize_Viodoxa
+		id = VIO_Federalize_Viodoxa
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 7
 		cost = 2
-		prerequisite = { focus = Remilitarization_Act }
+		prerequisite = { focus = VIO_Remilitarization_Act }
 		completion_reward = {
 			
 		}
@@ -394,12 +453,12 @@ focus_tree = {
 	}
 	#EXP Tax
 	focus = {
-		id = EXP_Tax
+		id = VIO_EXP_Tax
 		#icon = GFX_SAV_andorn
 		x = 19
 		y = 5
 		cost = 2
-		prerequisite = { focus = Remilitarization_Act }
+		prerequisite = { focus = VIO_Remilitarization_Act }
 		completion_reward = {
 			
 		}
@@ -409,13 +468,13 @@ focus_tree = {
 	}
 	#Yazov Synkletos
 	focus = {
-		id = Yazov_Synkletos
+		id = VIO_Yazov_Synkletos
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 9
 		cost = 3
-		prerequisite = { focus = Federalize_Viodoxa }
-		prerequisite = { focus = Rule_of_One }
+		prerequisite = { focus = VIO_Federalize_Viodoxa }
+		prerequisite = { focus = VIO_Rule_of_One }
 		completion_reward = {
 			
 		}
@@ -425,12 +484,12 @@ focus_tree = {
 	}
 	#Purple Insurrection
 	focus = {
-		id = Purple_Insurrection
+		id = VIO_Purple_Insurrection
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 11
 		cost = 45
-		prerequisite = { focus = Yazov_Synkletos }
+		prerequisite = { focus = VIO_Yazov_Synkletos }
 		completion_reward = {
 			country_event = { id = viodoxa.2 }
 		}
@@ -440,12 +499,12 @@ focus_tree = {
 	}
 	#Yazov Takes Power
 	focus = {
-		id = Yazov_Takes_Power
+		id = VIO_Yazov_Takes_Power
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 12
 		cost = 3
-		prerequisite = { focus = Purple_Insurrection }
+		prerequisite = { focus = VIO_Purple_Insurrection }
 		completion_reward = {
 			
 		}
@@ -455,12 +514,12 @@ focus_tree = {
 	}
 	#Purple Insurrection Ends
 	focus = {
-		id = Purple_Insurrection_Ends
+		id = VIO_Purple_Insurrection_Ends
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 13
 		cost = 6
-		prerequisite = { focus = Yazov_Takes_Power }
+		prerequisite = { focus = VIO_Yazov_Takes_Power }
 		completion_reward = {
 			
 		}
@@ -470,12 +529,12 @@ focus_tree = {
 	}
 	#Viodoxa Reforms
 	focus = {
-		id = Viodoxa_Reforms
+		id = VIO_Viodoxa_Reforms
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 14
 		cost = 3
-		prerequisite = { focus = Purple_Insurrection_Ends }
+		prerequisite = { focus = VIO_Purple_Insurrection_Ends }
 		completion_reward = {
 			
 		}
@@ -483,31 +542,49 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Thicc Thighs War
+	#Archonate Expansion
 	focus = {
-		id = Thicc_Thigh_War
+		id = VIO_Archonate_Expansion
 		#icon = GFX_SAV_andorn
-		x = 20
+		x = 18
 		y = 15
-		cost = 42
-		prerequisite = { focus = Viodoxa_Reforms }
+		cost = 3
+		prerequisite = { focus = VIO_Viodoxa_Reforms }
 		completion_reward = {
-			
+			annex_country = { target = UBS transfer_troops = yes }
+			puppet = AVR
+			add_state_core = 80
+			add_state_core = 81
+			add_state_core = 79
+			add_state_core = 86
+			add_state_core = 84
+			add_state_core = 87
+			add_state_core = 89
+			add_state_core = 88
+			add_state_core = 85
+			add_state_core = 83
+			add_state_core = 82
+			add_state_core = 90
+			add_state_core = 91
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Puppet UBSR
+	#Annex Avaria
 	focus = {
-		id = Puppet_UBSR
+		id = VIO_Annex_Avaria
 		#icon = GFX_SAV_andorn
-		x = 20
+		x = 18
 		y = 16
-		cost = 3
-		prerequisite = { focus = Thicc_Thigh_War }
+		cost = 24
+		prerequisite = { focus = VIO_Archonate_Expansion }
 		completion_reward = {
-			
+			annex_country = { target = AVR transfer_troops = yes }
+			add_state_core = 355
+			add_state_core = 344
+			add_state_core = 347
+			add_state_core = 349
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -515,12 +592,12 @@ focus_tree = {
 	}
 	#ed and Danzig Archons
 	focus = {
-		id = yazov_leaves
+		id = VIO_Yazov_Leaves
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 17
 		cost = 15
-		prerequisite = { focus = Puppet_UBSR }
+		prerequisite = { focus = VIO_Annex_UBSR }
 		completion_reward = {
 			
 		}
@@ -530,12 +607,12 @@ focus_tree = {
 	}
 	#Formation of the Third Coalition
 	focus = {
-		id = Third_Coalition_Formation
+		id = VIO_Third_Coalition_Formation
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 18
 		cost = 3
-		prerequisite = { focus = yazov_leaves }
+		prerequisite = { focus = VIO_Yazov_Leaves }
 		completion_reward = {
 			country_event = { id = viodoxa.3 }
 		}
@@ -545,12 +622,12 @@ focus_tree = {
 	}
 	#Hazel and Loic Take Power
 	focus = {
-		id = Hazel_Loic_Archons
+		id = VIO_Hazel_Loic_Archons
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 19
 		cost = 3
-		prerequisite = { focus = yazov_leaves }
+		prerequisite = { focus = VIO_yazov_leaves }
 		completion_reward = {
 			
 		}
@@ -560,7 +637,7 @@ focus_tree = {
 	}
 	#War against Allium
 	focus = {
-		id = War_Against_Allium
+		id = VIO_War_Against_Allium
 		#icon = GFX_SAV_andorn
 		x = 20
 		y = 20
