@@ -24,6 +24,9 @@ focus_tree = {
 			SIV = {
 				add_state_core = 343
 			}
+			OPT = {
+				add_state_core = 345
+			}
 			remove_ideas = { }
 		}
 		search_filters = {

@@ -23,6 +23,7 @@ state={
 				}
 		}
 		add_core_of = VIO
+		add_core_of = OPT
 	}
 	buildings_max_level_factor=1.000
 }

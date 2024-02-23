@@ -55,7 +55,11 @@ country_event = {
 		name = "Greatest Viodoxan Psyop"
 		set_cosmetic_tag = ADY
 		release = ROS
-		release = SIL
+		release = SIV
+		release = SHA
+		release = VAR
+		release = TVE
+		release = OPT
 		ai_chance = {
 			factor = 1
 		}
