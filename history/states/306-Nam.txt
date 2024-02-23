@@ -20,6 +20,7 @@ state={
 		}
 		owner = VIO
 		add_core_of = VIO
+		add_core_of = ASY
 	}
 	buildings_max_level_factor=1.000
 }
