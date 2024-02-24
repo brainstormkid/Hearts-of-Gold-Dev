@@ -1,0 +1,25 @@
+focus_tree = {
+	id = aussay_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ASY
+		}
+	}
+	#Annexing Preyllea
+	focus = {
+		id = ASY_Preyllea
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 0
+		cost = 3
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}

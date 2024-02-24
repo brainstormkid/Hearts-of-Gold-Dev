@@ -1,0 +1,69 @@
+focus_tree = {
+	id = fjellheim_focus
+	continuous_focus_position = { x = 0 y = 1500 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FJE
+		}
+	}
+	focus = {
+		id = FJE_Border_Expansion
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 0
+		cost = 93
+		completion_reward = {
+			transfer_state = 332
+			add_state_core = 332
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	focus = {
+		id = FJE_CSS_Faction
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 1
+		cost = 45
+		prerequisite = { focus = FJE_Border_Expansion }
+		completion_reward = {
+			create_faction = "Confederate States of Sparwood"
+			add_to_faction = UBS
+			add_to_faction = FJ1
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	focus = {
+		id = FJE_CSS_Invite_Avaria
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 2
+		cost = 84
+		prerequisite = { focus = FJE_CSS_Faction }
+		completion_reward = {
+			add_to_faction = AVR
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	focus = {
+		id = FJE_Disband_CSS
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 3
+		cost = 6
+		prerequisite = { focus = FJE_CSS_Invite_Avaria }
+		completion_reward = {
+			dismantle_faction
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+}
