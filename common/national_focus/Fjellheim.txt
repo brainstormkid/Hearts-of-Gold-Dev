@@ -31,8 +31,15 @@ focus_tree = {
 		prerequisite = { focus = FJE_Border_Expansion }
 		completion_reward = {
 			create_faction = "Confederate States of Sparwood"
-			add_to_faction = UBS
+			give_guarantee = UBS
 			add_to_faction = FJ1
+			FJ1 = {
+				give_guarantee = UBS
+			}
+			UBS = {
+				give_guarantee = FJE
+				give_guarantee = FJ1
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -47,6 +54,12 @@ focus_tree = {
 		prerequisite = { focus = FJE_CSS_Faction }
 		completion_reward = {
 			add_to_faction = AVR
+			AVR = {
+				give_guarantee = UBS
+			}
+			UBS = {
+				give_guarantee = AVR
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -61,6 +74,18 @@ focus_tree = {
 		prerequisite = { focus = FJE_CSS_Invite_Avaria }
 		completion_reward = {
 			dismantle_faction
+			diplomatic_relation = { country = UBS relation = guarantee active = no }
+			FJ1 = {
+				diplomatic_relation = { country = UBS relation = guarantee active = no }
+			}
+			AVR = {
+				diplomatic_relation = { country = UBS relation = guarantee active = no }
+			}
+			UBS = {
+				diplomatic_relation = { country = FJE relation = guarantee active = no }
+				diplomatic_relation = { country = AVR relation = guarantee active = no }
+				diplomatic_relation = { country = FJ1 relation = guarantee active = no }
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
