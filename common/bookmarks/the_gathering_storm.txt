@@ -40,6 +40,7 @@ bookmarks = {
 			ideas = {
 				VIO_Recovering_from_Ferrymen_War
 				VIO_Archonate
+				VIO_Centralized
 			}
 			focuses = {
 				
