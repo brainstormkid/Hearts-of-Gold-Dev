@@ -17,7 +17,8 @@ ideas = {
 			#picture = uldarash_spirit
 			
 			modifier = {
-				
+				consumer_goods_factor = 0.15
+				research_speed_factor = -0.15 
 			}
 		}
 		
@@ -36,7 +37,8 @@ ideas = {
 			#picture = uldarash_spirit
 			
 			modifier = {
-				
+				research_speed_factor = 0.05
+				consumer_goods_factor = 0.05
 			}
 		}
 		
@@ -55,10 +57,361 @@ ideas = {
 			#picture = uldarash_spirit
 			
 			modifier = {
-				
+				stability_factor = 0.05
+				war_support_factor = 0.05
 			}
 		}
+		
+		VIO_National_Stockpile = {
+		
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.1
+			}
+		}
+		
+		VIO_Sphenischide_Family = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				war_stability_factor = 0.05
+				army_attack_factor = 0.05
+				experience_gain_factor = 0.05
+			}
+		}
+		
+		VIO_McSpiegel_Family = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				stability_factor = 0.05
+				army_defence_factor = 0.05
+				recruitable_population_factor = 0.05
+			}
+		}
+		
+		VIO_Archonate = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		
+		VIO_Rule_of_One = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		VIO_Zelious_Leaves = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.5
+			}
+		}
+		
+		VIO_Professional_Army = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				training_time_factor = 0.1
+			}
+		}
+		
+		VIO_Professional_Army_Leaves = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				army_org_factor = -0.1
+				army_morale_factor = -0.1
+			}
+		}
+		
+		VIO_Supplemented_Army = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				army_defence_factor = 0.025
+				army_attack_factor = 0.025
+				army_speed_factor = 0.025
+				training_time_factor = -0.1
+				army_org_factor = -0.05
+			}
+		}
+		
+		VIO_Obsolete_Constitution = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				experience_gain_factor = -0.05
+				research_speed_factor = -0.05
+				stability_factor = -0.15
+				war_stability_factor = -0.1
+			}
+		}
+		
+		VIO_Reformed_Constitution = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				stability_factor = 0.05
+				experience_gain_factor = 0.05
+			}
+		}
+		
+		VIO_Subsidized_Food = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_weekly = 0.05
+			}
+		}
+		
+		VIO_Business_Promotion = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = -0.11
+			}
+		}
+		
+		VIO_Library = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				research_speed_factor = 0.16
+			}
+		}
+		
+		VIO_Question_of_Synkletos = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				army_org_factor = -0.05
+				army_morale_factor = -0.05
+			}
+		}
+		
+		VIO_Reformed_Synkletos = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				army_org_factor = 0.025
+				army_morale_factor = 0.025
+			}
+		}
+		
+		VIO_EXP_Tax = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = 0.25
+			}
+		}
+		
 	}
 }
 

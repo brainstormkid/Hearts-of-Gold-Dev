@@ -35,6 +35,17 @@ bookmarks = {
 			}
 		}
 		
+		"VIO"={
+			history = "VIO_GATHERING_STORM_DESC"
+			ideas = {
+				VIO_Recovering_from_Ferrymen_War
+				VIO_Archonate
+			}
+			focuses = {
+				
+			}
+		}
+		
 		"RYZ"={
 			history = "RYZ_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -47,16 +58,6 @@ bookmarks = {
 				Third_Tsardom_Reformation
 				Disappearence_of_Zefriov
 				Ratification_of_Constitution
-			}
-		}
-
-		"VIO"={
-			history = "VIO_GATHERING_STORM_DESC"
-			ideas = {
-				VIO_Recovering_from_Ferrymen_War
-			}
-			focuses = {
-				
 			}
 		}
 
