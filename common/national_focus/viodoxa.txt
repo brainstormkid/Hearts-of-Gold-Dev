@@ -462,7 +462,10 @@ focus_tree = {
 		cost = 2
 		prerequisite = { focus = VIO_Remilitarization_Act }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = VIO_Centralized
+				add_idea = VIO_Federalized
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -650,7 +653,10 @@ focus_tree = {
 		cost = 3
 		prerequisite = { focus = VIO_Third_Coalition_Formation }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = VIO_Rule_of_One
+				add_idea = VIO_Archonate
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL

@@ -412,6 +412,44 @@ ideas = {
 			}
 		}
 		
+		VIO_Centralized = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				consumer_goods_factor = -0.25
+			}
+		}
+		
+		VIO_Federalized = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = uldarash_spirit
+			
+			modifier = {
+				
+			}
+		}
+		
 	}
 }
 

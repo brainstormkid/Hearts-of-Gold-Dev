@@ -37,6 +37,7 @@ add_ideas = {
 	VIO_Professional_Army
 	VIO_Sphenischide_Family
 	VIO_Question_of_Synkletos
+	VIO_Centralized
 }
 set_convoys = 800
 
