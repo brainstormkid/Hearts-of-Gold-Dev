@@ -27,6 +27,7 @@ country_event = {
 		add_ideas = { VIO_McSpiegel_Family }
 		add_ideas = { VIO_Zelious_Leaves }
 		add_ideas = { VIO_Professional_Army_Leaves }
+		remove_ideas = { VIO_Professional_Army }
 		ai_chance = {
 			factor = 1
 		}
@@ -63,6 +64,7 @@ country_event = {
 		release = VAR
 		release = TVE
 		release = OPT
+		release = ASY
 		ai_chance = {
 			factor = 1
 		}

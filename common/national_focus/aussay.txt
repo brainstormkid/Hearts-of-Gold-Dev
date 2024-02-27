@@ -22,4 +22,22 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
+	#War Viodoxa
+	focus = {
+		id = ASY_War_Viodoxa
+		#icon = GFX_SAV_andorn
+		x = 20
+		y = 1
+		cost = 2
+		prerequisite = { focus = ASY_Preyllea }
+		completion_reward = {
+			declare_war_on = {
+				target = VIO
+				type = annex_everything
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
 }

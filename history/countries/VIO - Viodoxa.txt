@@ -32,6 +32,7 @@ add_to_faction = VRA
 
 add_ideas = {
 	volunteer_only
+	Secular_Religion
 	VIO_Recovering_from_Ferrymen_War
 	VIO_Archonate
 	VIO_Professional_Army

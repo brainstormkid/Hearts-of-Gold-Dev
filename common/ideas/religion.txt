@@ -109,6 +109,24 @@ ideas = {
 				army_org_factor = 0.05
 			}
 		}
+		Guhenism_Religion = {
+		
+			allowed = {
+				always = yes
+		}
+		
+			allowed_civil_war = {
+				always = yes
+		}
+		
+			removal_cost = -1
+		
+			picture = guhenism_spirit
+		
+			modifier = {
+				army_morale_factor = 0.05
+			}
+		}
 		Secular_Religion = {
 		
 			allowed = {

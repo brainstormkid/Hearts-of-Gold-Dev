@@ -133,6 +133,8 @@
  blackstone_materiel_manufacturer_desc:0 ""
  Secular_Religion:0 "Secularism"
  Secular_Religion_desc:0 "Secularism is most commonly thought of as the separation of religion from civil affairs and the state and may be broadened to a similar position seeking to remove or to minimize the role of religion in any public sphere."
+ Guhenism_Religion:0 "Guhenism"
+ Guhenism_Religion_desc:0 "Guhenism is a religion located in the Imperial Archonate of Viodoxa, primarily in Viodoxa City.\n\nThe religion’s one true goddess is Guhen Stefani, whose sweet melodic messages are read and interpreted by the Current Stefani through the use of the Stefani Key, which sits atop the Hexturnal in Viodoxa.\n\nHistorically the religion’s capital and main place of practice has been Viodoxa City, inside of which the Hexturnal is located and this is where the faithful from all corners of the world come to celebrate their faith."
  
  #GENERIC STUFF ######################################
  isolation:0 "Isolation"
