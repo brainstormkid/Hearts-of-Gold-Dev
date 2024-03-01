@@ -511,7 +511,10 @@ VIO_Viodoxa_Library:0 "National Viodoxan Library"
 VIO_Viodoxa_Library_desc:0 "The nation requires a library in order to educate and preserve the state's history and teachings. The historical texts, books, and ancient inscriptions shall lead Viodoxa to learn from its past and grow a better future."
 VIO_EXP_Tax:0 "Experience Tax"
 VIO_EXP_Tax_desc:0 "The growth of revolutionary EXP farms in the nation has given us economic growth. However, national defense requires more experience to supplement the growing army and supplies. While this may have an affect in economic growth, it shall make our nation prepared for conflict."
- 
+VIO_Yazov_Synkletos:0 "Question of the Synkletos"
+VIO_Yazov_Synkletos_desc:0 "The Synkletos has to be reformed and come under new administration and leadership. Yazov shall take charge and bring Viodoxa to the forefront of power and strength to protect us."
+VIO_Purple_Insurrection:0 "Purple Insurrection"
+VIO_Purple_Insurrection_desc:0 ""
 
 l_english:
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
