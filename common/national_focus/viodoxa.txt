@@ -11,7 +11,7 @@ focus_tree = {
 	#Treaty of Istanboulder
 	focus = {
 		id = VIO_Treaty_of_Istanboulder
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 0
 		cost = 12
@@ -95,7 +95,7 @@ focus_tree = {
 	#Viodoxa University
 	focus = {
 		id = VIO_Viodoxa_University
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 14
 		y = 5
 		cost = 2
@@ -110,7 +110,7 @@ focus_tree = {
 	#National Armories
 	focus = {
 		id = VIO_National_Armories
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 32
 		y = 4
 		cost = 2
@@ -128,7 +128,7 @@ focus_tree = {
 	#Viodoxa Unity Monument
 	focus = {
 		id = VIO_Viodoxa_Unity_Monument
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 12
 		y = 5
 		cost = 2
@@ -143,7 +143,7 @@ focus_tree = {
 	#OPTC XP Factory
 	focus = {
 		id = VIO_OPTC_XP_Factory
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 32
 		y = 6
 		cost = 3
@@ -164,7 +164,7 @@ focus_tree = {
 	#Kamur Naval Yards
 	focus = {
 		id = VIO_Kamur_Naval_Yards
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 33
 		y = 5
 		cost = 3
@@ -185,7 +185,7 @@ focus_tree = {
 	#Lonely Light Naval Yards
 	focus = {
 		id = VIO_Lonely_Light_Naval_Yards
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 35
 		y = 5
 		cost = 3
@@ -206,7 +206,7 @@ focus_tree = {
 	#Settling Sun's Gate
 	focus = {
 		id = VIO_Settling_Sun's_Gate
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 36
 		y = 6
 		cost = 10
@@ -221,7 +221,7 @@ focus_tree = {
 	#Settling Karlpfensland
 	focus = {
 		id = VIO_Settling_Karlpfensland
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 34
 		y = 6
 		cost = 10
@@ -236,7 +236,7 @@ focus_tree = {
 	#Selling Karlpfensland
 	focus = {
 		id = VIO_Selling_Karlpfensland
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 35
 		y = 7
 		cost = 10
@@ -253,7 +253,7 @@ focus_tree = {
 	#Cracheraburg Naval Yards
 	focus = {
 		id = VIO_Cracheraburg_Naval_Yards
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 31
 		y = 5
 		cost = 3
@@ -274,7 +274,7 @@ focus_tree = {
 	#Interdam Naval Yards
 	focus = {
 		id = VIO_Interdam_Naval_Yards
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 29
 		y = 5
 		cost = 3
@@ -295,7 +295,7 @@ focus_tree = {
 	#Valen Takes power
 	focus = {
 		id = VIO_Valen_Takes_Power
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 2
 		cost = 105
@@ -310,7 +310,7 @@ focus_tree = {
 	#Viodoxan Constitution Reform
 	focus = {
 		id = VIO_Viodoxa_Constitution_Reform
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 13
 		y = 4
 		cost = 2
@@ -328,7 +328,7 @@ focus_tree = {
 	#Rule of One
 	focus = {
 		id = VIO_Rule_of_One
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 13
 		y = 7
 		cost = 2
@@ -346,7 +346,7 @@ focus_tree = {
 	#Remilitarization Act
 	focus = {
 		id = VIO_Remilitarization_Act
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 4
 		cost = 2
@@ -364,7 +364,7 @@ focus_tree = {
 	#Amnesty Act
 	focus = {
 		id = VIO_Amnesty_Act
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 21
 		y = 10
 		cost = 3
@@ -379,7 +379,7 @@ focus_tree = {
 	#Duel Citizenship Act
 	focus = {
 		id = VIO_Duel_Citizenship_Act
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 26
 		y = 6
 		cost = 2
@@ -395,7 +395,7 @@ focus_tree = {
 	#Subsidize Food
 	focus = {
 		id = VIO_Subsidize_Food
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 25
 		y = 7
 		cost = 3
@@ -410,7 +410,7 @@ focus_tree = {
 	#Civil Rights Bill
 	focus = {
 		id = VIO_Civil_Rights_Bill
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 27
 		y = 7
 		cost = 3
@@ -426,7 +426,7 @@ focus_tree = {
 	#Promote Business
 	focus = {
 		id = VIO_Promote_Business
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 29
 		y = 7
 		cost = 3
@@ -441,7 +441,7 @@ focus_tree = {
 	#Viodoxa Library
 	focus = {
 		id = VIO_Viodoxa_Library
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 23
 		y = 7
 		cost = 3
@@ -456,7 +456,7 @@ focus_tree = {
 	#Federalize Viodoxa
 	focus = {
 		id = VIO_Federalize_Viodoxa
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 7
 		cost = 2
@@ -474,7 +474,7 @@ focus_tree = {
 	#EXP Tax
 	focus = {
 		id = VIO_EXP_Tax
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 19
 		y = 5
 		cost = 2
@@ -489,7 +489,7 @@ focus_tree = {
 	#Yazov Synkletos
 	focus = {
 		id = VIO_Yazov_Synkletos
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 8
 		cost = 3
@@ -508,7 +508,7 @@ focus_tree = {
 	#Purple Insurrection
 	focus = {
 		id = VIO_Purple_Insurrection
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 9
 		cost = 45
@@ -523,7 +523,7 @@ focus_tree = {
 	#Yazov Takes Power
 	focus = {
 		id = VIO_Yazov_Takes_Power
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 19
 		y = 10
 		cost = 3
@@ -541,7 +541,7 @@ focus_tree = {
 	#Purple Insurrection Ends
 	focus = {
 		id = VIO_Purple_Insurrection_Ends
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 11
 		cost = 0
@@ -562,7 +562,7 @@ focus_tree = {
 	#Viodoxa Reforms
 	focus = {
 		id = VIO_Viodoxa_Reforms
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 12
 		cost = 3
@@ -578,7 +578,7 @@ focus_tree = {
 	#Archonate Expansion
 	focus = {
 		id = VIO_Archonate_Expansion
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 18
 		y = 13
 		cost = 3
@@ -607,7 +607,7 @@ focus_tree = {
 	#Annex Avaria
 	focus = {
 		id = VIO_Annex_Avaria
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 18
 		y = 14
 		cost = 24
@@ -626,7 +626,7 @@ focus_tree = {
 	#ed and Danzig Archons
 	focus = {
 		id = VIO_Yazov_Leaves
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 14
 		cost = 15
@@ -641,7 +641,7 @@ focus_tree = {
 	#Formation of the Third Coalition
 	focus = {
 		id = VIO_Third_Coalition_Formation
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 15
 		cost = 3
@@ -656,7 +656,7 @@ focus_tree = {
 	#Hazel and Loic Take Power
 	focus = {
 		id = VIO_Hazel_Loic_Archons
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 16
 		cost = 3
@@ -674,7 +674,7 @@ focus_tree = {
 	#Accept Guhenism
 	focus = {
 		id = VIO_Accept_Guhenism
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 21
 		y = 17
 		cost = 3
@@ -693,7 +693,7 @@ focus_tree = {
 	#Accept Soleannen
 	focus = {
 		id = VIO_Accept_Soleannen
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 19
 		y = 17
 		cost = 3
@@ -712,7 +712,7 @@ focus_tree = {
 	#War against Allium
 	focus = {
 		id = VIO_War_Against_Allium
-		#icon = GFX_SAV_andorn
+		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 19
 		cost = 33
