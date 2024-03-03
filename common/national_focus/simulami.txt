@@ -16,7 +16,9 @@ focus_tree = {
 		y = 0
 		cost = 10
 		completion_reward = {
-			
+			annex_country = { target = KRO transfer_troops = yes }
+			add_state_core = 118
+			add_state_core = 192
 		}
 	}
 	#Krobun Joins
@@ -172,7 +174,7 @@ focus_tree = {
 		y = 13
 		cost = 10
 		completion_reward = {
-			
+			country_event = { id = simulami.1 }
 		}
 	}
 	#Drako-Simulami Mining Company
