@@ -1,0 +1,39 @@
+characters={
+	VIO_valen={ 
+		name = "Valen McSpiegel"
+		portraits={
+			army={
+				#large="gfx/leaders/ULD/canine.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		#corps_commander = {
+			#traits = { politically_connected }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = valen
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = valen
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+}
