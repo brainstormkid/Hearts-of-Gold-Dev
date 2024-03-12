@@ -141,4 +141,8 @@ spriteTypes = {
 		name = "GFX_idea_guhenism_spirit"
 		texturefile = "gfx/interface/ideas/idea_guhenism_spirit.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_hazel"
+		texturefile = "gfx/interface/ideas/idea_hazel.dds"
+	}
 }

@@ -4,7 +4,7 @@ characters = {
 		portraits={
 			army={
 				large="gfx/leaders/VIO/hazel.dds"
-				#small="GFX_idea_canine"
+				small="GFX_idea_hazel"
 			}
 		}
 		corps_commander = {
