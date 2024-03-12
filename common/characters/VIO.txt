@@ -1,19 +1,19 @@
-characters={
-	VIO_valen={ 
+characters = {
+	VIO_valen={
 		name = "Valen McSpiegel"
 		portraits={
 			army={
-				#large="gfx/leaders/ULD/canine.dds"
+				large="gfx/leaders/VIO/hazel.dds"
 				#small="GFX_idea_canine"
 			}
 		}
-		#corps_commander = {
+		corps_commander = {
 			#traits = { politically_connected }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 		advisor={
 			slot = political_advisor
@@ -28,6 +28,841 @@ characters={
 		advisor={
 			slot = high_command
 			idea_token = valen
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_zelious={
+		name = "Zelious dem Spheniscidae"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zelious
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = zelious
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_loic={
+		name = "Loic dem Spheniscadae"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = loic
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = loic
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_breton={
+		name = "Breton Silvay"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = breton
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = breton
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_numis={
+		name = "Numis McSpiegel"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = numis
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = numis
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_edd={
+		name = "Edd Karlpfen"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = edd
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = edd
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_valerie={
+		name = "Valerie Hishiri"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = valerie
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = valerie
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_danzig={
+		name = "Danzig Lluvia"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = danzig
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = danzig
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_yazov={
+		name = "Yazov Yasovich"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yazov
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = yazov
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_hazel={
+		name = "Hazel McSpiegel"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = hazel
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = hazel
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_blanc={
+		name = "Blanc McSpiegel"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = blanc 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = blanc 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_kedian={
+		name = "Kedian McSpiegel"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kedian 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = kedian 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_richard={
+		name = "Richard dem Spheniscidae"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = richard 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = richard 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_patrick={
+		name = "Patrick Bolverkr"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = patrick 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = patrick 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_astronomous={
+		name = "Astronomus Porter"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = astronomous 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = astronomous 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_ibris={
+		name = "Ibris Tossovich"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ibris 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ibris 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_parper={
+		name = "Parper"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = parper 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = parper 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_riley={
+		name = "Ril'ey Cassius"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = riley 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = riley 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_paulos={
+		name = "Paulos Zevedeos"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = paulos 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = paulos 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_redacted={
+		name = "Fredrick McSpiegel"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = redacted 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = redacted 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_fredi={
+		name = "M Fredi"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = fredi 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = fredi 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	VIO_siam={
+		name = "Siam man"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = siam 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = siam 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				
+			}
+		}
+	}
+	
+	VIO_ryou={
+		name = "Ryou Bakura"
+		portraits={
+			army={
+				#large="gfx/leaders/VIO/zelious.dds"
+				#small="GFX_idea_canine"
+			}
+		}
+		corps_commander = {
+			#traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ryou 
+			allowed = {
+				original_tag = VIO
+			}
+			traits = {
+				 
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ryou 
 			allowed = {
 				original_tag = VIO
 			}
