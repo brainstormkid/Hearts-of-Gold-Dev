@@ -21,6 +21,11 @@ characters = {
 			allowed = {
 				original_tag = VIO
 			}
+			available = {
+				NOT = {
+					has_completed_focus = VIO_Purple_Insurrection
+				}
+			}
 			traits = {
 				 
 			}
@@ -30,6 +35,11 @@ characters = {
 			idea_token = valen
 			allowed = {
 				original_tag = VIO
+			}
+			available = {
+				NOT = {
+					has_completed_focus = VIO_Purple_Insurrection
+				}
 			}
 			traits = {
 				
