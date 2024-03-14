@@ -118,3 +118,9 @@ music = {
     file = "KrobunyMarchingSong.ogg"
     volume = 1.00
 }
+
+music = {
+    name = "beyond_the_sea_1_MMCT"
+    file = "beyond_the_sea_1.ogg"
+    volume = 1.00
+}
