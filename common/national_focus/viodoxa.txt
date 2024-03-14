@@ -532,9 +532,15 @@ focus_tree = {
 		cost = 3
 		prerequisite = { focus = VIO_Purple_Insurrection }
 		completion_reward = {
-			annex_country = { target = VAR transfer_troops = yes }
-			annex_country = { target = ROS transfer_troops = yes }
-			annex_country = { target = OPT transfer_troops = yes }
+			VAR = {
+				country_event = { id = viodoxa.4 }
+			}
+			ROS = {
+				country_event = { id = viodoxa.4 }
+			}
+			OPT = {
+				country_event = { id = viodoxa.4 }
+			}
 			retire_character = VIO_valen
 			retire_country_leader = yes
 			create_country_leader = {
