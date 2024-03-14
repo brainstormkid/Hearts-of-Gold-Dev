@@ -28,7 +28,10 @@ focus_tree = {
 				add_state_core = 345
 			}
 			#release = CHA
-			remove_ideas = { VIO_Recovering_from_Ferrymen_War }
+			swap_ideas = {
+				remove_idea = { VIO_Recovering_from_Ferrymen_War }
+				add_idea = { VIO_Recovering_from_Ferrymen_War_2
+			}
 			diplomatic_relation = {
 				country = AKR
 				relation = non_aggression_pact
