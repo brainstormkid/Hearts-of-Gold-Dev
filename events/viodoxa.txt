@@ -117,3 +117,20 @@ country_event = {
 		}
 	}
 }
+
+#Rejoin Viodoxa
+country_event = {
+	id = viodoxa.4	#Viodoxa Split States
+	title = "Viodoxa Requests"
+	desc = "We have been offered to rejoin the Viodoxan-based state of Adytum"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "We shall join"
+		VIO ={
+			annex_country = { target = ROOT transfer_troops = yes }
+		}
+	}
+}
