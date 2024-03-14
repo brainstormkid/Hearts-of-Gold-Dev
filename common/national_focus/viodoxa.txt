@@ -541,6 +541,12 @@ focus_tree = {
 			OPT = {
 				country_event = { id = viodoxa.4 }
 			}
+			ASY = {
+				release = SIV
+			}
+			SIV = {
+				country_event = { id = viodoxa.4 }
+			}
 			retire_character = VIO_valen
 			retire_country_leader = yes
 			create_country_leader = {
