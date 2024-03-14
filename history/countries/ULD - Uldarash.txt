@@ -97,7 +97,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Uldarash Diarchy"
+	name = "Caterina & Aurelian Aurora"
 	desc = "POLITICS_ULDARASH_DIARCHY_DESC"
 	picture = "gfx/leaders/ULD/qwaser.dds"
 	expire = "1965.1.1"

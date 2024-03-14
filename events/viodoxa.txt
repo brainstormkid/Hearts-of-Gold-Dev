@@ -18,7 +18,7 @@ country_event = {
 		create_country_leader = {
 			name = "Valen McSpiegel"
 			desc = "POLITICS_SALCHAK_TOKA_DESC"
-			picture = "gfx/leaders/VIO/hazel.dds"
+			picture = "gfx/leaders/VIO/valen.dds"
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
@@ -83,6 +83,7 @@ country_event = {
 		name = "We shall fight together!"
 		VIO = {
 			create_faction = "Third Rathnir Coalition"
+			dismantle_faction
 		}
 		ULD = {
 			country_event = { id = allium.3 }

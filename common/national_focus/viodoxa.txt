@@ -515,18 +515,6 @@ focus_tree = {
 		prerequisite = { focus = VIO_Yazov_Synkletos }
 		completion_reward = {
 			country_event = { id = viodoxa.2 }
-			retire_character = VIO_valen
-			retire_country_leader = yes
-			create_country_leader = {
-				name = "Viodoxan Diarchy"
-				desc = "POLITICS_SALCHAK_TOKA_DESC"
-				#picture = "gfx/leaders/VIO/hazel.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					#
-				}
-			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -545,6 +533,18 @@ focus_tree = {
 			annex_country = { target = TVE transfer_troops = yes }
 			annex_country = { target = ROS transfer_troops = yes }
 			annex_country = { target = OPT transfer_troops = yes }
+			retire_character = VIO_valen
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Yazov Yasovich & Numis McSpiegel"
+				desc = "POLITICS_SALCHAK_TOKA_DESC"
+				picture = "gfx/leaders/VIO/numis.dds"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {
+					#
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -581,7 +581,10 @@ focus_tree = {
 		prerequisite = { focus = VIO_Purple_Insurrection_Ends }
 		completion_reward = {
 			set_cosmetic_tag = VIO
-			annex_country = { target = ASY transfer_troops = yes }
+			hidden_effect = {
+				annex_country = { target = ASY transfer_troops = yes }
+				annex_country = { target = SIV transfer_troops = yes }
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -644,7 +647,17 @@ focus_tree = {
 		cost = 15
 		prerequisite = { focus = VIO_Viodoxa_Reforms }
 		completion_reward = {
-			
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Edd Karlpfen & Danzig Lluvia"
+				desc = "POLITICS_SALCHAK_TOKA_DESC"
+				picture = "gfx/leaders/VIO/edd.dds"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {
+					#
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -677,6 +690,17 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = VIO_Rule_of_One
 				add_idea = VIO_Archonate
+			}
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Hazel McSpiegel & Loic dem Spheniscadae"
+				desc = "POLITICS_SALCHAK_TOKA_DESC"
+				picture = "gfx/leaders/VIO/hazel.dds"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {
+					#
+				}
 			}
 		}
 		search_filters = {

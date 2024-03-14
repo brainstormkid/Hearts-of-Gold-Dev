@@ -115,7 +115,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Viodoxan Diarchy"
+	name = "Zelious dem Spheniscidae & Spike Glapsvid"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
 	picture = "gfx/leaders/VIO/spikes.dds"
 	expire = "1965.1.1"
@@ -125,9 +125,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Hazel"
+	name = "Valen McSpiegel"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/VIO/hazel.dds"
+	picture = "gfx/leaders/VIO/valen.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -136,9 +136,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hazel"
+	name = "Valen McSpiegel"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/VIO/hazel.dds"
+	picture = "gfx/leaders/VIO/valen.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
@@ -147,9 +147,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hazel"
+	name = "Valen McSpiegel"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/VIO/hazel.dds"
+	picture = "gfx/leaders/VIO/valen.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
