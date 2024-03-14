@@ -373,7 +373,7 @@ focus_tree = {
 		cost = 3
 		prerequisite = { focus = VIO_Purple_Insurrection }
 		completion_reward = {
-			annex_country = { target = SHA transfer_troops = yes }
+			remove_ideas = {  }
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -545,6 +545,9 @@ focus_tree = {
 				release = SIV
 			}
 			SIV = {
+				country_event = { id = viodoxa.4 }
+			}
+			SHA = {
 				country_event = { id = viodoxa.4 }
 			}
 			retire_character = VIO_valen
