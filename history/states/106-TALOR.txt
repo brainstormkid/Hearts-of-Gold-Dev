@@ -1,6 +1,6 @@
 state={
 	id=106
-	name="Calor"
+	name="Talor"
 	state_category = rural
       resources = {
 	    oil = 3
