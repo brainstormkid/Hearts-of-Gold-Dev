@@ -160,7 +160,7 @@ characters = {
 		name = "Numis McSpiegel"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
+				large="gfx/leaders/VIO/numis.dds"
 				#small="GFX_idea_canine"
 			}
 		}
@@ -198,7 +198,7 @@ characters = {
 		name = "Edd Karlpfen"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
+				large="gfx/leaders/VIO/edd.dds"
 				#small="GFX_idea_canine"
 			}
 		}
