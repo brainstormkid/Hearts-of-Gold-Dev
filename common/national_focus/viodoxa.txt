@@ -530,7 +530,6 @@ focus_tree = {
 		prerequisite = { focus = VIO_Purple_Insurrection }
 		completion_reward = {
 			annex_country = { target = VAR transfer_troops = yes }
-			annex_country = { target = TVE transfer_troops = yes }
 			annex_country = { target = ROS transfer_troops = yes }
 			annex_country = { target = OPT transfer_troops = yes }
 			retire_character = VIO_valen
