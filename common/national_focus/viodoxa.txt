@@ -30,7 +30,7 @@ focus_tree = {
 			#release = CHA
 			swap_ideas = {
 				remove_idea = { VIO_Recovering_from_Ferrymen_War }
-				add_idea = { VIO_Recovering_from_Ferrymen_War_2
+				add_idea = { VIO_Recovering_from_Ferrymen_War_2 }
 			}
 			diplomatic_relation = {
 				country = AKR
@@ -175,7 +175,7 @@ focus_tree = {
 		completion_reward = {
 			425 = {
 				add_building_construction = {
-					type = arms_factory
+					type = dockyard
 					level = 2
 					instant_build = yes
 				}
@@ -210,10 +210,10 @@ focus_tree = {
 	focus = {
 		id = VIO_Settling_Sun's_Gate
 		icon = GFX_VIO_viodoxa
-		x = 36
-		y = 6
+		x = 22
+		y = 17
 		cost = 10
-		prerequisite = { focus = VIO_Lonely_Light_Naval_Yards }
+		prerequisite = { focus = VIO_Hazel_Loic_Archons }
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 3 }
 		}
@@ -225,7 +225,7 @@ focus_tree = {
 	focus = {
 		id = VIO_Settling_Karlpfensland
 		icon = GFX_VIO_viodoxa
-		x = 34
+		x = 35
 		y = 6
 		cost = 10
 		prerequisite = { focus = VIO_Lonely_Light_Naval_Yards }
@@ -243,7 +243,6 @@ focus_tree = {
 		x = 35
 		y = 7
 		cost = 10
-		prerequisite = { focus = VIO_Settling_Sun's_Gate }
 		prerequisite = { focus = VIO_Settling_Karlpfensland }
 		completion_reward = {
 			add_research_slot = 1
@@ -368,7 +367,7 @@ focus_tree = {
 	focus = {
 		id = VIO_Amnesty_Act
 		icon = GFX_VIO_viodoxa
-		x = 21
+		x = 23
 		y = 10
 		cost = 3
 		prerequisite = { focus = VIO_Purple_Insurrection }
@@ -527,7 +526,7 @@ focus_tree = {
 	focus = {
 		id = VIO_Yazov_Takes_Power
 		icon = GFX_VIO_viodoxa
-		x = 19
+		x = 17
 		y = 10
 		cost = 3
 		prerequisite = { focus = VIO_Purple_Insurrection }
@@ -567,12 +566,117 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
+	#Viodoxan Development
+	focus = {
+		id = VIO_Development
+		icon = GFX_VIO_viodoxa
+		x = 11
+		y = 12
+		cost = 3
+		prerequisite = { focus = VIO_Yazov_Takes_Power }
+		completion_reward = {
+			add_political_power = 100
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Shaloma Development
+	focus = {
+		id = VIO_Develop_Shaloma
+		icon = GFX_VIO_viodoxa
+		x = 12
+		y = 13
+		cost = 3
+		prerequisite = { focus = VIO_Development }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Adytum Development
+	focus = {
+		id = VIO_Develop_Adytum
+		icon = GFX_VIO_viodoxa
+		x = 14
+		y = 13
+		cost = 3
+		prerequisite = { focus = VIO_Development }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Valron Development
+	focus = {
+		id = VIO_Develop_Valron
+		icon = GFX_VIO_viodoxa
+		x = 10
+		y = 13
+		cost = 3
+		prerequisite = { focus = VIO_Development }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Silvay Development
+	focus = {
+		id = VIO_Develop_Silvay
+		icon = GFX_VIO_viodoxa
+		x = 8
+		y = 13
+		cost = 3
+		prerequisite = { focus = VIO_Development }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Augmentum Terra Development
+	focus = {
+		id = VIO_Develop_Augmentum_Terra
+		icon = GFX_VIO_viodoxa
+		x = 9
+		y = 14
+		cost = 3
+		prerequisite = { focus = VIO_Development }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#OPTC Development
+	focus = {
+		id = VIO_Develop_OPTC
+		icon = GFX_VIO_viodoxa
+		x = 13
+		y = 14
+		cost = 3
+		prerequisite = { focus = VIO_Development }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
 	#Purple Insurrection Ends
 	focus = {
 		id = VIO_Purple_Insurrection_Ends
 		icon = GFX_VIO_viodoxa
-		x = 20
-		y = 11
+		x = 18
+		y = 12
 		cost = 0
 		bypass = { 
 			NOT = {
@@ -592,8 +696,8 @@ focus_tree = {
 	focus = {
 		id = VIO_Viodoxa_Reforms
 		icon = GFX_VIO_viodoxa
-		x = 20
-		y = 12
+		x = 18
+		y = 13
 		cost = 3
 		prerequisite = { focus = VIO_Purple_Insurrection_Ends }
 		completion_reward = {
@@ -611,10 +715,10 @@ focus_tree = {
 	focus = {
 		id = VIO_Archonate_Expansion
 		icon = GFX_VIO_viodoxa
-		x = 18
-		y = 13
+		x = 22
+		y = 12
 		cost = 3
-		prerequisite = { focus = VIO_Viodoxa_Reforms }
+		prerequisite = { focus = VIO_Amnesty_Act }
 		completion_reward = {
 			annex_country = { target = UBS transfer_troops = yes }
 			puppet = AVR
@@ -640,8 +744,8 @@ focus_tree = {
 	focus = {
 		id = VIO_Annex_Avaria
 		icon = GFX_VIO_viodoxa
-		x = 18
-		y = 14
+		x = 22
+		y = 13
 		cost = 24
 		prerequisite = { focus = VIO_Archonate_Expansion }
 		completion_reward = {
@@ -729,7 +833,7 @@ focus_tree = {
 		id = VIO_Accept_Guhenism
 		icon = GFX_VIO_viodoxa
 		x = 21
-		y = 17
+		y = 18
 		cost = 3
 		prerequisite = { focus = VIO_Hazel_Loic_Archons }
 		mutually_exclusive = { focus = VIO_Accept_Soleannen }
@@ -748,7 +852,7 @@ focus_tree = {
 		id = VIO_Accept_Soleannen
 		icon = GFX_VIO_viodoxa
 		x = 19
-		y = 17
+		y = 18
 		cost = 3
 		prerequisite = { focus = VIO_Hazel_Loic_Archons }
 		mutually_exclusive = { focus = VIO_Accept_Guhenism }
@@ -757,6 +861,21 @@ focus_tree = {
 				remove_idea = Secular_Religion
 				add_idea = Soleannen_Religion
 			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Reformation of Sykletos
+	focus = {
+		id = VIO_Reformation_Sykletos
+		icon = GFX_VIO_viodoxa
+		x = 29
+		y = 12
+		cost = 33
+		prerequisite = { focus = VIO_Amnesty_Act }
+		completion_reward = {
+			
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL

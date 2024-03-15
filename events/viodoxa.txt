@@ -82,8 +82,8 @@ country_event = {
 	option = {
 		name = "We shall fight together!"
 		VIO = {
+			dismantle_faction = yes
 			create_faction = "Third Rathnir Coalition"
-			dismantle_faction
 		}
 		ULD = {
 			country_event = { id = allium.3 }
@@ -100,17 +100,11 @@ country_event = {
 		COB = {
 			country_event = { id = allium.3 }
 		}
-		VIO = {
-			puppet = UBS
-		}
 		VRA = {
 			country_event = { id = allium.3 }
 		}
 		ALI = {
 			country_event = { id = allium.3 }
-		}
-		UBS = {
-			set_ruling_party = communism
 		}
 		DEU = {
 			country_event = { id = allium.3 }
@@ -129,7 +123,7 @@ country_event = {
 
 	option = {
 		name = "We shall join"
-		VIO ={
+		VIO = {
 			annex_country = { target = ROOT transfer_troops = yes }
 		}
 	}
