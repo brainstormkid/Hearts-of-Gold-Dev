@@ -89,6 +89,9 @@
  SHA_communism:1 "Peoples Republic of Shaloma"
  SHA_communism_DEF:1 "the Peoples Republic of Shaloma"
  SHA_communism_ADJ:0 "Shalomian"
+ VJU:1 "Viodoxan Junta"
+ ADY_DEF:1 "the Viodoxan Junta"
+ ADY_ADJ:0 "Viodoxan"
  
  ROS_neutrality:1 "Rose"
  ROS_neutrality_DEF:1 "the City of Rose"

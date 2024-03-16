@@ -51,13 +51,13 @@ country_event = {
 country_event = {
 	id = viodoxa.2	#Purple Insurrection
 	title = "Purple Insurrection"
-	desc = "Placeholder"
+	desc = viodoxa.2.d
 	picture = GFX_report_event_finnish_soldiers_snow
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "Greatest Viodoxan Psyop"
+		name = "My time has come"
 		set_cosmetic_tag = ADY
 		release = ROS
 		release = SIV
@@ -68,6 +68,41 @@ country_event = {
 		release = ASY
 		ai_chance = {
 			factor = 1
+		}
+	}
+	option = {
+		name = "This Rebellion shall be stomped"
+		SHA = {
+			set_cosmetic_tag = VJU
+		}
+		release = SHA
+		release = ASY
+		release = VAR
+		release = ROS
+		release = SIV
+		SHA = {
+			create_faction = "Loic BFFs"
+			add_to_faction = SHA
+			add_to_faction = TOR
+			declare_war_on = { target = VIO type = annex_everything target = VIO }
+		}
+		hidden_effect = {
+			SHA = {
+				release = VAR
+				annex_country = { target = VAR transfer_troops = yes }
+			}
+			country_event = { id = viodoxa.5 }
+			leave_faction = yes
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = "We must yield"
+		
+		ai_chance = {
+			factor = 0
 		}
 	}
 }
@@ -126,5 +161,22 @@ country_event = {
 		VIO = {
 			annex_country = { target = ROOT transfer_troops = yes }
 		}
+	}
+}
+#Choose Loic or Valen
+country_event = {
+	id = viodoxa.5	#Choose Loic or Valen
+	title = "Choose a Side"
+	desc = "With all out civil war between Viodoxa and the Viodxan Junta, should we stand with Loic or with Valen?"
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "McSpiegels shall endure"
+	}
+	option = {
+		name = "Loic shall rule Viodoxa"
+		SHA = { change_tag_from = VIO }
 	}
 }
