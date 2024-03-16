@@ -90,6 +90,17 @@ country_event = {
 			SHA = {
 				release = VAR
 				annex_country = { target = VAR transfer_troops = yes }
+				retire_country_leader = yes
+				create_country_leader = {
+					name = "Loic dem Spheniscidae"
+					desc = "POLITICS_SALCHAK_TOKA_DESC"
+					picture = "gfx/leaders/VIO/loic.dds"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+					#
+					}
+				}
 			}
 			country_event = { id = viodoxa.5 }
 			leave_faction = yes

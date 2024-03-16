@@ -28,6 +28,12 @@ state={
 		victory_points = {
 			2649 50
 		}
+		victory_points = {
+			3151 10
+		}
+		victory_points = {
+			4398 20
+		}
 		add_core_of = VIO
 	}
 	manpower=9750000
