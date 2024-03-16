@@ -32,7 +32,7 @@ state={
 			3151 10
 		}
 		victory_points = {
-			4398 20
+			880 20
 		}
 		add_core_of = VIO
 	}
