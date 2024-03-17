@@ -66,6 +66,12 @@ country_event = {
 		release = TVE
 		release = OPT
 		release = ASY
+		release = LEY
+		hidden_effect = {
+			LEY = {
+				set_cosmetic_tag = LEY_UKWS
+			}
+		}
 		ai_chance = {
 			factor = 1
 		}
@@ -80,6 +86,7 @@ country_event = {
 		release = VAR
 		release = ROS
 		release = SIV
+		release = LEY
 		SHA = {
 			create_faction = "Loic BFFs"
 			add_to_faction = SHA
@@ -101,6 +108,9 @@ country_event = {
 					#
 					}
 				}
+			}
+			LEY = {
+				set_cosmetic_tag = LEY_UKWS
 			}
 			country_event = { id = viodoxa.5 }
 			leave_faction = yes

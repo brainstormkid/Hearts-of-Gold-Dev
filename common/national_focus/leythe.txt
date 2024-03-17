@@ -375,6 +375,7 @@ focus_tree = {
 		y = 8
 		cost = 3
 		completion_reward = {
+			set_cosmetic_tag = LEY
 			VIO = {
 				transfer_state = 362
 				transfer_state = 359
@@ -390,28 +391,19 @@ focus_tree = {
 		}
 	}
 	
-	#Release Noctum
-	focus = {
-		id = LEY_Join_UKWS
-		#icon = GFX_SAV_andorn
-		#allow_branch = { has_completed_focus = LEY_UKWS_Collapse }
-		x = 6
-		y = 0
-		cost = 54
-		completion_reward = {
-			
-		}
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-	}
 	#Union of Free Kingdoms
 	focus = {
 		prerequisite = { focus = LEY_Join_UKWS }
 		id = LEY_Union_of_Free_Kingdoms
 		#icon = GFX_SAV_andorn
-		x = 6
-		y = 1
+		allow_branch = { has_completed_focus = LEY_UKWS_Collapse }
+		allow_branch = { 
+			VIO = {
+				has_completed_focus = VIO_Purple_Insurrection 
+			}
+		}
+		x = 30
+		y = 0
 		cost = 12
 		completion_reward = {
 			
@@ -425,8 +417,8 @@ focus_tree = {
 		prerequisite = { focus = LEY_Union_of_Free_Kingdoms }
 		id = LEY_Annex_Serafini
 		#icon = GFX_SAV_andorn
-		x = 6
-		y = 2
+		x = 30
+		y = 1
 		cost = 33
 		completion_reward = {
 			
@@ -440,8 +432,8 @@ focus_tree = {
 		prerequisite = { focus = LEY_Annex_Serafini }
 		id = LEY_Join_Allium
 		#icon = GFX_SAV_andorn
-		x = 6
-		y = 3
+		x = 30
+		y = 2
 		cost = 3
 		completion_reward = {
 			
