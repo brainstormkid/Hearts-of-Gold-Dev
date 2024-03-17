@@ -11,7 +11,7 @@ focus_tree = {
 	#Treaty of Istanboulder
 	focus = {
 		id = VIO_Treaty_of_Istanboulder
-		icon = GFX_VIO_viodoxa
+		icon = GFX_VIO_treaty_of_istanboulder
 		x = 20
 		y = 0
 		cost = 12
@@ -131,7 +131,7 @@ focus_tree = {
 	#Viodoxa Unity Monument
 	focus = {
 		id = VIO_Viodoxa_Unity_Monument
-		icon = GFX_VIO_viodoxa
+		icon = GFX_VIO_Viodoxan_Unity_Monument
 		x = 12
 		y = 5
 		cost = 2
@@ -312,7 +312,7 @@ focus_tree = {
 	#Viodoxan Constitution Reform
 	focus = {
 		id = VIO_Viodoxa_Constitution_Reform
-		icon = GFX_VIO_viodoxa
+		icon = GFX_VIO_viodoxan_con._reform
 		x = 13
 		y = 4
 		cost = 2
@@ -397,7 +397,7 @@ focus_tree = {
 	#Subsidize Food
 	focus = {
 		id = VIO_Subsidize_Food
-		icon = GFX_VIO_viodoxa
+		icon = GFX_VIO_food_subsidises
 		x = 25
 		y = 7
 		cost = 3
@@ -412,7 +412,7 @@ focus_tree = {
 	#Civil Rights Bill
 	focus = {
 		id = VIO_Civil_Rights_Bill
-		icon = GFX_VIO_viodoxa
+		icon = GFX_VIO_Civil_rights_bill
 		x = 27
 		y = 7
 		cost = 3
@@ -428,7 +428,7 @@ focus_tree = {
 	#Promote Business
 	focus = {
 		id = VIO_Promote_Business
-		icon = GFX_VIO_viodoxa
+		icon = GFX_VIO_promote_businesses
 		x = 29
 		y = 7
 		cost = 3
@@ -443,7 +443,7 @@ focus_tree = {
 	#Viodoxa Library
 	focus = {
 		id = VIO_Viodoxa_Library
-		icon = GFX_VIO_viodoxa
+		icon = GFX_VIO_National_Viodoxan_Library
 		x = 23
 		y = 7
 		cost = 3
@@ -510,7 +510,7 @@ focus_tree = {
 	#Purple Insurrection
 	focus = {
 		id = VIO_Purple_Insurrection
-		icon = GFX_VIO_viodoxa
+		icon = GFX_VIO_Loic
 		x = 20
 		y = 9
 		cost = 45
@@ -714,7 +714,7 @@ focus_tree = {
 	#Archonate Expansion
 	focus = {
 		id = VIO_Archonate_Expansion
-		icon = GFX_VIO_viodoxa
+		icon = GFX_VIO_Expansion_of_Archonate
 		x = 22
 		y = 12
 		cost = 3
