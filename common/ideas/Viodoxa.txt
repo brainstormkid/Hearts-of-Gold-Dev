@@ -14,7 +14,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				consumer_goods_factor = 0.15
@@ -33,7 +33,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				consumer_goods_factor = 0.10
@@ -53,7 +53,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				research_speed_factor = 0.05
@@ -73,7 +73,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				stability_factor = 0.05
@@ -93,7 +93,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.05
@@ -113,7 +113,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				war_stability_factor = 0.05
@@ -134,7 +134,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				stability_factor = 0.05
@@ -155,7 +155,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -175,7 +175,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				stability_factor = -0.05
@@ -195,7 +195,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				production_factory_efficiency_gain_factor = -0.5
@@ -214,7 +214,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				army_defence_factor = 0.05
@@ -237,7 +237,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				army_org_factor = -0.1
@@ -257,7 +257,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				army_defence_factor = 0.025
@@ -280,7 +280,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -303,7 +303,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				stability_factor = 0.05
@@ -323,7 +323,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -343,7 +343,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				production_speed_buildings_factor = 0.05
@@ -363,7 +363,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -383,7 +383,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				army_org_factor = -0.05
@@ -403,7 +403,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				army_org_factor = 0.025
@@ -423,7 +423,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				production_speed_buildings_factor = 0.1
@@ -443,7 +443,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				consumer_goods_factor = -0.15
@@ -462,7 +462,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = uldarash_spirit
+			picture = viodoxa_spirit
 			
 			modifier = {
 				consumer_goods_factor = -0.20

@@ -41,8 +41,6 @@ recruit_character = VIO_riley
 recruit_character = VIO_paulos
 recruit_character = VIO_redacted
 recruit_character = VIO_fredi
-recruit_character = VIO_siam
-recruit_character = VIO_ryou
 recruit_character = VIO_hazel
 
 create_faction = "Southern Rathnir Defense Accords"
