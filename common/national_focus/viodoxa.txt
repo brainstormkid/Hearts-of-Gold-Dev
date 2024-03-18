@@ -720,7 +720,6 @@ focus_tree = {
 		prerequisite = { focus = VIO_Purple_Insurrection_Ends }
 		completion_reward = {
 			set_cosmetic_tag = VIO
-			recruit_character = VIO_borakan
 			recruit_character = VIO_danzig
 			recruit_character = VIO_hazel
 			recruit_character = VIO_redacted

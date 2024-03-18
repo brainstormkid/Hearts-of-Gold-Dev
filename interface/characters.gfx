@@ -149,4 +149,20 @@ spriteTypes = {
 		name = "GFX_idea_viodoxa_spirit"
 		texturefile = "gfx/interface/ideas/idea_viodoxa_spirit.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_loic"
+		texturefile = "gfx/interface/ideas/idea_loic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_numis"
+		texturefile = "gfx/interface/ideas/idea_numis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_valerie"
+		texturefile = "gfx/interface/ideas/idea_valerie.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_blanc"
+		texturefile = "gfx/interface/ideas/idea_blanc.dds"
+	}
 }

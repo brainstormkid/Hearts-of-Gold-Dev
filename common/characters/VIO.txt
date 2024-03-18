@@ -84,8 +84,8 @@ characters = {
 		name = "Loic dem Spheniscadae"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/loic.dds"
+				small="GFX_idea_loic"
 			}
 		}
 		corps_commander = {
@@ -161,7 +161,7 @@ characters = {
 		portraits={
 			army={
 				large="gfx/leaders/VIO/numis.dds"
-				#small="GFX_idea_canine"
+				small="GFX_idea_numis"
 			}
 		}
 		corps_commander = {
@@ -236,8 +236,8 @@ characters = {
 		name = "Valerie Hirishy"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/valerie.dds"
+				small="GFX_idea_valerie"
 			}
 		}
 		corps_commander = {
@@ -388,8 +388,8 @@ characters = {
 		name = "Blanc McSpiegel"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/blanc.dds"
+				small="GFX_idea_blanc"
 			}
 		}
 		corps_commander = {

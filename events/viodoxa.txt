@@ -68,10 +68,22 @@ country_event = {
 		release = ASY
 		release = LEY
 		retire_character = VIO_patrick
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Yazov Yasovich"
+			desc = "POLITICS_SALCHAK_TOKA_DESC"
+			#picture = "gfx/leaders/VIO/loic.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				#
+			}
+		}
 		hidden_effect = {
 			LEY = {
 				set_cosmetic_tag = LEY_UKWS
 			}
+			retire_character = VIO_valen
 		}
 		ai_chance = {
 			factor = 1
