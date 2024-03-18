@@ -386,7 +386,7 @@ focus_tree = {
 	#Duel Citizenship Act
 	focus = {
 		id = VIO_Duel_Citizenship_Act
-		icon = GFX_VIO_viodoxa
+		icon = GFX_VIO_Duel_Citizenship_Act
 		x = 26
 		y = 6
 		cost = 2
