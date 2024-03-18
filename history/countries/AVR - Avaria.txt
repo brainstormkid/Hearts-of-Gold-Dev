@@ -22,6 +22,8 @@ set_technology = {
 	basic_train = 1
 }
 
+recruit_character = VIO_blanc
+
 add_ideas = {
 	volunteer_only
 }

@@ -176,7 +176,7 @@ characters = {
 			slot = political_advisor
 			idea_token = numis
 			allowed = {
-				OR = { original_tag = VIO original_tag = SHA }
+				OR = { original_tag = VIO original_tag = SHA original_tag = ARL }
 			}
 			traits = {
 				 
@@ -186,7 +186,7 @@ characters = {
 			slot = high_command
 			idea_token = numis
 			allowed = {
-				OR = { original_tag = VIO original_tag = SHA }
+				OR = { original_tag = VIO original_tag = SHA original_tag = ARL }
 			}
 			traits = {
 				
@@ -328,7 +328,7 @@ characters = {
 			slot = political_advisor
 			idea_token = yazov
 			allowed = {
-				original_tag = VIO
+				OR = { original_tag = VIO original_tag = BAR }
 			}
 			traits = {
 				 
@@ -338,7 +338,7 @@ characters = {
 			slot = high_command
 			idea_token = yazov
 			allowed = {
-				original_tag = VIO
+				OR = { original_tag = VIO original_tag = BAR }
 			}
 			traits = {
 				
@@ -404,7 +404,7 @@ characters = {
 			slot = political_advisor
 			idea_token = blanc 
 			allowed = {
-				original_tag = VIO
+				OR = { original_tag = VIO original_tag = AVR }
 			}
 			traits = {
 				 
@@ -414,7 +414,7 @@ characters = {
 			slot = high_command
 			idea_token = blanc 
 			allowed = {
-				original_tag = VIO
+				OR = { original_tag = VIO original_tag = AVR }
 			}
 			traits = {
 				

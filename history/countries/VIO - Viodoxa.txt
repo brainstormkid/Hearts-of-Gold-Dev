@@ -29,17 +29,13 @@ recruit_character = VIO_breton
 recruit_character = VIO_numis
 recruit_character = VIO_edd
 recruit_character = VIO_valerie
-recruit_character = VIO_danzig
 recruit_character = VIO_yazov
-recruit_character = VIO_blanc
 recruit_character = VIO_richard
 recruit_character = VIO_patrick
 recruit_character = VIO_astronomous
 recruit_character = VIO_riley
 recruit_character = VIO_paulos
-recruit_character = VIO_redacted
 recruit_character = VIO_fredi
-recruit_character = VIO_hazel
 
 create_faction = "Southern Rathnir Defense Accords"
 add_to_faction = VIO

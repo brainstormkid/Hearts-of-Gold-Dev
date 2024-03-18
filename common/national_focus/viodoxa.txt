@@ -721,6 +721,9 @@ focus_tree = {
 		completion_reward = {
 			set_cosmetic_tag = VIO
 			recruit_character = VIO_borakan
+			recruit_character = VIO_danzig
+			recruit_character = VIO_hazel
+			recruit_character = VIO_redacted
 			hidden_effect = {
 				annex_country = { target = ASY transfer_troops = yes }
 				annex_country = { target = SIV transfer_troops = yes }
@@ -773,6 +776,13 @@ focus_tree = {
 			add_state_core = 344
 			add_state_core = 347
 			add_state_core = 349
+			every_possible_country = {
+				limit = { has_character = VIO_blanc }
+				random_character = {
+					limit = { is_character = VIO_blanc }
+					set_nationality = VIO
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -796,6 +806,20 @@ focus_tree = {
 				ideology = despotism
 				traits = {
 					#
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = VIO_yazov }
+				random_character = {
+					limit = { is_character = VIO_yazov }
+					set_nationality = BAR
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = VIO_numis }
+				random_character = {
+					limit = { is_character = VIO_numis }
+					set_nationality = ARL
 				}
 			}
 		}
