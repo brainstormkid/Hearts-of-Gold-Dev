@@ -4,7 +4,7 @@ characters = {
 		portraits={
 			army={
 				large="gfx/leaders/VIO/valen.dds"
-				#small="GFX_idea_hazel"
+				small="GFX_idea_valen"
 			}
 		}
 		corps_commander = {
@@ -540,8 +540,8 @@ characters = {
 		name = "Astronomus Porter"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/astronomous.dds"
+				small="GFX_idea_astronomous"
 			}
 		}
 		corps_commander = {

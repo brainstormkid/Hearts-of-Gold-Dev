@@ -165,4 +165,12 @@ spriteTypes = {
 		name = "GFX_idea_blanc"
 		texturefile = "gfx/interface/ideas/idea_blanc.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_valen"
+		texturefile = "gfx/interface/ideas/idea_valen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_astronomous"
+		texturefile = "gfx/interface/ideas/idea_astronomous.dds"
+	}
 }
