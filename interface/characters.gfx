@@ -177,4 +177,12 @@ spriteTypes = {
 		name = "GFX_idea_paulos"
 		texturefile = "gfx/interface/ideas/idea_paulos.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_borakan"
+		texturefile = "gfx/interface/ideas/idea_borakan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yaykei"
+		texturefile = "gfx/interface/ideas/idea_yaykei.dds"
+	}
 }

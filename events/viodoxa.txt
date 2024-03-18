@@ -129,6 +129,7 @@ country_event = {
 			hidden_effect = {
 				recruit_character = VIO_Yaykei
 				recruit_character = VIO_borakan
+				recruit_character = VIO_Klausen
 			}
 		}
 		hidden_effect = {

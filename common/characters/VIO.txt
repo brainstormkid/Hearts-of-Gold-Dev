@@ -729,8 +729,8 @@ characters = {
 		name = "Borakan dem Spheniscidae"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/borakan.dds"
+				small="GFX_idea_borakan"
 			}
 		}
 		corps_commander = {
@@ -803,8 +803,8 @@ characters = {
 		name = "Yaykei"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/yaykei.dds"
+				small="GFX_idea_yaykei"
 			}
 		}
 		corps_commander = {
