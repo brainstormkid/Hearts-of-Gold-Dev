@@ -14,7 +14,7 @@ state={
 		3031 4166 
 	}
 	history={
-		owner = THI
+		owner = REY
 		victory_points = {
 			4166 5 #Lardburg, why tf is this a state?
 		}
@@ -28,6 +28,7 @@ state={
 			}
 		}
 		add_core_of = THI
+		add_core_of = REY
 	}
 	manpower=387906
 	buildings_max_level_factor=1.000

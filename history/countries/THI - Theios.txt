@@ -26,6 +26,8 @@ add_ideas = {
 	volunteer_only
 }
 
+puppet = REY
+
 set_convoys = 75
 
 set_politics = {
