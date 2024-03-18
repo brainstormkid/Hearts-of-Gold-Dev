@@ -616,8 +616,8 @@ characters = {
 		name = "Paulos Zevedeos"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/paulos.dds"
+				small="GFX_idea_paulos"
 			}
 		}
 		corps_commander = {

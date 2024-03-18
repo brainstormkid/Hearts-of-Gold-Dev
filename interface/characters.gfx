@@ -173,4 +173,8 @@ spriteTypes = {
 		name = "GFX_idea_astronomous"
 		texturefile = "gfx/interface/ideas/idea_astronomous.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_paulos"
+		texturefile = "gfx/interface/ideas/idea_paulos.dds"
+	}
 }
