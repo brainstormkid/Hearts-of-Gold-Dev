@@ -186,7 +186,7 @@ characters = {
 			slot = high_command
 			idea_token = numis
 			allowed = {
-				OR = { original_tag = VIO original_tag = SHA original_tag = ARL }
+				OR = { original_tag = VIO original_tag = SHA }
 			}
 			traits = {
 				

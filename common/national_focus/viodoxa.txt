@@ -815,13 +815,7 @@ focus_tree = {
 					set_nationality = BAR
 				}
 			}
-			every_possible_country = {
-				limit = { has_character = VIO_numis }
-				random_character = {
-					limit = { is_character = VIO_numis }
-					set_nationality = ARL
-				}
-			}
+			retire_character = VIO_numis
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
