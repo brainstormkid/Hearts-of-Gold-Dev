@@ -297,7 +297,7 @@ focus_tree = {
 	#Valen Takes power
 	focus = {
 		id = VIO_Valen_Takes_Power
-		icon = GFX_VIO_viodoxa
+		icon = GFX_VIO_Question_of_Viodoxa
 		x = 20
 		y = 2
 		cost = 105

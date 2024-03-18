@@ -43,7 +43,9 @@ bookmarks = {
 				VIO_Centralized
 			}
 			focuses = {
-				
+				VIO_Treaty_of_Istanboulder
+				VIO_Purple_Insurrection
+				VIO_Valen_Takes_Power
 			}
 		}
 		
