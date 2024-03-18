@@ -29,8 +29,8 @@ focus_tree = {
 			}
 			#release = CHA
 			swap_ideas = {
-				remove_idea = { VIO_Recovering_from_Ferrymen_War }
-				add_idea = { VIO_Recovering_from_Ferrymen_War_2 }
+				remove_idea = VIO_Recovering_from_Ferrymen_War
+				add_idea = VIO_Recovering_from_Ferrymen_War_2
 			}
 			diplomatic_relation = {
 				country = AKR
@@ -377,7 +377,10 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			remove_ideas = {  }
+			swap_ideas = {
+				remove_idea = VIO_Recovering_from_Ferrymen_War_2
+				add_idea = VIO_United
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -688,9 +691,14 @@ focus_tree = {
 		x = 18
 		y = 12
 		cost = 0
+		available = {
+			NOT = {
+				country_exists = ASY
+			}
+		}
 		bypass = { 
 			NOT = {
-				has_war = yes
+				country_exists = ASY
 			}
 		}
 		prerequisite = { focus = VIO_Yazov_Takes_Power }
@@ -712,6 +720,7 @@ focus_tree = {
 		prerequisite = { focus = VIO_Purple_Insurrection_Ends }
 		completion_reward = {
 			set_cosmetic_tag = VIO
+			recruit_character = VIO_borakan
 			hidden_effect = {
 				annex_country = { target = ASY transfer_troops = yes }
 				annex_country = { target = SIV transfer_troops = yes }

@@ -67,6 +67,7 @@ country_event = {
 		release = OPT
 		release = ASY
 		release = LEY
+		retire_character = VIO_patrick
 		hidden_effect = {
 			LEY = {
 				set_cosmetic_tag = LEY_UKWS
@@ -92,6 +93,31 @@ country_event = {
 			add_to_faction = SHA
 			add_to_faction = TOR
 			declare_war_on = { target = VIO type = annex_everything target = VIO }
+			every_possible_country = {
+				limit = { has_character = VIO_patrick }
+				random_character = {
+					limit = { is_character = VIO_patrick }
+					set_nationality = SHA
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = VIO_numis }
+				random_character = {
+					limit = { is_character = VIO_numis }
+					set_nationality = SHA
+				}
+			}
+			every_possible_country = {
+				limit = { has_character = VIO_richard }
+				random_character = {
+					limit = { is_character = VIO_richard }
+					set_nationality = SHA
+				}
+			}
+			hidden_effect = {
+				recruit_character = VIO_Yaykei
+				recruit_character = VIO_borakan
+			}
 		}
 		hidden_effect = {
 			SHA = {
@@ -199,5 +225,29 @@ country_event = {
 	option = {
 		name = "Loic shall rule Viodoxa"
 		SHA = { change_tag_from = VIO }
+	}
+}
+#Tortuga Viodoxa Alliance
+country_event = {
+	id = viodoxa.6	#Tortuga Viodoxa Alliance
+	title = "Viodoxa attempts Reapproachment"
+	desc = "The conclusion of the Purple Insurrection has stretched our relations with Viodoxa and Tortuga. They are now attempting to settle our relations into a fruitious political alliance that will benefit all."
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "We shall accept Reapproachment"
+		VIO = {give_guarantee = TOR}
+		TOR = {give_guarantee = VIO}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "Piss off"
+		ai_chance = {
+			factor = 0
+		}
 	}
 }
