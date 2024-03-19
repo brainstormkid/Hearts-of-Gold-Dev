@@ -858,6 +858,9 @@
  NIE_communism:1 "United Niedean Socialist Republics"
  NIE_communism_DEF:1 "the United Niedean Socialist Republics"
  NIE_communism_ADJ:0 "UNSR"
+ ESH:1 "Soleannen Empire"
+ ESH_DEF:1 "the Soleannen Empire"
+ ESH_ADJ:0 "Soleannen"
 
  AGN_neutrality:1 "Agnarian"
  AGN_neutrality_DEF:1 "Agnarian"
