@@ -371,3 +371,13 @@ form_vir_category = {
 		}
 	}
 }
+form_soleannen_category = {
+
+	icon = generic_formable_nations
+	
+	allowed = {
+		OR = {
+			original_tag = NIE
+		}
+	}
+}

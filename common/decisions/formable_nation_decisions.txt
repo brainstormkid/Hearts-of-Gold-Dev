@@ -1168,6 +1168,12 @@ form_soleannen_category = {
 			controls_state = 101
 			controls_state = 103
 			controls_state = 102
+			controls_state = 94
+			controls_state = 104
+			controls_state = 95
+			controls_state = 93
+			controls_state = 100
+			controls_state = 99
 			#Azuria
 			controls_state = 326
 			controls_state = 323
@@ -1179,42 +1185,70 @@ form_soleannen_category = {
 		
 
 		complete_effect = {
-			# Viodoxa
+			#Nieden
 			hidden_effect = {
-				427 = { add_core_of = ROOT }
-				300 = { add_core_of = ROOT }
-				301 = { add_core_of = ROOT }
-				303 = { add_core_of = ROOT }
-				299 = { add_core_of = ROOT }
-				320 = { add_core_of = ROOT }
-				302 = { add_core_of = ROOT }
-				304 = { add_core_of = ROOT }
-				312 = { add_core_of = ROOT }
-				310 = { add_core_of = ROOT }
-				308 = { add_core_of = ROOT }
-				313 = { add_core_of = ROOT }
-				309 = { add_core_of = ROOT }
-				311 = { add_core_of = ROOT }
-				317 = { add_core_of = ROOT }
-				318 = { add_core_of = ROOT }
-				315 = { add_core_of = ROOT }
-				306 = { add_core_of = ROOT }
-				307 = { add_core_of = ROOT }
-				305 = { add_core_of = ROOT }
-				314 = { add_core_of = ROOT }
-				426 = { add_core_of = ROOT }
-				316 = { add_core_of = ROOT }
-				425 = { add_core_of = ROOT }
-				#Aezenfjord
-				351 = { add_core_of = ROOT }
-				319 = { add_core_of = ROOT }
-				352 = { add_core_of = ROOT }
-				348 = { add_core_of = ROOT }
-				#Reyllea
-				97 = { add_core_of = ROOT }
-				98 = { add_core_of = ROOT }
-				110 = { add_core_of = ROOT }
-				110 = { add_core_of = ROOT }
+				234 = { add_core_of = ROOT }
+				235 = { add_core_of = ROOT }
+				233 = { add_core_of = ROOT }
+				232 = { add_core_of = ROOT }
+				231 = { add_core_of = ROOT }
+				229 = { add_core_of = ROOT }
+				230 = { add_core_of = ROOT }
+				226 = { add_core_of = ROOT }
+				227 = { add_core_of = ROOT }
+				228 = { add_core_of = ROOT }
+				224 = { add_core_of = ROOT }
+				225 = { add_core_of = ROOT }
+				222 = { add_core_of = ROOT }
+				220 = { add_core_of = ROOT }
+				221 = { add_core_of = ROOT }
+				223 = { add_core_of = ROOT }
+				218 = { add_core_of = ROOT }
+				213 = { add_core_of = ROOT }
+				214 = { add_core_of = ROOT }
+				291 = { add_core_of = ROOT }
+				215 = { add_core_of = ROOT }
+				216 = { add_core_of = ROOT }
+				217 = { add_core_of = ROOT }
+				219 = { add_core_of = ROOT }
+				#Theios
+				112 = { add_core_of = ROOT }
+				113 = { add_core_of = ROOT }
+				114 = { add_core_of = ROOT }
+				431 = { add_core_of = ROOT }
+				96 = { add_core_of = ROOT }
+				108 = { add_core_of = ROOT }
+				107 = { add_core_of = ROOT }
+				101 = { add_core_of = ROOT }
+				103 = { add_core_of = ROOT }
+				102 = { add_core_of = ROOT }
+				94 = { add_core_of = ROOT }
+				104 = { add_core_of = ROOT }
+				95 = { add_core_of = ROOT }
+				93 = { add_core_of = ROOT }
+				100 = { add_core_of = ROOT }
+				99 = { add_core_of = ROOT }
+				#Azuria
+				326 = { add_core_of = ROOT }
+				323 = { add_core_of = ROOT }
+				325 = { add_core_of = ROOT }
+				324 = { add_core_of = ROOT }
+				322 = { add_core_of = ROOT }
+				#Krobun
+				192 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				#Floramia
+				185 = { add_core_of = ROOT }
+				186 = { add_core_of = ROOT }
+				195 = { add_core_of = ROOT }
+				189 = { add_core_of = ROOT }
+				191 = { add_core_of = ROOT }
+				190 = { add_core_of = ROOT }
+				197 = { add_core_of = ROOT }
+				187 = { add_core_of = ROOT }
+				#Muvielle
+				193 = { add_core_of = ROOT }
+				196 = { add_core_of = ROOT }
 				set_capital = {
 					state = 230
 					remember_old_capital = no
