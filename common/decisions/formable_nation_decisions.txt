@@ -1092,3 +1092,138 @@ form_vir_category = {
 		}
 	}
 }
+
+form_soleannen_category = {
+
+	form_soleannen = {
+
+		icon = generic_formable_nations
+		
+		ai_will_do = { 
+			base = 1
+			}
+
+		allowed = {
+			OR = {
+				original_tag = NIE
+			}
+			
+		}
+		visible = {
+			OR = {
+				original_tag = NIE
+			}
+			NOT = { has_global_flag = form_soleannen_flag }
+		}
+		available = {
+			is_subject = no
+			#Nieden
+			controls_state = 234
+			controls_state = 235
+			controls_state = 233
+			controls_state = 232
+			controls_state = 231
+			controls_state = 229
+			controls_state = 230
+			controls_state = 226
+			controls_state = 227
+			controls_state = 228
+			controls_state = 224
+			controls_state = 225
+			controls_state = 222
+			controls_state = 220
+			controls_state = 221
+			controls_state = 223
+			controls_state = 218
+			controls_state = 213
+			controls_state = 214
+			controls_state = 291
+			controls_state = 215
+			controls_state = 216
+			controls_state = 219
+			controls_state = 217
+			#Floramia
+			controls_state = 185
+			controls_state = 186
+			controls_state = 195
+			controls_state = 189
+			controls_state = 191
+			controls_state = 190
+			controls_state = 197
+			controls_state = 187
+			#Krobun
+			controls_state = 192
+			controls_state = 188
+			#Muvielle
+			controls_state = 193
+			controls_state = 196
+			#Theios
+			controls_state = 112
+			controls_state = 113
+			controls_state = 114
+			controls_state = 431
+			controls_state = 96
+			controls_state = 108
+			controls_state = 107
+			controls_state = 101
+			controls_state = 103
+			controls_state = 102
+			#Azuria
+			controls_state = 326
+			controls_state = 323
+			controls_state = 325
+			controls_state = 324
+			controls_state = 322
+		}
+		
+		
+
+		complete_effect = {
+			# Viodoxa
+			hidden_effect = {
+				427 = { add_core_of = ROOT }
+				300 = { add_core_of = ROOT }
+				301 = { add_core_of = ROOT }
+				303 = { add_core_of = ROOT }
+				299 = { add_core_of = ROOT }
+				320 = { add_core_of = ROOT }
+				302 = { add_core_of = ROOT }
+				304 = { add_core_of = ROOT }
+				312 = { add_core_of = ROOT }
+				310 = { add_core_of = ROOT }
+				308 = { add_core_of = ROOT }
+				313 = { add_core_of = ROOT }
+				309 = { add_core_of = ROOT }
+				311 = { add_core_of = ROOT }
+				317 = { add_core_of = ROOT }
+				318 = { add_core_of = ROOT }
+				315 = { add_core_of = ROOT }
+				306 = { add_core_of = ROOT }
+				307 = { add_core_of = ROOT }
+				305 = { add_core_of = ROOT }
+				314 = { add_core_of = ROOT }
+				426 = { add_core_of = ROOT }
+				316 = { add_core_of = ROOT }
+				425 = { add_core_of = ROOT }
+				#Aezenfjord
+				351 = { add_core_of = ROOT }
+				319 = { add_core_of = ROOT }
+				352 = { add_core_of = ROOT }
+				348 = { add_core_of = ROOT }
+				#Reyllea
+				97 = { add_core_of = ROOT }
+				98 = { add_core_of = ROOT }
+				110 = { add_core_of = ROOT }
+				110 = { add_core_of = ROOT }
+				set_capital = {
+					state = 230
+					remember_old_capital = no
+				}
+			}
+			hidden_effect = {
+				set_global_flag = form_soleannen_flag
+				set_cosmetic_tag = ESH
+			}
+		}
+	}
+}
