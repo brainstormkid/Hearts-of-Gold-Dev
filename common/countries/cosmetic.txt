@@ -58,3 +58,7 @@ VRE = {
 	color = rgb { 0 0 168 }
 	color_ui = rgb { 0 0 168 }
 }
+ESH = {
+	color = rgb { 55 3 2 }
+	color_ui = rgb { 55 3 2 }
+}
