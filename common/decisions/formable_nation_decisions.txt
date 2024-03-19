@@ -1034,11 +1034,6 @@ form_vir_category = {
 			controls_state = 319
 			controls_state = 352
 			controls_state = 348
-			#Reyllea
-			controls_state = 97
-			controls_state = 98
-			controls_state = 110
-			controls_state = 111
 		}
 		
 		
@@ -1075,11 +1070,6 @@ form_vir_category = {
 				319 = { add_core_of = ROOT }
 				352 = { add_core_of = ROOT }
 				348 = { add_core_of = ROOT }
-				#Reyllea
-				97 = { add_core_of = ROOT }
-				98 = { add_core_of = ROOT }
-				110 = { add_core_of = ROOT }
-				110 = { add_core_of = ROOT }
 				set_capital = {
 					state = 351
 					remember_old_capital = no
