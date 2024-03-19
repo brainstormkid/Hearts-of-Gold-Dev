@@ -53,3 +53,8 @@ ADY = {
 	color = rgb { 29 173 112 }
 	color_ui = rgb { 29 173 112 }
 }
+
+VRE = {
+	color = rgb { 0 0 168 }
+	color_ui = rgb { 0 0 168 }
+}

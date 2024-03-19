@@ -46,8 +46,8 @@ characters = {
 		name = "Zelious dem Spheniscidae"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/zelious.dds"
+				small="GFX_idea_zelious"
 			}
 		}
 		corps_commander = {
@@ -199,7 +199,7 @@ characters = {
 		portraits={
 			army={
 				large="gfx/leaders/VIO/edd.dds"
-				#small="GFX_idea_canine"
+				small="GFX_idea_edd"
 			}
 		}
 		corps_commander = {
@@ -312,8 +312,8 @@ characters = {
 		name = "Yazov Yasovich"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/yazov.dds"
+				small="GFX_idea_yazov"
 			}
 		}
 		corps_commander = {
@@ -692,8 +692,8 @@ characters = {
 		name = "M Fredi"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/fredi.dds"
+				small="GFX_idea_fredi"
 			}
 		}
 		corps_commander = {

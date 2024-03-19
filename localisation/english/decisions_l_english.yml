@@ -22,6 +22,8 @@
  form_aldovir:0 "Form the Aldovir Union"
  form_sorgliste_category:0 "Formables"
  form_sorgliste:0 "The Grand Union"
+ form_vir_category:0 "Formables"
+ form_vir:0 "Form the Valdreach Imperial Republic"
  DECISIONVIEW_TITLE:0 "Events and Decisions"
  DECISIONSVIEW_EVENT_HEADER:0 "Events"
  POPUP_NEWS:0 "News Popup"

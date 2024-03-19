@@ -1280,6 +1280,9 @@
  ADY:1 "Adytum"
  ADY_DEF:1 "the Adytum"
  ADY_ADJ:0 "Adytumian"
+ VRE:1 "Valdreach Imperial Republic"
+ VRE_DEF:1 "the Valdreach Imperial Republic"
+ VRE_ADJ:0 "Valdreacher"
 
  AKR_neutrality:1 "Akratian Empire"
  AKR_neutrality_DEF:1 "the Akratian Empire"

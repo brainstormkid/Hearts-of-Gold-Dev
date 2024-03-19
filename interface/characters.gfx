@@ -185,4 +185,20 @@ spriteTypes = {
 		name = "GFX_idea_yaykei"
 		texturefile = "gfx/interface/ideas/idea_yaykei.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_edd"
+		texturefile = "gfx/interface/ideas/idea_edd.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yazov"
+		texturefile = "gfx/interface/ideas/idea_yazov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zelious"
+		texturefile = "gfx/interface/ideas/idea_zelious.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fredi"
+		texturefile = "gfx/interface/ideas/idea_fredi.dds"
+	}
 }

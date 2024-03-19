@@ -973,3 +973,112 @@ form_silver_crownlands_category = {
 		}
 	}
 }
+
+form_vir_category = {
+
+	form_vir = {
+
+		icon = generic_formable_nations
+		
+		ai_will_do = { 
+			base = 1
+			}
+
+		allowed = {
+			OR = {
+				original_tag = AEZ
+				original_tag = VIO
+				original_tag = SHA
+				original_tag = TVE
+			}
+			
+		}
+		visible = {
+			OR = {
+				original_tag = AEZ
+				original_tag = VIO
+				original_tag = SHA
+				original_tag = TVE
+			}
+			NOT = { has_global_flag = form_vir_flag }
+		}
+		available = {
+			is_subject = no
+			#Viodoxa
+			controls_state = 427
+			controls_state = 300
+			controls_state = 301
+			controls_state = 303
+			controls_state = 299
+			controls_state = 320
+			controls_state = 302
+			controls_state = 304
+			controls_state = 312
+			controls_state = 310
+			controls_state = 308
+			controls_state = 313
+			controls_state = 309
+			controls_state = 311
+			controls_state = 317
+			controls_state = 318
+			controls_state = 315
+			controls_state = 306
+			controls_state = 307
+			controls_state = 305
+			controls_state = 314
+			controls_state = 426
+			controls_state = 316
+			controls_state = 425
+			#Aezenfjord
+			controls_state = 351
+			controls_state = 319
+			controls_state = 352
+			controls_state = 348
+		}
+		
+		
+
+		complete_effect = {
+			# Viodoxa
+			hidden_effect = {
+				427 = { add_core_of = ROOT }
+				300 = { add_core_of = ROOT }
+				301 = { add_core_of = ROOT }
+				303 = { add_core_of = ROOT }
+				299 = { add_core_of = ROOT }
+				320 = { add_core_of = ROOT }
+				302 = { add_core_of = ROOT }
+				304 = { add_core_of = ROOT }
+				312 = { add_core_of = ROOT }
+				310 = { add_core_of = ROOT }
+				308 = { add_core_of = ROOT }
+				313 = { add_core_of = ROOT }
+				309 = { add_core_of = ROOT }
+				311 = { add_core_of = ROOT }
+				317 = { add_core_of = ROOT }
+				318 = { add_core_of = ROOT }
+				315 = { add_core_of = ROOT }
+				306 = { add_core_of = ROOT }
+				307 = { add_core_of = ROOT }
+				305 = { add_core_of = ROOT }
+				314 = { add_core_of = ROOT }
+				426 = { add_core_of = ROOT }
+				316 = { add_core_of = ROOT }
+				425 = { add_core_of = ROOT }
+				#Aezenfjord
+				351 = { add_core_of = ROOT }
+				319 = { add_core_of = ROOT }
+				352 = { add_core_of = ROOT }
+				348 = { add_core_of = ROOT }	
+				set_capital = {
+					state = 351
+					remember_old_capital = no
+				}
+			}
+			hidden_effect = {
+				set_global_flag = form_vir_flag
+				set_cosmetic_tag = VRE
+			}
+		}
+	}
+}

@@ -358,3 +358,16 @@ form_sorgliste_category = {
 		}
 	}
 }
+form_vir_category = {
+
+	icon = generic_formable_nations
+	
+	allowed = {
+		OR = {
+			original_tag = VIO
+			original_tag = AEZ
+			original_tag = SHA
+			original_tag = TVE
+		}
+	}
+}
