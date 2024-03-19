@@ -91,7 +91,9 @@ country_event = {
 
 	option = {
 		name = bardonia.5.a
-		ai_chance = { factor = 800 }
+		ai_will_do = {
+			base = 1
+		}
 		custom_effect_tooltip = bardtip2	
 		hidden_effect = {
 			BAR = {
@@ -153,7 +155,9 @@ country_event = {
 
 	option = {
 		name = bardonia.8.a
-		ai_chance = { factor = 800 }
+		ai_will_do = {
+			base = 1
+		}
 		custom_effect_tooltip = bardtip2	
 		hidden_effect = {
 			BAR = {
