@@ -77,9 +77,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "SirMisterPanda"
+	name = "Kerplis Elernel"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	picture = "gfx/leaders/REY/kerplis.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -87,9 +87,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "SirMisterPanda"
+	name = "Kerplis Elernel"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	#picture = "gfx/leaders/REY/kerplis.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -98,9 +98,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "SirMisterPanda"
+	name = "Kerplis Elernel"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	#picture = "gfx/leaders/REY/kerplis.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
@@ -109,9 +109,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "SirMisterPanda"
+	name = "Kerplis Elernel"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	#picture = "gfx/leaders/AEZ/Panda.dds"
+	#picture = "gfx/leaders/REY/kerplis.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
