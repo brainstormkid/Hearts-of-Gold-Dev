@@ -1170,6 +1170,10 @@ form_soleannen_category = {
 			controls_state = 325
 			controls_state = 324
 			controls_state = 322
+			#Iremith
+			controls_state = 289
+			#Viodoxa
+			controls_state = 288
 		}
 		
 		
@@ -1239,6 +1243,9 @@ form_soleannen_category = {
 				#Muvielle
 				193 = { add_core_of = ROOT }
 				196 = { add_core_of = ROOT }
+				
+				289 = { add_core_of = ROOT }
+				288 = { add_core_of = ROOT }
 				set_capital = {
 					state = 230
 					remember_old_capital = no
