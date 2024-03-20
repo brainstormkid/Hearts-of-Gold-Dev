@@ -873,7 +873,7 @@ focus_tree = {
 		y = 2
 		cost = 5
 		prerequisite = { focus = VIO_Valroni_Culture }
-		prerequisite = { focus = VIO_Viodoxan_Culture }
+		prerequisite = { focus = VIO_Kemrian_Culture }
 		prerequisite = { focus = VIO_Hanzeizh_Culture }
 		prerequisite = { focus = VIO_Shalomakii_Culture }
 		mutually_exclusive = { focus = VIO_Accept_Soleannen }
@@ -909,9 +909,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Develop Viodoxan Culture
+	#Develop Kemrian Culture
 	focus = {
-		id = VIO_Viodoxan_Culture
+		id = VIO_Kemrian_Culture
 		icon = GFX_VIO_viodoxa
 		x = 19
 		y = 1
