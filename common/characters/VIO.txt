@@ -464,8 +464,8 @@ characters = {
 		name = "Richard dem Spheniscidae"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/richard.dds"
+				small="GFX_idea_richard"
 			}
 		}
 		corps_commander = {
@@ -766,8 +766,8 @@ characters = {
 		name = "Klausen"
 		portraits={
 			army={
-				#large="gfx/leaders/VIO/zelious.dds"
-				#small="GFX_idea_canine"
+				large="gfx/leaders/VIO/klausen.dds"
+				small="GFX_idea_klausen"
 			}
 		}
 		corps_commander = {
