@@ -11,7 +11,7 @@ focus_tree = {
 	#Formation of UKWS
 	focus = {
 		id = LEY_Formation_of_UKWS
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 20
 		y = 0
 		cost = 3
@@ -28,7 +28,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Formation_of_UKWS }
 		id = LEY_Claim_Adris
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 20
 		y = 1
 		cost = 12
@@ -43,7 +43,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Claim_Adris }
 		id = LEY_Invite_Avaria
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 20
 		y = 2
 		cost = 15
@@ -60,7 +60,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Claim_Adris }
 		id = LEY_Invite_Eok
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 18
 		y = 2
 		cost = 3
@@ -80,7 +80,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Claim_Adris }
 		id = LEY_Invite_Emerald
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 22
 		y = 2
 		cost = 6
@@ -103,7 +103,7 @@ focus_tree = {
 		prerequisite = { focus = LEY_Invite_Eok }
 		prerequisite = { focus = LEY_Invite_Emerald }
 		id = LEY_Develop_Leythe
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 26
 		y = 4
 		cost = 10
@@ -118,7 +118,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Develop_Leythe }
 		id = LEY_Leythe_Expansion
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 26
 		y = 5
 		cost = 6
@@ -164,7 +164,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Develop_Leythe }
 		id = LEY_Fort_Leythe
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 24
 		y = 5
 		cost = 6
@@ -185,7 +185,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Develop_Leythe }
 		id = LEY_Akratian_War_Monuments
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 28
 		y = 5
 		cost = 6
@@ -206,7 +206,7 @@ focus_tree = {
 		prerequisite = { focus = LEY_Invite_Eok }
 		prerequisite = { focus = LEY_Invite_Emerald }
 		id = LEY_Develop_Greenstem
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 14
 		y = 4
 		cost = 10
@@ -221,7 +221,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Develop_Greenstem }
 		id = LEY_Jacw_Sheep_Factory
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 16
 		y = 5
 		cost = 6
@@ -243,7 +243,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Develop_Greenstem }
 		id = LEY_Road_Infrastructure
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 12
 		y = 5
 		cost = 6
@@ -264,7 +264,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Develop_Greenstem }
 		id = LEY_Greemstem_Expansion
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 14
 		y = 5
 		cost = 6
@@ -297,7 +297,7 @@ focus_tree = {
 		prerequisite = { focus = LEY_Invite_Eok }
 		prerequisite = { focus = LEY_Invite_Emerald }
 		id = LEY_Embrace_Garfism
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 20
 		y = 4
 		cost = 10
@@ -312,7 +312,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Embrace_Garfism }
 		id = LEY_Leythe_Univeristy
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 21
 		y = 5
 		cost = 10
@@ -327,7 +327,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Embrace_Garfism }
 		id = LEY_Quartz_National_Park
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 19
 		y = 5
 		cost = 10
@@ -352,7 +352,7 @@ focus_tree = {
 		prerequisite = { focus = LEY_Fort_Leythe }
 		prerequisite = { focus = LEY_Akratian_War_Monuments }
 		id = LEY_Avaria_Leaves
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 20
 		y = 7
 		cost = 9
@@ -370,7 +370,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Avaria_Leaves }
 		id = LEY_UKWS_Collapse
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 20
 		y = 8
 		cost = 3
@@ -395,7 +395,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Join_UKWS }
 		id = LEY_Union_of_Free_Kingdoms
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		allow_branch = { has_completed_focus = LEY_UKWS_Collapse }
 		allow_branch = { 
 			VIO = {
@@ -416,7 +416,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Union_of_Free_Kingdoms }
 		id = LEY_Annex_Serafini
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 30
 		y = 1
 		cost = 33
@@ -431,7 +431,7 @@ focus_tree = {
 	focus = {
 		prerequisite = { focus = LEY_Annex_Serafini }
 		id = LEY_Join_Allium
-		#icon = GFX_SAV_andorn
+		icon = GFX_LEY_Leythe
 		x = 30
 		y = 2
 		cost = 3

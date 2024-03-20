@@ -1,0 +1,6 @@
+AKR_dissolution = { 
+	priority = 10
+	allowed = {
+		original_tag = AKR
+	}
+}
