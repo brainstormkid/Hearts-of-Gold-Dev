@@ -299,9 +299,10 @@ focus_tree = {
 		id = VIO_Valen_Takes_Power
 		icon = GFX_VIO_Question_of_Viodoxa
 		x = 20
-		y = 2
-		cost = 105
-		prerequisite = { focus = VIO_Treaty_of_Istanboulder }
+		y = 5
+		cost = 6
+		prerequisite = { focus = VIO_Collude_Against_Zelious }
+		prerequisite = { focus = VIO_Question_Archon_Spike }
 		completion_reward = {
 			country_event = { id = viodoxa.1 }
 		}
@@ -314,7 +315,7 @@ focus_tree = {
 		id = VIO_Viodoxa_Constitution_Reform
 		icon = GFX_VIO_viodoxan_con._reform
 		x = 13
-		y = 4
+		y = 5
 		cost = 2
 		prerequisite = { focus = VIO_Valen_Takes_Power }
 		completion_reward = {
@@ -350,7 +351,7 @@ focus_tree = {
 		id = VIO_Remilitarization_Act
 		icon = GFX_VIO_viodoxa
 		x = 20
-		y = 4
+		y = 6
 		cost = 2
 		prerequisite = { focus = VIO_Valen_Takes_Power }
 		completion_reward = {
@@ -486,7 +487,7 @@ focus_tree = {
 		id = VIO_EXP_Tax
 		icon = GFX_VIO_viodoxa
 		x = 19
-		y = 5
+		y = 7
 		cost = 2
 		prerequisite = { focus = VIO_Remilitarization_Act }
 		completion_reward = {
@@ -868,10 +869,13 @@ focus_tree = {
 	focus = {
 		id = VIO_Accept_Guhenism
 		icon = GFX_VIO_viodoxa
-		x = 21
-		y = 18
-		cost = 3
-		prerequisite = { focus = VIO_Hazel_Loic_Archons }
+		x = 27
+		y = 2
+		cost = 5
+		prerequisite = { focus = VIO_Valroni_Culture }
+		prerequisite = { focus = VIO_Viodoxan_Culture }
+		prerequisite = { focus = VIO_Hanzeizh_Culture }
+		prerequisite = { focus = VIO_Shalomakii_Culture }
 		mutually_exclusive = { focus = VIO_Accept_Soleannen }
 		completion_reward = {
 			swap_ideas = {
@@ -887,16 +891,202 @@ focus_tree = {
 	focus = {
 		id = VIO_Accept_Soleannen
 		icon = GFX_VIO_viodoxa
-		x = 19
-		y = 18
-		cost = 3
-		prerequisite = { focus = VIO_Hazel_Loic_Archons }
+		x = 13
+		y = 2
+		cost = 5
+		prerequisite = { focus = VIO_Valroni_Culture }
+		prerequisite = { focus = VIO_Viodoxan_Culture }
+		prerequisite = { focus = VIO_Hanzeizh_Culture }
+		prerequisite = { focus = VIO_Shalomakii_Culture }
 		mutually_exclusive = { focus = VIO_Accept_Guhenism }
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = Secular_Religion
 				add_idea = Soleannen_Religion
 			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Develop Viodoxan Culture
+	focus = {
+		id = VIO_Viodoxan_Culture
+		icon = GFX_VIO_viodoxa
+		x = 19
+		y = 1
+		cost = 10
+		prerequisite = { focus = VIO_Treaty_of_Istanboulder }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Develop Hanzeizh Culture
+	focus = {
+		id = VIO_Hanzeizh_Culture
+		icon = GFX_VIO_viodoxa
+		x = 21
+		y = 1
+		cost = 10
+		prerequisite = { focus = VIO_Treaty_of_Istanboulder }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Develop Valroni Culture
+	focus = {
+		id = VIO_Valroni_Culture
+		icon = GFX_VIO_viodoxa
+		x = 17
+		y = 1
+		cost = 10
+		prerequisite = { focus = VIO_Treaty_of_Istanboulder }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Develop Shalomakii Culture
+	focus = {
+		id = VIO_Shalomakii_Culture
+		icon = GFX_VIO_viodoxa
+		x = 23
+		y = 1
+		cost = 10
+		prerequisite = { focus = VIO_Treaty_of_Istanboulder }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Reaffirm the Commandments
+	focus = {
+		id = VIO_Reaffirm_the_Commandments
+		icon = GFX_VIO_viodoxa
+		x = 28
+		y = 3
+		cost = 10
+		prerequisite = { focus = VIO_Accept_Guhenism }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Center of Guhenism
+	focus = {
+		id = VIO_Center_of_Guhenism
+		icon = GFX_VIO_viodoxa
+		x = 26
+		y = 3
+		cost = 10
+		prerequisite = { focus = VIO_Accept_Guhenism }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Return to Roots
+	focus = {
+		id = VIO_Return_To_Roots
+		icon = GFX_VIO_viodoxa
+		x = 27
+		y = 4
+		cost = 5
+		prerequisite = { focus = VIO_Center_of_Guhenism }
+		prerequisite = { focus = VIO_Reaffirm_the_Commandments }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Pilgramage to Tessel
+	focus = {
+		id = VIO_Pilgramage_to_Tessel
+		icon = GFX_VIO_viodoxa
+		x = 14
+		y = 3
+		cost = 10
+		prerequisite = { focus = VIO_Accept_Soleannen }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Hand of Soleannen
+	focus = {
+		id = VIO_Hand_of_Soleannen
+		icon = GFX_VIO_viodoxa
+		x = 12
+		y = 3
+		cost = 10
+		prerequisite = { focus = VIO_Accept_Soleannen }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Embrace Hicarys
+	focus = {
+		id = VIO_Embrace_Hicarys
+		icon = GFX_VIO_viodoxa
+		x = 13
+		y = 4
+		cost = 5
+		prerequisite = { focus = VIO_Pilgramage_to_Tessel }
+		prerequisite = { focus = VIO_Hand_of_Soleannen }
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Collude Against Zelious
+	focus = {
+		id = VIO_Collude_Against_Zelious
+		icon = GFX_VIO_viodoxa
+		x = 21
+		y = 4
+		cost = 10
+		prerequisite = { focus = VIO_Return_To_Roots focus = VIO_Embrace_Hicarys }
+		
+		completion_reward = {
+			
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	#Question Archon Spike
+	focus = {
+		id = VIO_Question_Archon_Spike
+		icon = GFX_VIO_viodoxa
+		x = 19
+		y = 4
+		cost = 10
+		prerequisite = { focus = VIO_Return_To_Roots focus = VIO_Embrace_Hicarys }
+		completion_reward = {
+			
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -924,8 +1114,7 @@ focus_tree = {
 		x = 20
 		y = 19
 		cost = 33
-		prerequisite = { focus = VIO_Accept_Soleannen }
-		prerequisite = { focus = VIO_Accept_Guhenism }
+		prerequisite = { focus = VIO_Hazel_Loic_Archons }
 		completion_reward = {
 			VIO = {
 					country_event = { id = allium.2 }
