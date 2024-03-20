@@ -1,0 +1,14 @@
+soleannen_decisions = {
+
+	soleannen_creation = {
+		icon = generic_nationalism
+		available = {
+			
+		}
+
+		complete_effect = {
+			add_political_power = 100
+		}
+
+	}
+}
