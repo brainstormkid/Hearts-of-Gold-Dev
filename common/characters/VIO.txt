@@ -22,22 +22,7 @@ characters = {
 				original_tag = VIO
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = valen
-			allowed = {
-				original_tag = VIO
-			}
-			available = {
-				NOT = {
-					has_completed_focus = VIO_Purple_Insurrection
-				}
-			}
-			traits = {
-				
+				 ideological_crusader
 			}
 		}
 	}
@@ -59,23 +44,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
-			idea_token = zelious
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				 
-			}
-		}
-		advisor={
 			slot = high_command
 			idea_token = zelious
 			allowed = {
 				original_tag = VIO
 			}
 			traits = {
-				
+				army_commando_2
 			}
 		}
 	}
@@ -97,23 +72,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
+			slot = army_chief
 			idea_token = loic
 			allowed = {
 				original_tag = VIO
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = loic
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				
+				army_chief_morale_2
 			}
 		}
 	}
@@ -141,17 +106,7 @@ characters = {
 				original_tag = VIO
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = breton
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				
+				 popular_figurehead
 			}
 		}
 	}
@@ -179,17 +134,7 @@ characters = {
 				OR = { original_tag = VIO original_tag = SHA original_tag = ARL }
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = numis
-			allowed = {
-				OR = { original_tag = VIO original_tag = SHA }
-			}
-			traits = {
-				
+				captain_of_industry
 			}
 		}
 	}
@@ -211,23 +156,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
+			slot = theorist
 			idea_token = edd
 			allowed = {
 				original_tag = VIO
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = edd
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				
+				naval_theorist
 			}
 		}
 	}
@@ -331,17 +266,8 @@ characters = {
 				OR = { original_tag = VIO original_tag = BAR }
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = yazov
-			allowed = {
-				OR = { original_tag = VIO original_tag = BAR }
-			}
-			traits = {
-				
+				 armaments_organizer
+				 captain_of_industry
 			}
 		}
 	}
@@ -483,16 +409,6 @@ characters = {
 				OR = { original_tag = VIO original_tag = SHA }
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = richard 
-			allowed = {
-				OR = { original_tag = VIO original_tag = SHA }
-			}
-			traits = {
 				
 			}
 		}
@@ -521,17 +437,7 @@ characters = {
 				OR = { original_tag = VIO original_tag = SHA }
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = patrick 
-			allowed = {
-				OR = { original_tag = VIO original_tag = SHA }
-			}
-			traits = {
-				
+				technocrat
 			}
 		}
 	}
@@ -553,23 +459,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
-			idea_token = astronomous 
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				 
-			}
-		}
-		advisor={
 			slot = high_command
 			idea_token = astronomous 
 			allowed = {
 				original_tag = VIO
 			}
 			traits = {
-				
+				army_chief_entrenchment_2
 			}
 		}
 	}
@@ -597,17 +493,7 @@ characters = {
 				original_tag = VIO
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = riley 
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				
+				industry_reformer
 			}
 		}
 	}
@@ -635,17 +521,7 @@ characters = {
 				original_tag = VIO
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = paulos 
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				
+				fortification_engineer
 			}
 		}
 	}
