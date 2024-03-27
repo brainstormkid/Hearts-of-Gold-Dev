@@ -493,9 +493,9 @@ ideas = {
 		
 		designer = yes
 		
-		OPTC_materiel_manufacturer = {
+		OPTC = {
 			
-			#picture = generic_motorized_equipment_manufacturer_1
+			picture = optc
 
 			allowed = {
 				original_TAG = VIO
@@ -510,5 +510,42 @@ ideas = {
 			
 			traits = { infantry_equipment_manufacturer }
 		}
-}
+		Nikki_Potion_Distillery = {
+			
+			picture = nikki
+
+			allowed = {
+				original_TAG = VIO
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+	tank_manufacturer = {
+
+		designer = yes
+	
+		# TECHNOLOGY
+		Klausen_Emporium = {
+		
+			picture = klausen
+						
+			allowed = {
+				original_tag = VIO
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { tank_manufacturer }
+		}
 
