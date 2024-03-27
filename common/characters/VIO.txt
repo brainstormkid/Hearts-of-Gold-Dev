@@ -190,17 +190,7 @@ characters = {
 				original_tag = VIO
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = valerie
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				
+				prince_of_terror
 			}
 		}
 	}
@@ -222,23 +212,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
+			slot = army_chief
 			idea_token = danzig
 			allowed = {
 				original_tag = VIO
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = danzig
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				
+				 army_chief_defensive_2
 			}
 		}
 	}
@@ -295,17 +275,7 @@ characters = {
 				original_tag = VIO
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = hazel
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				
+				 smooth_talking_charmer
 			}
 		}
 	}
@@ -327,23 +297,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
-			idea_token = blanc 
-			allowed = {
-				OR = { original_tag = VIO original_tag = AVR }
-			}
-			traits = {
-				 
-			}
-		}
-		advisor={
 			slot = high_command
 			idea_token = blanc 
 			allowed = {
 				OR = { original_tag = VIO original_tag = AVR }
 			}
 			traits = {
-				
+				army_logistics_2
 			}
 		}
 	}
@@ -363,16 +323,6 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = kedian 
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				 
-			}
 		}
 		advisor={
 			slot = high_command
@@ -403,13 +353,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
+			slot = navy_chief
 			idea_token = richard 
 			allowed = {
 				OR = { original_tag = VIO original_tag = SHA }
 			}
 			traits = {
-				
+				navy_chief_decisive_battle_2
 			}
 		}
 	}
@@ -431,13 +381,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
+			slot = army_chief
 			idea_token = patrick 
 			allowed = {
 				OR = { original_tag = VIO original_tag = SHA }
 			}
 			traits = {
-				technocrat
+				army_logistics_2
 			}
 		}
 	}
@@ -515,13 +465,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
+			slot = theorist
 			idea_token = paulos 
 			allowed = {
 				original_tag = VIO
 			}
 			traits = {
-				fortification_engineer
+				military_theorist
 			}
 		}
 	}
@@ -543,23 +493,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
-			idea_token = redacted 
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				 
-			}
-		}
-		advisor={
 			slot = high_command
 			idea_token = redacted 
 			allowed = {
 				original_tag = VIO
 			}
 			traits = {
-				
+				 army_infantry_2
 			}
 		}
 	}
@@ -581,23 +521,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
+			slot = navy_chief
 			idea_token = fredi 
 			allowed = {
 				original_tag = VIO
 			}
 			traits = {
-				 
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = fredi 
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				
+				navy_chief_maneuver_2
 			}
 		}
 	}
@@ -616,16 +546,6 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = borakan 
-			allowed = {
-				OR = { original_tag = VIO original_tag = SHA }
-			}
-			traits = {
-				 
-			}
 		}
 		advisor={
 			slot = high_command
@@ -664,16 +584,6 @@ characters = {
 				 
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = Klausen 
-			allowed = {
-				original_tag = VIO
-			}
-			traits = {
-				
-			}
-		}
 	}
 	VIO_Yaykei={
 		name = "Yaykei"
@@ -690,16 +600,6 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = Yaykei 
-			allowed = {
-				original_tag = SHA
-			}
-			traits = {
-				 
-			}
 		}
 		advisor={
 			slot = high_command
