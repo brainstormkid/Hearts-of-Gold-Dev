@@ -107,7 +107,7 @@ focus_tree = {
 			add_ideas = VIO_Viodoxa_University
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_RESEARCH
 		}
 	}
 	#National Armories
