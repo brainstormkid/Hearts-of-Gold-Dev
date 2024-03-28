@@ -895,7 +895,7 @@ focus_tree = {
 		y = 2
 		cost = 5
 		prerequisite = { focus = VIO_Valroni_Culture }
-		prerequisite = { focus = VIO_Viodoxan_Culture }
+		prerequisite = { focus = VIO_Kemrian_Culture }
 		prerequisite = { focus = VIO_Hanzeizh_Culture }
 		prerequisite = { focus = VIO_Shalomakii_Culture }
 		mutually_exclusive = { focus = VIO_Accept_Guhenism }
