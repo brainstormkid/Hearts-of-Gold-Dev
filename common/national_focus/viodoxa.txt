@@ -733,6 +733,7 @@ focus_tree = {
 			recruit_character = VIO_danzig
 			recruit_character = VIO_hazel
 			recruit_character = VIO_redacted
+			remove_idea = VIO_Recovering_from_Ferrymen_War_3
 			hidden_effect = {
 				annex_country = { target = ASY transfer_troops = yes }
 				annex_country = { target = SIV transfer_troops = yes }
