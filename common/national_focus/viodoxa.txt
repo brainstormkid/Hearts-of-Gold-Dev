@@ -913,12 +913,60 @@ focus_tree = {
 	focus = {
 		id = VIO_Kemrian_Culture
 		icon = GFX_VIO_viodoxa
-		x = 19
+		x = 21
 		y = 1
 		cost = 10
 		prerequisite = { focus = VIO_Treaty_of_Istanboulder }
 		completion_reward = {
-			
+			425 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			316 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			318 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			317 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			315 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			314 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			426 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -928,12 +976,18 @@ focus_tree = {
 	focus = {
 		id = VIO_Hanzeizh_Culture
 		icon = GFX_VIO_viodoxa
-		x = 21
+		x = 17
 		y = 1
 		cost = 10
 		prerequisite = { focus = VIO_Treaty_of_Istanboulder }
 		completion_reward = {
-			
+			310 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -943,12 +997,46 @@ focus_tree = {
 	focus = {
 		id = VIO_Valroni_Culture
 		icon = GFX_VIO_viodoxa
-		x = 17
+		x = 19
 		y = 1
 		cost = 10
 		prerequisite = { focus = VIO_Treaty_of_Istanboulder }
 		completion_reward = {
-			
+			308 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			313 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			311 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			312 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			304 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -963,7 +1051,20 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = VIO_Treaty_of_Istanboulder }
 		completion_reward = {
-			
+			303 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			302 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
