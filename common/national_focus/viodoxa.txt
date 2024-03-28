@@ -108,6 +108,7 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#National Armories
@@ -125,7 +126,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Viodoxa Unity Monument
@@ -140,7 +141,8 @@ focus_tree = {
 			add_ideas = VIO_Viodoxa_Unity_Monument
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
 		}
 	}
 	#OPTC XP Factory
@@ -161,7 +163,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Kamur Naval Yards
@@ -182,7 +184,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Lonely Light Naval Yards
@@ -203,7 +205,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Settling Sun's Gate
@@ -218,7 +220,7 @@ focus_tree = {
 			add_offsite_building = { type = industrial_complex level = 3 }
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Settling Karlpfensland
@@ -233,7 +235,7 @@ focus_tree = {
 			add_offsite_building = { type = industrial_complex level = 2 }
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Selling Karlpfensland
@@ -249,7 +251,8 @@ focus_tree = {
 			add_offsite_building = { type = industrial_complex level = -1 }
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_RESEARCH
 		}
 	}
 	#Cracheraburg Naval Yards
@@ -270,7 +273,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Interdam Naval Yards
@@ -291,7 +294,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Valen Takes power
@@ -400,7 +403,8 @@ focus_tree = {
 			add_stability = 0.05
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_MANPOWER
 		}
 	}
 	#Subsidize Food
@@ -415,7 +419,8 @@ focus_tree = {
 			add_ideas = { VIO_Subsidized_Food }
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Civil Rights Bill
@@ -431,7 +436,8 @@ focus_tree = {
 			add_stability = 0.05
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_MANPOWER
 		}
 	}
 	#Promote Business
@@ -446,7 +452,8 @@ focus_tree = {
 			add_ideas = VIO_Business_Promotion
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Viodoxa Library
@@ -461,7 +468,8 @@ focus_tree = {
 			add_ideas = { VIO_Library }
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Federalize Viodoxa
@@ -494,7 +502,7 @@ focus_tree = {
 			add_ideas = VIO_EXP_Tax
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Yazov Synkletos
@@ -578,6 +586,7 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_ANNEXATION
 		}
 	}
 	#Viodoxan Development
@@ -759,7 +768,7 @@ focus_tree = {
 			add_state_core = 91
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_ANNEXATION
 		}
 	}
 	#Annex Avaria
@@ -785,7 +794,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_ANNEXATION
 		}
 	}
 	#ed and Danzig Archons
@@ -969,7 +978,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Develop Hanzeizh Culture
@@ -990,7 +999,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Develop Valroni Culture
@@ -1039,7 +1048,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Develop Shalomakii Culture
@@ -1067,7 +1076,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Reaffirm the Commandments
@@ -1082,7 +1091,7 @@ focus_tree = {
 			add_research_slot = 1
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_RESEARCH
 		}
 	}
 	#Center of Guhenism
@@ -1111,7 +1120,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Return to Roots
@@ -1261,7 +1270,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
 		}
 	}
 	#Hand of Soleannen
@@ -1276,7 +1285,7 @@ focus_tree = {
 			add_research_slot = 1
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_RESEARCH
 		}
 	}
 	#Embrace Hicarys
@@ -1498,7 +1507,7 @@ focus_tree = {
 			}
 		}
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_ANNEXATION
 		}
 	}
 }
