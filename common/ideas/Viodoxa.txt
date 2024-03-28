@@ -40,6 +40,25 @@ ideas = {
 				research_speed_factor = -0.10
 			}
 		}
+		VIO_Recovering_from_Ferrymen_War_3 = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = viodoxa_spirit
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				research_speed_factor = -0.15
+			}
+		}
 		VIO_United = {
 		
 			allowed = {
