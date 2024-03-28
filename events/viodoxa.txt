@@ -68,6 +68,10 @@ country_event = {
 		release = ASY
 		release = LEY
 		retire_character = VIO_patrick
+		swap_ideas = {
+			remove_idea = VIO_Recovering_from_Ferrymen_War_2
+			add_idea = VIO_Recovering_from_Ferrymen_War_3
+		}
 		retire_country_leader = yes
 		create_country_leader = {
 			name = "Yazov Yasovich"
