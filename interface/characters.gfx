@@ -209,4 +209,16 @@ spriteTypes = {
 		name = "GFX_idea_klausen"
 		texturefile = "gfx/interface/ideas/idea_klausen.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_klausen_company"
+		texturefile = "gfx/interface/ideas/klausen_company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nikki_company"
+		texturefile = "gfx/interface/ideas/nikki_company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_optc_company"
+		texturefile = "gfx/interface/ideas/optc_company.dds"
+	}
 }

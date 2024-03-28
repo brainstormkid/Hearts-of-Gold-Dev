@@ -184,6 +184,10 @@
  VIO_Centralized_desc:0 ""
  VIO_Federalized:0 "Federalized Government"
  VIO_Federalized_desc:0 ""
+ Nikki_Potion_Distillery:0 "Nikki Potion Distillery"
+ Nikki_Potion_Distillery_desc:0 ""
+ Klausen_Emporium:0 "Klausen Emporium"
+ Klausen_Emporium_desc:0 ""
  
  #GENERIC STUFF ######################################
  isolation:0 "Isolation"

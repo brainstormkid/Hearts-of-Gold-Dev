@@ -128,13 +128,13 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor={
-			slot = political_advisor
+			slot = high_command
 			idea_token = numis
 			allowed = {
 				OR = { original_tag = VIO original_tag = SHA original_tag = ARL }
 			}
 			traits = {
-				captain_of_industry
+				army_cavalry_2
 			}
 		}
 	}

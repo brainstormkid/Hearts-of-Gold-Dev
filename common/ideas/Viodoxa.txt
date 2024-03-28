@@ -495,7 +495,7 @@ ideas = {
 		
 		OPTC = {
 			
-			picture = optc
+			picture = optc_company
 
 			allowed = {
 				original_TAG = VIO
@@ -512,7 +512,7 @@ ideas = {
 		}
 		Nikki_Potion_Distillery = {
 			
-			picture = nikki
+			picture = nikki_company
 
 			allowed = {
 				original_TAG = VIO
@@ -535,7 +535,7 @@ ideas = {
 		# TECHNOLOGY
 		Klausen_Emporium = {
 		
-			picture = klausen
+			picture = klausen_company
 						
 			allowed = {
 				original_tag = VIO
