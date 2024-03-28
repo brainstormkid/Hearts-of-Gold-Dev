@@ -55,8 +55,27 @@ ideas = {
 			picture = viodoxa_spirit
 			
 			modifier = {
-				consumer_goods_factor = 0.15
-				research_speed_factor = -0.15
+				consumer_goods_factor = 0.2
+				research_speed_factor = -0.2
+			}
+		}
+		VIO_Recovering_from_Ferrymen_War_4 = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = viodoxa_spirit
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				research_speed_factor = -0.05
 			}
 		}
 		VIO_United = {

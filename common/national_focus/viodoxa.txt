@@ -382,8 +382,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = VIO_Recovering_from_Ferrymen_War_2
-				add_idea = VIO_United
+				remove_idea = VIO_Recovering_from_Ferrymen_War_3
+				add_idea = VIO_Recovering_from_Ferrymen_War_4
+			}
+			TOR = {
+				country_event = { id = viodoxa.6 }
 			}
 		}
 		search_filters = {
@@ -733,7 +736,7 @@ focus_tree = {
 			recruit_character = VIO_danzig
 			recruit_character = VIO_hazel
 			recruit_character = VIO_redacted
-			remove_ideas = VIO_Recovering_from_Ferrymen_War_3
+			remove_ideas = VIO_Recovering_from_Ferrymen_War_4
 			hidden_effect = {
 				annex_country = { target = ASY transfer_troops = yes }
 				annex_country = { target = SIV transfer_troops = yes }
@@ -1372,7 +1375,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = VIO_Accept_Soleannen }
 		completion_reward = {
-			add_research_slot = 2
+			add_research_slot = 1
 		}
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1426,7 +1429,8 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = VIO_Return_To_Roots focus = VIO_Embrace_Hicarys }
 		completion_reward = {
-			
+			add_war_support = -0.05
+			add_stability = -0.05
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
