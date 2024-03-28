@@ -1094,7 +1094,21 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = VIO_Accept_Guhenism }
 		completion_reward = {
-			
+			build_railway = {
+				level = 2
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = VIO
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 299 300 301 303 302 304 312 313 311 315 307 305 }
+				start_state = 299
+				target_state = 305
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1125,7 +1139,126 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = VIO_Accept_Soleannen }
 		completion_reward = {
-			
+			314 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 1408
+				}
+			}
+			318 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 4496
+				}
+			}
+			312 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 3143
+				}
+			}
+			299 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 2649
+				}
+			}
+			286 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 4708
+				}
+			}
+			286 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 4706
+				}
+			}
+			278 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 3633
+				}
+			}
+			268 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 3227
+				}
+			}
+			343 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 1763
+				}
+			}
+			345 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 666
+				}
+			}
+			349 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 4315
+				}
+			}
+			305 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 420
+				}
+			}
+			307 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 4583
+				}
+			}
+			426 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 4527
+				}
+			}
+			425 = {
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 371
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
