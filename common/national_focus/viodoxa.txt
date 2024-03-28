@@ -1299,8 +1299,8 @@ focus_tree = {
 		prerequisite = { focus = VIO_Hand_of_Soleannen }
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = 
-				add_idea = 
+				remove_idea = VIO_Sphenischide_Family
+				add_idea = VIO_Sphenischide_Family_2
 			}
 		}
 		search_filters = {
