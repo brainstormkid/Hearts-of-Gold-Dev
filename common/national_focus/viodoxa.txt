@@ -1079,7 +1079,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = VIO_Accept_Guhenism }
 		completion_reward = {
-			
+			add_research_slot = 1
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1273,7 +1273,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = VIO_Accept_Soleannen }
 		completion_reward = {
-			
+			add_research_slot = 1
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1289,7 +1289,10 @@ focus_tree = {
 		prerequisite = { focus = VIO_Pilgramage_to_Tessel }
 		prerequisite = { focus = VIO_Hand_of_Soleannen }
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = 
+				add_idea = 
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
