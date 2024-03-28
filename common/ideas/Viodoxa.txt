@@ -140,6 +140,26 @@ ideas = {
 				experience_gain_factor = 0.05
 			}
 		}
+		VIO_Sphenischide_Family_2 = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = viodoxa_spirit
+			
+			modifier = {
+				war_stability_factor = 0.01
+				army_attack_factor = 0.01
+				experience_gain_factor = 0.01
+			}
+		}
 		
 		VIO_McSpiegel_Family = {
 		
