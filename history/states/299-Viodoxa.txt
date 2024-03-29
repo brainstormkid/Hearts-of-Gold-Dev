@@ -16,10 +16,10 @@ state={
 	history={
 		owner = VIO
 		buildings = {
-			arms_factory = 4
-			industrial_complex = 5 
+			arms_factory = 3
+			industrial_complex = 4
 			infrastructure = 4
-			dockyard = 5
+			dockyard = 2
 			
 			2649 = {
 				naval_base = 8

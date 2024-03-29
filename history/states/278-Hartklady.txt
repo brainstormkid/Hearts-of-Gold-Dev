@@ -1,7 +1,7 @@
 state={
 	id=278
 	name="Hartklady"
-	state_category = pastoral
+	state_category = town
       resources = {
 	    oil = 3
 	    aluminium = 3
