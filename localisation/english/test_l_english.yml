@@ -404,6 +404,9 @@
  EOK_communism:1 "Junta of Eok"
  EOK_communism_DEF:1 "the Eok Junta"
  EOK_communism_ADJ:0 "Eokian"
+ EOK_INQ:0 "Inquisition"
+ EOK_INQ_DEF:1 "the Inquisition"
+ EOK_INQ_ADJ:1 "Inquisitorius"
  
  NEB_neutrality:1 "Csardom of Nebskoslavia"
  NEB_neutrality_DEF:1 "the Nebskoslavia"

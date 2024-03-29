@@ -106,6 +106,22 @@ country_event = {
 		}
 	}
 	option = {
+		name = "Better United than Divided"
+		trigger = {
+			original_tag = SRF
+		}
+		LEY = {
+			country_event = { id = leythe.4 }
+			annex_country = { target = ROOT transfer_troops = yes }
+			add_state_core = 341
+			add_state_core = 342
+			add_state_core = 327
+		}
+		ai_chance = {
+				base = 1
+		}
+	}
+	option = {
 		name = "absolutely not"
 		ai_chance = {
 				base = 0
