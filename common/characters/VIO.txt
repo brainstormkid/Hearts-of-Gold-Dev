@@ -91,7 +91,7 @@ characters = {
 				#small="GFX_idea_canine"
 			}
 		}
-		corps_commander = {
+		navy_leader = {
 			#traits = { politically_connected }
 			skill = 1
 			attack_skill = 1
