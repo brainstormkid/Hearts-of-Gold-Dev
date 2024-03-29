@@ -1,0 +1,82 @@
+division_template = {
+	name = "Aussay Militia"
+
+	division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+	#ASY Army
+	division = {
+		name = "1st Aussay Infantry"
+		location = 224
+		division_template = "Aussay Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "2nd Aussay Infantry"
+		location = 224
+		division_template = "Aussay Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "3rd Aussay Infantry"
+		location = 224
+		division_template = "Aussay Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "4th Aussay Infantry"
+		location = 1452
+		division_template = "Aussay Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "5th Aussay Infantry"
+		location = 1452
+		division_template = "Aussay Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "6th Aussay Infantry"
+		location = 1555
+		division_template = "Aussay Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "7th Aussay Infantry"
+		location = 1555
+		division_template = "Aussay Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "8th Aussay Infantry"
+		location = 259
+		division_template = "Aussay Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "9th Aussay Infantry"
+		location = 259
+		division_template = "Aussay Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+}

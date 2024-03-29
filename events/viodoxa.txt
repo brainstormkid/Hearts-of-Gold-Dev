@@ -25,6 +25,7 @@ country_event = {
 				#
 			}
 		}
+		remove_ideas = { VIO_Sphenischide_Family_3 }
 		add_ideas = { VIO_McSpiegel_Family }
 		add_ideas = { VIO_Zelious_Leaves }
 		add_ideas = { VIO_Professional_Army_Leaves }
@@ -82,6 +83,9 @@ country_event = {
 		hidden_effect = {
 			LEY = {
 				set_cosmetic_tag = LEY_UKWS
+			}
+			ASY = {
+				load_oob = "ASY_Insurrection"
 			}
 			retire_character = VIO_valen
 		}

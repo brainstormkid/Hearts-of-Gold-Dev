@@ -510,3 +510,30 @@ news_event = {
 	}
 	is_triggered_only = yes
 }
+# Formation of Third Coalition
+news_event = {
+	id = news.36
+	title = "Rathnir Third Coalition"
+	desc = "The Third Rathnir Coalition, occasionally referred to as the Southern Coalition due to its leadership being based in southern Rathnir, was a military alliance led by the Imperial Archonate of Viodoxa, with the goal of dismantling the Bardonian Empire in order to prevent further incursions from the empire in southern Rathnir."
+	picture = GFX_news_event_018
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Troubling Times"
+	}
+}
+# Ulfaeng Bear (HIDDEN)
+news_event = {
+	id = news.37
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		news_event = { id = news.36 }
+	}
+	is_triggered_only = yes
+}

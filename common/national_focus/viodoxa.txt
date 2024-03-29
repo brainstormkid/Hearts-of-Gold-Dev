@@ -982,6 +982,9 @@ focus_tree = {
 		prerequisite = { focus = VIO_Yazov_Leaves }
 		completion_reward = {
 			country_event = { id = viodoxa.3 }
+			hidden_effect = {
+				VIO = { news_event = { id = news.37 }}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL

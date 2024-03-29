@@ -73,7 +73,9 @@ focus_tree = {
 		cost = 6
 		prerequisite = { focus = FJE_CSS_Invite_Avaria }
 		completion_reward = {
-			dismantle_faction
+			FJ1 = {
+				dismantle_faction = yes
+			}
 			diplomatic_relation = { country = UBS relation = guarantee active = no }
 			FJ1 = {
 				diplomatic_relation = { country = UBS relation = guarantee active = no }
