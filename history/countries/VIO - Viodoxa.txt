@@ -1,6 +1,7 @@
 ﻿capital = 299
 
 oob = "VIO_1936"
+set_naval_oob = "VIO_NAVAL"
 
 # Starting tech
 set_technology = {

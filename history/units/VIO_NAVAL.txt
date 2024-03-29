@@ -1,0 +1,68 @@
+units = {
+	fleet = {
+		name = "Viodoxa Fleet"			
+		naval_base = 2649
+		task_force = {				
+			name = "First Viodoxan Fleet"			
+			location = 2649
+			ship = { name = "VNS McSpiegel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Loic" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Valen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+		}								
+	}
+	fleet = {
+		name = "Viodoxa Fleet"			
+		naval_base = 3143
+		task_force = {				
+			name = "Second Viodoxan Fleet"			
+			location = 3143
+			ship = { name = "VNS Hazel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Paulos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Breton" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+		}								
+	}
+	fleet = {
+		name = "Viodoxa Fleet"			
+		naval_base = 4708
+		task_force = {				
+			name = "Third Viodoxan Fleet"			
+			location = 4708
+			ship = { name = "VNS Viodoxa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Adytum" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Valron" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+		}								
+	}
+	fleet = {
+		name = "Viodoxa Fleet"			
+		naval_base = 1408
+		task_force = {				
+			name = "Fourth Viodoxan Fleet"			
+			location = 1408
+			ship = { name = "VNS Rose" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Astro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Spike" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+		}								
+	}
+	fleet = {
+		name = "Viodoxa Fleet"			
+		naval_base = 371
+		task_force = {				
+			name = "Fifth Viodoxan Fleet"			
+			location = 371
+			ship = { name = "VNS Zelious" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Archon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Cyrumar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+		}								
+	}
+	fleet = {
+		name = "Viodoxa Fleet"			
+		naval_base = 3189
+		task_force = {				
+			name = "Sixth Viodoxan Fleet"			
+			location = 3189
+			ship = { name = "VNS Edd" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Danzig" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+			ship = { name = "VNS Yazov" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VIO } } }	
+		}								
+	}
+} 

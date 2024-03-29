@@ -1,7 +1,7 @@
 units = {
 	fleet = {
 		name = "Wivamovia Fleet"			
-		naval_base = 1942
+		naval_base = 2997
 		task_force = {				
 			name = "Wivamovia Fleet'"			
 			location = 2997
