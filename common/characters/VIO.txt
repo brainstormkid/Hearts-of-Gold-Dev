@@ -9,11 +9,11 @@ characters = {
 		}
 		field_marshal = {
 			#traits = { politically_connected }
-			skill = 1
+			skill = 3
 			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
 		}
 		advisor={
 			slot = political_advisor
@@ -37,11 +37,11 @@ characters = {
 		}
 		field_marshal = {
 			#traits = { politically_connected }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
 		}
 		advisor={
 			slot = high_command
@@ -65,11 +65,11 @@ characters = {
 		}
 		field_marshal = {
 			#traits = { politically_connected }
-			skill = 1
-			attack_skill = 1
+			skill = 3
+			attack_skill = 3
 			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			planning_skill = 2
+			logistics_skill = 4
 		}
 		advisor={
 			slot = army_chief
@@ -93,11 +93,11 @@ characters = {
 		}
 		navy_leader = {
 			#traits = { politically_connected }
-			skill = 1
+			skill = 2
 			attack_skill = 1
-			defense_skill = 1
+			defense_skill = 2
 			planning_skill = 1
-			logistics_skill = 1
+			logistics_skill = 3
 		}
 		advisor={
 			slot = political_advisor
@@ -121,11 +121,11 @@ characters = {
 		}
 		corps_commander = {
 			#traits = { politically_connected }
-			skill = 1
-			attack_skill = 1
+			skill = 3
+			attack_skill = 2
 			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
 		}
 		advisor={
 			slot = high_command
@@ -149,11 +149,11 @@ characters = {
 		}
 		navy_leader = {
 			#traits = { politically_connected }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 		advisor={
 			slot = theorist
@@ -179,7 +179,7 @@ characters = {
 			#traits = { politically_connected }
 			skill = 1
 			attack_skill = 1
-			defense_skill = 1
+			defense_skill = 3
 			planning_skill = 1
 			logistics_skill = 1
 		}
@@ -205,11 +205,11 @@ characters = {
 		}
 		corps_commander = {
 			#traits = { politically_connected }
-			skill = 1
+			skill = 3
 			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 		advisor={
 			slot = army_chief
@@ -233,11 +233,11 @@ characters = {
 		}
 		corps_commander = {
 			#traits = { politically_connected }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
 		}
 		advisor={
 			slot = political_advisor
@@ -262,11 +262,11 @@ characters = {
 		}
 		field_marshal = {
 			#traits = { politically_connected }
-			skill = 1
-			attack_skill = 1
+			skill = 2
+			attack_skill = 0
 			defense_skill = 1
 			planning_skill = 1
-			logistics_skill = 1
+			logistics_skill = 2
 		}
 		advisor={
 			slot = political_advisor
@@ -319,9 +319,9 @@ characters = {
 		corps_commander = {
 			#traits = { politically_connected }
 			skill = 1
-			attack_skill = 1
+			attack_skill = 0
 			defense_skill = 1
-			planning_skill = 1
+			planning_skill = 0
 			logistics_skill = 1
 		}
 		advisor={
@@ -349,7 +349,7 @@ characters = {
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
-			planning_skill = 1
+			planning_skill = 2
 			logistics_skill = 1
 		}
 		advisor={
@@ -400,12 +400,12 @@ characters = {
 				small="GFX_idea_astronomous"
 			}
 		}
-		corps_commander = {
+		navy_leader = {
 			#traits = { politically_connected }
-			skill = 1
-			attack_skill = 1
+			skill = 3
+			attack_skill = 2
 			defense_skill = 1
-			planning_skill = 1
+			planning_skill = 3
 			logistics_skill = 1
 		}
 		advisor={
@@ -430,10 +430,10 @@ characters = {
 		}
 		corps_commander = {
 			#traits = { politically_connected }
-			skill = 1
-			attack_skill = 1
+			skill = 2
+			attack_skill = 2
 			defense_skill = 1
-			planning_skill = 1
+			planning_skill = 3
 			logistics_skill = 1
 		}
 		advisor={
@@ -458,11 +458,11 @@ characters = {
 		}
 		corps_commander = {
 			#traits = { politically_connected }
-			skill = 1
+			skill = 2
 			attack_skill = 1
 			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
 		}
 		advisor={
 			slot = theorist
@@ -488,9 +488,9 @@ characters = {
 			#traits = { politically_connected }
 			skill = 1
 			attack_skill = 1
-			defense_skill = 1
+			defense_skill = 0
 			planning_skill = 1
-			logistics_skill = 1
+			logistics_skill = 0
 		}
 		advisor={
 			slot = high_command
@@ -514,11 +514,11 @@ characters = {
 		}
 		corps_commander = {
 			#traits = { politically_connected }
-			skill = 1
+			skill = 2
 			attack_skill = 1
-			defense_skill = 1
+			defense_skill = 3
 			planning_skill = 1
-			logistics_skill = 1
+			logistics_skill = 2
 		}
 		advisor={
 			slot = navy_chief
@@ -577,7 +577,7 @@ characters = {
 			}
 		}
 	}
-	VIO_Corado={
+	VIO_Carado={
 		name = "Corado dem Spheniscadae"
 		portraits={
 			army={
@@ -591,7 +591,7 @@ characters = {
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
-			logistics_skill = 1
+			logistics_skill = 3
 		}
 	VIO_Yaykei={
 		name = "Yaykei"
