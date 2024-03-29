@@ -6,7 +6,7 @@ bandit_decisions = {
 		
 		available = {
 			has_equipment = {
-				infantry_equipment > 1000
+				infantry_equipment > 10000
 			}
 		}
 
@@ -14,10 +14,10 @@ bandit_decisions = {
 		ai_will_do = {
 			base = 1
 			}
-			army_experience = 25
+			army_experience = 100
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = -1000
+				amount = -10000
 				producer = ROOT
 			}
 		}
@@ -28,23 +28,15 @@ bandit_decisions = {
 		
 		available = {
 			has_equipment = {
-				infantry_equipment > 1500
-			}
-			has_equipment = {
-				support_equipment > 50
+				infantry_equipment > 15000
 			}
 		}
 
 		complete_effect = {
-			army_experience = 50
+			army_experience = 160
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = -1500
-				producer = ROOT
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = -50
+				amount = -15000
 				producer = ROOT
 			}
 		}
@@ -55,31 +47,15 @@ bandit_decisions = {
 		
 		available = {
 			has_equipment = {
-				infantry_equipment > 2000
-			}
-			has_equipment = {
-				support_equipment > 50
-			}
-			has_equipment = {
-				motorized_equipment > 75
+				infantry_equipment > 20000
 			}
 		}
 
 		complete_effect = {
-			army_experience = 75
+			army_experience = 250
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = -2000
-				producer = ROOT
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = -100
-				producer = ROOT
-			}
-			add_equipment_to_stockpile = {
-				type = motorized_equipment
-				amount = -75
+				amount = -20000
 				producer = ROOT
 			}
 		}

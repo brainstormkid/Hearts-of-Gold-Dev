@@ -101,7 +101,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 11
 		y = 8
-		cost = 2
+		cost = 5
 		prerequisite = { focus = VIO_Viodoxa_Constitution_Reform }
 		completion_reward = {
 			add_ideas = VIO_Viodoxa_University
@@ -117,7 +117,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 30
 		y = 7
-		cost = 2
+		cost = 5
 		prerequisite = { focus = VIO_Valen_Takes_Power }
 		completion_reward = {
 			swap_ideas = {
@@ -135,7 +135,7 @@ focus_tree = {
 		icon = GFX_VIO_Viodoxan_Unity_Monument
 		x = 9
 		y = 8
-		cost = 2
+		cost = 5
 		prerequisite = { focus = VIO_Viodoxa_Constitution_Reform }
 		completion_reward = {
 			add_ideas = VIO_Viodoxa_Unity_Monument
@@ -151,7 +151,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 30
 		y = 10
-		cost = 3
+		cost = 5
 		prerequisite = { focus = VIO_National_Armories }
 		completion_reward = {
 			286 = {
@@ -172,7 +172,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 27
 		y = 8
-		cost = 3
+		cost = 5
 		prerequisite = { focus = VIO_National_Armories }
 		completion_reward = {
 			425 = {
@@ -193,7 +193,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 33
 		y = 8
-		cost = 3
+		cost = 5
 		prerequisite = { focus = VIO_National_Armories }
 		completion_reward = {
 			286 = {
@@ -214,7 +214,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 21
-		cost = 10
+		cost = 17
 		prerequisite = { focus = VIO_Hazel_Loic_Archons }
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 3 }
@@ -229,7 +229,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 33
 		y = 9
-		cost = 10
+		cost = 5
 		prerequisite = { focus = VIO_Lonely_Light_Naval_Yards }
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 2 }
@@ -244,7 +244,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 33
 		y = 10
-		cost = 10
+		cost = 5
 		prerequisite = { focus = VIO_Settling_Karlpfensland }
 		completion_reward = {
 			add_research_slot = 1
@@ -261,7 +261,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 31
 		y = 8
-		cost = 3
+		cost = 5
 		prerequisite = { focus = VIO_National_Armories }
 		completion_reward = {
 			278 = {
@@ -282,7 +282,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 29
 		y = 8
-		cost = 3
+		cost = 5
 		prerequisite = { focus = VIO_National_Armories }
 		completion_reward = {
 			345 = {
@@ -303,7 +303,7 @@ focus_tree = {
 		icon = GFX_VIO_Question_of_Viodoxa
 		x = 20
 		y = 6
-		cost = 6
+		cost = 10
 		prerequisite = { focus = VIO_Collude_Against_Zelious }
 		prerequisite = { focus = VIO_Question_Archon_Spike }
 		completion_reward = {
@@ -319,7 +319,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxan_con._reform
 		x = 10
 		y = 7
-		cost = 2
+		cost = 5
 		prerequisite = { focus = VIO_Valen_Takes_Power }
 		completion_reward = {
 			swap_ideas = {
@@ -337,7 +337,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 10
 		y = 10
-		cost = 2
+		cost = 5
 		prerequisite = { focus = VIO_Viodoxa_Constitution_Reform }
 		completion_reward = {
 			swap_ideas = {
@@ -355,7 +355,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 7
-		cost = 2
+		cost = 5
 		prerequisite = { focus = VIO_Valen_Takes_Power }
 		completion_reward = {
 			swap_ideas = {
@@ -399,7 +399,7 @@ focus_tree = {
 		icon = GFX_VIO_Duel_Citizenship_Act
 		x = 24
 		y = 9
-		cost = 2
+		cost = 5
 		prerequisite = { focus = VIO_Valen_Takes_Power }
 		completion_reward = {
 			add_manpower = 100000
@@ -481,7 +481,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 9
-		cost = 2
+		cost = 5
 		prerequisite = { focus = VIO_Remilitarization_Act }
 		completion_reward = {
 			swap_ideas = {
@@ -499,7 +499,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 19
 		y = 8
-		cost = 2
+		cost = 5
 		prerequisite = { focus = VIO_Remilitarization_Act }
 		completion_reward = {
 			add_ideas = VIO_EXP_Tax
@@ -514,14 +514,11 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 20
 		y = 12
-		cost = 3
+		cost = 6
 		prerequisite = { focus = VIO_Federalize_Viodoxa }
 		prerequisite = { focus = VIO_Rule_of_One }
 		completion_reward = {
-			swap_ideas = {
-				add_idea = VIO_Reformed_Synkletos
-				remove_idea = VIO_Question_of_Synkletos
-			}
+			remove_ideas = VIO_Question_of_Synkletos
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -533,7 +530,7 @@ focus_tree = {
 		icon = GFX_VIO_Loic
 		x = 20
 		y = 14
-		cost = 45
+		cost = 3
 		prerequisite = { focus = VIO_Yazov_Synkletos }
 		completion_reward = {
 			country_event = { id = viodoxa.2 }
@@ -598,7 +595,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 12
 		y = 16
-		cost = 3
+		cost = 15
 		prerequisite = { focus = VIO_Yazov_Takes_Power }
 		completion_reward = {
 			add_political_power = 100
@@ -613,10 +610,23 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 13
 		y = 17
-		cost = 3
+		cost = 5
 		prerequisite = { focus = VIO_Development }
 		completion_reward = {
-			
+			303 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			302 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -628,10 +638,37 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 15
 		y = 17
-		cost = 3
+		cost = 5
 		prerequisite = { focus = VIO_Development }
 		completion_reward = {
-			
+			299 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			300 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			301 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			427 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -643,10 +680,37 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 11
 		y = 17
-		cost = 3
+		cost = 5
 		prerequisite = { focus = VIO_Development }
 		completion_reward = {
-			
+			313 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			311 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			312 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			304 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -658,10 +722,58 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 9
 		y = 17
-		cost = 3
+		cost = 5
 		prerequisite = { focus = VIO_Development }
 		completion_reward = {
-			
+			425 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			316 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			318 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			317 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			315 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			314 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			426 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -673,10 +785,16 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 10
 		y = 18
-		cost = 3
+		cost = 5
 		prerequisite = { focus = VIO_Development }
 		completion_reward = {
-			
+			305 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -688,10 +806,30 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 14
 		y = 18
-		cost = 3
+		cost = 5
 		prerequisite = { focus = VIO_Development }
 		completion_reward = {
-			
+			286 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			278 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			268 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -752,7 +890,7 @@ focus_tree = {
 		icon = GFX_VIO_Expansion_of_Archonate
 		x = 21
 		y = 17
-		cost = 3
+		cost = 6
 		prerequisite = { focus = VIO_Amnesty_Act }
 		completion_reward = {
 			annex_country = { target = UBS transfer_troops = yes }
@@ -781,7 +919,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 21
 		y = 19
-		cost = 24
+		cost = 3
 		prerequisite = { focus = VIO_Archonate_Expansion }
 		completion_reward = {
 			annex_country = { target = AVR transfer_troops = yes }
@@ -884,7 +1022,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 30
 		y = 2
-		cost = 5
+		cost = 10
 		prerequisite = { focus = VIO_Valroni_Culture }
 		prerequisite = { focus = VIO_Kemrian_Culture }
 		prerequisite = { focus = VIO_Hanzeizh_Culture }
@@ -906,7 +1044,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 10
 		y = 2
-		cost = 5
+		cost = 10
 		prerequisite = { focus = VIO_Valroni_Culture }
 		prerequisite = { focus = VIO_Kemrian_Culture }
 		prerequisite = { focus = VIO_Hanzeizh_Culture }
@@ -1442,145 +1580,181 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 28
 		y = 16
-		cost = 33
+		cost = 15
 		prerequisite = { focus = VIO_Amnesty_Act }
 		completion_reward = {
-			
+			add_ideas = VIO_Reformed_Synkletos
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Army Development
+	#Economic Development
 	focus = {
-		id = VIO_Army_Development
+		id = VIO_Economic_Development
 		icon = GFX_VIO_viodoxa
 		x = 24
 		y = 17
-		cost = 33
+		cost = 5
 		prerequisite = { focus = VIO_Reformation_Sykletos }
 		completion_reward = {
-			
+			add_political_power = 100
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Tank Development
+	#Trade Initiatives
 	focus = {
-		id = VIO_Tank_Development
+		id = VIO_Trade_Initiatives
 		icon = GFX_VIO_viodoxa
 		x = 25
 		y = 18
-		cost = 33
-		prerequisite = { focus = VIO_Army_Development }
+		cost = 5
+		prerequisite = { focus = VIO_Economic_Development }
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = electronics
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Infantry Development
+	#Production Development
 	focus = {
-		id = VIO_Infantry_Development
+		id = VIO_Production_Development
 		icon = GFX_VIO_viodoxa
 		x = 23
 		y = 18
-		cost = 33
-		prerequisite = { focus = VIO_Army_Development }
+		cost = 5
+		prerequisite = { focus = VIO_Economic_Development }
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = industry
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Navy Development
+	#Logistics Development
 	focus = {
-		id = VIO_Navy_Development
+		id = VIO_Logistics_Development
 		icon = GFX_VIO_viodoxa
 		x = 28
 		y = 17
-		cost = 33
+		cost = 5
 		prerequisite = { focus = VIO_Reformation_Sykletos }
 		completion_reward = {
-			
+			add_political_power = 100
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Submarine Development
+	#Health Potion Development
 	focus = {
-		id = VIO_Submarine_Development
+		id = VIO_Health_Potion_Development
 		icon = GFX_VIO_viodoxa
 		x = 27
 		y = 18
-		cost = 33
-		prerequisite = { focus = VIO_Navy_Development }
+		cost = 5
+		prerequisite = { focus = VIO_Logistics_Development }
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = artillery
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Surface Development
+	#Splash Potion Development
 	focus = {
-		id = VIO_Surface_Development
+		id = VIO_Splash_Potion_Development
 		icon = GFX_VIO_viodoxa
 		x = 29
 		y = 18
-		cost = 33
-		prerequisite = { focus = VIO_Navy_Development }
+		cost = 5
+		prerequisite = { focus = VIO_Logistics_Development }
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = infantry_tech
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Mercenary Development
+	#Military Development
 	focus = {
-		id = VIO_Mercenary_Development
+		id = VIO_Military_Development
 		icon = GFX_VIO_viodoxa
 		x = 32
 		y = 17
-		cost = 33
+		cost = 5
 		prerequisite = { focus = VIO_Reformation_Sykletos }
 		completion_reward = {
-			
+			add_political_power = 100
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Hire Ulfaeng Development
+	#Group PVP
 	focus = {
-		id = VIO_Hire_Ulfaeng_Development
+		id = VIO_Group_PVP
 		icon = GFX_VIO_viodoxa
 		x = 33
 		y = 18
-		cost = 33
-		prerequisite = { focus = VIO_Mercenary_Development }
+		cost = 5
+		prerequisite = { focus = VIO_Military_Development }
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = land_doctrine_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 2
+				category = land_doctrine
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}
-	#Hire Hands Development
+	#Weekly Training
 	focus = {
-		id = VIO_Hire_Hands_Development
+		id = VIO_Weekly_Training
 		icon = GFX_VIO_viodoxa
 		x = 31
 		y = 18
-		cost = 33
-		prerequisite = { focus = VIO_Mercenary_Development }
+		cost = 5
+		prerequisite = { focus = VIO_Military_Development }
 		completion_reward = {
-			
+			add_tech_bonus = {
+				name = land_doctrine_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 2
+				category = naval_doctrine
+			}
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -1592,7 +1766,7 @@ focus_tree = {
 		icon = GFX_VIO_viodoxa
 		x = 18
 		y = 23
-		cost = 33
+		cost = 16
 		prerequisite = { focus = VIO_Hazel_Loic_Archons }
 		completion_reward = {
 			VIO = {
