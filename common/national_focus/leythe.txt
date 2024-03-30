@@ -396,12 +396,12 @@ focus_tree = {
 		prerequisite = { focus = LEY_Join_UKWS }
 		id = LEY_Union_of_Free_Kingdoms
 		icon = GFX_LEY_Leythe
-		#allow_branch = { has_completed_focus = LEY_UKWS_Collapse }
-		#allow_branch = { 
-			#VIO = {
-				#has_completed_focus = VIO_Purple_Insurrection 
-			#}
-		#}
+		allow_branch = { has_completed_focus = LEY_UKWS_Collapse }
+		allow_branch = { 
+			VIO = {
+				has_completed_focus = VIO_Purple_Insurrection 
+			}
+		}
 		x = 30
 		y = 0
 		cost = 12
