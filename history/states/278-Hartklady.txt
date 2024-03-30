@@ -21,9 +21,18 @@ state={
 			3633 = {
 				naval_base = 2
 				}
+			1933 = {
+				bunker = 1
+			}
 		}
 		add_core_of = VIO
 		add_core_of = OPT
+		victory_points = {
+			3633 4
+		}
+		victory_points = {
+			120 10
+		}
 	}
 	buildings_max_level_factor=1.000
 }

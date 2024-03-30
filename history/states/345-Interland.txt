@@ -24,6 +24,12 @@ state={
 			666 = {
 				naval_base = 3
 			}
+			666 = {
+				coastal_bunker = 1
+			}
+			3057 = {
+				coastal_bunker = 4
+			}
 		}
 		victory_points = {
 			2030 20		#Interdam

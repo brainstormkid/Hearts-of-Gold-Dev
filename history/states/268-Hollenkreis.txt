@@ -22,6 +22,18 @@ state={
 			3227 = {
 				naval_base = 6
 			}
+			3227 = {
+				bunker = 2
+			}
+			1655 = {
+				bunker = 6
+			}
+			520 = {
+				bunker = 1
+			}
+			3461 = {
+				bunker = 1
+			}
 		}
 		victory_points = {
 			3227 5		#Hollenkreis

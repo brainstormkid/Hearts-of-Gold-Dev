@@ -27,9 +27,21 @@ state={
 			4708 = {
 				naval_base = 4
 			}
+			4706 = {
+				coastal_bunker = 4
+			}
+			4708 = {
+				coastal_bunker = 3
+			}
 		}
 		add_core_of = VIO
 		add_core_of = OPT
+		victory_points = {
+			4708 15
+		}
+		victory_points = {
+			4706 4
+		}
 	}
 	buildings_max_level_factor=1.000
 }
