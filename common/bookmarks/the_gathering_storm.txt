@@ -7,17 +7,17 @@ bookmarks = {
 		default_country = "ULD"
 		default = yes
 		
-		"ULD"={
-			history = "ULD_GATHERING_STORM_DESC"
+		"VIO"={
+			history = "VIO_GATHERING_STORM_DESC"
 			ideas = {
-				Pavlovism_Religion
-				Boulderism_Religion
-				disunified_country
+				VIO_Recovering_from_Ferrymen_War
+				VIO_Archonate
+				VIO_Centralized
 			}
 			focuses = {
-				ULD_Recovery_Surfacing
-				ULD_Recover_from_Ferrymen
-				ULD_Minute_Man_War
+				VIO_Treaty_of_Istanboulder
+				VIO_Purple_Insurrection
+				VIO_Valen_Takes_Power
 			}
 		}
 		
@@ -35,17 +35,17 @@ bookmarks = {
 			}
 		}
 		
-		"VIO"={
-			history = "VIO_GATHERING_STORM_DESC"
+		"ULD"={
+			history = "ULD_GATHERING_STORM_DESC"
 			ideas = {
-				VIO_Recovering_from_Ferrymen_War
-				VIO_Archonate
-				VIO_Centralized
+				Pavlovism_Religion
+				Boulderism_Religion
+				disunified_country
 			}
 			focuses = {
-				VIO_Treaty_of_Istanboulder
-				VIO_Purple_Insurrection
-				VIO_Valen_Takes_Power
+				ULD_Recovery_Surfacing
+				ULD_Recover_from_Ferrymen
+				ULD_Minute_Man_War
 			}
 		}
 		
