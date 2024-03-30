@@ -22,6 +22,9 @@ state={
 			}
 		}
 		add_core_of = VIO
+		victory_points = {
+			3189 4
+		}
 	}
 	manpower=5766
 	buildings_max_level_factor=1.000

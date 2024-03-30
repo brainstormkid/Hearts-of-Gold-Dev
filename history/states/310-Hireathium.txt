@@ -21,6 +21,9 @@ state={
 		}
 		add_core_of = VIO
 		add_core_of = VAR
+		victory_points = {
+			2029 15	
+		}
 	}
 	buildings_max_level_factor=1.000
 }

@@ -578,7 +578,7 @@ characters = {
 		}
 	}
 	VIO_Carado={
-		name = "Corado dem Spheniscadae"
+		name = "Carado dem Spheniscadae"
 		portraits={
 			army={
 				#large="gfx/leaders/VIO/klausen.dds"

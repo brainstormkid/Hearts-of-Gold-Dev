@@ -22,6 +22,9 @@ state={
 			dockyard = 1
 		}
 		victory_points = {
+			98 20
+		}
+		victory_points = {
 			382 20
 		}	#Make this  a ferrymen core eventually idk
 		add_core_of = VAR
