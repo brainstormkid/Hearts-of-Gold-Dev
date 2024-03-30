@@ -38,6 +38,7 @@ recruit_character = VIO_riley
 recruit_character = VIO_paulos
 recruit_character = VIO_fredi
 recruit_character = VIO_Carado
+recruit_character = VIO_Yasurdon
 
 create_faction = "Southern Rathnir Defense Accords"
 add_to_faction = VIO
