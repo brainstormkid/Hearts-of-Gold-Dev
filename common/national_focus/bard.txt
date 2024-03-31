@@ -161,6 +161,11 @@ focus_tree = {
 		x = 2
 		y = 3
 		cost = 5
+		available = {
+			NOT = {
+				has_war = yes
+			}
+		}
 		completion_reward = {
 			WIV = {
 				country_event = { id = bardonia.23 }

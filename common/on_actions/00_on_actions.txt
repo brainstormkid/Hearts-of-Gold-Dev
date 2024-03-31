@@ -83,104 +83,11 @@ on_actions = {
 	}
 	on_capitulation = {
     	effect = {
-      		if = {
-        		limit = { tag = NDR FROM = { tag = BAR } }
-        		BAR = {
-        			annex_country = {
-            			target = NDR
-            		}
-          		}
-        	}
-			if = {
-        		limit = { tag = HEL FROM = { tag = SAV } }
-        		SAV = {
-        			annex_country = {
-            			target = HEL
-            		}
-          		}
-        	}
-      		if = {
-        		limit = { tag = VAL FROM = { tag = BAR } }
-        		BAR = {
-        			annex_country = {
-            			target = VAL
-            		}
-					white_peace = {
-						tag = KUS
-						message = "Vallia has collapsed, KATO has withdrawn its forces"
-					}
-					white_peace = {
-						tag = RYZ
-						message = "Vallia has collapsed, KATO has withdrawn its forces"
-					}
-          		}
-        	}
-			if = {
-        		limit = { tag = VAL FROM = { tag = NSV } }
-        		BAR = {
-        			annex_country = {
-            			target = VAL
-            		}
-					white_peace = {
-						tag = KUS
-						message = "Vallia has collapsed, KATO has withdrawn its forces"
-					}
-					white_peace = {
-						tag = RYZ
-						message = "Vallia has collapsed, KATO has withdrawn its forces"
-					}
-          		}
-        	}
-			if = {
-        		limit = { tag = RYZ FROM = { tag = BAR } }
-        		BAR = {
-        			annex_country = {
-            			target = RYZ
-            		}
-          		}
-        	}
-			if = {
-        		limit = { tag = HGL FROM = { tag = BAR } }
-        		BAR = {
-        			annex_country = {
-            			target = HLG
-            		}
-          		}
-        	}
-			if = {
-        		limit = { tag = LEN FROM = { tag = BAR } }
-        		BAR = {
-        			annex_country = {
-            			target = LEN
-            		}
-          		}
-        	}
-			if = {
-        		limit = { tag = UNT FROM = { tag = NIE } }
-        		NIE = {
-        			annex_country = {
-            			target = UNT
-            		}
-          		}
-        	}
-			if = {
-        		limit = { tag = VAN FROM = { tag = FRO } }
-        		release = KOT
-				release = OST
-        	}
 			if = {
         		limit = { tag = ONE FROM = { tag = AXU } }
         		ALI = {
 					transfer_state = 246
 				}
-        	}
-			if = {
-        		limit = { tag = ASY FROM = { tag = VIO } }
-        		VIO = {
-        			annex_country = {
-            			target = ASY
-            		}
-          		}
         	}
       	}
     }

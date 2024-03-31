@@ -106,8 +106,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = Closer_Syltor_Ties }
 		available = { 
-			126 = { is_owned_by = BAR }
-			127 = { is_owned_by = BAR }
+			OR = {
+				126 = { is_owned_by = BAR }
+				126 = { is_owned_by = ASK }
+			}
 			131 = { is_owned_by = WIV }
 			128 = { is_owned_by = WIV }
 			125 = { is_owned_by = WIV }
