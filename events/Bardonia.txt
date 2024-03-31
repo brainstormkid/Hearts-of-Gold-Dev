@@ -55,6 +55,9 @@ country_event = {
 				country_event = { id = bardonia.27 } 
 			}
 		}
+		ai_chance = {
+			factor = 1
+		}
 	}
 	option = {
 		name = bardonia.3.b # Will not give Bardonia influence points
@@ -63,6 +66,9 @@ country_event = {
 			BAR = {
 				country_event = { id = bardonia.28 } 
 			}
+		}
+		ai_chance = {
+			factor = 0
 		}
 	}
 }
@@ -91,8 +97,8 @@ country_event = {
 
 	option = {
 		name = bardonia.5.a
-		ai_will_do = {
-			base = 1
+		ai_chance = {
+			factor = 1
 		}
 		custom_effect_tooltip = bardtip2	
 		hidden_effect = {
@@ -104,8 +110,8 @@ country_event = {
 	}
 	option = {
 		name = bardonia.5.b
-		ai_will_do = {
-			base = 0
+		ai_chance = {
+			factor = 0
 		}
 		custom_effect_tooltip = bardtip3
 		hidden_effect = {
@@ -155,8 +161,8 @@ country_event = {
 
 	option = {
 		name = bardonia.8.a
-		ai_will_do = {
-			base = 1
+		ai_chance = {
+			factor = 1
 		}
 		custom_effect_tooltip = bardtip2	
 		hidden_effect = {
@@ -168,8 +174,8 @@ country_event = {
 	}
 	option = {
 		name = bardonia.8.b
-		ai_will_do = {
-			base = 0
+		ai_chance = {
+			factor = 0
 		}
 		custom_effect_tooltip = bardtip3
 		hidden_effect = {
