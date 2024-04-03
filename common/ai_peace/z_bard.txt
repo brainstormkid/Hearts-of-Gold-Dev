@@ -259,6 +259,7 @@ niedea_peace = {
 	
 	# ROOT = Taker, FROM = Giver
 	annex = {
+		base = 1
 		factor = 1000
 	}
 
