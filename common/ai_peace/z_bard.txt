@@ -28,16 +28,19 @@ bard_peace = {
 	
 	# ROOT = Taker, FROM = Giver
 	annex = {
+		base = 1
 		factor = 1000
 	}
 
 	# ROOT = Taker, FROM = Liberated
 	liberate = {
+		base = 0
 		factor = 0
 	}
 
 	# ROOT = Taker, FROM = Giver
 	puppet = {
+		base = 0
 		factor = 0
 	}
 
@@ -53,7 +56,7 @@ bard_peace = {
 	
 	# ROOT = Taker, FROM = State
 	take_states = {
-		factor = 500
+		factor = 0
 	}
 
 	# ROOT = Taker, FROM = Giver
@@ -66,14 +69,10 @@ val_peace = {
 	# ROOT = Taker, FROM = Giver
     enable = {
         ROOT = {
-			OR = {
-				tag = BAR
-			}
+			tag = BAR
 		}
         FROM ={
-            OR = {
-                tag = VAL
-            }
+               tag = VAL
         }
     }
 
@@ -113,11 +112,13 @@ val_peace = {
 	
 	# ROOT = Taker, FROM = State
 	take_states = {
+		base = 0
 		factor = 0
 	}
 
 	# ROOT = Taker, FROM = Giver
 	force_government = {
+		base = 0
 		factor = 0
 	}
 }
@@ -126,14 +127,10 @@ frostmarch_peace = {
 	# ROOT = Taker, FROM = Giver
     enable = {
         ROOT = {
-			OR = {
-				tag = FRO
-			}
+			tag = FRO
 		}
         FROM ={
-            OR = {
-                tag = VAN
-            }
+			tag = VAN
         }
     }
 
@@ -145,6 +142,7 @@ frostmarch_peace = {
 	
 	# ROOT = Taker, FROM = Giver
 	annex = {
+		base = 0
 		factor = 0
 	}
 
@@ -155,6 +153,7 @@ frostmarch_peace = {
 
 	# ROOT = Taker, FROM = Giver
 	puppet = {
+		base = 0
 		factor = 0
 	}
 
@@ -183,71 +182,10 @@ savras_peace = {
 	# ROOT = Taker, FROM = Giver
     enable = {
         ROOT = {
-			OR = {
-				tag = SAV
-			}
+			tag = SAV
 		}
         FROM ={
-            OR = {
-                tag = HEL
-            }
-        }
-    }
-
-	annex_randomness = 0
-	liberate_randomness = 0
-	puppet_randomness = 0
-	take_states_randomness = 0
-	force_government_randomness = 0
-	
-	# ROOT = Taker, FROM = Giver
-	annex = {
-		factor = 1000
-	}
-
-	# ROOT = Taker, FROM = Liberated
-	liberate = {
-		factor = 0
-	}
-
-	# ROOT = Taker, FROM = Giver
-	puppet = {
-		factor = 0
-	}
-
-	# ROOT = Taker, FROM = Giver
-	puppet_all = {
-		base = 0 
-	}
-	
-	# ROOT = STATE, FROM = Taker, FROM.FROM = Giver
-	puppet_state = {
-		base = 0 
-	}
-	
-	# ROOT = Taker, FROM = State
-	take_states = {
-		factor = 0
-	}
-
-	# ROOT = Taker, FROM = Giver
-	force_government = {
-		factor = 0
-	}
-}
-
-niedea_peace = {
-	# ROOT = Taker, FROM = Giver
-    enable = {
-        ROOT = {
-			OR = {
-				tag = NIE
-			}
-		}
-        FROM ={
-            OR = {
-                tag = UNT
-            }
+			tag = HEL
         }
     }
 
@@ -265,11 +203,13 @@ niedea_peace = {
 
 	# ROOT = Taker, FROM = Liberated
 	liberate = {
+		base = 0
 		factor = 0
 	}
 
 	# ROOT = Taker, FROM = Giver
 	puppet = {
+		base = 0
 		factor = 0
 	}
 
@@ -285,11 +225,71 @@ niedea_peace = {
 	
 	# ROOT = Taker, FROM = State
 	take_states = {
+		base = 0
 		factor = 0
 	}
 
 	# ROOT = Taker, FROM = Giver
 	force_government = {
+		base = 0
+		factor = 0
+	}
+}
+
+niedea_peace = {
+	# ROOT = Taker, FROM = Giver
+    enable = {
+        ROOT = {
+			tag = NIE
+		}
+        FROM ={
+			tag = UNT
+        }
+    }
+
+	annex_randomness = 0
+	liberate_randomness = 0
+	puppet_randomness = 0
+	take_states_randomness = 0
+	force_government_randomness = 0
+	
+	# ROOT = Taker, FROM = Giver
+	annex = {
+		base = 1
+		factor = 1000
+	}
+
+	# ROOT = Taker, FROM = Liberated
+	liberate = {
+		base = 0
+		factor = 0
+	}
+
+	# ROOT = Taker, FROM = Giver
+	puppet = {
+		base = 0
+		factor = 0
+	}
+
+	# ROOT = Taker, FROM = Giver
+	puppet_all = {
+		base = 0 
+	}
+	
+	# ROOT = STATE, FROM = Taker, FROM.FROM = Giver
+	puppet_state = {
+		base = 0 
+	}
+	
+	# ROOT = Taker, FROM = State
+	take_states = {
+		base = 0
+		factor = 0
+	}
+
+	# ROOT = Taker, FROM = Giver
+	force_government = {
+		base = 0
 		factor = 0
 	}
 }
@@ -298,14 +298,10 @@ viodoxa_peace = {
 	# ROOT = Taker, FROM = Giver
     enable = {
         ROOT = {
-			OR = {
-				tag = VIO
-			}
+			tag = VIO
 		}
         FROM ={
-            OR = {
-                tag = ASY
-            }
+			tag = ASY
         }
     }
 
@@ -317,16 +313,19 @@ viodoxa_peace = {
 	
 	# ROOT = Taker, FROM = Giver
 	annex = {
+		base = 1
 		factor = 1000
 	}
 
 	# ROOT = Taker, FROM = Liberated
 	liberate = {
+		base = 0
 		factor = 0
 	}
 
 	# ROOT = Taker, FROM = Giver
 	puppet = {
+		base = 0
 		factor = 0
 	}
 
@@ -342,11 +341,13 @@ viodoxa_peace = {
 	
 	# ROOT = Taker, FROM = State
 	take_states = {
+		base = 0
 		factor = 0
 	}
 
 	# ROOT = Taker, FROM = Giver
 	force_government = {
+		base = 0
 		factor = 0
 	}
 }
@@ -355,14 +356,10 @@ westmarch_peace = {
 	# ROOT = Taker, FROM = Giver
     enable = {
         ROOT = {
-			OR = {
-				tag = RYZ
-			}
+			tag = RYZ
 		}
         FROM ={
-            OR = {
-                tag = NEB
-            }
+			tag = NEB
         }
     }
 
@@ -374,6 +371,7 @@ westmarch_peace = {
 	
 	# ROOT = Taker, FROM = Giver
 	annex = {
+		base = 1
 		factor = 1000
 	}
 
