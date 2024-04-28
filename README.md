@@ -6,7 +6,7 @@ Step 1: Click Code --> Local --> Download ZIP
 
 Step 2: Upon obtaining the zip copy/paste it into your HOI4 mod folder, this can be found by going into Documents --> Paradox interactive --> Hearts of Iron IV --> mods
 
-Step 3: Extract the zip file and remove descriptor.mod from the mod folder, then rename descriptor.mod to the name of the zip file + .mod (Ex. Hearts-of-gold-dev.mod)
+Step 3: Extract the zip file and remove descriptor.mod from the mod folder, then rename descriptor.mod to the name of the zip file + .mod (Ex. Hearts-of-gold-dev.mod), once you have done the above please delete README.md
 
 Step 4: Go play and have fun!
 
