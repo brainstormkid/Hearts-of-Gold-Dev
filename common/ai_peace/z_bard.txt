@@ -283,13 +283,11 @@ niedea_peace = {
 	
 	# ROOT = Taker, FROM = State
 	take_states = {
-		base = 0
 		factor = 0
 	}
 
 	# ROOT = Taker, FROM = Giver
 	force_government = {
-		base = 0
 		factor = 0
 	}
 }
