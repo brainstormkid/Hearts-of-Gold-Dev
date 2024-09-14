@@ -89,6 +89,22 @@ on_actions = {
 					transfer_state = 246
 				}
         	}
+			if = {
+        		limit = { tag = NDR FROM = { tag = BAR } }
+        		BAR = {
+        			annex_country = {
+            			target = NDR
+            		}
+          		}
+        	}
+			if = {
+        		limit = { tag = NIE FROM = { tag = UNT } }
+        		NIE = {
+        			annex_country = {
+            			target = UNT
+            		}
+          		}
+        	}
       	}
     }
 }
